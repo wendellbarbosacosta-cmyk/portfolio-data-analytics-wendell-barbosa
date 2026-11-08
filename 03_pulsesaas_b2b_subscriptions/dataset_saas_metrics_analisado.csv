@@ -1,0 +1,501 @@
+id_cliente,plano,segmento_mercado,tenure_meses,mrr_base,assentos_contratados,assentos_ativos,login_freq_semana,features_adotadas_pct,chamados_criticos,expansao_mrr,contracao_mrr,status_cliente,health_score,faixa_saude,faixa_tenure,taxa_ocupacao_assentos,is_churn,mrr_churned,mrr_atual
+CLI-SaaS-0001,Starter,Tecnologia,11,504.7,4,3,4.5,75.6,1,0.0,0.0,Ativo,58.4,Amarelo (Atenção),Crescimento (4-12 meses),75.0,0,0.0,504.7
+CLI-SaaS-0002,Enterprise,Tecnologia,2,7395.96,77,60,6.4,89.1,2,0.0,0.0,Ativo,71.3,Verde (Saudável),Onboarding (0-3 meses),77.9,0,0.0,7395.96
+CLI-SaaS-0003,Growth,Tecnologia,3,2180.05,19,12,4.2,66.6,0,0.0,0.0,Ativo,53.8,Amarelo (Atenção),Onboarding (0-3 meses),63.2,0,0.0,2180.05
+CLI-SaaS-0004,Growth,Indústria & Logística,23,3016.77,34,25,5.7,56.2,1,0.0,0.0,Ativo,57.4,Amarelo (Atenção),Maduro (>12 meses),73.5,0,0.0,3016.77
+CLI-SaaS-0005,Starter,Saúde,12,652.6,10,6,4.8,58.9,0,0.0,0.0,Ativo,53.6,Amarelo (Atenção),Crescimento (4-12 meses),60.0,0,0.0,652.6
+CLI-SaaS-0006,Starter,Indústria & Logística,20,711.01,10,8,4.6,56.8,1,0.0,0.0,Ativo,53.1,Amarelo (Atenção),Maduro (>12 meses),80.0,0,0.0,711.01
+CLI-SaaS-0007,Starter,Saúde,5,843.39,10,7,4.1,58.3,0,0.0,0.0,Ativo,51.4,Amarelo (Atenção),Crescimento (4-12 meses),70.0,0,0.0,843.39
+CLI-SaaS-0008,Growth,Indústria & Logística,30,3441.76,42,33,6.4,71.2,0,0.0,0.0,Ativo,68.7,Amarelo (Atenção),Maduro (>12 meses),78.6,0,0.0,3441.76
+CLI-SaaS-0009,Growth,Indústria & Logística,9,2058.24,34,23,4.1,74.3,0,0.0,0.0,Ativo,56.7,Amarelo (Atenção),Crescimento (4-12 meses),67.6,0,0.0,2058.24
+CLI-SaaS-0010,Growth,Varejo & E-Commerce,34,2016.95,28,22,5.9,65.1,1,0.0,0.0,Ativo,62.3,Amarelo (Atenção),Maduro (>12 meses),78.6,0,0.0,2016.95
+CLI-SaaS-0011,Starter,Indústria & Logística,35,976.55,9,6,4.4,63.0,1,0.0,0.0,Cancelado (Churn),52.2,Amarelo (Atenção),Maduro (>12 meses),66.7,1,976.55,0.0
+CLI-SaaS-0012,Enterprise,Serviços Financeiros,22,8271.37,139,109,6.9,89.1,0,1822.75,0.0,Ativo,77.4,Verde (Saudável),Maduro (>12 meses),78.4,0,0.0,10094.12
+CLI-SaaS-0013,Growth,Varejo & E-Commerce,24,3823.03,48,35,5.9,87.2,0,0.0,0.0,Ativo,71.0,Verde (Saudável),Maduro (>12 meses),72.9,0,0.0,3823.03
+CLI-SaaS-0014,Starter,Indústria & Logística,17,922.3,3,2,3.1,77.6,1,318.54,0.0,Ativo,50.9,Amarelo (Atenção),Maduro (>12 meses),66.7,0,0.0,1240.84
+CLI-SaaS-0015,Starter,Tecnologia,10,543.3,6,4,3.5,66.2,3,0.0,0.0,Ativo,45.3,Vermelho (Risco Alto),Crescimento (4-12 meses),66.7,0,0.0,543.3
+CLI-SaaS-0016,Starter,Serviços Financeiros,30,544.55,4,3,4.2,56.4,3,0.0,0.0,Ativo,46.6,Vermelho (Risco Alto),Maduro (>12 meses),75.0,0,0.0,544.55
+CLI-SaaS-0017,Starter,Serviços Financeiros,23,550.1,8,6,4.9,56.5,1,0.0,0.0,Ativo,53.7,Amarelo (Atenção),Maduro (>12 meses),75.0,0,0.0,550.1
+CLI-SaaS-0018,Starter,Serviços Financeiros,32,764.25,3,2,3.7,58.1,0,0.0,0.0,Ativo,48.8,Vermelho (Risco Alto),Maduro (>12 meses),66.7,0,0.0,764.25
+CLI-SaaS-0019,Starter,Varejo & E-Commerce,17,824.11,4,3,5.3,62.5,4,0.0,0.0,Ativo,53.6,Amarelo (Atenção),Maduro (>12 meses),75.0,0,0.0,824.11
+CLI-SaaS-0020,Starter,Indústria & Logística,17,753.31,9,7,4.6,66.3,3,0.0,0.0,Ativo,52.5,Amarelo (Atenção),Maduro (>12 meses),77.8,0,0.0,753.31
+CLI-SaaS-0021,Growth,Indústria & Logística,14,1815.88,29,18,4.7,85.2,1,0.0,0.0,Ativo,60.8,Amarelo (Atenção),Maduro (>12 meses),62.1,0,0.0,1815.88
+CLI-SaaS-0022,Starter,Tecnologia,9,618.39,6,4,5.0,77.5,1,273.96,0.0,Ativo,60.3,Amarelo (Atenção),Crescimento (4-12 meses),66.7,0,0.0,892.35
+CLI-SaaS-0023,Starter,Tecnologia,2,901.59,8,2,1.8,43.8,2,0.0,0.0,Ativo,24.5,Vermelho (Risco Alto),Onboarding (0-3 meses),25.0,0,0.0,901.59
+CLI-SaaS-0024,Starter,Serviços Financeiros,25,618.28,6,5,4.3,48.0,0,0.0,0.0,Ativo,50.8,Amarelo (Atenção),Maduro (>12 meses),83.3,0,0.0,618.28
+CLI-SaaS-0025,Starter,Tecnologia,9,546.15,7,6,4.8,73.7,0,0.0,0.0,Ativo,62.7,Amarelo (Atenção),Crescimento (4-12 meses),85.7,0,0.0,546.15
+CLI-SaaS-0026,Growth,Varejo & E-Commerce,22,3083.06,22,15,6.2,71.2,0,0.0,0.0,Ativo,66.1,Amarelo (Atenção),Maduro (>12 meses),68.2,0,0.0,3083.06
+CLI-SaaS-0027,Starter,Indústria & Logística,4,915.59,9,7,5.0,48.3,1,0.0,0.0,Ativo,51.8,Amarelo (Atenção),Crescimento (4-12 meses),77.8,0,0.0,915.59
+CLI-SaaS-0028,Starter,Serviços Financeiros,26,858.44,4,2,4.4,63.7,0,0.0,0.0,Ativo,51.8,Amarelo (Atenção),Maduro (>12 meses),50.0,0,0.0,858.44
+CLI-SaaS-0029,Growth,Tecnologia,29,2232.99,25,20,4.6,64.9,2,0.0,0.0,Ativo,54.1,Amarelo (Atenção),Maduro (>12 meses),80.0,0,0.0,2232.99
+CLI-SaaS-0030,Starter,Varejo & E-Commerce,34,692.16,8,4,4.3,70.4,0,0.0,0.0,Ativo,53.6,Amarelo (Atenção),Maduro (>12 meses),50.0,0,0.0,692.16
+CLI-SaaS-0031,Growth,Varejo & E-Commerce,23,3066.76,46,29,4.8,53.0,1,0.0,0.0,Ativo,50.2,Amarelo (Atenção),Maduro (>12 meses),63.0,0,0.0,3066.76
+CLI-SaaS-0032,Starter,Tecnologia,11,603.33,3,2,4.9,60.5,1,0.0,0.0,Ativo,53.9,Amarelo (Atenção),Crescimento (4-12 meses),66.7,0,0.0,603.33
+CLI-SaaS-0033,Starter,Indústria & Logística,6,625.57,10,6,5.0,63.7,0,0.0,0.0,Ativo,56.3,Amarelo (Atenção),Crescimento (4-12 meses),60.0,0,0.0,625.57
+CLI-SaaS-0034,Enterprise,Tecnologia,18,14447.25,61,52,6.0,95.9,0,6335.12,0.0,Ativo,76.4,Verde (Saudável),Maduro (>12 meses),85.2,0,0.0,20782.37
+CLI-SaaS-0035,Enterprise,Serviços Financeiros,21,11214.64,106,82,5.8,83.9,1,0.0,0.0,Ativo,68.2,Amarelo (Atenção),Maduro (>12 meses),77.4,0,0.0,11214.64
+CLI-SaaS-0036,Growth,Tecnologia,36,3470.44,30,28,5.1,54.6,0,0.0,0.0,Ativo,58.6,Amarelo (Atenção),Maduro (>12 meses),93.3,0,0.0,3470.44
+CLI-SaaS-0037,Starter,Varejo & E-Commerce,34,874.3,3,2,5.5,63.2,0,0.0,0.0,Ativo,59.6,Amarelo (Atenção),Maduro (>12 meses),66.7,0,0.0,874.3
+CLI-SaaS-0038,Starter,Tecnologia,17,553.86,10,5,4.5,50.6,0,0.0,0.0,Ativo,47.7,Vermelho (Risco Alto),Maduro (>12 meses),50.0,0,0.0,553.86
+CLI-SaaS-0039,Growth,Indústria & Logística,25,2517.52,35,27,5.0,59.1,1,0.0,0.0,Ativo,55.5,Amarelo (Atenção),Maduro (>12 meses),77.1,0,0.0,2517.52
+CLI-SaaS-0040,Starter,Saúde,12,926.67,8,7,5.8,62.4,1,0.0,0.0,Ativo,62.2,Amarelo (Atenção),Crescimento (4-12 meses),87.5,0,0.0,926.67
+CLI-SaaS-0041,Starter,Tecnologia,23,548.18,4,3,4.9,68.6,1,0.0,0.0,Ativo,58.0,Amarelo (Atenção),Maduro (>12 meses),75.0,0,0.0,548.18
+CLI-SaaS-0042,Starter,Indústria & Logística,22,899.37,9,7,4.2,51.1,0,0.0,0.0,Ativo,50.6,Amarelo (Atenção),Maduro (>12 meses),77.8,0,0.0,899.37
+CLI-SaaS-0043,Starter,Indústria & Logística,21,810.49,3,2,4.7,61.8,1,0.0,0.0,Ativo,53.3,Amarelo (Atenção),Maduro (>12 meses),66.7,0,0.0,810.49
+CLI-SaaS-0044,Enterprise,Varejo & E-Commerce,27,12963.99,239,187,6.3,80.4,0,2470.29,0.0,Ativo,71.4,Verde (Saudável),Maduro (>12 meses),78.2,0,0.0,15434.28
+CLI-SaaS-0045,Starter,Indústria & Logística,31,971.56,6,4,5.3,49.3,2,0.0,0.0,Ativo,50.2,Amarelo (Atenção),Maduro (>12 meses),66.7,0,0.0,971.56
+CLI-SaaS-0046,Growth,Indústria & Logística,6,1800.7,16,10,5.8,55.8,1,0.0,0.0,Cancelado (Churn),56.1,Amarelo (Atenção),Crescimento (4-12 meses),62.5,1,1800.7,0.0
+CLI-SaaS-0047,Starter,Indústria & Logística,27,987.43,7,5,4.9,55.4,0,0.0,0.0,Cancelado (Churn),54.6,Amarelo (Atenção),Maduro (>12 meses),71.4,1,987.43,0.0
+CLI-SaaS-0048,Starter,Indústria & Logística,34,881.35,8,4,3.3,69.2,3,0.0,0.0,Ativo,42.8,Vermelho (Risco Alto),Maduro (>12 meses),50.0,0,0.0,881.35
+CLI-SaaS-0049,Starter,Serviços Financeiros,12,801.95,6,5,5.5,70.4,0,0.0,0.0,Ativo,64.6,Amarelo (Atenção),Crescimento (4-12 meses),83.3,0,0.0,801.95
+CLI-SaaS-0050,Starter,Serviços Financeiros,7,667.12,5,4,4.2,74.0,1,0.0,0.0,Ativo,57.1,Amarelo (Atenção),Crescimento (4-12 meses),80.0,0,0.0,667.12
+CLI-SaaS-0051,Enterprise,Varejo & E-Commerce,10,9832.1,138,110,6.4,87.7,1,0.0,0.0,Ativo,72.9,Verde (Saudável),Crescimento (4-12 meses),79.7,0,0.0,9832.1
+CLI-SaaS-0052,Growth,Tecnologia,17,2217.6,46,36,5.4,54.2,1,0.0,0.0,Ativo,55.9,Amarelo (Atenção),Maduro (>12 meses),78.3,0,0.0,2217.6
+CLI-SaaS-0053,Enterprise,Indústria & Logística,26,9894.17,93,80,6.0,89.2,0,0.0,0.0,Ativo,74.1,Verde (Saudável),Maduro (>12 meses),86.0,0,0.0,9894.17
+CLI-SaaS-0054,Enterprise,Tecnologia,21,12565.15,200,180,5.7,72.7,2,0.0,0.0,Ativo,63.8,Amarelo (Atenção),Maduro (>12 meses),90.0,0,0.0,12565.15
+CLI-SaaS-0055,Growth,Tecnologia,28,3753.67,35,26,6.3,68.8,1,0.0,0.0,Ativo,64.9,Amarelo (Atenção),Maduro (>12 meses),74.3,0,0.0,3753.67
+CLI-SaaS-0056,Enterprise,Varejo & E-Commerce,2,9555.58,232,201,5.7,89.2,1,0.0,0.0,Ativo,70.9,Verde (Saudável),Onboarding (0-3 meses),86.6,0,0.0,9555.58
+CLI-SaaS-0057,Starter,Indústria & Logística,1,526.04,10,4,1.5,21.2,7,0.0,0.0,Ativo,14.9,Vermelho (Risco Alto),Onboarding (0-3 meses),40.0,0,0.0,526.04
+CLI-SaaS-0058,Starter,Indústria & Logística,36,524.36,4,4,3.1,47.9,0,0.0,0.0,Ativo,47.3,Vermelho (Risco Alto),Maduro (>12 meses),100.0,0,0.0,524.36
+CLI-SaaS-0059,Starter,Saúde,26,802.33,4,2,5.0,45.4,0,0.0,0.0,Cancelado (Churn),48.4,Vermelho (Risco Alto),Maduro (>12 meses),50.0,1,802.33,0.0
+CLI-SaaS-0060,Starter,Tecnologia,29,969.91,9,7,3.1,78.9,0,0.0,0.0,Ativo,54.8,Amarelo (Atenção),Maduro (>12 meses),77.8,0,0.0,969.91
+CLI-SaaS-0061,Starter,Tecnologia,21,781.21,9,5,4.6,66.6,0,0.0,0.0,Cancelado (Churn),54.6,Amarelo (Atenção),Maduro (>12 meses),55.6,1,781.21,0.0
+CLI-SaaS-0062,Starter,Serviços Financeiros,11,789.27,3,2,4.1,60.1,2,0.0,0.0,Ativo,47.9,Vermelho (Risco Alto),Crescimento (4-12 meses),66.7,0,0.0,789.27
+CLI-SaaS-0063,Growth,Saúde,11,2214.69,35,32,4.8,81.0,2,0.0,0.0,Ativo,62.5,Amarelo (Atenção),Crescimento (4-12 meses),91.4,0,0.0,2214.69
+CLI-SaaS-0064,Starter,Serviços Financeiros,36,911.0,10,5,4.7,51.3,0,0.0,0.0,Ativo,49.0,Vermelho (Risco Alto),Maduro (>12 meses),50.0,0,0.0,911.0
+CLI-SaaS-0065,Starter,Serviços Financeiros,35,624.67,6,3,3.1,50.8,2,0.0,0.0,Ativo,37.2,Vermelho (Risco Alto),Maduro (>12 meses),50.0,0,0.0,624.67
+CLI-SaaS-0066,Starter,Serviços Financeiros,34,910.35,7,6,4.2,71.5,1,0.0,0.0,Ativo,57.1,Amarelo (Atenção),Maduro (>12 meses),85.7,0,0.0,910.35
+CLI-SaaS-0067,Starter,Varejo & E-Commerce,24,536.88,6,3,4.9,71.6,1,0.0,0.0,Ativo,55.3,Amarelo (Atenção),Maduro (>12 meses),50.0,0,0.0,536.88
+CLI-SaaS-0068,Growth,Varejo & E-Commerce,22,3325.57,15,14,4.8,57.4,1,0.0,0.0,Ativo,56.3,Amarelo (Atenção),Maduro (>12 meses),93.3,0,0.0,3325.57
+CLI-SaaS-0069,Starter,Serviços Financeiros,5,897.56,5,4,3.6,57.4,1,0.0,0.0,Ativo,48.3,Vermelho (Risco Alto),Crescimento (4-12 meses),80.0,0,0.0,897.56
+CLI-SaaS-0070,Enterprise,Saúde,33,5817.8,73,66,6.6,89.7,2,1545.28,0.0,Ativo,74.4,Verde (Saudável),Maduro (>12 meses),90.4,0,0.0,7363.08
+CLI-SaaS-0071,Growth,Tecnologia,36,3151.07,24,18,6.5,72.5,1,0.0,0.0,Cancelado (Churn),67.3,Amarelo (Atenção),Maduro (>12 meses),75.0,1,3151.07,0.0
+CLI-SaaS-0072,Starter,Saúde,20,799.79,6,4,3.5,58.6,2,0.0,0.0,Cancelado (Churn),44.4,Vermelho (Risco Alto),Maduro (>12 meses),66.7,1,799.79,0.0
+CLI-SaaS-0073,Starter,Indústria & Logística,19,602.72,6,5,4.7,66.1,1,0.0,0.0,Ativo,57.3,Amarelo (Atenção),Maduro (>12 meses),83.3,0,0.0,602.72
+CLI-SaaS-0074,Growth,Varejo & E-Commerce,35,2846.34,33,29,4.2,62.7,2,0.0,0.0,Ativo,52.5,Amarelo (Atenção),Maduro (>12 meses),87.9,0,0.0,2846.34
+CLI-SaaS-0075,Growth,Tecnologia,17,2109.65,47,38,4.2,58.4,4,0.0,0.0,Ativo,47.6,Vermelho (Risco Alto),Maduro (>12 meses),80.9,0,0.0,2109.65
+CLI-SaaS-0076,Growth,Tecnologia,34,3449.87,41,35,5.9,87.7,2,0.0,0.0,Ativo,69.4,Amarelo (Atenção),Maduro (>12 meses),85.4,0,0.0,3449.87
+CLI-SaaS-0077,Growth,Indústria & Logística,9,2147.12,44,34,6.3,60.4,0,0.0,0.0,Ativo,64.2,Amarelo (Atenção),Crescimento (4-12 meses),77.3,0,0.0,2147.12
+CLI-SaaS-0078,Starter,Indústria & Logística,26,619.65,8,5,3.7,58.2,1,0.0,0.0,Ativo,46.4,Vermelho (Risco Alto),Maduro (>12 meses),62.5,0,0.0,619.65
+CLI-SaaS-0079,Starter,Serviços Financeiros,2,843.01,4,2,1.5,45.5,3,0.0,0.0,Ativo,25.5,Vermelho (Risco Alto),Onboarding (0-3 meses),50.0,0,0.0,843.01
+CLI-SaaS-0080,Starter,Varejo & E-Commerce,9,557.68,9,5,5.8,61.5,0,0.0,0.0,Cancelado (Churn),58.9,Amarelo (Atenção),Crescimento (4-12 meses),55.6,1,557.68,0.0
+CLI-SaaS-0081,Growth,Varejo & E-Commerce,9,1876.2,21,14,4.7,84.4,0,0.0,0.0,Ativo,63.0,Amarelo (Atenção),Crescimento (4-12 meses),66.7,0,0.0,1876.2
+CLI-SaaS-0082,Growth,Saúde,17,3431.09,23,14,5.4,51.3,1,0.0,0.0,Ativo,52.3,Amarelo (Atenção),Maduro (>12 meses),60.9,0,0.0,3431.09
+CLI-SaaS-0083,Starter,Serviços Financeiros,1,695.55,9,4,1.5,28.3,3,0.0,0.0,Ativo,18.7,Vermelho (Risco Alto),Onboarding (0-3 meses),44.4,0,0.0,695.55
+CLI-SaaS-0084,Starter,Serviços Financeiros,25,802.21,7,5,5.9,54.0,0,0.0,0.0,Ativo,59.1,Amarelo (Atenção),Maduro (>12 meses),71.4,0,0.0,802.21
+CLI-SaaS-0085,Starter,Serviços Financeiros,25,721.97,3,2,5.8,78.9,0,0.0,0.0,Ativo,66.6,Amarelo (Atenção),Maduro (>12 meses),66.7,0,0.0,721.97
+CLI-SaaS-0086,Starter,Serviços Financeiros,35,534.42,8,4,4.7,63.3,2,0.0,0.0,Ativo,49.6,Vermelho (Risco Alto),Maduro (>12 meses),50.0,0,0.0,534.42
+CLI-SaaS-0087,Growth,Varejo & E-Commerce,3,2941.43,20,15,4.6,82.2,0,527.31,0.0,Ativo,63.0,Amarelo (Atenção),Onboarding (0-3 meses),75.0,0,0.0,3468.74
+CLI-SaaS-0088,Growth,Varejo & E-Commerce,30,3610.17,36,23,4.8,79.9,0,0.0,0.0,Ativo,61.5,Amarelo (Atenção),Maduro (>12 meses),63.9,0,0.0,3610.17
+CLI-SaaS-0089,Enterprise,Serviços Financeiros,34,9975.3,91,75,5.9,74.3,1,0.0,0.0,Ativo,66.1,Amarelo (Atenção),Maduro (>12 meses),82.4,0,0.0,9975.3
+CLI-SaaS-0090,Starter,Saúde,12,928.92,8,7,3.5,53.9,2,0.0,0.0,Ativo,45.9,Vermelho (Risco Alto),Crescimento (4-12 meses),87.5,0,0.0,928.92
+CLI-SaaS-0091,Starter,Tecnologia,19,537.08,5,3,5.7,63.9,0,0.0,0.0,Ativo,59.9,Amarelo (Atenção),Maduro (>12 meses),60.0,0,0.0,537.08
+CLI-SaaS-0092,Growth,Tecnologia,17,3526.42,33,22,5.2,57.4,0,0.0,0.0,Ativo,56.1,Amarelo (Atenção),Maduro (>12 meses),66.7,0,0.0,3526.42
+CLI-SaaS-0093,Growth,Saúde,10,3390.71,35,23,4.9,74.4,2,0.0,0.0,Ativo,56.8,Amarelo (Atenção),Crescimento (4-12 meses),65.7,0,0.0,3390.71
+CLI-SaaS-0094,Growth,Serviços Financeiros,12,2148.67,30,21,6.4,84.4,1,898.57,0.0,Ativo,70.2,Verde (Saudável),Crescimento (4-12 meses),70.0,0,0.0,3047.24
+CLI-SaaS-0095,Growth,Varejo & E-Commerce,16,3174.01,18,16,6.2,86.8,0,1417.28,0.0,Ativo,74.7,Verde (Saudável),Maduro (>12 meses),88.9,0,0.0,4591.29
+CLI-SaaS-0096,Starter,Tecnologia,24,732.68,7,4,5.0,67.2,1,0.0,0.0,Ativo,55.3,Amarelo (Atenção),Maduro (>12 meses),57.1,0,0.0,732.68
+CLI-SaaS-0097,Starter,Indústria & Logística,19,496.3,3,2,3.3,46.0,0,0.0,0.0,Ativo,42.6,Vermelho (Risco Alto),Maduro (>12 meses),66.7,0,0.0,496.3
+CLI-SaaS-0098,Starter,Indústria & Logística,8,976.73,6,4,5.6,73.7,1,0.0,0.0,Ativo,62.0,Amarelo (Atenção),Crescimento (4-12 meses),66.7,0,0.0,976.73
+CLI-SaaS-0099,Starter,Saúde,31,900.82,6,5,3.9,53.9,2,0.0,0.0,Cancelado (Churn),47.3,Vermelho (Risco Alto),Maduro (>12 meses),83.3,1,900.82,0.0
+CLI-SaaS-0100,Starter,Serviços Financeiros,21,533.59,3,2,3.7,50.0,1,0.0,0.0,Ativo,44.2,Vermelho (Risco Alto),Maduro (>12 meses),66.7,0,0.0,533.59
+CLI-SaaS-0101,Starter,Tecnologia,17,800.46,8,7,5.2,73.2,0,0.0,0.0,Cancelado (Churn),64.7,Amarelo (Atenção),Maduro (>12 meses),87.5,1,800.46,0.0
+CLI-SaaS-0102,Growth,Serviços Financeiros,23,3352.52,48,30,4.9,76.1,0,1344.74,0.0,Ativo,60.5,Amarelo (Atenção),Maduro (>12 meses),62.5,0,0.0,4697.26
+CLI-SaaS-0103,Starter,Tecnologia,16,629.64,9,5,4.0,75.3,0,0.0,0.0,Cancelado (Churn),54.7,Amarelo (Atenção),Maduro (>12 meses),55.6,1,629.64,0.0
+CLI-SaaS-0104,Starter,Saúde,6,871.58,7,6,5.0,77.8,2,0.0,0.0,Ativo,61.5,Amarelo (Atenção),Crescimento (4-12 meses),85.7,0,0.0,871.58
+CLI-SaaS-0105,Enterprise,Saúde,8,11536.59,210,176,5.8,80.1,0,3159.05,0.0,Ativo,69.6,Amarelo (Atenção),Crescimento (4-12 meses),83.8,0,0.0,14695.64
+CLI-SaaS-0106,Starter,Indústria & Logística,25,891.18,5,4,4.3,46.5,1,0.0,0.0,Ativo,48.0,Vermelho (Risco Alto),Maduro (>12 meses),80.0,0,0.0,891.18
+CLI-SaaS-0107,Starter,Serviços Financeiros,18,636.11,5,4,5.5,69.5,2,0.0,0.0,Ativo,60.2,Amarelo (Atenção),Maduro (>12 meses),80.0,0,0.0,636.11
+CLI-SaaS-0108,Growth,Indústria & Logística,25,2918.62,33,28,6.4,54.3,1,0.0,0.0,Ativo,61.9,Amarelo (Atenção),Maduro (>12 meses),84.8,0,0.0,2918.62
+CLI-SaaS-0109,Starter,Serviços Financeiros,12,496.2,10,5,3.9,73.9,0,0.0,0.0,Ativo,52.9,Amarelo (Atenção),Crescimento (4-12 meses),50.0,0,0.0,496.2
+CLI-SaaS-0110,Starter,Indústria & Logística,15,789.4,5,4,5.7,74.8,2,0.0,0.0,Cancelado (Churn),63.1,Amarelo (Atenção),Maduro (>12 meses),80.0,1,789.4,0.0
+CLI-SaaS-0111,Starter,Varejo & E-Commerce,26,609.76,3,2,3.9,60.0,2,0.0,0.0,Ativo,46.9,Vermelho (Risco Alto),Maduro (>12 meses),66.7,0,0.0,609.76
+CLI-SaaS-0112,Starter,Varejo & E-Commerce,26,600.11,6,5,3.3,48.3,3,0.0,0.0,Ativo,40.5,Vermelho (Risco Alto),Maduro (>12 meses),83.3,0,0.0,600.11
+CLI-SaaS-0113,Enterprise,Varejo & E-Commerce,32,9373.85,135,106,6.9,82.1,0,4072.3,0.0,Ativo,75.0,Verde (Saudável),Maduro (>12 meses),78.5,0,0.0,13446.15
+CLI-SaaS-0114,Growth,Varejo & E-Commerce,10,2735.02,43,28,5.8,75.7,0,0.0,0.0,Ativo,65.3,Amarelo (Atenção),Crescimento (4-12 meses),65.1,0,0.0,2735.02
+CLI-SaaS-0115,Growth,Tecnologia,16,2351.62,38,30,5.7,78.3,1,686.08,0.0,Ativo,65.9,Amarelo (Atenção),Maduro (>12 meses),78.9,0,0.0,3037.7
+CLI-SaaS-0116,Growth,Varejo & E-Commerce,7,1895.86,22,17,4.7,67.8,1,0.0,0.0,Ativo,57.0,Amarelo (Atenção),Crescimento (4-12 meses),77.3,0,0.0,1895.86
+CLI-SaaS-0117,Growth,Saúde,17,2739.68,34,20,4.6,69.6,0,0.0,0.0,Ativo,56.2,Amarelo (Atenção),Maduro (>12 meses),58.8,0,0.0,2739.68
+CLI-SaaS-0118,Starter,Saúde,23,508.36,6,4,3.9,61.2,0,0.0,0.0,Ativo,50.9,Amarelo (Atenção),Maduro (>12 meses),66.7,0,0.0,508.36
+CLI-SaaS-0119,Enterprise,Tecnologia,26,5899.49,68,64,6.7,77.4,2,0.0,0.0,Cancelado (Churn),71.1,Verde (Saudável),Maduro (>12 meses),94.1,1,5899.49,0.0
+CLI-SaaS-0120,Starter,Varejo & E-Commerce,21,827.71,8,5,6.0,49.6,0,0.0,0.0,Ativo,56.7,Amarelo (Atenção),Maduro (>12 meses),62.5,0,0.0,827.71
+CLI-SaaS-0121,Growth,Varejo & E-Commerce,22,2663.14,22,18,5.9,59.8,0,0.0,0.0,Ativo,62.7,Amarelo (Atenção),Maduro (>12 meses),81.8,0,0.0,2663.14
+CLI-SaaS-0122,Enterprise,Varejo & E-Commerce,7,14086.3,67,61,6.8,70.1,1,0.0,0.0,Ativo,70.4,Verde (Saudável),Crescimento (4-12 meses),91.0,0,0.0,14086.3
+CLI-SaaS-0123,Starter,Indústria & Logística,14,618.35,6,4,4.2,61.0,0,0.0,0.0,Ativo,52.4,Amarelo (Atenção),Maduro (>12 meses),66.7,0,0.0,618.35
+CLI-SaaS-0124,Starter,Serviços Financeiros,15,865.59,3,2,4.2,56.2,1,0.0,0.0,Ativo,48.9,Vermelho (Risco Alto),Maduro (>12 meses),66.7,0,0.0,865.59
+CLI-SaaS-0125,Starter,Indústria & Logística,7,934.02,7,6,3.0,67.3,2,0.0,0.0,Ativo,47.8,Vermelho (Risco Alto),Crescimento (4-12 meses),85.7,0,0.0,934.02
+CLI-SaaS-0126,Starter,Serviços Financeiros,9,941.23,8,7,5.5,79.7,1,253.95,0.0,Ativo,66.7,Amarelo (Atenção),Crescimento (4-12 meses),87.5,0,0.0,1195.18
+CLI-SaaS-0127,Growth,Varejo & E-Commerce,8,3711.28,45,28,5.3,81.0,0,0.0,0.0,Ativo,64.2,Amarelo (Atenção),Crescimento (4-12 meses),62.2,0,0.0,3711.28
+CLI-SaaS-0128,Growth,Varejo & E-Commerce,23,1962.99,23,17,4.9,80.0,4,0.0,0.0,Ativo,57.6,Amarelo (Atenção),Maduro (>12 meses),73.9,0,0.0,1962.99
+CLI-SaaS-0129,Starter,Indústria & Logística,29,675.59,3,2,3.1,58.8,1,0.0,0.0,Ativo,44.3,Vermelho (Risco Alto),Maduro (>12 meses),66.7,0,0.0,675.59
+CLI-SaaS-0130,Starter,Indústria & Logística,18,512.39,3,2,4.0,50.4,2,0.0,0.0,Cancelado (Churn),44.0,Vermelho (Risco Alto),Maduro (>12 meses),66.7,1,512.39,0.0
+CLI-SaaS-0131,Starter,Serviços Financeiros,31,694.81,3,2,3.3,74.6,2,0.0,0.0,Cancelado (Churn),49.0,Vermelho (Risco Alto),Maduro (>12 meses),66.7,1,694.81,0.0
+CLI-SaaS-0132,Starter,Saúde,30,573.68,4,3,4.5,46.0,1,0.0,0.0,Cancelado (Churn),48.0,Vermelho (Risco Alto),Maduro (>12 meses),75.0,1,573.68,0.0
+CLI-SaaS-0133,Starter,Serviços Financeiros,35,505.48,10,6,4.2,58.8,0,0.0,0.0,Ativo,50.6,Amarelo (Atenção),Maduro (>12 meses),60.0,0,0.0,505.48
+CLI-SaaS-0134,Starter,Indústria & Logística,18,555.02,4,3,3.3,78.5,4,147.44,0.0,Ativo,49.2,Vermelho (Risco Alto),Maduro (>12 meses),75.0,0,0.0,702.46
+CLI-SaaS-0135,Enterprise,Indústria & Logística,17,8563.48,127,111,7.0,82.4,0,0.0,0.0,Ativo,77.0,Verde (Saudável),Maduro (>12 meses),87.4,0,0.0,8563.48
+CLI-SaaS-0136,Starter,Tecnologia,14,668.09,4,2,3.8,51.8,0,0.0,0.0,Ativo,44.6,Vermelho (Risco Alto),Maduro (>12 meses),50.0,0,0.0,668.09
+CLI-SaaS-0137,Starter,Indústria & Logística,31,973.21,9,7,4.6,50.8,1,0.0,0.0,Ativo,50.6,Amarelo (Atenção),Maduro (>12 meses),77.8,0,0.0,973.21
+CLI-SaaS-0138,Growth,Tecnologia,24,2235.35,31,22,6.1,61.4,1,0.0,0.0,Ativo,60.8,Amarelo (Atenção),Maduro (>12 meses),71.0,0,0.0,2235.35
+CLI-SaaS-0139,Starter,Saúde,35,563.99,7,4,4.4,64.0,3,0.0,0.0,Ativo,47.6,Vermelho (Risco Alto),Maduro (>12 meses),57.1,0,0.0,563.99
+CLI-SaaS-0140,Enterprise,Serviços Financeiros,34,6675.87,198,180,6.3,71.5,1,0.0,0.0,Ativo,68.4,Amarelo (Atenção),Maduro (>12 meses),90.9,0,0.0,6675.87
+CLI-SaaS-0141,Enterprise,Serviços Financeiros,3,14042.01,213,202,7.0,82.6,1,5315.45,0.0,Ativo,76.3,Verde (Saudável),Onboarding (0-3 meses),94.8,0,0.0,19357.46
+CLI-SaaS-0142,Starter,Tecnologia,26,683.27,5,4,5.8,57.7,2,0.0,0.0,Ativo,57.6,Amarelo (Atenção),Maduro (>12 meses),80.0,0,0.0,683.27
+CLI-SaaS-0143,Starter,Serviços Financeiros,23,785.7,9,5,5.9,52.0,1,0.0,0.0,Ativo,54.2,Amarelo (Atenção),Maduro (>12 meses),55.6,0,0.0,785.7
+CLI-SaaS-0144,Starter,Indústria & Logística,15,936.55,5,3,3.9,54.0,1,0.0,0.0,Ativo,45.6,Vermelho (Risco Alto),Maduro (>12 meses),60.0,0,0.0,936.55
+CLI-SaaS-0145,Starter,Varejo & E-Commerce,4,871.3,8,6,5.1,70.3,0,0.0,0.0,Ativo,61.4,Amarelo (Atenção),Crescimento (4-12 meses),75.0,0,0.0,871.3
+CLI-SaaS-0146,Starter,Tecnologia,29,669.36,4,3,4.0,70.7,2,0.0,0.0,Ativo,52.4,Amarelo (Atenção),Maduro (>12 meses),75.0,0,0.0,669.36
+CLI-SaaS-0147,Growth,Serviços Financeiros,22,1988.61,44,39,4.0,78.0,1,0.0,0.0,Ativo,58.8,Amarelo (Atenção),Maduro (>12 meses),88.6,0,0.0,1988.61
+CLI-SaaS-0148,Starter,Tecnologia,25,819.27,9,5,5.7,69.5,0,0.0,0.0,Ativo,61.2,Amarelo (Atenção),Maduro (>12 meses),55.6,0,0.0,819.27
+CLI-SaaS-0149,Starter,Tecnologia,13,630.17,6,4,4.2,47.3,0,0.0,0.0,Ativo,47.6,Vermelho (Risco Alto),Maduro (>12 meses),66.7,0,0.0,630.17
+CLI-SaaS-0150,Starter,Varejo & E-Commerce,18,963.84,4,3,3.0,48.5,1,0.0,0.0,Ativo,41.4,Vermelho (Risco Alto),Maduro (>12 meses),75.0,0,0.0,963.84
+CLI-SaaS-0151,Enterprise,Indústria & Logística,33,7680.08,161,136,5.6,71.9,0,0.0,0.0,Ativo,65.8,Amarelo (Atenção),Maduro (>12 meses),84.5,0,0.0,7680.08
+CLI-SaaS-0152,Starter,Tecnologia,16,630.5,10,6,3.9,50.3,0,0.0,0.0,Ativo,46.1,Vermelho (Risco Alto),Maduro (>12 meses),60.0,0,0.0,630.5
+CLI-SaaS-0153,Starter,Serviços Financeiros,2,911.12,3,1,3.3,54.3,2,0.0,0.0,Ativo,36.9,Vermelho (Risco Alto),Onboarding (0-3 meses),33.3,0,0.0,911.12
+CLI-SaaS-0154,Starter,Saúde,35,741.54,8,6,4.4,73.8,1,0.0,0.0,Ativo,57.3,Amarelo (Atenção),Maduro (>12 meses),75.0,0,0.0,741.54
+CLI-SaaS-0155,Enterprise,Tecnologia,34,7611.88,112,97,6.7,84.4,0,2276.02,0.0,Ativo,76.0,Verde (Saudável),Maduro (>12 meses),86.6,0,0.0,9887.9
+CLI-SaaS-0156,Starter,Tecnologia,30,632.14,4,2,5.5,70.3,0,0.0,0.0,Cancelado (Churn),59.6,Amarelo (Atenção),Maduro (>12 meses),50.0,1,632.14,0.0
+CLI-SaaS-0157,Growth,Varejo & E-Commerce,13,2196.98,43,36,4.1,60.5,0,0.0,0.0,Ativo,54.2,Amarelo (Atenção),Maduro (>12 meses),83.7,0,0.0,2196.98
+CLI-SaaS-0158,Growth,Indústria & Logística,13,1808.02,19,18,6.6,53.1,1,0.0,0.0,Ativo,64.0,Amarelo (Atenção),Maduro (>12 meses),94.7,0,0.0,1808.02
+CLI-SaaS-0159,Starter,Saúde,18,923.27,6,4,5.4,76.2,1,328.78,0.0,Ativo,61.9,Amarelo (Atenção),Maduro (>12 meses),66.7,0,0.0,1252.05
+CLI-SaaS-0160,Growth,Serviços Financeiros,32,2837.01,47,39,6.6,82.1,0,0.0,0.0,Ativo,74.2,Verde (Saudável),Maduro (>12 meses),83.0,0,0.0,2837.01
+CLI-SaaS-0161,Starter,Saúde,32,581.4,10,8,5.3,78.3,0,0.0,0.0,Cancelado (Churn),65.9,Amarelo (Atenção),Maduro (>12 meses),80.0,1,581.4,0.0
+CLI-SaaS-0162,Growth,Serviços Financeiros,35,3441.83,26,20,6.8,54.0,0,0.0,0.0,Ativo,64.4,Amarelo (Atenção),Maduro (>12 meses),76.9,0,0.0,3441.83
+CLI-SaaS-0163,Growth,Indústria & Logística,29,2799.53,32,19,5.8,79.3,1,0.0,0.0,Ativo,63.9,Amarelo (Atenção),Maduro (>12 meses),59.4,0,0.0,2799.53
+CLI-SaaS-0164,Starter,Serviços Financeiros,29,849.83,3,3,5.0,61.5,0,0.0,0.0,Ativo,61.5,Amarelo (Atenção),Maduro (>12 meses),100.0,0,0.0,849.83
+CLI-SaaS-0165,Starter,Varejo & E-Commerce,16,793.88,4,2,4.2,77.6,2,0.0,0.0,Ativo,52.1,Amarelo (Atenção),Maduro (>12 meses),50.0,0,0.0,793.88
+CLI-SaaS-0166,Growth,Varejo & E-Commerce,10,3016.27,35,22,4.8,64.0,0,0.0,0.0,Ativo,55.8,Amarelo (Atenção),Crescimento (4-12 meses),62.9,0,0.0,3016.27
+CLI-SaaS-0167,Starter,Varejo & E-Commerce,30,623.8,7,6,5.1,53.5,3,0.0,0.0,Ativo,51.7,Amarelo (Atenção),Maduro (>12 meses),85.7,0,0.0,623.8
+CLI-SaaS-0168,Starter,Varejo & E-Commerce,25,655.12,6,4,4.8,45.3,2,0.0,0.0,Ativo,46.3,Vermelho (Risco Alto),Maduro (>12 meses),66.7,0,0.0,655.12
+CLI-SaaS-0169,Starter,Saúde,20,877.0,9,8,3.7,49.6,1,0.0,0.0,Ativo,47.4,Vermelho (Risco Alto),Maduro (>12 meses),88.9,0,0.0,877.0
+CLI-SaaS-0170,Growth,Indústria & Logística,5,2572.24,20,14,5.2,62.6,1,0.0,0.0,Ativo,56.6,Amarelo (Atenção),Crescimento (4-12 meses),70.0,0,0.0,2572.24
+CLI-SaaS-0171,Growth,Serviços Financeiros,1,2998.36,30,28,4.8,74.6,1,0.0,0.0,Ativo,62.3,Amarelo (Atenção),Onboarding (0-3 meses),93.3,0,0.0,2998.36
+CLI-SaaS-0172,Starter,Serviços Financeiros,30,881.6,3,2,3.9,52.2,3,0.0,0.0,Ativo,42.4,Vermelho (Risco Alto),Maduro (>12 meses),66.7,0,0.0,881.6
+CLI-SaaS-0173,Starter,Varejo & E-Commerce,3,519.86,6,3,1.4,53.5,4,0.0,0.0,Ativo,27.2,Vermelho (Risco Alto),Onboarding (0-3 meses),50.0,0,0.0,519.86
+CLI-SaaS-0174,Starter,Varejo & E-Commerce,14,602.69,6,5,4.9,76.4,0,0.0,0.0,Ativo,63.7,Amarelo (Atenção),Maduro (>12 meses),83.3,0,0.0,602.69
+CLI-SaaS-0175,Growth,Tecnologia,30,2907.26,18,12,5.1,75.6,0,846.0,0.0,Ativo,62.0,Amarelo (Atenção),Maduro (>12 meses),66.7,0,0.0,3753.26
+CLI-SaaS-0176,Starter,Indústria & Logística,4,935.07,3,3,5.1,69.2,1,0.0,0.0,Cancelado (Churn),62.9,Amarelo (Atenção),Crescimento (4-12 meses),100.0,1,935.07,0.0
+CLI-SaaS-0177,Growth,Saúde,18,2672.85,41,38,6.1,63.5,4,0.0,0.0,Ativo,60.6,Amarelo (Atenção),Maduro (>12 meses),92.7,0,0.0,2672.85
+CLI-SaaS-0178,Starter,Serviços Financeiros,25,719.3,5,3,3.5,60.6,0,0.0,0.0,Ativo,47.7,Vermelho (Risco Alto),Maduro (>12 meses),60.0,0,0.0,719.3
+CLI-SaaS-0179,Enterprise,Tecnologia,1,14330.73,136,123,6.3,80.2,0,0.0,0.0,Ativo,73.1,Verde (Saudável),Onboarding (0-3 meses),90.4,0,0.0,14330.73
+CLI-SaaS-0180,Starter,Tecnologia,15,693.34,5,3,5.9,64.9,1,0.0,0.0,Cancelado (Churn),59.4,Amarelo (Atenção),Maduro (>12 meses),60.0,1,693.34,0.0
+CLI-SaaS-0181,Starter,Serviços Financeiros,9,801.17,4,3,3.0,74.0,0,0.0,0.0,Ativo,52.2,Amarelo (Atenção),Crescimento (4-12 meses),75.0,0,0.0,801.17
+CLI-SaaS-0182,Starter,Saúde,15,687.6,10,6,5.9,71.5,1,0.0,0.0,Ativo,61.7,Amarelo (Atenção),Maduro (>12 meses),60.0,0,0.0,687.6
+CLI-SaaS-0183,Enterprise,Tecnologia,24,11265.54,98,91,6.7,95.0,3,0.0,0.0,Ativo,75.3,Verde (Saudável),Maduro (>12 meses),92.9,0,0.0,11265.54
+CLI-SaaS-0184,Growth,Tecnologia,4,3489.98,35,31,4.6,62.2,1,0.0,0.0,Ativo,56.3,Amarelo (Atenção),Crescimento (4-12 meses),88.6,0,0.0,3489.98
+CLI-SaaS-0185,Starter,Indústria & Logística,12,504.58,5,4,5.7,45.0,0,0.0,0.0,Ativo,56.2,Amarelo (Atenção),Crescimento (4-12 meses),80.0,0,0.0,504.58
+CLI-SaaS-0186,Growth,Saúde,6,3805.18,15,11,4.1,78.9,0,0.0,0.0,Ativo,59.1,Amarelo (Atenção),Crescimento (4-12 meses),73.3,0,0.0,3805.18
+CLI-SaaS-0187,Growth,Tecnologia,24,3796.95,41,39,4.8,73.6,0,0.0,0.0,Ativo,64.0,Amarelo (Atenção),Maduro (>12 meses),95.1,0,0.0,3796.95
+CLI-SaaS-0188,Growth,Saúde,11,2672.77,15,14,4.7,57.3,0,0.0,0.0,Ativo,57.6,Amarelo (Atenção),Crescimento (4-12 meses),93.3,0,0.0,2672.77
+CLI-SaaS-0189,Starter,Serviços Financeiros,13,600.43,3,2,3.7,78.5,1,0.0,0.0,Ativo,54.2,Amarelo (Atenção),Maduro (>12 meses),66.7,0,0.0,600.43
+CLI-SaaS-0190,Starter,Varejo & E-Commerce,34,771.66,7,4,4.6,71.6,0,0.0,0.0,Ativo,56.6,Amarelo (Atenção),Maduro (>12 meses),57.1,0,0.0,771.66
+CLI-SaaS-0191,Starter,Tecnologia,25,963.23,10,8,4.2,71.7,2,0.0,0.0,Ativo,54.5,Amarelo (Atenção),Maduro (>12 meses),80.0,0,0.0,963.23
+CLI-SaaS-0192,Enterprise,Indústria & Logística,7,8161.25,171,131,6.8,75.4,0,0.0,0.0,Ativo,71.9,Verde (Saudável),Crescimento (4-12 meses),76.6,0,0.0,8161.25
+CLI-SaaS-0193,Enterprise,Serviços Financeiros,4,9184.71,83,76,6.7,71.2,1,0.0,0.0,Ativo,70.4,Verde (Saudável),Crescimento (4-12 meses),91.6,0,0.0,9184.71
+CLI-SaaS-0194,Growth,Saúde,8,2882.88,37,34,4.1,61.0,0,0.0,0.0,Ativo,55.6,Amarelo (Atenção),Crescimento (4-12 meses),91.9,0,0.0,2882.88
+CLI-SaaS-0195,Starter,Serviços Financeiros,20,756.01,7,4,4.2,63.3,1,0.0,0.0,Ativo,49.9,Vermelho (Risco Alto),Maduro (>12 meses),57.1,0,0.0,756.01
+CLI-SaaS-0196,Starter,Tecnologia,29,641.97,5,3,5.6,46.8,0,0.0,0.0,Ativo,53.4,Amarelo (Atenção),Maduro (>12 meses),60.0,0,0.0,641.97
+CLI-SaaS-0197,Growth,Saúde,10,3145.33,19,17,6.1,73.2,1,0.0,0.0,Ativo,67.7,Amarelo (Atenção),Crescimento (4-12 meses),89.5,0,0.0,3145.33
+CLI-SaaS-0198,Enterprise,Varejo & E-Commerce,34,6628.21,182,146,7.0,80.5,2,0.0,0.0,Ativo,71.6,Verde (Saudável),Maduro (>12 meses),80.2,0,0.0,6628.21
+CLI-SaaS-0199,Enterprise,Serviços Financeiros,26,12284.47,91,80,5.8,90.3,1,0.0,0.0,Ativo,72.0,Verde (Saudável),Maduro (>12 meses),87.9,0,0.0,12284.47
+CLI-SaaS-0200,Growth,Tecnologia,3,2422.78,39,34,4.4,71.3,1,0.0,0.0,Ativo,58.2,Amarelo (Atenção),Onboarding (0-3 meses),87.2,0,0.0,2422.78
+CLI-SaaS-0201,Growth,Indústria & Logística,6,2742.51,16,12,6.0,77.1,3,0.0,0.0,Ativo,62.8,Amarelo (Atenção),Crescimento (4-12 meses),75.0,0,0.0,2742.51
+CLI-SaaS-0202,Starter,Saúde,5,587.62,7,4,3.6,68.3,0,0.0,0.0,Ativo,50.5,Amarelo (Atenção),Crescimento (4-12 meses),57.1,0,0.0,587.62
+CLI-SaaS-0203,Starter,Serviços Financeiros,5,825.53,7,5,5.8,62.4,0,0.0,0.0,Ativo,61.6,Amarelo (Atenção),Crescimento (4-12 meses),71.4,0,0.0,825.53
+CLI-SaaS-0204,Enterprise,Serviços Financeiros,23,12110.0,205,160,5.5,90.3,3,0.0,0.0,Ativo,65.4,Amarelo (Atenção),Maduro (>12 meses),78.0,0,0.0,12110.0
+CLI-SaaS-0205,Growth,Varejo & E-Commerce,9,3283.01,47,37,6.7,52.0,2,0.0,0.0,Ativo,59.9,Amarelo (Atenção),Crescimento (4-12 meses),78.7,0,0.0,3283.01
+CLI-SaaS-0206,Starter,Varejo & E-Commerce,35,766.35,6,5,3.7,75.8,2,0.0,0.0,Ativo,53.9,Amarelo (Atenção),Maduro (>12 meses),83.3,0,0.0,766.35
+CLI-SaaS-0207,Starter,Indústria & Logística,20,525.45,8,7,4.9,65.0,1,0.0,0.0,Ativo,58.6,Amarelo (Atenção),Maduro (>12 meses),87.5,0,0.0,525.45
+CLI-SaaS-0208,Growth,Indústria & Logística,35,1908.86,26,19,4.8,61.7,1,0.0,0.0,Ativo,54.8,Amarelo (Atenção),Maduro (>12 meses),73.1,0,0.0,1908.86
+CLI-SaaS-0209,Starter,Tecnologia,18,692.26,8,4,3.7,57.5,0,0.0,0.0,Ativo,46.1,Vermelho (Risco Alto),Maduro (>12 meses),50.0,0,0.0,692.26
+CLI-SaaS-0210,Starter,Tecnologia,17,526.06,8,6,4.1,78.1,2,0.0,0.0,Ativo,55.5,Amarelo (Atenção),Maduro (>12 meses),75.0,0,0.0,526.06
+CLI-SaaS-0211,Starter,Indústria & Logística,24,540.69,7,6,4.0,77.9,0,0.0,0.0,Ativo,60.1,Amarelo (Atenção),Maduro (>12 meses),85.7,0,0.0,540.69
+CLI-SaaS-0212,Growth,Indústria & Logística,3,2016.55,19,13,6.7,71.1,1,0.0,0.0,Ativo,66.8,Amarelo (Atenção),Onboarding (0-3 meses),68.4,0,0.0,2016.55
+CLI-SaaS-0213,Growth,Saúde,32,1955.49,17,12,4.6,68.4,0,0.0,0.0,Ativo,57.5,Amarelo (Atenção),Maduro (>12 meses),70.6,0,0.0,1955.49
+CLI-SaaS-0214,Starter,Varejo & E-Commerce,35,974.27,5,4,4.8,51.0,0,0.0,0.0,Ativo,53.8,Amarelo (Atenção),Maduro (>12 meses),80.0,0,0.0,974.27
+CLI-SaaS-0215,Growth,Tecnologia,13,3261.17,33,23,5.7,74.6,0,0.0,0.0,Ativo,65.1,Amarelo (Atenção),Maduro (>12 meses),69.7,0,0.0,3261.17
+CLI-SaaS-0216,Starter,Varejo & E-Commerce,25,615.45,4,3,4.4,68.5,1,0.0,0.0,Cancelado (Churn),55.4,Amarelo (Atenção),Maduro (>12 meses),75.0,1,615.45,0.0
+CLI-SaaS-0217,Starter,Varejo & E-Commerce,9,577.04,5,4,3.3,50.4,2,0.0,0.0,Ativo,42.5,Vermelho (Risco Alto),Crescimento (4-12 meses),80.0,0,0.0,577.04
+CLI-SaaS-0218,Growth,Indústria & Logística,4,3272.39,39,29,4.1,73.8,3,0.0,0.0,Ativo,52.1,Amarelo (Atenção),Crescimento (4-12 meses),74.4,0,0.0,3272.39
+CLI-SaaS-0219,Growth,Saúde,14,3096.22,46,29,5.9,87.1,0,1159.58,0.0,Ativo,69.4,Amarelo (Atenção),Maduro (>12 meses),63.0,0,0.0,4255.8
+CLI-SaaS-0220,Growth,Serviços Financeiros,34,3720.55,42,33,6.4,81.1,2,0.0,0.0,Ativo,68.6,Amarelo (Atenção),Maduro (>12 meses),78.6,0,0.0,3720.55
+CLI-SaaS-0221,Growth,Saúde,11,3271.82,37,23,4.1,84.6,0,0.0,0.0,Cancelado (Churn),59.4,Amarelo (Atenção),Crescimento (4-12 meses),62.2,1,3271.82,0.0
+CLI-SaaS-0222,Growth,Saúde,3,1962.0,48,41,4.2,67.4,2,0.0,0.0,Ativo,53.8,Amarelo (Atenção),Onboarding (0-3 meses),85.4,0,0.0,1962.0
+CLI-SaaS-0223,Starter,Varejo & E-Commerce,28,909.25,8,5,4.1,62.3,1,0.0,0.0,Ativo,49.9,Vermelho (Risco Alto),Maduro (>12 meses),62.5,0,0.0,909.25
+CLI-SaaS-0224,Starter,Saúde,29,616.68,5,3,4.6,47.4,2,0.0,0.0,Ativo,45.0,Vermelho (Risco Alto),Maduro (>12 meses),60.0,0,0.0,616.68
+CLI-SaaS-0225,Starter,Tecnologia,9,674.22,8,7,5.6,46.2,1,0.0,0.0,Ativo,55.5,Amarelo (Atenção),Crescimento (4-12 meses),87.5,0,0.0,674.22
+CLI-SaaS-0226,Starter,Varejo & E-Commerce,3,906.82,10,6,2.7,42.7,2,0.0,0.0,Ativo,33.8,Vermelho (Risco Alto),Onboarding (0-3 meses),60.0,0,0.0,906.82
+CLI-SaaS-0227,Enterprise,Tecnologia,25,5697.22,63,54,6.4,80.6,0,2073.15,0.0,Ativo,73.1,Verde (Saudável),Maduro (>12 meses),85.7,0,0.0,7770.37
+CLI-SaaS-0228,Starter,Serviços Financeiros,34,495.75,3,2,3.8,50.6,0,0.0,0.0,Ativo,46.7,Vermelho (Risco Alto),Maduro (>12 meses),66.7,0,0.0,495.75
+CLI-SaaS-0229,Enterprise,Varejo & E-Commerce,12,11477.97,168,157,6.7,81.6,0,0.0,0.0,Ativo,76.1,Verde (Saudável),Crescimento (4-12 meses),93.5,0,0.0,11477.97
+CLI-SaaS-0230,Growth,Serviços Financeiros,9,2962.1,39,35,5.0,63.4,1,0.0,0.0,Ativo,58.9,Amarelo (Atenção),Crescimento (4-12 meses),89.7,0,0.0,2962.1
+CLI-SaaS-0231,Growth,Varejo & E-Commerce,15,3800.91,50,35,5.8,64.2,0,0.0,0.0,Ativo,62.0,Amarelo (Atenção),Maduro (>12 meses),70.0,0,0.0,3800.91
+CLI-SaaS-0232,Starter,Indústria & Logística,25,941.78,8,5,4.7,62.6,4,0.0,0.0,Ativo,48.8,Vermelho (Risco Alto),Maduro (>12 meses),62.5,0,0.0,941.78
+CLI-SaaS-0233,Growth,Saúde,5,3082.15,43,37,5.3,65.6,0,0.0,0.0,Ativo,62.4,Amarelo (Atenção),Crescimento (4-12 meses),86.0,0,0.0,3082.15
+CLI-SaaS-0234,Starter,Indústria & Logística,11,704.8,9,7,3.0,70.2,1,0.0,0.0,Cancelado (Churn),49.4,Vermelho (Risco Alto),Crescimento (4-12 meses),77.8,1,704.8,0.0
+CLI-SaaS-0235,Starter,Serviços Financeiros,34,499.56,5,3,5.2,75.9,1,0.0,0.0,Cancelado (Churn),59.8,Amarelo (Atenção),Maduro (>12 meses),60.0,1,499.56,0.0
+CLI-SaaS-0236,Growth,Saúde,24,2244.98,25,18,4.7,52.2,0,0.0,0.0,Ativo,52.6,Amarelo (Atenção),Maduro (>12 meses),72.0,0,0.0,2244.98
+CLI-SaaS-0237,Starter,Varejo & E-Commerce,15,969.93,10,8,6.0,59.5,2,0.0,0.0,Ativo,59.2,Amarelo (Atenção),Maduro (>12 meses),80.0,0,0.0,969.93
+CLI-SaaS-0238,Starter,Saúde,8,591.83,4,3,4.2,75.5,1,148.65,0.0,Ativo,56.9,Amarelo (Atenção),Crescimento (4-12 meses),75.0,0,0.0,740.48
+CLI-SaaS-0239,Growth,Tecnologia,5,2099.97,40,35,5.4,54.3,3,0.0,0.0,Ativo,53.7,Amarelo (Atenção),Crescimento (4-12 meses),87.5,0,0.0,2099.97
+CLI-SaaS-0240,Starter,Saúde,26,918.65,5,4,4.4,64.6,1,0.0,0.0,Cancelado (Churn),54.8,Amarelo (Atenção),Maduro (>12 meses),80.0,1,918.65,0.0
+CLI-SaaS-0241,Enterprise,Tecnologia,18,12010.99,179,170,6.6,82.1,0,3717.08,0.0,Ativo,76.0,Verde (Saudável),Maduro (>12 meses),95.0,0,0.0,15728.07
+CLI-SaaS-0242,Enterprise,Saúde,6,10095.06,206,177,6.8,92.9,0,0.0,0.0,Ativo,79.4,Verde (Saudável),Crescimento (4-12 meses),85.9,0,0.0,10095.06
+CLI-SaaS-0243,Enterprise,Tecnologia,13,13615.97,107,92,5.8,71.1,0,0.0,0.0,Ativo,66.8,Amarelo (Atenção),Maduro (>12 meses),86.0,0,0.0,13615.97
+CLI-SaaS-0244,Starter,Serviços Financeiros,28,913.96,6,4,4.9,47.6,1,0.0,0.0,Ativo,49.4,Vermelho (Risco Alto),Maduro (>12 meses),66.7,0,0.0,913.96
+CLI-SaaS-0245,Starter,Indústria & Logística,5,769.53,7,6,4.3,47.5,2,0.0,0.0,Ativo,47.4,Vermelho (Risco Alto),Crescimento (4-12 meses),85.7,0,0.0,769.53
+CLI-SaaS-0246,Enterprise,Varejo & E-Commerce,13,5907.87,166,156,6.9,79.9,1,1069.94,0.0,Ativo,74.8,Verde (Saudável),Maduro (>12 meses),94.0,0,0.0,6977.81
+CLI-SaaS-0247,Starter,Saúde,17,514.33,6,5,5.3,65.4,2,0.0,0.0,Ativo,58.3,Amarelo (Atenção),Maduro (>12 meses),83.3,0,0.0,514.33
+CLI-SaaS-0248,Enterprise,Indústria & Logística,32,11540.42,103,82,6.6,74.4,4,0.0,0.0,Ativo,65.0,Amarelo (Atenção),Maduro (>12 meses),79.6,0,0.0,11540.42
+CLI-SaaS-0249,Enterprise,Varejo & E-Commerce,29,13502.15,121,111,5.7,82.3,0,3003.56,0.0,Ativo,71.1,Verde (Saudável),Maduro (>12 meses),91.7,0,0.0,16505.71
+CLI-SaaS-0250,Growth,Varejo & E-Commerce,3,2251.32,44,38,6.4,77.5,1,0.0,0.0,Ativo,70.3,Verde (Saudável),Onboarding (0-3 meses),86.4,0,0.0,2251.32
+CLI-SaaS-0251,Starter,Tecnologia,34,715.39,8,6,5.4,54.5,0,0.0,0.0,Ativo,57.3,Amarelo (Atenção),Maduro (>12 meses),75.0,0,0.0,715.39
+CLI-SaaS-0252,Starter,Serviços Financeiros,27,808.19,3,2,4.6,73.9,0,0.0,0.0,Ativo,58.9,Amarelo (Atenção),Maduro (>12 meses),66.7,0,0.0,808.19
+CLI-SaaS-0253,Growth,Serviços Financeiros,13,3529.91,24,21,5.9,81.0,1,0.0,0.0,Ativo,69.2,Amarelo (Atenção),Maduro (>12 meses),87.5,0,0.0,3529.91
+CLI-SaaS-0254,Starter,Indústria & Logística,33,674.17,6,4,3.7,61.2,1,0.0,0.0,Ativo,48.1,Vermelho (Risco Alto),Maduro (>12 meses),66.7,0,0.0,674.17
+CLI-SaaS-0255,Starter,Serviços Financeiros,6,805.02,8,7,5.0,56.3,1,0.0,0.0,Ativo,56.0,Amarelo (Atenção),Crescimento (4-12 meses),87.5,0,0.0,805.02
+CLI-SaaS-0256,Growth,Saúde,24,3891.93,32,26,6.4,59.5,0,0.0,0.0,Ativo,65.0,Amarelo (Atenção),Maduro (>12 meses),81.2,0,0.0,3891.93
+CLI-SaaS-0257,Enterprise,Serviços Financeiros,19,14490.03,102,92,6.9,90.8,0,0.0,0.0,Ativo,79.8,Verde (Saudável),Maduro (>12 meses),90.2,0,0.0,14490.03
+CLI-SaaS-0258,Growth,Indústria & Logística,16,2438.46,27,20,4.4,50.9,2,0.0,0.0,Ativo,47.3,Vermelho (Risco Alto),Maduro (>12 meses),74.1,0,0.0,2438.46
+CLI-SaaS-0259,Growth,Serviços Financeiros,28,2287.24,45,39,6.1,73.7,0,0.0,0.0,Ativo,69.3,Amarelo (Atenção),Maduro (>12 meses),86.7,0,0.0,2287.24
+CLI-SaaS-0260,Starter,Saúde,33,799.76,5,3,5.8,59.5,0,0.0,0.0,Cancelado (Churn),58.8,Amarelo (Atenção),Maduro (>12 meses),60.0,1,799.76,0.0
+CLI-SaaS-0261,Growth,Tecnologia,13,3140.48,33,24,5.2,76.9,0,0.0,0.0,Ativo,63.8,Amarelo (Atenção),Maduro (>12 meses),72.7,0,0.0,3140.48
+CLI-SaaS-0262,Enterprise,Indústria & Logística,25,13862.26,242,208,6.4,86.5,1,0.0,0.0,Ativo,73.4,Verde (Saudável),Maduro (>12 meses),86.0,0,0.0,13862.26
+CLI-SaaS-0263,Starter,Tecnologia,36,959.97,8,6,3.2,60.9,1,0.0,0.0,Ativo,46.8,Vermelho (Risco Alto),Maduro (>12 meses),75.0,0,0.0,959.97
+CLI-SaaS-0264,Starter,Tecnologia,27,573.68,7,6,3.2,67.5,0,0.0,0.0,Ativo,52.5,Amarelo (Atenção),Maduro (>12 meses),85.7,0,0.0,573.68
+CLI-SaaS-0265,Growth,Tecnologia,7,3370.37,21,18,5.7,56.8,1,0.0,0.0,Ativo,59.4,Amarelo (Atenção),Crescimento (4-12 meses),85.7,0,0.0,3370.37
+CLI-SaaS-0266,Growth,Varejo & E-Commerce,5,2156.43,34,22,5.9,50.9,1,0.0,0.0,Ativo,55.2,Amarelo (Atenção),Crescimento (4-12 meses),64.7,0,0.0,2156.43
+CLI-SaaS-0267,Growth,Varejo & E-Commerce,31,3711.45,42,27,5.4,65.3,1,0.0,0.0,Ativo,57.7,Amarelo (Atenção),Maduro (>12 meses),64.3,0,0.0,3711.45
+CLI-SaaS-0268,Growth,Tecnologia,23,3024.7,22,19,4.3,72.6,0,0.0,0.0,Ativo,59.9,Amarelo (Atenção),Maduro (>12 meses),86.4,0,0.0,3024.7
+CLI-SaaS-0269,Starter,Indústria & Logística,10,947.84,6,5,5.6,75.9,0,0.0,0.0,Ativo,67.1,Amarelo (Atenção),Crescimento (4-12 meses),83.3,0,0.0,947.84
+CLI-SaaS-0270,Starter,Saúde,32,588.33,7,4,5.4,76.0,0,0.0,0.0,Ativo,62.2,Amarelo (Atenção),Maduro (>12 meses),57.1,0,0.0,588.33
+CLI-SaaS-0271,Growth,Saúde,30,3066.38,22,14,6.6,79.5,0,1075.66,0.0,Ativo,70.4,Verde (Saudável),Maduro (>12 meses),63.6,0,0.0,4142.04
+CLI-SaaS-0272,Growth,Serviços Financeiros,31,3672.98,43,27,4.2,64.7,0,0.0,0.0,Ativo,53.1,Amarelo (Atenção),Maduro (>12 meses),62.8,0,0.0,3672.98
+CLI-SaaS-0273,Growth,Indústria & Logística,18,2785.13,38,25,4.3,56.4,3,0.0,0.0,Ativo,45.7,Vermelho (Risco Alto),Maduro (>12 meses),65.8,0,0.0,2785.13
+CLI-SaaS-0274,Enterprise,Varejo & E-Commerce,36,12684.64,169,128,6.4,75.7,1,5614.37,0.0,Ativo,68.1,Amarelo (Atenção),Maduro (>12 meses),75.7,0,0.0,18299.01
+CLI-SaaS-0275,Starter,Tecnologia,2,575.06,6,3,1.7,32.0,1,0.0,0.0,Ativo,25.4,Vermelho (Risco Alto),Onboarding (0-3 meses),50.0,0,0.0,575.06
+CLI-SaaS-0276,Starter,Serviços Financeiros,14,771.7,10,8,3.5,61.7,0,0.0,0.0,Ativo,51.1,Amarelo (Atenção),Maduro (>12 meses),80.0,0,0.0,771.7
+CLI-SaaS-0277,Growth,Saúde,13,1806.6,37,26,4.2,67.5,1,0.0,0.0,Ativo,53.4,Amarelo (Atenção),Maduro (>12 meses),70.3,0,0.0,1806.6
+CLI-SaaS-0278,Growth,Varejo & E-Commerce,29,2762.71,27,26,5.0,70.8,1,0.0,0.0,Cancelado (Churn),62.4,Amarelo (Atenção),Maduro (>12 meses),96.3,1,2762.71,0.0
+CLI-SaaS-0279,Growth,Varejo & E-Commerce,12,2065.35,27,20,6.8,83.8,0,0.0,0.0,Ativo,74.4,Verde (Saudável),Crescimento (4-12 meses),74.1,0,0.0,2065.35
+CLI-SaaS-0280,Growth,Tecnologia,2,2834.4,33,29,5.8,54.4,0,0.0,0.0,Ativo,61.2,Amarelo (Atenção),Onboarding (0-3 meses),87.9,0,0.0,2834.4
+CLI-SaaS-0281,Enterprise,Saúde,32,9245.31,121,114,6.9,93.1,1,0.0,0.0,Ativo,79.4,Verde (Saudável),Maduro (>12 meses),94.2,0,0.0,9245.31
+CLI-SaaS-0282,Starter,Indústria & Logística,13,691.39,6,5,4.7,58.0,0,0.0,0.0,Ativo,56.3,Amarelo (Atenção),Maduro (>12 meses),83.3,0,0.0,691.39
+CLI-SaaS-0283,Starter,Varejo & E-Commerce,27,582.64,8,5,5.6,62.2,2,0.0,0.0,Ativo,55.5,Amarelo (Atenção),Maduro (>12 meses),62.5,0,0.0,582.64
+CLI-SaaS-0284,Starter,Tecnologia,17,675.58,8,5,4.1,72.9,0,0.0,0.0,Ativo,55.4,Amarelo (Atenção),Maduro (>12 meses),62.5,0,0.0,675.58
+CLI-SaaS-0285,Growth,Indústria & Logística,31,3574.75,19,13,4.5,75.6,0,818.53,0.0,Ativo,59.2,Amarelo (Atenção),Maduro (>12 meses),68.4,0,0.0,4393.28
+CLI-SaaS-0286,Starter,Saúde,34,490.33,9,6,4.8,46.9,0,0.0,0.0,Ativo,50.4,Amarelo (Atenção),Maduro (>12 meses),66.7,0,0.0,490.33
+CLI-SaaS-0287,Starter,Varejo & E-Commerce,24,767.17,7,6,3.3,62.0,0,0.0,0.0,Ativo,51.1,Amarelo (Atenção),Maduro (>12 meses),85.7,0,0.0,767.17
+CLI-SaaS-0288,Starter,Indústria & Logística,35,593.77,4,2,5.4,65.6,2,0.0,0.0,Ativo,53.9,Amarelo (Atenção),Maduro (>12 meses),50.0,0,0.0,593.77
+CLI-SaaS-0289,Starter,Indústria & Logística,6,746.46,8,5,6.0,71.9,1,0.0,0.0,Cancelado (Churn),62.7,Amarelo (Atenção),Crescimento (4-12 meses),62.5,1,746.46,0.0
+CLI-SaaS-0290,Growth,Indústria & Logística,19,2229.34,31,28,5.4,73.4,1,0.0,0.0,Cancelado (Churn),64.4,Amarelo (Atenção),Maduro (>12 meses),90.3,1,2229.34,0.0
+CLI-SaaS-0291,Starter,Varejo & E-Commerce,30,507.46,3,3,5.6,77.5,2,0.0,0.0,Ativo,66.5,Amarelo (Atenção),Maduro (>12 meses),100.0,0,0.0,507.46
+CLI-SaaS-0292,Starter,Varejo & E-Commerce,7,876.69,3,2,4.8,54.8,0,0.0,0.0,Ativo,53.2,Amarelo (Atenção),Crescimento (4-12 meses),66.7,0,0.0,876.69
+CLI-SaaS-0293,Growth,Serviços Financeiros,10,2623.4,25,17,5.6,74.8,2,0.0,0.0,Ativo,60.8,Amarelo (Atenção),Crescimento (4-12 meses),68.0,0,0.0,2623.4
+CLI-SaaS-0294,Starter,Saúde,32,672.94,8,6,3.1,73.9,1,0.0,0.0,Ativo,50.8,Amarelo (Atenção),Maduro (>12 meses),75.0,0,0.0,672.94
+CLI-SaaS-0295,Starter,Tecnologia,34,505.05,5,4,3.9,46.5,1,0.0,0.0,Ativo,46.0,Vermelho (Risco Alto),Maduro (>12 meses),80.0,0,0.0,505.05
+CLI-SaaS-0296,Starter,Indústria & Logística,28,637.83,8,6,5.8,76.0,0,0.0,0.0,Ativo,66.8,Amarelo (Atenção),Maduro (>12 meses),75.0,0,0.0,637.83
+CLI-SaaS-0297,Growth,Serviços Financeiros,15,1821.6,46,35,5.5,63.2,1,0.0,0.0,Ativo,59.2,Amarelo (Atenção),Maduro (>12 meses),76.1,0,0.0,1821.6
+CLI-SaaS-0298,Starter,Tecnologia,30,646.58,6,5,3.8,57.0,1,0.0,0.0,Ativo,49.7,Vermelho (Risco Alto),Maduro (>12 meses),83.3,0,0.0,646.58
+CLI-SaaS-0299,Growth,Serviços Financeiros,29,3750.12,41,33,4.3,56.2,0,0.0,0.0,Ativo,53.2,Amarelo (Atenção),Maduro (>12 meses),80.5,0,0.0,3750.12
+CLI-SaaS-0300,Starter,Varejo & E-Commerce,22,713.36,4,2,3.6,45.2,2,0.0,0.0,Ativo,37.7,Vermelho (Risco Alto),Maduro (>12 meses),50.0,0,0.0,713.36
+CLI-SaaS-0301,Starter,Indústria & Logística,4,637.13,5,3,5.3,46.9,0,0.0,0.0,Ativo,51.9,Amarelo (Atenção),Crescimento (4-12 meses),60.0,0,0.0,637.13
+CLI-SaaS-0302,Starter,Tecnologia,20,695.6,4,3,5.6,57.5,0,0.0,0.0,Ativo,59.4,Amarelo (Atenção),Maduro (>12 meses),75.0,0,0.0,695.6
+CLI-SaaS-0303,Starter,Tecnologia,32,543.53,8,5,3.6,51.5,1,0.0,0.0,Cancelado (Churn),43.6,Vermelho (Risco Alto),Maduro (>12 meses),62.5,1,543.53,0.0
+CLI-SaaS-0304,Growth,Tecnologia,36,3343.34,47,44,4.3,75.9,0,0.0,0.0,Ativo,62.1,Amarelo (Atenção),Maduro (>12 meses),93.6,0,0.0,3343.34
+CLI-SaaS-0305,Growth,Tecnologia,4,3025.57,19,13,5.0,51.7,0,0.0,0.0,Ativo,53.4,Amarelo (Atenção),Crescimento (4-12 meses),68.4,0,0.0,3025.57
+CLI-SaaS-0306,Enterprise,Tecnologia,27,6452.68,163,137,6.5,93.4,0,0.0,0.0,Cancelado (Churn),77.8,Verde (Saudável),Maduro (>12 meses),84.0,1,6452.68,0.0
+CLI-SaaS-0307,Starter,Serviços Financeiros,17,903.28,7,4,5.3,48.5,0,0.0,0.0,Cancelado (Churn),52.0,Amarelo (Atenção),Maduro (>12 meses),57.1,1,903.28,0.0
+CLI-SaaS-0308,Starter,Indústria & Logística,12,782.54,7,6,3.2,65.8,0,0.0,0.0,Ativo,51.9,Amarelo (Atenção),Crescimento (4-12 meses),85.7,0,0.0,782.54
+CLI-SaaS-0309,Growth,Varejo & E-Commerce,22,2917.81,26,22,6.4,80.0,1,0.0,0.0,Ativo,70.9,Verde (Saudável),Maduro (>12 meses),84.6,0,0.0,2917.81
+CLI-SaaS-0310,Starter,Varejo & E-Commerce,17,505.89,4,2,4.3,57.2,0,0.0,0.0,Ativo,49.0,Vermelho (Risco Alto),Maduro (>12 meses),50.0,0,0.0,505.89
+CLI-SaaS-0311,Starter,Varejo & E-Commerce,10,718.96,10,6,6.0,65.1,3,0.0,0.0,Ativo,56.4,Amarelo (Atenção),Crescimento (4-12 meses),60.0,0,0.0,718.96
+CLI-SaaS-0312,Starter,Varejo & E-Commerce,1,886.96,8,2,3.9,31.5,1,0.0,0.0,Ativo,32.5,Vermelho (Risco Alto),Onboarding (0-3 meses),25.0,0,0.0,886.96
+CLI-SaaS-0313,Starter,Serviços Financeiros,22,600.62,9,7,3.4,65.2,1,0.0,0.0,Ativo,49.7,Vermelho (Risco Alto),Maduro (>12 meses),77.8,0,0.0,600.62
+CLI-SaaS-0314,Enterprise,Saúde,26,5650.81,117,89,6.5,83.8,1,0.0,0.0,Ativo,71.4,Verde (Saudável),Maduro (>12 meses),76.1,0,0.0,5650.81
+CLI-SaaS-0315,Growth,Indústria & Logística,18,3839.42,31,21,6.6,82.1,0,0.0,0.0,Ativo,71.9,Verde (Saudável),Maduro (>12 meses),67.7,0,0.0,3839.42
+CLI-SaaS-0316,Growth,Tecnologia,14,1892.48,49,39,4.2,63.5,0,0.0,0.0,Ativo,55.2,Amarelo (Atenção),Maduro (>12 meses),79.6,0,0.0,1892.48
+CLI-SaaS-0317,Starter,Saúde,29,897.34,7,6,4.3,76.5,1,0.0,0.0,Ativo,59.3,Amarelo (Atenção),Maduro (>12 meses),85.7,0,0.0,897.34
+CLI-SaaS-0318,Starter,Varejo & E-Commerce,12,629.05,9,5,4.2,51.4,1,0.0,0.0,Ativo,45.5,Vermelho (Risco Alto),Crescimento (4-12 meses),55.6,0,0.0,629.05
+CLI-SaaS-0319,Starter,Saúde,36,574.1,7,4,5.1,48.4,1,0.0,0.0,Ativo,49.2,Vermelho (Risco Alto),Maduro (>12 meses),57.1,0,0.0,574.1
+CLI-SaaS-0320,Starter,Indústria & Logística,35,908.25,9,7,5.8,77.1,1,0.0,0.0,Ativo,65.9,Amarelo (Atenção),Maduro (>12 meses),77.8,0,0.0,908.25
+CLI-SaaS-0321,Starter,Tecnologia,12,828.72,7,6,4.2,60.5,1,0.0,0.0,Ativo,53.2,Amarelo (Atenção),Crescimento (4-12 meses),85.7,0,0.0,828.72
+CLI-SaaS-0322,Growth,Tecnologia,7,2298.0,18,14,6.2,69.0,0,0.0,0.0,Ativo,66.8,Amarelo (Atenção),Crescimento (4-12 meses),77.8,0,0.0,2298.0
+CLI-SaaS-0323,Growth,Indústria & Logística,29,2376.21,24,15,5.6,62.4,0,0.0,0.0,Cancelado (Churn),59.2,Amarelo (Atenção),Maduro (>12 meses),62.5,1,2376.21,0.0
+CLI-SaaS-0324,Starter,Indústria & Logística,11,979.18,6,4,4.0,53.2,2,0.0,0.0,Ativo,45.0,Vermelho (Risco Alto),Crescimento (4-12 meses),66.7,0,0.0,979.18
+CLI-SaaS-0325,Enterprise,Varejo & E-Commerce,33,8940.27,70,69,6.2,90.3,0,0.0,0.0,Ativo,77.4,Verde (Saudável),Maduro (>12 meses),98.6,0,0.0,8940.27
+CLI-SaaS-0326,Growth,Tecnologia,6,2439.43,23,16,4.5,73.7,0,0.0,0.0,Ativo,58.7,Amarelo (Atenção),Crescimento (4-12 meses),69.6,0,0.0,2439.43
+CLI-SaaS-0327,Growth,Saúde,15,2676.11,42,32,4.4,71.5,2,0.0,0.0,Ativo,54.9,Amarelo (Atenção),Maduro (>12 meses),76.2,0,0.0,2676.11
+CLI-SaaS-0328,Growth,Serviços Financeiros,32,3490.42,39,26,5.9,72.9,0,0.0,0.0,Cancelado (Churn),65.0,Amarelo (Atenção),Maduro (>12 meses),66.7,1,3490.42,0.0
+CLI-SaaS-0329,Starter,Serviços Financeiros,11,907.47,7,4,3.9,54.3,0,0.0,0.0,Cancelado (Churn),47.1,Vermelho (Risco Alto),Crescimento (4-12 meses),57.1,1,907.47,0.0
+CLI-SaaS-0330,Starter,Indústria & Logística,23,953.46,5,3,3.1,65.1,0,0.0,0.0,Ativo,47.3,Vermelho (Risco Alto),Maduro (>12 meses),60.0,0,0.0,953.46
+CLI-SaaS-0331,Starter,Varejo & E-Commerce,26,495.65,6,5,3.9,53.7,0,0.0,0.0,Ativo,50.8,Amarelo (Atenção),Maduro (>12 meses),83.3,0,0.0,495.65
+CLI-SaaS-0332,Growth,Serviços Financeiros,34,1813.14,40,28,4.8,77.0,1,503.76,0.0,Ativo,59.6,Amarelo (Atenção),Maduro (>12 meses),70.0,0,0.0,2316.9
+CLI-SaaS-0333,Starter,Tecnologia,34,906.18,3,2,3.7,56.1,0,0.0,0.0,Cancelado (Churn),48.1,Vermelho (Risco Alto),Maduro (>12 meses),66.7,1,906.18,0.0
+CLI-SaaS-0334,Starter,Indústria & Logística,29,586.62,8,4,4.0,75.5,0,174.67,0.0,Ativo,53.9,Amarelo (Atenção),Maduro (>12 meses),50.0,0,0.0,761.29
+CLI-SaaS-0335,Starter,Saúde,4,711.05,5,4,4.5,69.3,0,0.0,0.0,Ativo,58.8,Amarelo (Atenção),Crescimento (4-12 meses),80.0,0,0.0,711.05
+CLI-SaaS-0336,Starter,Indústria & Logística,17,638.2,9,5,3.5,50.2,0,0.0,0.0,Ativo,43.4,Vermelho (Risco Alto),Maduro (>12 meses),55.6,0,0.0,638.2
+CLI-SaaS-0337,Growth,Saúde,35,3227.36,19,14,6.3,72.2,1,0.0,0.0,Ativo,66.0,Amarelo (Atenção),Maduro (>12 meses),73.7,0,0.0,3227.36
+CLI-SaaS-0338,Growth,Indústria & Logística,13,2524.12,50,41,4.3,54.2,2,0.0,0.0,Ativo,49.2,Vermelho (Risco Alto),Maduro (>12 meses),82.0,0,0.0,2524.12
+CLI-SaaS-0339,Starter,Indústria & Logística,15,542.8,7,5,3.5,70.8,1,0.0,0.0,Cancelado (Churn),51.2,Amarelo (Atenção),Maduro (>12 meses),71.4,1,542.8,0.0
+CLI-SaaS-0340,Starter,Indústria & Logística,29,986.29,4,2,4.5,49.1,0,0.0,0.0,Ativo,47.2,Vermelho (Risco Alto),Maduro (>12 meses),50.0,0,0.0,986.29
+CLI-SaaS-0341,Starter,Saúde,29,743.54,9,7,3.9,61.4,1,0.0,0.0,Ativo,50.9,Amarelo (Atenção),Maduro (>12 meses),77.8,0,0.0,743.54
+CLI-SaaS-0342,Starter,Saúde,11,772.12,10,7,4.9,45.8,0,0.0,0.0,Ativo,51.0,Amarelo (Atenção),Crescimento (4-12 meses),70.0,0,0.0,772.12
+CLI-SaaS-0343,Starter,Indústria & Logística,32,539.77,9,5,3.0,73.6,2,0.0,0.0,Ativo,45.5,Vermelho (Risco Alto),Maduro (>12 meses),55.6,0,0.0,539.77
+CLI-SaaS-0344,Starter,Serviços Financeiros,2,872.68,4,1,3.2,37.9,1,0.0,113.76,Ativo,31.2,Vermelho (Risco Alto),Onboarding (0-3 meses),25.0,0,0.0,758.92
+CLI-SaaS-0345,Starter,Varejo & E-Commerce,14,934.79,8,6,4.8,68.9,1,0.0,0.0,Ativo,57.6,Amarelo (Atenção),Maduro (>12 meses),75.0,0,0.0,934.79
+CLI-SaaS-0346,Growth,Varejo & E-Commerce,20,2275.17,47,32,5.8,78.4,0,0.0,0.0,Ativo,66.7,Amarelo (Atenção),Maduro (>12 meses),68.1,0,0.0,2275.17
+CLI-SaaS-0347,Growth,Varejo & E-Commerce,22,3583.84,41,31,6.1,63.0,1,0.0,0.0,Ativo,62.1,Amarelo (Atenção),Maduro (>12 meses),75.6,0,0.0,3583.84
+CLI-SaaS-0348,Starter,Saúde,11,496.84,10,7,5.4,74.5,2,0.0,0.0,Ativo,60.0,Amarelo (Atenção),Crescimento (4-12 meses),70.0,0,0.0,496.84
+CLI-SaaS-0349,Starter,Saúde,27,806.71,3,3,5.9,46.8,1,0.0,0.0,Ativo,59.1,Amarelo (Atenção),Maduro (>12 meses),100.0,0,0.0,806.71
+CLI-SaaS-0350,Growth,Serviços Financeiros,3,1945.73,28,25,6.4,54.8,1,0.0,0.0,Ativo,62.8,Amarelo (Atenção),Onboarding (0-3 meses),89.3,0,0.0,1945.73
+CLI-SaaS-0351,Starter,Varejo & E-Commerce,17,985.73,8,7,4.6,69.4,2,0.0,0.0,Ativo,56.8,Amarelo (Atenção),Maduro (>12 meses),87.5,0,0.0,985.73
+CLI-SaaS-0352,Growth,Varejo & E-Commerce,28,2421.23,46,42,6.1,53.1,0,0.0,0.0,Ativo,62.8,Amarelo (Atenção),Maduro (>12 meses),91.3,0,0.0,2421.23
+CLI-SaaS-0353,Growth,Indústria & Logística,29,2728.97,28,23,6.0,62.3,1,0.0,0.0,Ativo,62.3,Amarelo (Atenção),Maduro (>12 meses),82.1,0,0.0,2728.97
+CLI-SaaS-0354,Starter,Saúde,21,537.21,3,2,4.4,62.5,2,0.0,0.0,Ativo,50.3,Amarelo (Atenção),Maduro (>12 meses),66.7,0,0.0,537.21
+CLI-SaaS-0355,Starter,Varejo & E-Commerce,16,935.6,7,4,5.1,57.5,0,0.0,0.0,Ativo,54.2,Amarelo (Atenção),Maduro (>12 meses),57.1,0,0.0,935.6
+CLI-SaaS-0356,Growth,Serviços Financeiros,20,3587.42,34,21,5.6,69.5,1,0.0,0.0,Ativo,59.8,Amarelo (Atenção),Maduro (>12 meses),61.8,0,0.0,3587.42
+CLI-SaaS-0357,Starter,Serviços Financeiros,6,684.36,3,2,4.2,61.8,0,0.0,0.0,Ativo,52.6,Amarelo (Atenção),Crescimento (4-12 meses),66.7,0,0.0,684.36
+CLI-SaaS-0358,Growth,Varejo & E-Commerce,19,3851.27,25,24,5.5,83.2,2,0.0,0.0,Ativo,67.4,Amarelo (Atenção),Maduro (>12 meses),96.0,0,0.0,3851.27
+CLI-SaaS-0359,Enterprise,Saúde,5,11552.57,129,108,6.4,88.1,2,4519.7,0.0,Ativo,71.8,Verde (Saudável),Crescimento (4-12 meses),83.7,0,0.0,16072.27
+CLI-SaaS-0360,Growth,Serviços Financeiros,3,2694.47,33,22,6.0,73.5,0,0.0,0.0,Ativo,65.7,Amarelo (Atenção),Onboarding (0-3 meses),66.7,0,0.0,2694.47
+CLI-SaaS-0361,Starter,Indústria & Logística,1,711.52,7,2,3.8,28.1,3,0.0,0.0,Cancelado (Churn),27.7,Vermelho (Risco Alto),Onboarding (0-3 meses),28.6,1,711.52,0.0
+CLI-SaaS-0362,Growth,Serviços Financeiros,15,3420.18,33,25,6.3,87.1,0,0.0,0.0,Cancelado (Churn),73.3,Verde (Saudável),Maduro (>12 meses),75.8,1,3420.18,0.0
+CLI-SaaS-0363,Starter,Tecnologia,34,637.83,5,4,3.1,62.4,0,0.0,0.0,Ativo,49.3,Vermelho (Risco Alto),Maduro (>12 meses),80.0,0,0.0,637.83
+CLI-SaaS-0364,Starter,Tecnologia,35,796.82,3,2,5.9,64.1,1,0.0,0.0,Ativo,60.1,Amarelo (Atenção),Maduro (>12 meses),66.7,0,0.0,796.82
+CLI-SaaS-0365,Enterprise,Saúde,25,14469.09,199,166,6.6,84.5,1,5497.65,0.0,Ativo,73.3,Verde (Saudável),Maduro (>12 meses),83.4,0,0.0,19966.74
+CLI-SaaS-0366,Starter,Varejo & E-Commerce,24,841.05,3,3,5.9,67.0,1,0.0,0.0,Ativo,66.2,Amarelo (Atenção),Maduro (>12 meses),100.0,0,0.0,841.05
+CLI-SaaS-0367,Enterprise,Saúde,12,10454.25,232,226,5.7,85.2,0,3154.88,0.0,Ativo,72.9,Verde (Saudável),Crescimento (4-12 meses),97.4,0,0.0,13609.13
+CLI-SaaS-0368,Enterprise,Saúde,18,6957.31,89,69,6.2,72.8,2,0.0,0.0,Ativo,64.5,Amarelo (Atenção),Maduro (>12 meses),77.5,0,0.0,6957.31
+CLI-SaaS-0369,Starter,Saúde,15,490.09,5,4,5.0,60.5,0,0.0,0.0,Ativo,58.2,Amarelo (Atenção),Maduro (>12 meses),80.0,0,0.0,490.09
+CLI-SaaS-0370,Starter,Saúde,16,960.25,8,5,3.4,51.9,0,0.0,0.0,Ativo,44.5,Vermelho (Risco Alto),Maduro (>12 meses),62.5,0,0.0,960.25
+CLI-SaaS-0371,Starter,Indústria & Logística,27,545.6,5,3,4.0,49.4,0,0.0,0.0,Ativo,46.3,Vermelho (Risco Alto),Maduro (>12 meses),60.0,0,0.0,545.6
+CLI-SaaS-0372,Starter,Indústria & Logística,8,594.42,4,3,3.6,46.5,0,0.0,0.0,Cancelado (Churn),45.5,Vermelho (Risco Alto),Crescimento (4-12 meses),75.0,1,594.42,0.0
+CLI-SaaS-0373,Starter,Serviços Financeiros,25,617.13,6,4,4.6,47.8,1,0.0,0.0,Ativo,47.9,Vermelho (Risco Alto),Maduro (>12 meses),66.7,0,0.0,617.13
+CLI-SaaS-0374,Growth,Tecnologia,17,2101.29,45,42,5.7,53.1,2,0.0,0.0,Ativo,57.5,Amarelo (Atenção),Maduro (>12 meses),93.3,0,0.0,2101.29
+CLI-SaaS-0375,Starter,Saúde,29,728.42,6,4,5.7,57.6,0,0.0,0.0,Ativo,58.7,Amarelo (Atenção),Maduro (>12 meses),66.7,0,0.0,728.42
+CLI-SaaS-0376,Starter,Serviços Financeiros,8,651.55,4,3,5.9,51.2,0,0.0,0.0,Ativo,58.7,Amarelo (Atenção),Crescimento (4-12 meses),75.0,0,0.0,651.55
+CLI-SaaS-0377,Growth,Tecnologia,15,2884.19,45,41,6.8,50.4,0,0.0,0.0,Ativo,65.3,Amarelo (Atenção),Maduro (>12 meses),91.1,0,0.0,2884.19
+CLI-SaaS-0378,Starter,Varejo & E-Commerce,27,798.97,9,7,5.9,48.0,0,0.0,0.0,Ativo,58.0,Amarelo (Atenção),Maduro (>12 meses),77.8,0,0.0,798.97
+CLI-SaaS-0379,Growth,Indústria & Logística,7,2723.7,32,23,5.7,84.3,0,1078.98,0.0,Ativo,68.8,Amarelo (Atenção),Crescimento (4-12 meses),71.9,0,0.0,3802.68
+CLI-SaaS-0380,Starter,Tecnologia,3,903.17,4,1,2.1,37.6,4,0.0,0.0,Cancelado (Churn),21.4,Vermelho (Risco Alto),Onboarding (0-3 meses),25.0,1,903.17,0.0
+CLI-SaaS-0381,Starter,Varejo & E-Commerce,29,923.15,9,7,4.8,52.7,1,0.0,0.0,Cancelado (Churn),52.3,Amarelo (Atenção),Maduro (>12 meses),77.8,1,923.15,0.0
+CLI-SaaS-0382,Growth,Tecnologia,24,3069.15,46,34,6.3,70.6,1,0.0,0.0,Ativo,65.5,Amarelo (Atenção),Maduro (>12 meses),73.9,0,0.0,3069.15
+CLI-SaaS-0383,Growth,Indústria & Logística,3,3358.82,43,32,5.1,51.9,1,0.0,0.0,Ativo,53.0,Amarelo (Atenção),Onboarding (0-3 meses),74.4,0,0.0,3358.82
+CLI-SaaS-0384,Growth,Indústria & Logística,20,3562.21,34,21,5.3,50.3,1,0.0,0.0,Ativo,51.6,Amarelo (Atenção),Maduro (>12 meses),61.8,0,0.0,3562.21
+CLI-SaaS-0385,Growth,Serviços Financeiros,15,2223.87,28,18,6.7,51.9,0,0.0,0.0,Ativo,61.3,Amarelo (Atenção),Maduro (>12 meses),64.3,0,0.0,2223.87
+CLI-SaaS-0386,Growth,Saúde,25,2936.67,15,11,4.9,72.4,3,0.0,0.0,Ativo,55.4,Amarelo (Atenção),Maduro (>12 meses),73.3,0,0.0,2936.67
+CLI-SaaS-0387,Starter,Tecnologia,30,830.28,6,5,4.1,79.6,1,0.0,0.0,Ativo,59.1,Amarelo (Atenção),Maduro (>12 meses),83.3,0,0.0,830.28
+CLI-SaaS-0388,Starter,Tecnologia,14,528.38,6,4,3.5,46.9,1,0.0,0.0,Ativo,42.1,Vermelho (Risco Alto),Maduro (>12 meses),66.7,0,0.0,528.38
+CLI-SaaS-0389,Growth,Varejo & E-Commerce,7,3017.2,18,17,4.5,53.7,2,0.0,0.0,Ativo,51.9,Amarelo (Atenção),Crescimento (4-12 meses),94.4,0,0.0,3017.2
+CLI-SaaS-0390,Growth,Indústria & Logística,17,2297.54,39,26,4.1,73.5,1,0.0,0.0,Ativo,54.4,Amarelo (Atenção),Maduro (>12 meses),66.7,0,0.0,2297.54
+CLI-SaaS-0391,Enterprise,Tecnologia,20,12534.69,173,163,6.4,86.8,0,0.0,0.0,Ativo,76.5,Verde (Saudável),Maduro (>12 meses),94.2,0,0.0,12534.69
+CLI-SaaS-0392,Starter,Indústria & Logística,36,855.12,10,9,4.2,59.3,0,0.0,0.0,Ativo,55.3,Amarelo (Atenção),Maduro (>12 meses),90.0,0,0.0,855.12
+CLI-SaaS-0393,Starter,Tecnologia,9,657.1,9,6,3.8,70.6,1,0.0,0.0,Ativo,51.9,Amarelo (Atenção),Crescimento (4-12 meses),66.7,0,0.0,657.1
+CLI-SaaS-0394,Growth,Serviços Financeiros,22,3810.11,49,39,4.4,65.8,0,0.0,0.0,Ativo,57.0,Amarelo (Atenção),Maduro (>12 meses),79.6,0,0.0,3810.11
+CLI-SaaS-0395,Starter,Saúde,2,988.26,10,6,3.3,46.9,0,0.0,0.0,Ativo,41.9,Vermelho (Risco Alto),Onboarding (0-3 meses),60.0,0,0.0,988.26
+CLI-SaaS-0396,Enterprise,Tecnologia,24,10646.1,85,68,6.9,95.8,0,0.0,0.0,Ativo,80.0,Verde (Saudável),Maduro (>12 meses),80.0,0,0.0,10646.1
+CLI-SaaS-0397,Growth,Indústria & Logística,8,2678.62,44,30,6.6,63.3,1,0.0,0.0,Ativo,63.6,Amarelo (Atenção),Crescimento (4-12 meses),68.2,0,0.0,2678.62
+CLI-SaaS-0398,Starter,Serviços Financeiros,11,602.3,10,6,5.2,45.9,2,0.0,0.0,Ativo,47.5,Vermelho (Risco Alto),Crescimento (4-12 meses),60.0,0,0.0,602.3
+CLI-SaaS-0399,Growth,Tecnologia,13,2991.52,45,29,4.5,69.5,1,0.0,0.0,Ativo,54.7,Amarelo (Atenção),Maduro (>12 meses),64.4,0,0.0,2991.52
+CLI-SaaS-0400,Growth,Varejo & E-Commerce,17,1927.95,42,25,5.4,61.0,1,0.0,0.0,Ativo,55.5,Amarelo (Atenção),Maduro (>12 meses),59.5,0,0.0,1927.95
+CLI-SaaS-0401,Starter,Saúde,8,501.97,8,6,3.3,49.5,0,0.0,0.0,Cancelado (Churn),45.1,Vermelho (Risco Alto),Crescimento (4-12 meses),75.0,1,501.97,0.0
+CLI-SaaS-0402,Enterprise,Tecnologia,21,11929.73,175,167,6.1,83.6,0,0.0,0.0,Cancelado (Churn),74.1,Verde (Saudável),Maduro (>12 meses),95.4,1,11929.73,0.0
+CLI-SaaS-0403,Starter,Serviços Financeiros,18,920.83,5,4,4.8,56.1,2,0.0,0.0,Ativo,52.0,Amarelo (Atenção),Maduro (>12 meses),80.0,0,0.0,920.83
+CLI-SaaS-0404,Growth,Varejo & E-Commerce,30,2487.58,47,32,4.8,57.5,0,0.0,0.0,Ativo,54.3,Amarelo (Atenção),Maduro (>12 meses),68.1,0,0.0,2487.58
+CLI-SaaS-0405,Starter,Serviços Financeiros,18,784.0,4,2,3.2,74.1,2,0.0,0.0,Ativo,45.8,Vermelho (Risco Alto),Maduro (>12 meses),50.0,0,0.0,784.0
+CLI-SaaS-0406,Enterprise,Serviços Financeiros,31,5631.48,184,165,6.7,70.4,3,0.0,0.0,Ativo,66.2,Amarelo (Atenção),Maduro (>12 meses),89.7,0,0.0,5631.48
+CLI-SaaS-0407,Starter,Varejo & E-Commerce,32,933.09,9,8,5.0,73.3,1,0.0,0.0,Ativo,62.2,Amarelo (Atenção),Maduro (>12 meses),88.9,0,0.0,933.09
+CLI-SaaS-0408,Starter,Serviços Financeiros,11,594.2,3,2,5.6,46.7,1,0.0,0.0,Ativo,52.5,Amarelo (Atenção),Crescimento (4-12 meses),66.7,0,0.0,594.2
+CLI-SaaS-0409,Enterprise,Varejo & E-Commerce,25,6743.13,200,166,5.8,80.8,1,0.0,0.0,Ativo,67.9,Amarelo (Atenção),Maduro (>12 meses),83.0,0,0.0,6743.13
+CLI-SaaS-0410,Starter,Tecnologia,33,955.85,9,8,5.9,67.6,0,0.0,0.0,Ativo,66.5,Amarelo (Atenção),Maduro (>12 meses),88.9,0,0.0,955.85
+CLI-SaaS-0411,Starter,Varejo & E-Commerce,8,872.93,3,2,3.5,56.5,0,0.0,0.0,Ativo,47.3,Vermelho (Risco Alto),Crescimento (4-12 meses),66.7,0,0.0,872.93
+CLI-SaaS-0412,Enterprise,Varejo & E-Commerce,11,9353.66,165,129,6.6,79.5,0,0.0,0.0,Ativo,72.6,Verde (Saudável),Crescimento (4-12 meses),78.2,0,0.0,9353.66
+CLI-SaaS-0413,Enterprise,Saúde,22,9084.52,247,230,5.9,75.2,1,0.0,0.0,Ativo,68.0,Amarelo (Atenção),Maduro (>12 meses),93.1,0,0.0,9084.52
+CLI-SaaS-0414,Growth,Varejo & E-Commerce,24,3576.86,33,24,6.7,64.3,0,0.0,0.0,Ativo,66.9,Amarelo (Atenção),Maduro (>12 meses),72.7,0,0.0,3576.86
+CLI-SaaS-0415,Growth,Varejo & E-Commerce,17,2028.93,22,17,4.2,72.8,3,0.0,0.0,Ativo,52.7,Amarelo (Atenção),Maduro (>12 meses),77.3,0,0.0,2028.93
+CLI-SaaS-0416,Starter,Tecnologia,12,945.91,4,3,5.8,68.9,1,0.0,0.0,Ativo,62.6,Amarelo (Atenção),Crescimento (4-12 meses),75.0,0,0.0,945.91
+CLI-SaaS-0417,Starter,Saúde,32,549.98,4,2,3.2,51.2,1,0.0,0.0,Ativo,39.6,Vermelho (Risco Alto),Maduro (>12 meses),50.0,0,0.0,549.98
+CLI-SaaS-0418,Starter,Indústria & Logística,15,607.81,5,3,5.4,78.1,1,0.0,0.0,Ativo,61.5,Amarelo (Atenção),Maduro (>12 meses),60.0,0,0.0,607.81
+CLI-SaaS-0419,Growth,Tecnologia,16,3223.22,18,13,5.7,74.3,2,0.0,0.0,Ativo,61.7,Amarelo (Atenção),Maduro (>12 meses),72.2,0,0.0,3223.22
+CLI-SaaS-0420,Growth,Tecnologia,22,2208.52,25,19,5.9,74.2,1,0.0,0.0,Ativo,65.1,Amarelo (Atenção),Maduro (>12 meses),76.0,0,0.0,2208.52
+CLI-SaaS-0421,Growth,Indústria & Logística,28,3465.43,46,34,6.6,85.5,1,836.11,0.0,Ativo,72.2,Verde (Saudável),Maduro (>12 meses),73.9,0,0.0,4301.54
+CLI-SaaS-0422,Growth,Varejo & E-Commerce,20,2092.42,32,20,5.1,83.7,3,0.0,0.0,Ativo,58.8,Amarelo (Atenção),Maduro (>12 meses),62.5,0,0.0,2092.42
+CLI-SaaS-0423,Starter,Serviços Financeiros,33,639.14,10,9,5.9,65.4,1,0.0,0.0,Cancelado (Churn),64.1,Amarelo (Atenção),Maduro (>12 meses),90.0,1,639.14,0.0
+CLI-SaaS-0424,Starter,Saúde,10,617.82,8,5,4.0,63.2,2,0.0,0.0,Ativo,47.9,Vermelho (Risco Alto),Crescimento (4-12 meses),62.5,0,0.0,617.82
+CLI-SaaS-0425,Starter,Serviços Financeiros,32,981.37,8,7,4.4,60.8,1,0.0,0.0,Ativo,54.6,Amarelo (Atenção),Maduro (>12 meses),87.5,0,0.0,981.37
+CLI-SaaS-0426,Starter,Indústria & Logística,33,898.81,7,5,5.5,67.7,1,0.0,0.0,Ativo,60.1,Amarelo (Atenção),Maduro (>12 meses),71.4,0,0.0,898.81
+CLI-SaaS-0427,Starter,Tecnologia,2,746.44,4,2,3.7,30.9,1,0.0,0.0,Ativo,35.0,Vermelho (Risco Alto),Onboarding (0-3 meses),50.0,0,0.0,746.44
+CLI-SaaS-0428,Enterprise,Tecnologia,33,9808.34,229,220,5.8,70.0,2,0.0,0.0,Ativo,64.3,Amarelo (Atenção),Maduro (>12 meses),96.1,0,0.0,9808.34
+CLI-SaaS-0429,Starter,Saúde,33,523.8,4,3,5.2,53.1,0,0.0,0.0,Ativo,55.8,Amarelo (Atenção),Maduro (>12 meses),75.0,0,0.0,523.8
+CLI-SaaS-0430,Starter,Tecnologia,13,526.5,5,3,4.9,70.2,0,0.0,0.0,Ativo,58.1,Amarelo (Atenção),Maduro (>12 meses),60.0,0,0.0,526.5
+CLI-SaaS-0431,Starter,Tecnologia,30,606.36,9,7,5.3,54.6,0,0.0,0.0,Ativo,57.3,Amarelo (Atenção),Maduro (>12 meses),77.8,0,0.0,606.36
+CLI-SaaS-0432,Growth,Saúde,33,3352.09,31,19,6.4,82.9,1,0.0,0.0,Ativo,68.4,Amarelo (Atenção),Maduro (>12 meses),61.3,0,0.0,3352.09
+CLI-SaaS-0433,Growth,Saúde,13,3872.48,20,19,4.7,70.5,1,0.0,0.0,Ativo,60.6,Amarelo (Atenção),Maduro (>12 meses),95.0,0,0.0,3872.48
+CLI-SaaS-0434,Starter,Indústria & Logística,26,662.79,5,3,4.0,78.4,0,296.64,0.0,Ativo,56.4,Amarelo (Atenção),Maduro (>12 meses),60.0,0,0.0,959.43
+CLI-SaaS-0435,Starter,Tecnologia,22,965.7,3,2,3.7,47.4,1,0.0,0.0,Ativo,43.3,Vermelho (Risco Alto),Maduro (>12 meses),66.7,0,0.0,965.7
+CLI-SaaS-0436,Growth,Tecnologia,2,2591.42,36,31,6.7,80.7,2,0.0,0.0,Ativo,71.1,Verde (Saudável),Onboarding (0-3 meses),86.1,0,0.0,2591.42
+CLI-SaaS-0437,Starter,Indústria & Logística,26,647.31,9,5,3.5,72.4,1,0.0,0.0,Cancelado (Churn),49.4,Vermelho (Risco Alto),Maduro (>12 meses),55.6,1,647.31,0.0
+CLI-SaaS-0438,Growth,Varejo & E-Commerce,15,3709.8,15,9,6.3,70.7,1,0.0,0.0,Ativo,63.4,Amarelo (Atenção),Maduro (>12 meses),60.0,0,0.0,3709.8
+CLI-SaaS-0439,Growth,Varejo & E-Commerce,34,2154.5,40,37,5.4,79.2,3,566.88,0.0,Ativo,63.2,Amarelo (Atenção),Maduro (>12 meses),92.5,0,0.0,2721.38
+CLI-SaaS-0440,Starter,Varejo & E-Commerce,11,686.66,8,6,4.3,65.7,0,0.0,0.0,Ativo,55.7,Amarelo (Atenção),Crescimento (4-12 meses),75.0,0,0.0,686.66
+CLI-SaaS-0441,Starter,Indústria & Logística,3,904.91,8,2,3.6,42.6,2,0.0,0.0,Ativo,33.1,Vermelho (Risco Alto),Onboarding (0-3 meses),25.0,0,0.0,904.91
+CLI-SaaS-0442,Enterprise,Tecnologia,6,5858.3,213,207,5.8,76.8,3,0.0,0.0,Ativo,65.1,Amarelo (Atenção),Crescimento (4-12 meses),97.2,0,0.0,5858.3
+CLI-SaaS-0443,Starter,Indústria & Logística,9,904.58,10,8,5.9,58.4,0,0.0,0.0,Ativo,61.9,Amarelo (Atenção),Crescimento (4-12 meses),80.0,0,0.0,904.58
+CLI-SaaS-0444,Starter,Indústria & Logística,6,586.01,4,3,4.4,63.6,4,0.0,0.0,Ativo,49.5,Vermelho (Risco Alto),Crescimento (4-12 meses),75.0,0,0.0,586.01
+CLI-SaaS-0445,Growth,Varejo & E-Commerce,9,3745.25,24,21,4.4,72.7,0,0.0,0.0,Ativo,60.6,Amarelo (Atenção),Crescimento (4-12 meses),87.5,0,0.0,3745.25
+CLI-SaaS-0446,Enterprise,Serviços Financeiros,31,7270.19,229,203,6.3,94.3,1,2118.48,0.0,Ativo,76.0,Verde (Saudável),Maduro (>12 meses),88.6,0,0.0,9388.67
+CLI-SaaS-0447,Enterprise,Tecnologia,32,9752.64,186,154,5.7,93.0,1,1625.98,0.0,Ativo,71.7,Verde (Saudável),Maduro (>12 meses),82.8,0,0.0,11378.62
+CLI-SaaS-0448,Growth,Varejo & E-Commerce,12,3080.61,38,24,4.4,61.3,1,0.0,0.0,Ativo,51.1,Amarelo (Atenção),Crescimento (4-12 meses),63.2,0,0.0,3080.61
+CLI-SaaS-0449,Starter,Serviços Financeiros,8,551.62,3,2,4.0,48.9,2,0.0,0.0,Ativo,43.5,Vermelho (Risco Alto),Crescimento (4-12 meses),66.7,0,0.0,551.62
+CLI-SaaS-0450,Starter,Serviços Financeiros,8,631.18,4,2,4.6,51.8,1,0.0,0.0,Ativo,46.8,Vermelho (Risco Alto),Crescimento (4-12 meses),50.0,0,0.0,631.18
+CLI-SaaS-0451,Growth,Saúde,28,3395.63,45,36,4.0,69.1,1,0.0,0.0,Ativo,54.4,Amarelo (Atenção),Maduro (>12 meses),80.0,0,0.0,3395.63
+CLI-SaaS-0452,Growth,Tecnologia,20,2848.32,42,39,4.6,78.3,1,0.0,0.0,Ativo,62.5,Amarelo (Atenção),Maduro (>12 meses),92.9,0,0.0,2848.32
+CLI-SaaS-0453,Starter,Serviços Financeiros,7,734.52,4,2,5.8,64.4,1,0.0,0.0,Ativo,57.2,Amarelo (Atenção),Crescimento (4-12 meses),50.0,0,0.0,734.52
+CLI-SaaS-0454,Enterprise,Varejo & E-Commerce,11,12666.71,213,206,6.0,90.6,2,2094.81,0.0,Ativo,72.6,Verde (Saudável),Crescimento (4-12 meses),96.7,0,0.0,14761.52
+CLI-SaaS-0455,Starter,Saúde,20,690.94,10,7,4.2,65.4,1,0.0,0.0,Ativo,52.6,Amarelo (Atenção),Maduro (>12 meses),70.0,0,0.0,690.94
+CLI-SaaS-0456,Starter,Tecnologia,16,599.56,4,3,3.6,55.2,1,0.0,0.0,Ativo,46.8,Vermelho (Risco Alto),Maduro (>12 meses),75.0,0,0.0,599.56
+CLI-SaaS-0457,Starter,Indústria & Logística,4,847.56,5,3,4.8,73.2,2,0.0,0.0,Ativo,55.0,Amarelo (Atenção),Crescimento (4-12 meses),60.0,0,0.0,847.56
+CLI-SaaS-0458,Starter,Varejo & E-Commerce,6,823.37,7,4,3.6,45.0,1,0.0,0.0,Ativo,40.5,Vermelho (Risco Alto),Crescimento (4-12 meses),57.1,0,0.0,823.37
+CLI-SaaS-0459,Starter,Serviços Financeiros,22,909.55,6,5,5.2,75.0,1,0.0,0.0,Ativo,63.0,Amarelo (Atenção),Maduro (>12 meses),83.3,0,0.0,909.55
+CLI-SaaS-0460,Starter,Serviços Financeiros,26,699.15,5,3,4.0,67.7,1,0.0,0.0,Ativo,50.9,Amarelo (Atenção),Maduro (>12 meses),60.0,0,0.0,699.15
+CLI-SaaS-0461,Starter,Varejo & E-Commerce,3,897.87,8,3,2.3,26.7,3,0.0,0.0,Ativo,21.1,Vermelho (Risco Alto),Onboarding (0-3 meses),37.5,0,0.0,897.87
+CLI-SaaS-0462,Growth,Serviços Financeiros,14,2375.65,17,13,4.5,76.9,1,585.88,0.0,Ativo,59.1,Amarelo (Atenção),Maduro (>12 meses),76.5,0,0.0,2961.53
+CLI-SaaS-0463,Growth,Saúde,11,2975.46,22,16,6.6,78.1,0,529.08,0.0,Ativo,71.2,Verde (Saudável),Crescimento (4-12 meses),72.7,0,0.0,3504.54
+CLI-SaaS-0464,Growth,Tecnologia,18,2917.67,24,17,6.0,54.6,1,0.0,0.0,Ativo,57.9,Amarelo (Atenção),Maduro (>12 meses),70.8,0,0.0,2917.67
+CLI-SaaS-0465,Enterprise,Saúde,12,6996.3,165,146,6.6,93.4,0,0.0,0.0,Ativo,79.0,Verde (Saudável),Crescimento (4-12 meses),88.5,0,0.0,6996.3
+CLI-SaaS-0466,Starter,Serviços Financeiros,23,581.89,7,5,5.0,66.8,1,0.0,0.0,Ativo,57.3,Amarelo (Atenção),Maduro (>12 meses),71.4,0,0.0,581.89
+CLI-SaaS-0467,Starter,Indústria & Logística,12,749.66,4,3,5.4,54.0,0,0.0,0.0,Ativo,57.2,Amarelo (Atenção),Crescimento (4-12 meses),75.0,0,0.0,749.66
+CLI-SaaS-0468,Growth,Tecnologia,13,3597.6,35,22,6.3,55.2,1,0.0,0.0,Ativo,58.4,Amarelo (Atenção),Maduro (>12 meses),62.9,0,0.0,3597.6
+CLI-SaaS-0469,Starter,Tecnologia,25,852.35,8,5,3.1,61.6,1,0.0,0.0,Ativo,44.6,Vermelho (Risco Alto),Maduro (>12 meses),62.5,0,0.0,852.35
+CLI-SaaS-0470,Enterprise,Varejo & E-Commerce,19,12165.97,211,175,6.0,87.5,0,0.0,0.0,Ativo,73.1,Verde (Saudável),Maduro (>12 meses),82.9,0,0.0,12165.97
+CLI-SaaS-0471,Starter,Varejo & E-Commerce,36,727.69,4,3,3.2,48.7,0,0.0,0.0,Ativo,44.3,Vermelho (Risco Alto),Maduro (>12 meses),75.0,0,0.0,727.69
+CLI-SaaS-0472,Enterprise,Indústria & Logística,8,10044.2,239,205,6.1,95.5,1,3673.39,0.0,Ativo,75.0,Verde (Saudável),Crescimento (4-12 meses),85.8,0,0.0,13717.59
+CLI-SaaS-0473,Starter,Tecnologia,29,763.76,3,2,5.5,54.2,0,0.0,0.0,Ativo,56.5,Amarelo (Atenção),Maduro (>12 meses),66.7,0,0.0,763.76
+CLI-SaaS-0474,Enterprise,Indústria & Logística,32,10698.52,205,159,6.0,78.2,0,0.0,0.0,Ativo,69.0,Amarelo (Atenção),Maduro (>12 meses),77.6,0,0.0,10698.52
+CLI-SaaS-0475,Starter,Varejo & E-Commerce,18,973.14,4,2,4.7,63.1,2,0.0,0.0,Ativo,49.5,Vermelho (Risco Alto),Maduro (>12 meses),50.0,0,0.0,973.14
+CLI-SaaS-0476,Enterprise,Varejo & E-Commerce,6,7313.18,113,96,5.8,72.5,0,0.0,0.0,Ativo,67.1,Amarelo (Atenção),Crescimento (4-12 meses),85.0,0,0.0,7313.18
+CLI-SaaS-0477,Starter,Tecnologia,18,763.66,4,3,4.6,53.7,2,0.0,0.0,Cancelado (Churn),49.4,Vermelho (Risco Alto),Maduro (>12 meses),75.0,1,763.66,0.0
+CLI-SaaS-0478,Growth,Saúde,19,1833.66,42,35,5.5,82.7,0,0.0,0.0,Ativo,68.9,Amarelo (Atenção),Maduro (>12 meses),83.3,0,0.0,1833.66
+CLI-SaaS-0479,Enterprise,Serviços Financeiros,22,8612.73,210,177,6.4,89.9,3,1813.31,0.0,Ativo,70.7,Verde (Saudável),Maduro (>12 meses),84.3,0,0.0,10426.04
+CLI-SaaS-0480,Starter,Varejo & E-Commerce,32,944.41,10,8,4.2,55.4,0,0.0,0.0,Ativo,52.4,Amarelo (Atenção),Maduro (>12 meses),80.0,0,0.0,944.41
+CLI-SaaS-0481,Growth,Varejo & E-Commerce,3,2238.98,40,30,6.6,87.8,0,0.0,0.0,Ativo,75.0,Verde (Saudável),Onboarding (0-3 meses),75.0,0,0.0,2238.98
+CLI-SaaS-0482,Growth,Saúde,28,2232.61,30,27,5.0,87.5,1,0.0,0.0,Cancelado (Churn),67.3,Amarelo (Atenção),Maduro (>12 meses),90.0,1,2232.61,0.0
+CLI-SaaS-0483,Starter,Saúde,10,681.07,10,7,5.7,48.0,1,0.0,0.0,Ativo,54.0,Amarelo (Atenção),Crescimento (4-12 meses),70.0,0,0.0,681.07
+CLI-SaaS-0484,Growth,Indústria & Logística,35,2080.76,48,40,6.1,85.8,0,519.47,0.0,Ativo,73.0,Verde (Saudável),Maduro (>12 meses),83.3,0,0.0,2600.23
+CLI-SaaS-0485,Growth,Indústria & Logística,29,3271.7,22,13,6.6,87.9,0,728.53,0.0,Ativo,72.6,Verde (Saudável),Maduro (>12 meses),59.1,0,0.0,4000.23
+CLI-SaaS-0486,Enterprise,Serviços Financeiros,15,7331.39,63,52,6.9,71.2,0,0.0,0.0,Ativo,71.8,Verde (Saudável),Maduro (>12 meses),82.5,0,0.0,7331.39
+CLI-SaaS-0487,Starter,Serviços Financeiros,33,804.44,3,3,5.6,51.3,0,0.0,0.0,Ativo,61.0,Amarelo (Atenção),Maduro (>12 meses),100.0,0,0.0,804.44
+CLI-SaaS-0488,Starter,Tecnologia,7,868.1,6,4,4.5,49.7,0,0.0,0.0,Ativo,49.9,Vermelho (Risco Alto),Crescimento (4-12 meses),66.7,0,0.0,868.1
+CLI-SaaS-0489,Enterprise,Indústria & Logística,12,7573.48,157,131,6.2,74.4,0,0.0,0.0,Ativo,69.6,Amarelo (Atenção),Crescimento (4-12 meses),83.4,0,0.0,7573.48
+CLI-SaaS-0490,Enterprise,Varejo & E-Commerce,30,10749.77,229,190,6.5,70.4,1,0.0,0.0,Ativo,67.8,Amarelo (Atenção),Maduro (>12 meses),83.0,0,0.0,10749.77
+CLI-SaaS-0491,Starter,Indústria & Logística,21,782.65,9,7,3.0,69.2,0,0.0,0.0,Ativo,50.9,Amarelo (Atenção),Maduro (>12 meses),77.8,0,0.0,782.65
+CLI-SaaS-0492,Growth,Varejo & E-Commerce,31,3855.97,48,35,6.4,67.7,1,0.0,0.0,Ativo,64.8,Amarelo (Atenção),Maduro (>12 meses),72.9,0,0.0,3855.97
+CLI-SaaS-0493,Starter,Saúde,24,959.44,8,6,4.2,78.8,0,0.0,0.0,Ativo,59.8,Amarelo (Atenção),Maduro (>12 meses),75.0,0,0.0,959.44
+CLI-SaaS-0494,Starter,Indústria & Logística,20,524.38,9,8,3.1,70.4,0,0.0,0.0,Ativo,53.5,Amarelo (Atenção),Maduro (>12 meses),88.9,0,0.0,524.38
+CLI-SaaS-0495,Starter,Saúde,4,521.1,9,6,5.9,62.9,1,0.0,0.0,Ativo,59.7,Amarelo (Atenção),Crescimento (4-12 meses),66.7,0,0.0,521.1
+CLI-SaaS-0496,Starter,Serviços Financeiros,28,586.34,8,7,4.5,70.0,0,0.0,0.0,Cancelado (Churn),60.1,Amarelo (Atenção),Maduro (>12 meses),87.5,1,586.34,0.0
+CLI-SaaS-0497,Growth,Serviços Financeiros,20,1958.13,48,36,6.3,50.3,0,0.0,0.0,Cancelado (Churn),60.4,Amarelo (Atenção),Maduro (>12 meses),75.0,1,1958.13,0.0
+CLI-SaaS-0498,Starter,Tecnologia,24,715.12,4,2,5.1,79.4,0,146.81,0.0,Ativo,60.8,Amarelo (Atenção),Maduro (>12 meses),50.0,0,0.0,861.93
+CLI-SaaS-0499,Enterprise,Indústria & Logística,32,5854.26,68,54,5.6,70.5,1,0.0,0.0,Ativo,62.8,Amarelo (Atenção),Maduro (>12 meses),79.4,0,0.0,5854.26
+CLI-SaaS-0500,Enterprise,Saúde,36,8112.3,109,104,5.5,89.8,1,3376.56,0.0,Ativo,71.4,Verde (Saudável),Maduro (>12 meses),95.4,0,0.0,11488.86
