@@ -9,16 +9,16 @@
 
 > **Autor:** [Wendell Barbosa Costa](https://github.com/wendellbarbosacosta-cmyk)  
 > **Posicionamento:** Especialista em Análise de Dados, Engenharia de Analytics & Modelagem de Decisão Executiva  
-> **Foco:** Resolução de dores de negócio complexas com impacto financeiro comprovado (P&L, Balanço, LTV e Retenção de Receita)
+> **Foco:** Resolução de dores de negócio complexas com impacto financeiro comprovado (P&L, Balanço, LTV, MLR e Retenção de Receita)
 
 ---
 
 ## 📌 Visão Geral do Portfólio
 
-Este repositório reúne projetos analíticos end-to-end de alta complexidade em três dos setores mais dinâmicos da economia contemporânea: **Fintech & Bancos Digitais**, **Varejo Omnichannel & Supply Chain**, e **SaaS B2B & Economia da Assinatura**.
+Este repositório reúne projetos analíticos end-to-end de alta complexidade em quatro dos setores mais dinâmicos da economia contemporânea: **Fintech & Bancos Digitais**, **Varejo Omnichannel & Supply Chain**, **SaaS B2B & Economia da Assinatura**, e **HealthTech & Saúde Suplementar (Regulamentação ANS)**.
 
 Cada módulo foi desenhado com:
-* **Arcabouço Regulatório e Operacional Real:** Resolução BACEN CMN nº 2.682 para provisão PCLD, metas contratuais de SLA/OTIF logístico e benchmarks globais de NRR/Health Score em SaaS.
+* **Arcabouço Regulatório e Operacional Real:** Resolução BACEN CMN nº 2.682 para provisão PCLD, metas contratuais de SLA/OTIF logístico, benchmarks globais de NRR/Health Score em SaaS e diretrizes de sinistralidade (MLR)/LACE Index na Saúde Suplementar.
 * **Storytelling Executivo:** Resposta analítica direta a 3 perguntas críticas de negócio com modelagem de ROI para suporte ao C-Level e Conselho de Administração.
 * **Engenharia de Software e Performance:** Código 100% vetorizado em Pandas/NumPy, conformidade com a PEP 8, type hints estritos, tratamento de encoding UTF-8 multiplataforma e suite completa de testes unitários automatizados com `pytest`.
 
@@ -31,6 +31,7 @@ Cada módulo foi desenhado com:
 | **[01. NexusRisk](./01_nexusrisk_fintech_credit/)** | Fintech & Crédito PF | Inadimplência D90+ em canais de afiliados e alavancagem tóxica | Res. CMN/BACEN 2.682, Rating de Risco (AA-H) e DTI | Taxa D90+: **9,8% ➔ 4,9%** | **R$ 2,73M** em economia de PCLD (ROI **18,2x**) |
 | **[02. OmniLog](./02_omnilog_ecommerce_logistics/)** | E-Commerce & Supply Chain | Quebra de SLA de entrega e vazamento de margem em fretes | Métrica OTIF (On-Time In-Full) e Churn de Recompra | OTIF: **83,8% ➔ 96,2%** | **R$ 768k** em LTV recuperado (ROI **13,8x**) |
 | **[03. PulseSaaS](./03_pulsesaas_b2b_subscriptions/)** | SaaS B2B & Cloud Subscriptions | Queda de NRR e evasão no onboarding (*Onboarding Cliff*) | Health Score Ponderado (4 pilares), NRR e Quick Ratio | NRR: **91,4% ➔ 112,8%** | **R$ 648k** em ARR preservado (ROI **10,8x**) |
+| **[04. CarePulse](./04_carepulse_healthtech_analytics/)** | HealthTech & Saúde Suplementar | Sinistralidade (MLR) alta, readmissão 30d e distorção em glosas | LACE Index, Auditoria Concorrente e Padrões ANS | MLR: **88,4% ➔ 76,2%** | **R$ 1,56M** em internações e glosas evitadas (ROI **8,7x**) |
 
 ---
 
@@ -57,10 +58,17 @@ portfolio-data-analytics-wendell-barbosa/
 │   ├── requirements.txt                        # Dependências específicas do módulo
 │   └── README.md                               # Documentação executiva completa
 │
+├── 04_carepulse_healthtech_analytics/          # Módulo 4: Sinistralidade Hospitalar & HealthTech
+│   ├── dataset_healthcare_sinistralidade.csv   # Base de internações, LACE e glosas
+│   ├── pipeline_healthcare_analytics.py        # Pipeline de MLR, readmissão e ROI em Saúde
+│   ├── requirements.txt                        # Dependências específicas do módulo
+│   └── README.md                               # Documentação executiva completa
+│
 ├── tests/                                      # Suite de Testes Automatizados (Pytest)
 │   ├── __init__.py
 │   ├── test_credit_risk.py                     # Validação de regras BACEN, ratings e PCLD
 │   ├── test_ecommerce_logistics.py             # Validação de OTIF, subsídios e indenizações
+│   ├── test_healthcare_analytics.py            # Validação de LACE Index, MLR e glosas
 │   └── test_saas_metrics.py                    # Validação de Health Score, NRR e churn
 │
 ├── .gitignore                                  # Governança de arquivos, dados e caches
@@ -76,7 +84,7 @@ portfolio-data-analytics-wendell-barbosa/
 * **Vetorização de Alta Performance:** Substituição sistemática de iterações lentas (`df.apply(..., axis=1)`) por matrizes lógicas e `np.select` do NumPy, assegurando execução em milissegundos mesmo sobre bases volumosas.
 * **Governança e Reprodutibilidade:** Seeds pseudoaleatórios fixados (`random_seed=42`) para garantir que qualquer analista, auditor ou recrutador obtenha rigorosamente os mesmos números e distribuições.
 * **Tipagem Estrita e Clean Code:** Type annotations nativas (`typing`, `dataclasses`), padrões PEP 8 estritos e docstrings no padrão Google Style.
-* **Confiabilidade com Pytest:** 9 testes automatizados cobrindo lógica matemática, faixas limítrofes, integridade de schema e cálculos de ROI.
+* **Confiabilidade com Pytest:** 12 testes automatizados cobrindo lógica matemática, faixas limítrofes, integridade de schema e cálculos de ROI com 100% de taxa de aprovação.
 
 ---
 
@@ -128,6 +136,9 @@ python 02_omnilog_ecommerce_logistics/pipeline_ecommerce_logistics.py
 
 # Executar Módulo de SaaS B2B (PulseSaaS)
 python 03_pulsesaas_b2b_subscriptions/pipeline_saas_metrics.py
+
+# Executar Módulo de Saúde Suplementar (CarePulse)
+python 04_carepulse_healthtech_analytics/pipeline_healthcare_analytics.py
 ```
 
 ---

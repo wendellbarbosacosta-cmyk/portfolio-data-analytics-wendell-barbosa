@@ -1,0 +1,601 @@
+paciente_id,plano_saude,faixa_etaria,hospital_prestador,tipo_internacao,num_comorbidades,dias_internacao,dias_uti,custo_sinistro_rs,receita_anual_rs,lace_index,readmissao_30_dias,taxa_glosa_pct,sinistralidade_pct,faixa_risco_lace,valor_glosa_rs,flag_custo_catastrofico
+PAC-1000,Plano Especial Corporativo,18-35 anos,Clínica Vida & Saúde,Cirúrgica Eletiva,3,1,0,12843.64,15973.27,6,False,23.4,80.41,Médio Risco (LACE 5-9),3005.41,False
+PAC-1001,Plano Básico Individual,36-50 anos,Hospital Santa Cruz,Oncológica,1,23,6,52556.12,12521.8,11,True,3.77,419.72,Alto Risco (LACE 10+),1981.37,True
+PAC-1002,Plano Básico Individual,18-35 anos,Clínica Vida & Saúde,Cirúrgica Emergência,1,12,1,24878.76,11317.62,12,False,7.7,219.82,Alto Risco (LACE 10+),1915.66,False
+PAC-1003,Plano Básico Individual,18-35 anos,Hospital Sírio Metropolitano,Cirúrgica Eletiva,1,1,1,21925.37,9569.39,4,False,20.18,229.12,Baixo Risco (LACE 0-4),4424.54,False
+PAC-1004,Plano Básico Individual,18-35 anos,Hospital Samaritano Central,Clínica Geral,0,1,0,5648.55,10149.79,2,False,15.5,55.65,Baixo Risco (LACE 0-4),875.53,False
+PAC-1005,Plano Especial Corporativo,51-65 anos,Hospital Sírio Metropolitano,Clínica Geral,2,3,0,8144.77,18768.66,8,False,18.6,43.4,Médio Risco (LACE 5-9),1514.93,False
+PAC-1006,Plano Básico Individual,36-50 anos,Hospital Sírio Metropolitano,Clínica Geral,1,1,0,8097.21,9719.79,3,True,9.8,83.31,Baixo Risco (LACE 0-4),793.53,False
+PAC-1007,Plano Executivo Premium,36-50 anos,Rede D'Or Barra,Cardiológica,1,14,6,42346.93,31884.37,12,False,1.73,132.81,Alto Risco (LACE 10+),732.6,True
+PAC-1008,Plano Especial Corporativo,51-65 anos,Rede D'Or Barra,Cirúrgica Emergência,0,8,1,29968.54,20407.85,10,True,8.25,146.85,Alto Risco (LACE 10+),2472.4,True
+PAC-1009,Plano Especial Corporativo,51-65 anos,Rede D'Or Barra,Cirúrgica Emergência,1,10,3,40724.27,15717.57,13,False,21.81,259.1,Alto Risco (LACE 10+),8881.96,True
+PAC-1010,Plano Básico Individual,18-35 anos,Rede D'Or Barra,Clínica Geral,0,3,0,9053.56,10661.46,4,False,9.04,84.92,Baixo Risco (LACE 0-4),818.44,False
+PAC-1011,Plano Executivo Premium,Acima de 65 anos,Clínica Vida & Saúde,Oncológica,0,4,3,22347.45,27116.05,6,False,2.41,82.41,Médio Risco (LACE 5-9),538.57,False
+PAC-1012,Plano Executivo Premium,51-65 anos,Hospital Santa Cruz,Cardiológica,0,9,2,20154.64,32304.14,11,False,6.88,62.39,Alto Risco (LACE 10+),1386.64,False
+PAC-1013,Plano Especial Corporativo,18-35 anos,Hospital Samaritano Central,Clínica Geral,0,1,0,6410.12,16873.67,1,False,19.29,37.99,Baixo Risco (LACE 0-4),1236.51,False
+PAC-1014,Plano Especial Corporativo,Acima de 65 anos,Hospital Sírio Metropolitano,Clínica Geral,2,11,4,30758.67,20445.72,11,False,3.43,150.44,Alto Risco (LACE 10+),1055.02,True
+PAC-1015,Plano Especial Corporativo,Acima de 65 anos,Clínica Vida & Saúde,Clínica Geral,1,6,3,21652.42,20727.27,8,False,9.5,104.46,Médio Risco (LACE 5-9),2056.98,False
+PAC-1016,Plano Básico Individual,18-35 anos,Hospital Samaritano Central,Clínica Geral,2,2,1,9479.44,10295.62,6,True,20.16,92.07,Médio Risco (LACE 5-9),1911.06,False
+PAC-1017,Plano Especial Corporativo,36-50 anos,Clínica Vida & Saúde,Cirúrgica Eletiva,1,4,2,25767.14,18252.58,6,False,28.05,141.17,Médio Risco (LACE 5-9),7227.68,True
+PAC-1018,Plano Básico Individual,Acima de 65 anos,Clínica Vida & Saúde,Cirúrgica Eletiva,1,9,3,34497.02,12855.75,9,False,9.47,268.34,Médio Risco (LACE 5-9),3266.87,True
+PAC-1019,Plano Básico Individual,Acima de 65 anos,Hospital Sírio Metropolitano,Clínica Geral,4,20,4,40304.7,11063.98,12,False,10.65,364.29,Alto Risco (LACE 10+),4292.45,True
+PAC-1020,Plano Básico Individual,36-50 anos,Hospital Santa Cruz,Cirúrgica Emergência,1,10,4,37705.58,10016.04,13,True,12.44,376.45,Alto Risco (LACE 10+),4690.57,True
+PAC-1021,Plano Básico Individual,36-50 anos,Rede D'Or Barra,Clínica Geral,1,4,0,8598.8,8529.37,7,True,10.59,100.81,Médio Risco (LACE 5-9),910.61,False
+PAC-1022,Plano Básico Individual,36-50 anos,Hospital Santa Cruz,Clínica Geral,3,1,0,3149.78,9976.3,6,False,7.16,31.57,Médio Risco (LACE 5-9),225.52,False
+PAC-1023,Plano Básico Individual,51-65 anos,Hospital Sírio Metropolitano,Cirúrgica Eletiva,3,2,0,12467.08,8841.02,7,False,26.57,141.01,Médio Risco (LACE 5-9),3312.5,False
+PAC-1024,Plano Executivo Premium,51-65 anos,Hospital Sírio Metropolitano,Cirúrgica Eletiva,1,3,0,19211.04,35497.42,5,False,6.5,54.12,Médio Risco (LACE 5-9),1248.72,False
+PAC-1025,Plano Especial Corporativo,36-50 anos,Hospital Sírio Metropolitano,Cardiológica,1,11,7,41801.78,19038.57,12,False,5.11,219.56,Alto Risco (LACE 10+),2136.07,True
+PAC-1026,Plano Executivo Premium,51-65 anos,Hospital Samaritano Central,Clínica Geral,2,7,1,16003.35,32777.96,11,False,21.08,48.82,Alto Risco (LACE 10+),3373.51,False
+PAC-1027,Plano Básico Individual,Acima de 65 anos,Hospital Santa Cruz,Cirúrgica Eletiva,1,8,4,39924.27,10156.51,9,True,16.85,393.09,Médio Risco (LACE 5-9),6727.24,True
+PAC-1028,Plano Básico Individual,18-35 anos,Hospital Santa Cruz,Cirúrgica Eletiva,1,5,2,23758.97,10570.48,7,True,17.66,224.77,Médio Risco (LACE 5-9),4195.83,False
+PAC-1029,Plano Especial Corporativo,36-50 anos,Clínica Vida & Saúde,Clínica Geral,2,5,0,9008.55,14051.03,9,False,10.03,64.11,Médio Risco (LACE 5-9),903.56,False
+PAC-1030,Plano Básico Individual,51-65 anos,Clínica Vida & Saúde,Cirúrgica Emergência,0,18,5,54210.02,12733.78,11,True,7.64,425.72,Alto Risco (LACE 10+),4141.65,True
+PAC-1031,Plano Básico Individual,Acima de 65 anos,Clínica Vida & Saúde,Clínica Geral,2,17,8,49044.26,11017.64,11,True,7.58,445.14,Alto Risco (LACE 10+),3717.55,True
+PAC-1032,Plano Especial Corporativo,51-65 anos,Hospital Sírio Metropolitano,Clínica Geral,1,6,2,17477.25,18982.03,9,False,11.51,92.07,Médio Risco (LACE 5-9),2011.63,False
+PAC-1033,Plano Básico Individual,51-65 anos,Hospital Santa Cruz,Oncológica,1,7,3,21021.74,8854.68,9,False,12.71,237.41,Médio Risco (LACE 5-9),2671.86,False
+PAC-1034,Plano Especial Corporativo,18-35 anos,Hospital Sírio Metropolitano,Oncológica,4,18,2,32353.74,14801.96,12,False,15.0,218.58,Alto Risco (LACE 10+),4853.06,True
+PAC-1035,Plano Especial Corporativo,51-65 anos,Hospital Samaritano Central,Cardiológica,0,5,0,12779.47,21797.52,8,False,0.84,58.63,Médio Risco (LACE 5-9),107.35,False
+PAC-1036,Plano Básico Individual,51-65 anos,Clínica Vida & Saúde,Clínica Geral,1,2,1,9979.15,8253.11,4,False,5.67,120.91,Baixo Risco (LACE 0-4),565.82,False
+PAC-1037,Plano Básico Individual,36-50 anos,Hospital Sírio Metropolitano,Clínica Geral,1,3,0,8724.92,8056.51,7,False,12.24,108.3,Médio Risco (LACE 5-9),1067.93,False
+PAC-1038,Plano Especial Corporativo,36-50 anos,Hospital Sírio Metropolitano,Cirúrgica Emergência,0,7,3,28564.79,21790.4,10,False,14.68,131.09,Alto Risco (LACE 10+),4193.31,True
+PAC-1039,Plano Especial Corporativo,36-50 anos,Hospital Samaritano Central,Cirúrgica Eletiva,1,1,0,19304.27,16997.78,3,False,2.25,113.57,Baixo Risco (LACE 0-4),434.35,False
+PAC-1040,Plano Básico Individual,18-35 anos,Rede D'Or Barra,Clínica Geral,2,2,1,12217.35,9121.59,6,False,18.32,133.94,Médio Risco (LACE 5-9),2238.22,False
+PAC-1041,Plano Executivo Premium,36-50 anos,Hospital Santa Cruz,Cirúrgica Eletiva,0,4,0,15281.44,28049.45,5,False,11.73,54.48,Médio Risco (LACE 5-9),1792.51,False
+PAC-1042,Plano Básico Individual,36-50 anos,Rede D'Or Barra,Clínica Geral,1,5,1,13588.94,9672.01,7,False,2.44,140.5,Médio Risco (LACE 5-9),331.57,False
+PAC-1043,Plano Especial Corporativo,36-50 anos,Clínica Vida & Saúde,Oncológica,4,13,5,37640.15,20081.29,12,False,5.35,187.44,Alto Risco (LACE 10+),2013.75,True
+PAC-1044,Plano Executivo Premium,18-35 anos,Hospital Sírio Metropolitano,Clínica Geral,1,3,0,7956.1,32156.37,6,False,0.18,24.74,Médio Risco (LACE 5-9),14.32,False
+PAC-1045,Plano Básico Individual,Acima de 65 anos,Hospital Samaritano Central,Cirúrgica Emergência,1,19,5,46613.45,12430.43,12,False,24.51,374.99,Alto Risco (LACE 10+),11424.96,True
+PAC-1046,Plano Básico Individual,51-65 anos,Hospital Samaritano Central,Clínica Geral,4,2,0,6194.77,11361.92,9,False,18.01,54.52,Médio Risco (LACE 5-9),1115.68,False
+PAC-1047,Plano Básico Individual,51-65 anos,Hospital Santa Cruz,Cirúrgica Eletiva,1,4,0,11190.27,11689.75,6,False,4.9,95.73,Médio Risco (LACE 5-9),548.32,False
+PAC-1048,Plano Básico Individual,Acima de 65 anos,Rede D'Or Barra,Cirúrgica Eletiva,1,17,2,45924.64,8781.01,11,False,13.43,523.0,Alto Risco (LACE 10+),6167.68,True
+PAC-1049,Plano Básico Individual,51-65 anos,Hospital Santa Cruz,Clínica Geral,3,4,1,12351.26,10338.41,11,False,18.61,119.47,Alto Risco (LACE 10+),2298.57,False
+PAC-1050,Plano Especial Corporativo,18-35 anos,Hospital Sírio Metropolitano,Oncológica,0,5,2,18540.67,20804.6,6,False,9.44,89.12,Médio Risco (LACE 5-9),1750.24,False
+PAC-1051,Plano Básico Individual,51-65 anos,Hospital Santa Cruz,Cardiológica,1,14,6,39201.37,12091.9,14,True,6.96,324.2,Alto Risco (LACE 10+),2728.42,True
+PAC-1052,Plano Especial Corporativo,51-65 anos,Hospital Samaritano Central,Oncológica,2,13,6,37945.08,15007.64,13,True,4.32,252.84,Alto Risco (LACE 10+),1639.23,True
+PAC-1053,Plano Executivo Premium,Acima de 65 anos,Hospital Samaritano Central,Cardiológica,0,8,4,28594.27,32190.39,12,False,6.64,88.83,Alto Risco (LACE 10+),1898.66,True
+PAC-1054,Plano Especial Corporativo,51-65 anos,Clínica Vida & Saúde,Cirúrgica Eletiva,2,1,0,9051.43,19538.83,7,False,7.28,46.33,Médio Risco (LACE 5-9),658.94,False
+PAC-1055,Plano Especial Corporativo,18-35 anos,Clínica Vida & Saúde,Oncológica,0,13,3,27585.2,15047.79,7,True,7.22,183.32,Médio Risco (LACE 5-9),1991.65,True
+PAC-1056,Plano Básico Individual,36-50 anos,Hospital Sírio Metropolitano,Clínica Geral,1,6,1,14705.03,10392.64,9,True,11.21,141.49,Médio Risco (LACE 5-9),1648.43,False
+PAC-1057,Plano Especial Corporativo,36-50 anos,Rede D'Or Barra,Clínica Geral,2,3,0,6537.71,16068.73,7,False,18.8,40.69,Médio Risco (LACE 5-9),1229.09,False
+PAC-1058,Plano Especial Corporativo,51-65 anos,Hospital Santa Cruz,Clínica Geral,0,3,0,6699.09,16367.46,4,False,2.4,40.93,Baixo Risco (LACE 0-4),160.78,False
+PAC-1059,Plano Básico Individual,51-65 anos,Hospital Sírio Metropolitano,Clínica Geral,3,3,1,12230.64,10819.6,8,False,22.15,113.04,Médio Risco (LACE 5-9),2709.09,False
+PAC-1060,Plano Básico Individual,36-50 anos,Clínica Vida & Saúde,Cirúrgica Eletiva,1,2,0,11355.54,12586.34,6,True,6.99,90.22,Médio Risco (LACE 5-9),793.75,False
+PAC-1061,Plano Executivo Premium,Acima de 65 anos,Hospital Santa Cruz,Clínica Geral,2,6,2,18720.62,32373.99,11,False,10.17,57.83,Alto Risco (LACE 10+),1903.89,False
+PAC-1062,Plano Básico Individual,51-65 anos,Clínica Vida & Saúde,Cardiológica,0,10,5,35779.78,9479.12,12,False,3.45,377.46,Alto Risco (LACE 10+),1234.4,True
+PAC-1063,Plano Básico Individual,36-50 anos,Hospital Santa Cruz,Cirúrgica Eletiva,0,4,1,11404.82,11643.89,4,False,4.06,97.95,Baixo Risco (LACE 0-4),463.04,False
+PAC-1064,Plano Básico Individual,18-35 anos,Rede D'Or Barra,Clínica Geral,1,6,0,9701.56,8472.09,10,False,14.21,114.51,Alto Risco (LACE 10+),1378.59,False
+PAC-1065,Plano Básico Individual,18-35 anos,Hospital Sírio Metropolitano,Cirúrgica Eletiva,0,2,1,21791.99,8591.09,3,False,10.92,253.66,Baixo Risco (LACE 0-4),2379.69,False
+PAC-1066,Plano Especial Corporativo,36-50 anos,Hospital Santa Cruz,Clínica Geral,2,1,0,7622.84,21661.05,6,True,17.39,35.19,Médio Risco (LACE 5-9),1325.61,False
+PAC-1067,Plano Especial Corporativo,18-35 anos,Hospital Samaritano Central,Cardiológica,1,12,5,36282.28,18857.08,15,True,19.56,192.41,Alto Risco (LACE 10+),7096.81,True
+PAC-1068,Plano Especial Corporativo,36-50 anos,Hospital Samaritano Central,Clínica Geral,3,1,0,3764.51,15415.18,7,True,21.93,24.42,Médio Risco (LACE 5-9),825.56,False
+PAC-1069,Plano Básico Individual,36-50 anos,Hospital Santa Cruz,Oncológica,2,9,6,38186.86,10913.57,11,True,9.72,349.9,Alto Risco (LACE 10+),3711.76,True
+PAC-1070,Plano Básico Individual,18-35 anos,Hospital Santa Cruz,Cardiológica,2,7,3,24502.9,11410.96,16,True,16.89,214.73,Alto Risco (LACE 10+),4138.54,False
+PAC-1071,Plano Especial Corporativo,Acima de 65 anos,Hospital Santa Cruz,Clínica Geral,1,6,1,15648.52,19547.38,8,False,5.53,80.05,Médio Risco (LACE 5-9),865.36,False
+PAC-1072,Plano Básico Individual,18-35 anos,Hospital Samaritano Central,Clínica Geral,0,6,1,16925.19,11095.86,8,False,10.49,152.54,Médio Risco (LACE 5-9),1775.45,False
+PAC-1073,Plano Básico Individual,51-65 anos,Hospital Samaritano Central,Cardiológica,2,8,5,28725.23,8627.75,14,True,18.9,332.94,Alto Risco (LACE 10+),5429.07,True
+PAC-1074,Plano Especial Corporativo,51-65 anos,Hospital Santa Cruz,Cirúrgica Emergência,2,27,2,43155.55,14843.87,17,False,8.21,290.73,Alto Risco (LACE 10+),3543.07,True
+PAC-1075,Plano Básico Individual,Acima de 65 anos,Clínica Vida & Saúde,Cirúrgica Emergência,1,16,5,53232.44,8207.89,13,False,7.62,648.55,Alto Risco (LACE 10+),4056.31,True
+PAC-1076,Plano Especial Corporativo,18-35 anos,Clínica Vida & Saúde,Cardiológica,0,22,4,45083.13,21183.48,12,False,4.33,212.82,Alto Risco (LACE 10+),1952.1,True
+PAC-1077,Plano Básico Individual,36-50 anos,Rede D'Or Barra,Clínica Geral,1,4,0,10947.62,10330.91,7,False,16.96,105.97,Médio Risco (LACE 5-9),1856.72,False
+PAC-1078,Plano Básico Individual,Acima de 65 anos,Hospital Sírio Metropolitano,Cirúrgica Eletiva,2,12,4,45313.33,8104.67,12,True,30.0,559.1,Alto Risco (LACE 10+),13594.0,True
+PAC-1079,Plano Básico Individual,Acima de 65 anos,Clínica Vida & Saúde,Clínica Geral,1,8,4,26760.81,11378.31,9,False,10.28,235.19,Médio Risco (LACE 5-9),2751.01,True
+PAC-1080,Plano Executivo Premium,Acima de 65 anos,Hospital Samaritano Central,Cardiológica,2,18,4,41728.98,27010.55,17,True,6.07,154.49,Alto Risco (LACE 10+),2532.95,True
+PAC-1081,Plano Especial Corporativo,36-50 anos,Clínica Vida & Saúde,Cirúrgica Emergência,3,10,4,29301.06,16714.44,16,True,9.43,175.3,Alto Risco (LACE 10+),2763.09,True
+PAC-1082,Plano Executivo Premium,18-35 anos,Rede D'Or Barra,Clínica Geral,2,1,1,9157.82,28256.74,8,True,22.94,32.41,Médio Risco (LACE 5-9),2100.8,False
+PAC-1083,Plano Especial Corporativo,51-65 anos,Rede D'Or Barra,Clínica Geral,1,2,0,6618.08,19277.52,5,False,12.75,34.33,Médio Risco (LACE 5-9),843.81,False
+PAC-1084,Plano Básico Individual,Acima de 65 anos,Hospital Sírio Metropolitano,Clínica Geral,2,22,6,53078.9,11243.83,11,False,5.36,472.07,Alto Risco (LACE 10+),2845.03,True
+PAC-1085,Plano Especial Corporativo,51-65 anos,Clínica Vida & Saúde,Clínica Geral,4,11,0,17041.13,15014.59,12,False,5.12,113.5,Alto Risco (LACE 10+),872.51,False
+PAC-1086,Plano Especial Corporativo,51-65 anos,Hospital Samaritano Central,Cirúrgica Emergência,1,5,1,13593.56,18418.93,12,False,26.7,73.8,Alto Risco (LACE 10+),3629.48,False
+PAC-1087,Plano Especial Corporativo,36-50 anos,Hospital Samaritano Central,Cirúrgica Emergência,1,15,4,47650.19,18322.23,12,False,7.73,260.07,Alto Risco (LACE 10+),3683.36,True
+PAC-1088,Plano Básico Individual,Acima de 65 anos,Hospital Santa Cruz,Cardiológica,2,10,4,28724.21,8717.35,15,True,9.84,329.51,Alto Risco (LACE 10+),2826.46,True
+PAC-1089,Plano Especial Corporativo,36-50 anos,Hospital Samaritano Central,Cirúrgica Eletiva,2,3,0,21673.35,20041.07,7,False,3.66,108.14,Médio Risco (LACE 5-9),793.24,False
+PAC-1090,Plano Básico Individual,36-50 anos,Hospital Sírio Metropolitano,Clínica Geral,2,6,1,16203.34,12143.26,10,False,29.43,133.43,Alto Risco (LACE 10+),4768.64,False
+PAC-1091,Plano Básico Individual,51-65 anos,Hospital Sírio Metropolitano,Cirúrgica Emergência,1,7,2,32861.6,12854.7,12,False,13.22,255.64,Alto Risco (LACE 10+),4344.3,True
+PAC-1092,Plano Especial Corporativo,51-65 anos,Hospital Samaritano Central,Cardiológica,2,12,4,32259.26,18645.16,15,True,30.0,173.02,Alto Risco (LACE 10+),9677.78,True
+PAC-1093,Plano Especial Corporativo,36-50 anos,Hospital Samaritano Central,Cirúrgica Eletiva,2,3,1,25797.59,14176.53,8,False,6.95,181.97,Médio Risco (LACE 5-9),1792.93,True
+PAC-1094,Plano Básico Individual,18-35 anos,Hospital Santa Cruz,Cardiológica,4,7,3,24286.29,9904.76,15,False,2.68,245.2,Alto Risco (LACE 10+),650.87,False
+PAC-1095,Plano Básico Individual,51-65 anos,Hospital Samaritano Central,Cirúrgica Eletiva,1,3,0,10325.5,10212.89,6,True,24.43,101.1,Médio Risco (LACE 5-9),2522.52,False
+PAC-1096,Plano Especial Corporativo,36-50 anos,Hospital Santa Cruz,Cirúrgica Eletiva,0,4,1,20958.33,20607.46,4,False,2.37,101.7,Baixo Risco (LACE 0-4),496.71,False
+PAC-1097,Plano Especial Corporativo,51-65 anos,Hospital Santa Cruz,Cirúrgica Eletiva,4,6,0,26256.61,18328.91,12,False,2.19,143.25,Alto Risco (LACE 10+),575.02,True
+PAC-1098,Plano Executivo Premium,18-35 anos,Hospital Samaritano Central,Clínica Geral,2,1,0,4663.29,24715.05,8,False,17.13,18.87,Médio Risco (LACE 5-9),798.82,False
+PAC-1099,Plano Executivo Premium,51-65 anos,Rede D'Or Barra,Clínica Geral,2,7,0,14387.6,24961.27,11,False,29.74,57.64,Alto Risco (LACE 10+),4278.87,False
+PAC-1100,Plano Especial Corporativo,51-65 anos,Rede D'Or Barra,Clínica Geral,2,1,0,5426.81,14409.2,5,True,8.72,37.66,Médio Risco (LACE 5-9),473.22,False
+PAC-1101,Plano Básico Individual,18-35 anos,Hospital Santa Cruz,Cirúrgica Emergência,1,11,4,42326.95,8726.63,12,True,30.0,485.03,Alto Risco (LACE 10+),12698.08,True
+PAC-1102,Plano Especial Corporativo,36-50 anos,Hospital Samaritano Central,Clínica Geral,1,2,0,7647.08,21024.27,4,True,14.03,36.37,Baixo Risco (LACE 0-4),1072.89,False
+PAC-1103,Plano Básico Individual,18-35 anos,Rede D'Or Barra,Cirúrgica Eletiva,1,4,0,9032.59,8926.38,6,False,10.26,101.19,Médio Risco (LACE 5-9),926.74,False
+PAC-1104,Plano Básico Individual,18-35 anos,Hospital Samaritano Central,Oncológica,0,23,7,57617.82,9483.06,9,False,21.68,607.59,Médio Risco (LACE 5-9),12491.54,True
+PAC-1105,Plano Especial Corporativo,Acima de 65 anos,Hospital Samaritano Central,Clínica Geral,1,4,4,23906.27,21591.85,6,True,7.86,110.72,Médio Risco (LACE 5-9),1879.03,False
+PAC-1106,Plano Básico Individual,36-50 anos,Hospital Samaritano Central,Cirúrgica Eletiva,3,2,0,5562.09,11352.17,7,True,1.64,49.0,Médio Risco (LACE 5-9),91.22,False
+PAC-1107,Plano Executivo Premium,Acima de 65 anos,Clínica Vida & Saúde,Cardiológica,0,5,2,15732.89,28024.46,9,False,4.01,56.14,Médio Risco (LACE 5-9),630.89,False
+PAC-1108,Plano Especial Corporativo,36-50 anos,Hospital Samaritano Central,Clínica Geral,3,3,0,8147.33,15895.39,8,True,8.98,51.26,Médio Risco (LACE 5-9),731.63,False
+PAC-1109,Plano Especial Corporativo,51-65 anos,Clínica Vida & Saúde,Clínica Geral,4,4,0,12312.73,14581.88,9,False,18.58,84.44,Médio Risco (LACE 5-9),2287.71,False
+PAC-1110,Plano Especial Corporativo,Acima de 65 anos,Hospital Santa Cruz,Clínica Geral,0,6,6,30026.61,20994.46,6,False,5.69,143.02,Médio Risco (LACE 5-9),1708.51,True
+PAC-1111,Plano Executivo Premium,51-65 anos,Rede D'Or Barra,Clínica Geral,1,2,0,10025.01,26170.7,7,False,11.93,38.31,Médio Risco (LACE 5-9),1195.98,False
+PAC-1112,Plano Especial Corporativo,51-65 anos,Rede D'Or Barra,Oncológica,1,7,3,24038.63,20660.89,11,True,9.84,116.35,Alto Risco (LACE 10+),2365.4,False
+PAC-1113,Plano Especial Corporativo,51-65 anos,Rede D'Or Barra,Cardiológica,0,11,5,32840.74,17326.55,10,False,10.87,189.54,Alto Risco (LACE 10+),3569.79,True
+PAC-1114,Plano Básico Individual,36-50 anos,Rede D'Or Barra,Cirúrgica Emergência,1,3,3,19605.11,11377.28,8,False,12.61,172.32,Médio Risco (LACE 5-9),2472.2,False
+PAC-1115,Plano Especial Corporativo,Acima de 65 anos,Rede D'Or Barra,Cardiológica,2,6,5,30460.45,21256.34,14,True,30.0,143.3,Alto Risco (LACE 10+),9138.14,True
+PAC-1116,Plano Básico Individual,Acima de 65 anos,Rede D'Or Barra,Cardiológica,2,17,4,37293.12,10968.9,15,True,3.11,339.99,Alto Risco (LACE 10+),1159.82,True
+PAC-1117,Plano Especial Corporativo,Acima de 65 anos,Rede D'Or Barra,Clínica Geral,0,5,2,17970.91,15680.86,6,False,3.03,114.6,Médio Risco (LACE 5-9),544.52,False
+PAC-1118,Plano Especial Corporativo,18-35 anos,Hospital Santa Cruz,Cardiológica,3,16,3,34764.12,18539.13,18,True,14.67,187.52,Alto Risco (LACE 10+),5099.9,True
+PAC-1119,Plano Especial Corporativo,Acima de 65 anos,Hospital Samaritano Central,Cirúrgica Eletiva,0,13,4,34762.14,16090.66,10,False,4.55,216.04,Alto Risco (LACE 10+),1581.68,True
+PAC-1120,Plano Básico Individual,Acima de 65 anos,Hospital Sírio Metropolitano,Cardiológica,1,21,4,40143.92,10481.2,14,False,24.09,383.01,Alto Risco (LACE 10+),9670.67,True
+PAC-1121,Plano Básico Individual,36-50 anos,Clínica Vida & Saúde,Cardiológica,0,15,5,41332.38,8872.05,10,True,15.59,465.87,Alto Risco (LACE 10+),6443.72,True
+PAC-1122,Plano Especial Corporativo,18-35 anos,Hospital Sírio Metropolitano,Clínica Geral,1,2,0,6793.56,18171.02,4,False,2.92,37.39,Baixo Risco (LACE 0-4),198.37,False
+PAC-1123,Plano Básico Individual,Acima de 65 anos,Hospital Sírio Metropolitano,Clínica Geral,3,9,6,35920.93,12453.29,13,False,8.73,288.45,Alto Risco (LACE 10+),3135.9,True
+PAC-1124,Plano Básico Individual,51-65 anos,Hospital Samaritano Central,Clínica Geral,1,6,1,17704.48,10860.61,8,True,4.63,163.02,Médio Risco (LACE 5-9),819.72,False
+PAC-1125,Plano Básico Individual,Acima de 65 anos,Hospital Samaritano Central,Cirúrgica Eletiva,3,7,2,23086.64,10775.67,12,True,9.28,214.25,Alto Risco (LACE 10+),2142.44,False
+PAC-1126,Plano Executivo Premium,18-35 anos,Hospital Samaritano Central,Cardiológica,1,4,0,8301.6,26061.95,12,True,11.1,31.85,Alto Risco (LACE 10+),921.48,False
+PAC-1127,Plano Especial Corporativo,Acima de 65 anos,Rede D'Or Barra,Cardiológica,2,4,2,17959.35,14110.9,11,True,12.75,127.27,Alto Risco (LACE 10+),2289.82,False
+PAC-1128,Plano Básico Individual,36-50 anos,Hospital Santa Cruz,Clínica Geral,2,7,2,17877.74,8768.92,12,False,6.88,203.88,Alto Risco (LACE 10+),1229.99,False
+PAC-1129,Plano Básico Individual,18-35 anos,Rede D'Or Barra,Cirúrgica Eletiva,1,3,1,21664.83,12658.7,6,False,17.79,171.15,Médio Risco (LACE 5-9),3854.17,False
+PAC-1130,Plano Básico Individual,18-35 anos,Hospital Santa Cruz,Cirúrgica Eletiva,4,4,0,22512.6,9280.96,12,False,5.01,242.57,Alto Risco (LACE 10+),1127.88,False
+PAC-1131,Plano Especial Corporativo,Acima de 65 anos,Hospital Santa Cruz,Clínica Geral,0,7,3,23963.12,15912.53,10,True,21.64,150.59,Alto Risco (LACE 10+),5185.62,False
+PAC-1132,Plano Especial Corporativo,51-65 anos,Hospital Sírio Metropolitano,Clínica Geral,1,5,0,9704.71,21812.49,7,False,11.28,44.49,Médio Risco (LACE 5-9),1094.69,False
+PAC-1133,Plano Básico Individual,51-65 anos,Hospital Sírio Metropolitano,Clínica Geral,1,4,1,14457.48,11458.28,6,False,9.23,126.17,Médio Risco (LACE 5-9),1334.43,False
+PAC-1134,Plano Básico Individual,36-50 anos,Hospital Santa Cruz,Oncológica,0,9,5,33559.18,10875.3,8,False,14.19,308.58,Médio Risco (LACE 5-9),4762.05,True
+PAC-1135,Plano Básico Individual,Acima de 65 anos,Hospital Santa Cruz,Clínica Geral,1,10,4,30270.77,11726.07,11,True,14.59,258.15,Alto Risco (LACE 10+),4416.51,True
+PAC-1136,Plano Especial Corporativo,36-50 anos,Rede D'Or Barra,Cirúrgica Eletiva,1,2,0,17866.97,21274.02,4,False,9.87,83.98,Baixo Risco (LACE 0-4),1763.47,False
+PAC-1137,Plano Especial Corporativo,Acima de 65 anos,Rede D'Or Barra,Cirúrgica Emergência,0,17,6,46347.91,21650.34,10,False,19.53,214.07,Alto Risco (LACE 10+),9051.75,True
+PAC-1138,Plano Básico Individual,51-65 anos,Hospital Sírio Metropolitano,Cirúrgica Eletiva,1,1,0,5981.43,9242.7,6,False,20.69,64.72,Médio Risco (LACE 5-9),1237.56,False
+PAC-1139,Plano Básico Individual,36-50 anos,Hospital Samaritano Central,Oncológica,1,15,4,37730.44,12286.15,9,False,20.4,307.1,Médio Risco (LACE 5-9),7697.01,True
+PAC-1140,Plano Básico Individual,51-65 anos,Hospital Santa Cruz,Oncológica,0,7,5,30918.5,9658.08,8,False,7.54,320.13,Médio Risco (LACE 5-9),2331.25,True
+PAC-1141,Plano Executivo Premium,36-50 anos,Rede D'Or Barra,Clínica Geral,1,10,0,15926.26,33628.75,10,False,8.07,47.36,Alto Risco (LACE 10+),1285.25,False
+PAC-1142,Plano Básico Individual,Acima de 65 anos,Hospital Sírio Metropolitano,Cirúrgica Eletiva,1,9,5,43927.4,12728.75,10,False,23.26,345.1,Alto Risco (LACE 10+),10217.51,True
+PAC-1143,Plano Especial Corporativo,51-65 anos,Rede D'Or Barra,Clínica Geral,1,5,1,15287.78,19421.79,9,False,23.69,78.71,Médio Risco (LACE 5-9),3621.68,False
+PAC-1144,Plano Especial Corporativo,36-50 anos,Hospital Santa Cruz,Clínica Geral,1,4,0,10683.85,17803.81,6,False,4.23,60.01,Médio Risco (LACE 5-9),451.93,False
+PAC-1145,Plano Básico Individual,Acima de 65 anos,Hospital Santa Cruz,Clínica Geral,2,8,5,31674.33,8945.98,11,False,14.05,354.06,Alto Risco (LACE 10+),4450.24,True
+PAC-1146,Plano Básico Individual,36-50 anos,Clínica Vida & Saúde,Cirúrgica Emergência,3,10,4,42681.96,12147.81,17,False,26.41,351.36,Alto Risco (LACE 10+),11272.31,True
+PAC-1147,Plano Básico Individual,51-65 anos,Hospital Samaritano Central,Cirúrgica Eletiva,1,2,0,17178.27,9814.91,4,False,2.4,175.02,Baixo Risco (LACE 0-4),412.28,False
+PAC-1148,Plano Especial Corporativo,Acima de 65 anos,Clínica Vida & Saúde,Clínica Geral,2,11,4,33552.47,14377.57,11,True,6.35,233.37,Alto Risco (LACE 10+),2130.58,True
+PAC-1149,Plano Especial Corporativo,51-65 anos,Hospital Sírio Metropolitano,Clínica Geral,2,3,0,7268.64,21536.47,7,False,12.13,33.75,Médio Risco (LACE 5-9),881.69,False
+PAC-1150,Plano Especial Corporativo,18-35 anos,Rede D'Or Barra,Oncológica,0,15,3,29963.85,18354.06,9,True,23.16,163.25,Médio Risco (LACE 5-9),6939.63,True
+PAC-1151,Plano Especial Corporativo,Acima de 65 anos,Hospital Sírio Metropolitano,Clínica Geral,4,9,3,25795.42,17525.32,13,True,16.58,147.19,Alto Risco (LACE 10+),4276.88,True
+PAC-1152,Plano Básico Individual,51-65 anos,Hospital Santa Cruz,Clínica Geral,1,3,0,11429.39,9249.86,7,True,19.27,123.56,Médio Risco (LACE 5-9),2202.44,False
+PAC-1153,Plano Executivo Premium,36-50 anos,Clínica Vida & Saúde,Cirúrgica Eletiva,2,3,0,13630.36,33420.77,8,False,5.6,40.78,Médio Risco (LACE 5-9),763.3,False
+PAC-1154,Plano Especial Corporativo,18-35 anos,Clínica Vida & Saúde,Oncológica,2,12,4,32087.83,16053.18,14,True,7.75,199.88,Alto Risco (LACE 10+),2486.81,True
+PAC-1155,Plano Básico Individual,Acima de 65 anos,Clínica Vida & Saúde,Clínica Geral,1,10,5,36638.31,10176.31,9,False,3.45,360.04,Médio Risco (LACE 5-9),1264.02,True
+PAC-1156,Plano Executivo Premium,51-65 anos,Hospital Sírio Metropolitano,Cirúrgica Emergência,0,8,2,26647.05,26635.62,11,True,27.37,100.04,Alto Risco (LACE 10+),7293.3,True
+PAC-1157,Plano Especial Corporativo,51-65 anos,Hospital Santa Cruz,Cardiológica,1,12,3,27223.37,19792.23,14,False,4.47,137.55,Alto Risco (LACE 10+),1216.88,True
+PAC-1158,Plano Especial Corporativo,Acima de 65 anos,Rede D'Or Barra,Clínica Geral,0,9,4,28410.09,16998.6,7,True,21.38,167.13,Médio Risco (LACE 5-9),6074.08,True
+PAC-1159,Plano Especial Corporativo,Acima de 65 anos,Rede D'Or Barra,Cirúrgica Emergência,3,18,2,47932.27,15861.83,16,True,7.17,302.19,Alto Risco (LACE 10+),3436.74,True
+PAC-1160,Plano Especial Corporativo,18-35 anos,Hospital Sírio Metropolitano,Cirúrgica Eletiva,0,3,0,14025.42,19404.69,3,False,8.12,72.28,Baixo Risco (LACE 0-4),1138.86,False
+PAC-1161,Plano Especial Corporativo,36-50 anos,Clínica Vida & Saúde,Cirúrgica Emergência,3,16,1,38459.95,17685.87,15,False,8.43,217.46,Alto Risco (LACE 10+),3242.17,True
+PAC-1162,Plano Básico Individual,36-50 anos,Hospital Samaritano Central,Cirúrgica Emergência,2,9,5,34896.22,10691.97,15,True,13.95,326.38,Alto Risco (LACE 10+),4868.02,True
+PAC-1163,Plano Básico Individual,Acima de 65 anos,Hospital Sírio Metropolitano,Cirúrgica Eletiva,0,11,1,26230.62,9173.77,7,False,3.62,285.93,Médio Risco (LACE 5-9),949.55,True
+PAC-1164,Plano Executivo Premium,18-35 anos,Hospital Sírio Metropolitano,Clínica Geral,2,2,0,6712.61,26893.98,6,False,30.0,24.96,Médio Risco (LACE 5-9),2013.78,False
+PAC-1165,Plano Básico Individual,51-65 anos,Hospital Santa Cruz,Cardiológica,2,11,4,30129.39,12379.52,14,True,20.27,243.38,Alto Risco (LACE 10+),6107.23,True
+PAC-1166,Plano Básico Individual,Acima de 65 anos,Rede D'Or Barra,Clínica Geral,0,9,2,25024.1,8301.13,7,True,2.88,301.45,Médio Risco (LACE 5-9),720.69,True
+PAC-1167,Plano Básico Individual,Acima de 65 anos,Hospital Sírio Metropolitano,Clínica Geral,2,6,2,19749.04,8612.49,10,False,12.35,229.31,Alto Risco (LACE 10+),2439.01,False
+PAC-1168,Plano Básico Individual,36-50 anos,Hospital Sírio Metropolitano,Clínica Geral,0,2,1,9116.52,12106.25,2,False,21.27,75.3,Baixo Risco (LACE 0-4),1939.08,False
+PAC-1169,Plano Especial Corporativo,Acima de 65 anos,Clínica Vida & Saúde,Cirúrgica Eletiva,0,6,2,31088.36,15350.48,8,False,8.25,202.52,Médio Risco (LACE 5-9),2564.79,True
+PAC-1170,Plano Executivo Premium,18-35 anos,Clínica Vida & Saúde,Cirúrgica Emergência,1,19,7,62541.45,34658.3,13,False,19.33,180.45,Alto Risco (LACE 10+),12089.26,True
+PAC-1171,Plano Básico Individual,Acima de 65 anos,Hospital Samaritano Central,Clínica Geral,1,7,3,22288.91,10722.78,9,False,11.6,207.87,Médio Risco (LACE 5-9),2585.51,False
+PAC-1172,Plano Básico Individual,18-35 anos,Hospital Santa Cruz,Cirúrgica Eletiva,1,4,0,16006.3,11982.2,6,False,28.34,133.58,Médio Risco (LACE 5-9),4536.19,False
+PAC-1173,Plano Básico Individual,36-50 anos,Hospital Samaritano Central,Clínica Geral,0,5,1,12574.93,9886.82,5,False,11.98,127.19,Médio Risco (LACE 5-9),1506.48,False
+PAC-1174,Plano Executivo Premium,Acima de 65 anos,Clínica Vida & Saúde,Cirúrgica Emergência,0,7,5,43620.27,28227.92,10,True,30.0,154.53,Alto Risco (LACE 10+),13086.08,True
+PAC-1175,Plano Especial Corporativo,18-35 anos,Rede D'Or Barra,Clínica Geral,1,4,1,10911.49,21850.06,6,True,11.98,49.94,Médio Risco (LACE 5-9),1307.2,False
+PAC-1176,Plano Básico Individual,36-50 anos,Clínica Vida & Saúde,Cirúrgica Emergência,1,17,5,43246.05,8730.11,15,False,11.83,495.37,Alto Risco (LACE 10+),5116.01,True
+PAC-1177,Plano Especial Corporativo,Acima de 65 anos,Hospital Santa Cruz,Cirúrgica Eletiva,1,11,2,29001.35,16509.62,9,False,5.4,175.66,Médio Risco (LACE 5-9),1566.07,True
+PAC-1178,Plano Executivo Premium,Acima de 65 anos,Clínica Vida & Saúde,Oncológica,2,5,3,22962.87,28585.48,9,True,13.63,80.33,Médio Risco (LACE 5-9),3129.84,False
+PAC-1179,Plano Especial Corporativo,51-65 anos,Hospital Santa Cruz,Clínica Geral,1,2,0,7907.66,18807.56,6,True,18.86,42.05,Médio Risco (LACE 5-9),1491.38,False
+PAC-1180,Plano Executivo Premium,51-65 anos,Hospital Santa Cruz,Clínica Geral,4,2,0,7700.99,33611.26,9,False,11.17,22.91,Médio Risco (LACE 5-9),860.2,False
+PAC-1181,Plano Básico Individual,51-65 anos,Hospital Santa Cruz,Clínica Geral,0,2,0,8608.68,9580.51,3,True,14.87,89.86,Baixo Risco (LACE 0-4),1280.11,False
+PAC-1182,Plano Especial Corporativo,36-50 anos,Hospital Santa Cruz,Oncológica,2,10,4,27687.92,15177.31,12,False,4.59,182.43,Alto Risco (LACE 10+),1270.88,True
+PAC-1183,Plano Especial Corporativo,36-50 anos,Hospital Santa Cruz,Cardiológica,1,7,0,13110.46,14985.98,12,False,14.16,87.48,Alto Risco (LACE 10+),1856.44,False
+PAC-1184,Plano Especial Corporativo,36-50 anos,Rede D'Or Barra,Clínica Geral,1,4,2,14684.74,19932.53,8,False,9.19,73.67,Médio Risco (LACE 5-9),1349.53,False
+PAC-1185,Plano Especial Corporativo,Acima de 65 anos,Hospital Samaritano Central,Cirúrgica Emergência,1,15,5,41176.05,15329.83,12,False,15.48,268.6,Alto Risco (LACE 10+),6374.05,True
+PAC-1186,Plano Especial Corporativo,51-65 anos,Hospital Sírio Metropolitano,Cardiológica,1,8,5,30400.16,21616.5,12,True,24.79,140.63,Alto Risco (LACE 10+),7536.2,True
+PAC-1187,Plano Especial Corporativo,51-65 anos,Hospital Samaritano Central,Cirúrgica Eletiva,1,4,0,13016.79,17720.29,6,False,27.6,73.46,Médio Risco (LACE 5-9),3592.63,False
+PAC-1188,Plano Básico Individual,51-65 anos,Hospital Santa Cruz,Cirúrgica Eletiva,2,5,0,14641.04,12807.75,9,False,15.83,114.31,Médio Risco (LACE 5-9),2317.68,False
+PAC-1189,Plano Especial Corporativo,Acima de 65 anos,Rede D'Or Barra,Clínica Geral,4,7,5,28998.61,20097.4,14,True,11.57,144.29,Alto Risco (LACE 10+),3355.14,True
+PAC-1190,Plano Executivo Premium,18-35 anos,Clínica Vida & Saúde,Clínica Geral,1,2,1,10315.68,33527.22,4,False,7.15,30.77,Baixo Risco (LACE 0-4),737.57,False
+PAC-1191,Plano Executivo Premium,51-65 anos,Rede D'Or Barra,Cardiológica,0,10,6,38722.77,28740.64,10,True,13.04,134.73,Alto Risco (LACE 10+),5049.45,True
+PAC-1192,Plano Básico Individual,51-65 anos,Hospital Santa Cruz,Oncológica,1,9,4,29967.0,9784.91,11,False,3.89,306.26,Alto Risco (LACE 10+),1165.72,True
+PAC-1193,Plano Básico Individual,51-65 anos,Rede D'Or Barra,Cirúrgica Emergência,2,5,2,19560.19,9459.56,12,False,20.48,206.78,Alto Risco (LACE 10+),4005.93,False
+PAC-1194,Plano Básico Individual,18-35 anos,Rede D'Or Barra,Clínica Geral,4,3,2,16884.57,12785.67,8,True,5.79,132.06,Médio Risco (LACE 5-9),977.62,False
+PAC-1195,Plano Especial Corporativo,Acima de 65 anos,Hospital Santa Cruz,Clínica Geral,1,6,3,22042.48,16017.38,8,True,20.85,137.62,Médio Risco (LACE 5-9),4595.86,False
+PAC-1196,Plano Especial Corporativo,Acima de 65 anos,Rede D'Or Barra,Cirúrgica Emergência,0,6,0,11269.62,21818.27,10,False,13.87,51.65,Alto Risco (LACE 10+),1563.1,False
+PAC-1197,Plano Básico Individual,51-65 anos,Hospital Sírio Metropolitano,Cardiológica,0,13,5,34721.37,11640.58,10,True,9.22,298.28,Alto Risco (LACE 10+),3201.31,True
+PAC-1198,Plano Especial Corporativo,51-65 anos,Hospital Sírio Metropolitano,Cardiológica,3,18,8,53545.89,16733.13,17,True,10.39,320.0,Alto Risco (LACE 10+),5563.42,True
+PAC-1199,Plano Especial Corporativo,Acima de 65 anos,Rede D'Or Barra,Cardiológica,2,7,2,19083.41,20525.96,15,False,11.24,92.97,Alto Risco (LACE 10+),2144.98,False
+PAC-1200,Plano Especial Corporativo,51-65 anos,Clínica Vida & Saúde,Cirúrgica Emergência,1,4,3,24242.29,20957.2,10,False,30.0,115.68,Alto Risco (LACE 10+),7272.69,False
+PAC-1201,Plano Especial Corporativo,18-35 anos,Hospital Santa Cruz,Clínica Geral,2,3,0,8080.09,15324.0,8,False,12.15,52.73,Médio Risco (LACE 5-9),981.73,False
+PAC-1202,Plano Especial Corporativo,51-65 anos,Hospital Sírio Metropolitano,Clínica Geral,3,4,0,8936.32,14331.98,10,False,9.25,62.35,Alto Risco (LACE 10+),826.61,False
+PAC-1203,Plano Especial Corporativo,51-65 anos,Clínica Vida & Saúde,Cardiológica,0,13,5,35913.37,21624.96,11,False,5.56,166.07,Alto Risco (LACE 10+),1996.78,True
+PAC-1204,Plano Básico Individual,51-65 anos,Rede D'Or Barra,Cirúrgica Emergência,0,11,3,27513.16,11630.42,10,False,24.23,236.56,Alto Risco (LACE 10+),6666.44,True
+PAC-1205,Plano Especial Corporativo,Acima de 65 anos,Clínica Vida & Saúde,Clínica Geral,2,8,4,27941.1,15330.04,13,False,1.88,182.26,Alto Risco (LACE 10+),525.29,True
+PAC-1206,Plano Especial Corporativo,Acima de 65 anos,Hospital Samaritano Central,Clínica Geral,2,18,5,44599.06,20097.7,12,True,26.25,221.91,Alto Risco (LACE 10+),11707.25,True
+PAC-1207,Plano Executivo Premium,Acima de 65 anos,Hospital Sírio Metropolitano,Cirúrgica Emergência,2,5,3,29191.33,29877.43,14,True,4.69,97.7,Alto Risco (LACE 10+),1369.07,True
+PAC-1208,Plano Especial Corporativo,51-65 anos,Rede D'Or Barra,Clínica Geral,1,1,0,7829.39,15486.22,4,False,9.85,50.56,Baixo Risco (LACE 0-4),771.19,False
+PAC-1209,Plano Especial Corporativo,18-35 anos,Hospital Santa Cruz,Clínica Geral,2,3,0,7008.73,18465.37,8,False,11.25,37.96,Médio Risco (LACE 5-9),788.48,False
+PAC-1210,Plano Básico Individual,Acima de 65 anos,Rede D'Or Barra,Cirúrgica Eletiva,0,12,4,36268.27,11685.66,8,False,23.68,310.37,Médio Risco (LACE 5-9),8588.33,True
+PAC-1211,Plano Especial Corporativo,Acima de 65 anos,Hospital Santa Cruz,Cirúrgica Emergência,0,9,6,34073.6,18422.52,11,True,7.84,184.96,Alto Risco (LACE 10+),2671.37,True
+PAC-1212,Plano Básico Individual,18-35 anos,Rede D'Or Barra,Cirúrgica Emergência,1,9,7,46370.03,11070.93,13,True,13.03,418.84,Alto Risco (LACE 10+),6042.01,True
+PAC-1213,Plano Básico Individual,Acima de 65 anos,Clínica Vida & Saúde,Clínica Geral,0,9,2,19613.78,12187.36,8,True,25.02,160.94,Médio Risco (LACE 5-9),4907.37,False
+PAC-1214,Plano Especial Corporativo,Acima de 65 anos,Clínica Vida & Saúde,Cirúrgica Emergência,4,7,4,25847.18,18614.46,15,True,9.9,138.86,Alto Risco (LACE 10+),2558.87,True
+PAC-1215,Plano Executivo Premium,51-65 anos,Clínica Vida & Saúde,Clínica Geral,1,6,0,9622.57,29388.94,8,True,2.73,32.74,Médio Risco (LACE 5-9),262.7,False
+PAC-1216,Plano Básico Individual,51-65 anos,Hospital Samaritano Central,Clínica Geral,4,8,0,13192.0,9833.99,12,False,29.03,134.15,Alto Risco (LACE 10+),3829.64,False
+PAC-1217,Plano Básico Individual,36-50 anos,Hospital Santa Cruz,Cirúrgica Emergência,2,10,7,52310.49,11003.96,14,False,10.05,475.38,Alto Risco (LACE 10+),5257.2,True
+PAC-1218,Plano Especial Corporativo,18-35 anos,Clínica Vida & Saúde,Cirúrgica Emergência,2,6,3,28710.36,20062.21,14,True,17.98,143.11,Alto Risco (LACE 10+),5162.12,True
+PAC-1219,Plano Básico Individual,36-50 anos,Hospital Samaritano Central,Cardiológica,4,6,1,14863.35,12564.0,14,False,21.35,118.3,Alto Risco (LACE 10+),3173.33,False
+PAC-1220,Plano Especial Corporativo,Acima de 65 anos,Hospital Santa Cruz,Cirúrgica Emergência,2,14,4,48014.47,18473.75,14,False,11.41,259.91,Alto Risco (LACE 10+),5478.45,True
+PAC-1221,Plano Especial Corporativo,18-35 anos,Rede D'Or Barra,Cirúrgica Eletiva,2,2,1,15245.63,18825.7,8,False,20.29,80.98,Médio Risco (LACE 5-9),3093.34,False
+PAC-1222,Plano Especial Corporativo,36-50 anos,Hospital Samaritano Central,Clínica Geral,2,3,0,6339.76,18653.77,8,True,5.03,33.99,Médio Risco (LACE 5-9),318.89,False
+PAC-1223,Plano Básico Individual,36-50 anos,Hospital Sírio Metropolitano,Cirúrgica Eletiva,0,2,0,20858.62,11117.53,3,False,13.55,187.62,Baixo Risco (LACE 0-4),2826.34,False
+PAC-1224,Plano Básico Individual,51-65 anos,Hospital Samaritano Central,Clínica Geral,0,2,1,11647.08,11381.99,2,False,4.16,102.33,Baixo Risco (LACE 0-4),484.52,False
+PAC-1225,Plano Especial Corporativo,Acima de 65 anos,Hospital Samaritano Central,Clínica Geral,2,6,3,20343.73,18932.98,13,True,2.29,107.45,Alto Risco (LACE 10+),465.87,False
+PAC-1226,Plano Especial Corporativo,36-50 anos,Hospital Santa Cruz,Oncológica,1,9,2,24721.85,15672.78,10,False,6.49,157.74,Alto Risco (LACE 10+),1604.45,False
+PAC-1227,Plano Básico Individual,36-50 anos,Rede D'Or Barra,Cirúrgica Eletiva,2,2,0,14802.0,8105.05,6,False,4.83,182.63,Médio Risco (LACE 5-9),714.94,False
+PAC-1228,Plano Especial Corporativo,Acima de 65 anos,Hospital Sírio Metropolitano,Cardiológica,0,9,6,33148.87,18306.9,10,True,5.67,181.07,Alto Risco (LACE 10+),1879.54,True
+PAC-1229,Plano Básico Individual,51-65 anos,Clínica Vida & Saúde,Cirúrgica Emergência,1,9,2,36170.44,11757.12,13,False,5.97,307.65,Alto Risco (LACE 10+),2159.38,True
+PAC-1230,Plano Especial Corporativo,36-50 anos,Clínica Vida & Saúde,Cardiológica,2,10,7,38999.91,16657.38,17,False,30.0,234.13,Alto Risco (LACE 10+),11699.97,True
+PAC-1231,Plano Básico Individual,51-65 anos,Hospital Samaritano Central,Cirúrgica Eletiva,1,6,0,23776.07,11692.73,11,False,20.7,203.34,Alto Risco (LACE 10+),4921.65,False
+PAC-1232,Plano Executivo Premium,18-35 anos,Hospital Santa Cruz,Cirúrgica Eletiva,2,3,0,22577.2,31713.33,8,False,20.35,71.19,Médio Risco (LACE 5-9),4594.46,False
+PAC-1233,Plano Básico Individual,18-35 anos,Hospital Santa Cruz,Cirúrgica Eletiva,2,6,2,19993.26,12738.43,10,False,1.97,156.95,Alto Risco (LACE 10+),393.87,False
+PAC-1234,Plano Básico Individual,51-65 anos,Clínica Vida & Saúde,Clínica Geral,4,2,0,7424.95,10222.87,8,False,2.39,72.63,Médio Risco (LACE 5-9),177.46,False
+PAC-1235,Plano Básico Individual,51-65 anos,Hospital Sírio Metropolitano,Cirúrgica Emergência,1,6,2,25188.92,8840.1,12,False,8.43,284.94,Alto Risco (LACE 10+),2123.43,True
+PAC-1236,Plano Básico Individual,Acima de 65 anos,Rede D'Or Barra,Clínica Geral,1,5,2,18825.95,8758.71,7,False,20.02,214.94,Médio Risco (LACE 5-9),3768.96,False
+PAC-1237,Plano Executivo Premium,36-50 anos,Hospital Sírio Metropolitano,Clínica Geral,1,8,1,17735.81,30055.65,10,False,13.62,59.01,Alto Risco (LACE 10+),2415.62,False
+PAC-1238,Plano Executivo Premium,51-65 anos,Rede D'Or Barra,Cirúrgica Emergência,0,8,6,39671.18,30023.34,10,True,10.16,132.13,Alto Risco (LACE 10+),4030.59,True
+PAC-1239,Plano Básico Individual,51-65 anos,Clínica Vida & Saúde,Clínica Geral,1,4,1,15088.08,10284.44,6,False,7.5,146.71,Médio Risco (LACE 5-9),1131.61,False
+PAC-1240,Plano Básico Individual,18-35 anos,Rede D'Or Barra,Oncológica,1,7,1,18181.07,10748.59,9,False,5.0,169.15,Médio Risco (LACE 5-9),909.05,False
+PAC-1241,Plano Especial Corporativo,51-65 anos,Hospital Santa Cruz,Oncológica,0,9,6,34050.01,14436.88,8,False,12.38,235.85,Médio Risco (LACE 5-9),4215.39,True
+PAC-1242,Plano Executivo Premium,18-35 anos,Hospital Samaritano Central,Oncológica,0,16,5,39971.03,27658.84,10,False,14.85,144.51,Alto Risco (LACE 10+),5935.7,True
+PAC-1243,Plano Especial Corporativo,Acima de 65 anos,Hospital Samaritano Central,Cirúrgica Eletiva,0,9,2,25604.63,15819.85,7,False,12.42,161.85,Médio Risco (LACE 5-9),3180.1,True
+PAC-1244,Plano Básico Individual,18-35 anos,Clínica Vida & Saúde,Clínica Geral,1,7,0,15055.93,12455.7,10,False,8.16,120.88,Alto Risco (LACE 10+),1228.56,False
+PAC-1245,Plano Básico Individual,51-65 anos,Hospital Santa Cruz,Oncológica,2,9,5,34326.44,8921.51,13,False,10.53,384.76,Alto Risco (LACE 10+),3614.57,True
+PAC-1246,Plano Especial Corporativo,18-35 anos,Hospital Sírio Metropolitano,Cirúrgica Eletiva,2,5,0,21852.64,18847.17,11,False,6.91,115.95,Alto Risco (LACE 10+),1510.02,False
+PAC-1247,Plano Básico Individual,Acima de 65 anos,Hospital Santa Cruz,Oncológica,1,5,0,12310.24,10677.71,7,False,26.84,115.29,Médio Risco (LACE 5-9),3304.07,False
+PAC-1248,Plano Especial Corporativo,51-65 anos,Hospital Samaritano Central,Oncológica,4,14,4,36792.14,18920.56,12,False,3.01,194.46,Alto Risco (LACE 10+),1107.44,True
+PAC-1249,Plano Básico Individual,51-65 anos,Hospital Samaritano Central,Cardiológica,1,13,7,42949.91,12794.36,13,False,8.25,335.69,Alto Risco (LACE 10+),3543.37,True
+PAC-1250,Plano Especial Corporativo,18-35 anos,Hospital Santa Cruz,Clínica Geral,1,2,0,5898.94,21990.34,4,True,2.63,26.83,Baixo Risco (LACE 0-4),155.14,False
+PAC-1251,Plano Básico Individual,Acima de 65 anos,Hospital Santa Cruz,Cirúrgica Eletiva,2,4,2,16139.06,10552.3,8,False,16.06,152.94,Médio Risco (LACE 5-9),2591.93,False
+PAC-1252,Plano Especial Corporativo,36-50 anos,Hospital Samaritano Central,Cardiológica,0,5,2,15288.35,18566.83,9,False,17.93,82.34,Médio Risco (LACE 5-9),2741.2,False
+PAC-1253,Plano Especial Corporativo,Acima de 65 anos,Hospital Sírio Metropolitano,Clínica Geral,0,11,1,22887.37,16061.06,7,True,5.88,142.5,Médio Risco (LACE 5-9),1345.78,False
+PAC-1254,Plano Especial Corporativo,36-50 anos,Clínica Vida & Saúde,Clínica Geral,2,3,1,13807.77,17245.16,7,False,4.4,80.07,Médio Risco (LACE 5-9),607.54,False
+PAC-1255,Plano Básico Individual,36-50 anos,Clínica Vida & Saúde,Cirúrgica Eletiva,2,11,3,41257.69,9136.31,11,False,10.4,451.58,Alto Risco (LACE 10+),4290.8,True
+PAC-1256,Plano Especial Corporativo,18-35 anos,Hospital Santa Cruz,Oncológica,3,9,5,32793.52,15363.7,13,False,5.88,213.45,Alto Risco (LACE 10+),1928.26,True
+PAC-1257,Plano Especial Corporativo,51-65 anos,Clínica Vida & Saúde,Cirúrgica Emergência,2,7,3,28674.99,20352.12,15,False,19.26,140.89,Alto Risco (LACE 10+),5522.8,True
+PAC-1258,Plano Especial Corporativo,51-65 anos,Hospital Samaritano Central,Cirúrgica Eletiva,1,7,0,24555.86,18036.02,11,False,9.37,136.15,Alto Risco (LACE 10+),2300.88,False
+PAC-1259,Plano Especial Corporativo,18-35 anos,Hospital Samaritano Central,Clínica Geral,0,2,0,6909.36,21735.75,3,False,8.7,31.79,Baixo Risco (LACE 0-4),601.11,False
+PAC-1260,Plano Especial Corporativo,Acima de 65 anos,Hospital Santa Cruz,Cirúrgica Emergência,1,12,6,40354.01,18664.85,12,True,30.0,216.2,Alto Risco (LACE 10+),12106.2,True
+PAC-1261,Plano Especial Corporativo,51-65 anos,Hospital Santa Cruz,Oncológica,1,10,4,27076.22,20936.48,9,False,29.54,129.33,Médio Risco (LACE 5-9),7998.32,True
+PAC-1262,Plano Básico Individual,51-65 anos,Hospital Santa Cruz,Clínica Geral,0,2,1,12682.17,12477.78,4,False,3.56,101.64,Baixo Risco (LACE 0-4),451.49,False
+PAC-1263,Plano Especial Corporativo,51-65 anos,Hospital Sírio Metropolitano,Cirúrgica Eletiva,1,1,0,10616.29,16187.8,3,False,12.11,65.58,Baixo Risco (LACE 0-4),1285.63,False
+PAC-1264,Plano Especial Corporativo,51-65 anos,Clínica Vida & Saúde,Cardiológica,1,11,2,21726.95,16525.07,13,False,19.31,131.48,Alto Risco (LACE 10+),4195.47,False
+PAC-1265,Plano Básico Individual,51-65 anos,Hospital Santa Cruz,Cirúrgica Emergência,0,5,2,18647.76,10882.72,8,False,24.28,171.35,Médio Risco (LACE 5-9),4527.68,False
+PAC-1266,Plano Básico Individual,18-35 anos,Rede D'Or Barra,Cirúrgica Emergência,0,13,5,36573.08,11384.36,13,False,15.17,321.26,Alto Risco (LACE 10+),5548.14,True
+PAC-1267,Plano Básico Individual,36-50 anos,Rede D'Or Barra,Cirúrgica Emergência,2,10,3,38602.84,8151.77,14,False,17.45,473.55,Alto Risco (LACE 10+),6736.2,True
+PAC-1268,Plano Especial Corporativo,Acima de 65 anos,Hospital Samaritano Central,Cirúrgica Eletiva,3,9,2,36634.95,14581.32,13,False,6.23,251.25,Alto Risco (LACE 10+),2282.36,True
+PAC-1269,Plano Especial Corporativo,Acima de 65 anos,Clínica Vida & Saúde,Clínica Geral,1,7,3,20805.27,16317.82,10,False,12.83,127.5,Alto Risco (LACE 10+),2669.32,False
+PAC-1270,Plano Especial Corporativo,36-50 anos,Hospital Santa Cruz,Cardiológica,2,7,4,24758.86,16933.43,14,True,21.23,146.21,Alto Risco (LACE 10+),5256.31,False
+PAC-1271,Plano Especial Corporativo,36-50 anos,Rede D'Or Barra,Cardiológica,4,11,6,36529.73,14544.3,15,True,22.97,251.16,Alto Risco (LACE 10+),8390.88,True
+PAC-1272,Plano Básico Individual,51-65 anos,Clínica Vida & Saúde,Cardiológica,1,5,3,22306.15,12224.32,12,False,12.85,182.47,Alto Risco (LACE 10+),2866.34,False
+PAC-1273,Plano Básico Individual,51-65 anos,Hospital Samaritano Central,Oncológica,1,17,2,32530.05,8049.14,12,True,3.94,404.14,Alto Risco (LACE 10+),1281.68,True
+PAC-1274,Plano Básico Individual,18-35 anos,Hospital Sírio Metropolitano,Cirúrgica Eletiva,2,1,0,9199.06,12058.14,5,False,21.41,76.29,Médio Risco (LACE 5-9),1969.52,False
+PAC-1275,Plano Básico Individual,18-35 anos,Clínica Vida & Saúde,Cirúrgica Eletiva,3,2,0,20982.67,9125.81,7,False,2.74,229.93,Médio Risco (LACE 5-9),574.93,False
+PAC-1276,Plano Básico Individual,51-65 anos,Clínica Vida & Saúde,Cardiológica,1,15,3,34750.99,10841.34,13,False,12.25,320.54,Alto Risco (LACE 10+),4257.0,True
+PAC-1277,Plano Básico Individual,51-65 anos,Hospital Sírio Metropolitano,Cirúrgica Emergência,1,9,4,41017.21,10846.52,12,False,21.08,378.16,Alto Risco (LACE 10+),8646.43,True
+PAC-1278,Plano Especial Corporativo,18-35 anos,Clínica Vida & Saúde,Cirúrgica Emergência,1,11,3,35383.32,16481.88,12,False,9.08,214.68,Alto Risco (LACE 10+),3212.81,True
+PAC-1279,Plano Especial Corporativo,36-50 anos,Hospital Samaritano Central,Cardiológica,2,9,3,24875.08,15066.27,16,False,18.3,165.1,Alto Risco (LACE 10+),4552.14,False
+PAC-1280,Plano Executivo Premium,36-50 anos,Hospital Samaritano Central,Cardiológica,4,7,4,28019.54,25367.59,15,False,4.62,110.45,Alto Risco (LACE 10+),1294.5,True
+PAC-1281,Plano Executivo Premium,51-65 anos,Hospital Sírio Metropolitano,Clínica Geral,4,6,1,15361.72,30344.49,11,False,3.46,50.62,Alto Risco (LACE 10+),531.52,False
+PAC-1282,Plano Especial Corporativo,18-35 anos,Hospital Santa Cruz,Cirúrgica Eletiva,1,3,0,11652.91,18363.42,6,True,13.65,63.46,Médio Risco (LACE 5-9),1590.62,False
+PAC-1283,Plano Básico Individual,18-35 anos,Rede D'Or Barra,Clínica Geral,1,4,0,7333.74,8727.58,8,False,26.74,84.03,Médio Risco (LACE 5-9),1961.04,False
+PAC-1284,Plano Especial Corporativo,Acima de 65 anos,Hospital Santa Cruz,Cirúrgica Eletiva,4,10,3,36214.46,20944.0,12,False,8.48,172.91,Alto Risco (LACE 10+),3070.99,True
+PAC-1285,Plano Especial Corporativo,18-35 anos,Clínica Vida & Saúde,Clínica Geral,2,4,0,7799.62,16059.83,9,False,6.75,48.57,Médio Risco (LACE 5-9),526.47,False
+PAC-1286,Plano Básico Individual,51-65 anos,Rede D'Or Barra,Cirúrgica Eletiva,0,2,1,18719.28,12174.87,2,False,18.32,153.75,Baixo Risco (LACE 0-4),3429.37,False
+PAC-1287,Plano Básico Individual,36-50 anos,Hospital Sírio Metropolitano,Cirúrgica Eletiva,2,2,0,16261.08,9704.81,6,False,7.29,167.56,Médio Risco (LACE 5-9),1185.43,False
+PAC-1288,Plano Especial Corporativo,18-35 anos,Hospital Sírio Metropolitano,Clínica Geral,0,4,1,14105.87,20691.03,5,False,3.23,68.17,Médio Risco (LACE 5-9),455.62,False
+PAC-1289,Plano Básico Individual,36-50 anos,Rede D'Or Barra,Cirúrgica Eletiva,1,7,1,31448.15,12559.09,9,True,11.73,250.4,Médio Risco (LACE 5-9),3688.87,True
+PAC-1290,Plano Especial Corporativo,Acima de 65 anos,Hospital Samaritano Central,Clínica Geral,3,7,4,27519.14,17674.75,13,True,10.07,155.7,Alto Risco (LACE 10+),2771.18,True
+PAC-1291,Plano Especial Corporativo,Acima de 65 anos,Rede D'Or Barra,Clínica Geral,4,9,6,35979.75,16493.22,12,False,29.07,218.15,Alto Risco (LACE 10+),10459.31,True
+PAC-1292,Plano Básico Individual,Acima de 65 anos,Clínica Vida & Saúde,Cardiológica,3,7,3,23102.34,9776.42,17,True,12.35,236.31,Alto Risco (LACE 10+),2853.14,False
+PAC-1293,Plano Básico Individual,36-50 anos,Hospital Samaritano Central,Cirúrgica Eletiva,2,6,0,16256.87,8626.26,10,False,19.71,188.46,Alto Risco (LACE 10+),3204.23,False
+PAC-1294,Plano Básico Individual,51-65 anos,Hospital Sírio Metropolitano,Clínica Geral,0,2,1,12675.85,10245.19,2,False,13.11,123.72,Baixo Risco (LACE 0-4),1661.8,False
+PAC-1295,Plano Básico Individual,36-50 anos,Rede D'Or Barra,Cirúrgica Eletiva,1,2,1,13083.59,10106.5,4,False,4.98,129.46,Baixo Risco (LACE 0-4),651.56,False
+PAC-1296,Plano Básico Individual,36-50 anos,Hospital Santa Cruz,Cardiológica,1,11,3,29506.36,12102.54,12,False,16.92,243.8,Alto Risco (LACE 10+),4992.48,True
+PAC-1297,Plano Especial Corporativo,Acima de 65 anos,Hospital Santa Cruz,Clínica Geral,3,9,4,27246.62,20053.17,13,False,9.69,135.87,Alto Risco (LACE 10+),2640.2,True
+PAC-1298,Plano Básico Individual,18-35 anos,Clínica Vida & Saúde,Cirúrgica Emergência,4,5,1,13846.05,10938.99,13,False,7.06,126.58,Alto Risco (LACE 10+),977.53,False
+PAC-1299,Plano Especial Corporativo,18-35 anos,Hospital Santa Cruz,Clínica Geral,1,3,0,7480.66,18770.77,6,False,8.19,39.85,Médio Risco (LACE 5-9),612.67,False
+PAC-1300,Plano Básico Individual,36-50 anos,Rede D'Or Barra,Clínica Geral,1,5,1,15670.64,9029.41,7,True,5.59,173.55,Médio Risco (LACE 5-9),875.99,False
+PAC-1301,Plano Executivo Premium,18-35 anos,Rede D'Or Barra,Cirúrgica Eletiva,1,2,0,19500.42,35552.79,4,False,12.84,54.85,Baixo Risco (LACE 0-4),2503.85,False
+PAC-1302,Plano Básico Individual,36-50 anos,Hospital Santa Cruz,Cirúrgica Eletiva,1,1,0,14146.41,11091.43,3,False,8.83,127.54,Baixo Risco (LACE 0-4),1249.13,False
+PAC-1303,Plano Básico Individual,51-65 anos,Rede D'Or Barra,Cirúrgica Emergência,2,13,2,38052.0,12254.26,14,False,10.02,310.52,Alto Risco (LACE 10+),3812.81,True
+PAC-1304,Plano Executivo Premium,51-65 anos,Clínica Vida & Saúde,Cirúrgica Emergência,1,14,7,43387.43,30957.51,14,False,10.8,140.15,Alto Risco (LACE 10+),4685.84,True
+PAC-1305,Plano Especial Corporativo,Acima de 65 anos,Hospital Samaritano Central,Oncológica,2,12,3,28843.56,21318.68,13,True,17.39,135.3,Alto Risco (LACE 10+),5015.9,True
+PAC-1306,Plano Básico Individual,Acima de 65 anos,Clínica Vida & Saúde,Cirúrgica Eletiva,0,8,4,40739.19,8733.07,8,True,17.36,466.49,Médio Risco (LACE 5-9),7072.32,True
+PAC-1307,Plano Especial Corporativo,36-50 anos,Clínica Vida & Saúde,Clínica Geral,2,1,0,6857.36,20038.62,5,False,7.92,34.22,Médio Risco (LACE 5-9),543.1,False
+PAC-1308,Plano Especial Corporativo,36-50 anos,Rede D'Or Barra,Cardiológica,2,7,6,31275.93,16358.54,14,False,7.88,191.19,Alto Risco (LACE 10+),2464.54,True
+PAC-1309,Plano Especial Corporativo,36-50 anos,Hospital Samaritano Central,Clínica Geral,2,5,2,15499.29,21166.53,9,False,8.58,73.23,Médio Risco (LACE 5-9),1329.84,False
+PAC-1310,Plano Básico Individual,51-65 anos,Rede D'Or Barra,Cirúrgica Eletiva,1,4,0,23496.12,10264.42,7,False,5.46,228.91,Médio Risco (LACE 5-9),1282.89,False
+PAC-1311,Plano Básico Individual,36-50 anos,Hospital Sírio Metropolitano,Clínica Geral,2,3,0,7631.54,8465.09,7,False,4.16,90.15,Médio Risco (LACE 5-9),317.47,False
+PAC-1312,Plano Especial Corporativo,51-65 anos,Rede D'Or Barra,Clínica Geral,1,7,0,13904.16,15577.46,10,False,13.34,89.26,Alto Risco (LACE 10+),1854.81,False
+PAC-1313,Plano Especial Corporativo,51-65 anos,Rede D'Or Barra,Oncológica,1,17,5,42245.41,19029.87,9,False,4.16,222.0,Médio Risco (LACE 5-9),1757.41,True
+PAC-1314,Plano Básico Individual,51-65 anos,Rede D'Or Barra,Cardiológica,2,15,6,45212.23,8818.08,14,False,4.98,512.72,Alto Risco (LACE 10+),2251.57,True
+PAC-1315,Plano Especial Corporativo,51-65 anos,Hospital Samaritano Central,Cirúrgica Emergência,1,15,8,59366.81,15948.92,14,True,8.32,372.23,Alto Risco (LACE 10+),4939.32,True
+PAC-1316,Plano Especial Corporativo,36-50 anos,Rede D'Or Barra,Cirúrgica Eletiva,1,3,1,16580.61,19045.08,5,False,1.86,87.06,Médio Risco (LACE 5-9),308.4,False
+PAC-1317,Plano Básico Individual,Acima de 65 anos,Hospital Samaritano Central,Clínica Geral,0,4,3,21094.8,12703.75,4,False,12.82,166.05,Baixo Risco (LACE 0-4),2704.35,False
+PAC-1318,Plano Especial Corporativo,Acima de 65 anos,Hospital Santa Cruz,Clínica Geral,1,10,3,24503.99,16143.98,9,False,3.48,151.78,Médio Risco (LACE 5-9),852.74,False
+PAC-1319,Plano Básico Individual,18-35 anos,Hospital Sírio Metropolitano,Clínica Geral,1,3,0,9929.13,8140.61,6,False,27.99,121.97,Médio Risco (LACE 5-9),2779.16,False
+PAC-1320,Plano Especial Corporativo,Acima de 65 anos,Hospital Samaritano Central,Cirúrgica Eletiva,2,18,6,48090.05,19218.25,11,False,26.01,250.23,Alto Risco (LACE 10+),12508.22,True
+PAC-1321,Plano Especial Corporativo,51-65 anos,Hospital Santa Cruz,Cirúrgica Emergência,0,19,1,43509.87,16157.04,10,True,21.59,269.29,Alto Risco (LACE 10+),9393.78,True
+PAC-1322,Plano Executivo Premium,Acima de 65 anos,Hospital Samaritano Central,Cirúrgica Emergência,2,7,6,46015.67,30034.51,14,False,11.31,153.21,Alto Risco (LACE 10+),5204.37,True
+PAC-1323,Plano Básico Individual,Acima de 65 anos,Hospital Samaritano Central,Clínica Geral,2,8,6,32679.23,9497.12,11,False,9.28,344.1,Alto Risco (LACE 10+),3032.63,True
+PAC-1324,Plano Básico Individual,51-65 anos,Hospital Sírio Metropolitano,Oncológica,1,8,3,22060.16,9711.13,9,False,5.77,227.16,Médio Risco (LACE 5-9),1272.87,False
+PAC-1325,Plano Básico Individual,18-35 anos,Clínica Vida & Saúde,Cirúrgica Emergência,1,10,3,41220.52,12104.25,13,True,26.0,340.55,Alto Risco (LACE 10+),10717.34,True
+PAC-1326,Plano Básico Individual,36-50 anos,Clínica Vida & Saúde,Cirúrgica Eletiva,3,2,0,15123.44,12643.82,8,False,18.18,119.61,Médio Risco (LACE 5-9),2749.44,False
+PAC-1327,Plano Básico Individual,51-65 anos,Hospital Samaritano Central,Cirúrgica Emergência,1,16,5,50905.3,8869.82,12,False,22.26,573.92,Alto Risco (LACE 10+),11331.52,True
+PAC-1328,Plano Executivo Premium,51-65 anos,Rede D'Or Barra,Cirúrgica Eletiva,2,7,0,19905.27,35954.69,11,False,4.62,55.36,Alto Risco (LACE 10+),919.62,False
+PAC-1329,Plano Básico Individual,36-50 anos,Hospital Santa Cruz,Clínica Geral,0,7,1,17052.8,12432.98,10,True,4.56,137.16,Alto Risco (LACE 10+),777.61,False
+PAC-1330,Plano Básico Individual,18-35 anos,Rede D'Or Barra,Cirúrgica Eletiva,3,8,0,14818.19,8467.8,13,False,10.33,174.99,Alto Risco (LACE 10+),1530.72,False
+PAC-1331,Plano Especial Corporativo,Acima de 65 anos,Rede D'Or Barra,Cardiológica,3,7,3,22963.51,15300.09,16,False,22.58,150.09,Alto Risco (LACE 10+),5185.16,False
+PAC-1332,Plano Básico Individual,Acima de 65 anos,Hospital Samaritano Central,Clínica Geral,0,8,2,18959.43,8099.86,8,True,12.24,234.07,Médio Risco (LACE 5-9),2320.63,False
+PAC-1333,Plano Especial Corporativo,51-65 anos,Hospital Samaritano Central,Clínica Geral,1,1,0,6607.55,19744.55,4,False,13.28,33.47,Baixo Risco (LACE 0-4),877.48,False
+PAC-1334,Plano Básico Individual,18-35 anos,Hospital Samaritano Central,Clínica Geral,2,8,1,18095.25,9053.82,12,True,23.27,199.86,Alto Risco (LACE 10+),4210.76,False
+PAC-1335,Plano Especial Corporativo,36-50 anos,Hospital Samaritano Central,Clínica Geral,1,4,0,7916.81,20936.09,7,False,4.33,37.81,Médio Risco (LACE 5-9),342.8,False
+PAC-1336,Plano Básico Individual,18-35 anos,Clínica Vida & Saúde,Cardiológica,2,7,2,21338.67,9793.71,15,False,11.79,217.88,Alto Risco (LACE 10+),2515.83,False
+PAC-1337,Plano Básico Individual,Acima de 65 anos,Hospital Samaritano Central,Cirúrgica Emergência,0,9,4,42239.37,12004.09,10,False,17.62,351.87,Alto Risco (LACE 10+),7442.58,True
+PAC-1338,Plano Executivo Premium,18-35 anos,Clínica Vida & Saúde,Cirúrgica Eletiva,1,8,1,19320.76,29567.24,10,False,22.71,65.35,Alto Risco (LACE 10+),4387.74,False
+PAC-1339,Plano Básico Individual,51-65 anos,Clínica Vida & Saúde,Clínica Geral,3,4,2,16402.79,11157.72,11,True,20.59,147.01,Alto Risco (LACE 10+),3377.33,False
+PAC-1340,Plano Especial Corporativo,36-50 anos,Hospital Samaritano Central,Cirúrgica Eletiva,2,1,0,14717.08,17574.99,8,False,5.72,83.74,Médio Risco (LACE 5-9),841.82,False
+PAC-1341,Plano Básico Individual,51-65 anos,Hospital Sírio Metropolitano,Cirúrgica Eletiva,2,2,0,21000.39,11552.11,6,False,8.33,181.79,Médio Risco (LACE 5-9),1749.33,False
+PAC-1342,Plano Básico Individual,51-65 anos,Hospital Santa Cruz,Clínica Geral,0,4,2,16116.43,9427.02,4,False,11.3,170.96,Baixo Risco (LACE 0-4),1821.16,False
+PAC-1343,Plano Executivo Premium,Acima de 65 anos,Rede D'Or Barra,Cirúrgica Eletiva,1,6,2,27749.66,26945.45,10,False,10.16,102.98,Alto Risco (LACE 10+),2819.37,True
+PAC-1344,Plano Básico Individual,36-50 anos,Clínica Vida & Saúde,Cirúrgica Eletiva,0,5,1,27372.27,8393.13,5,False,3.72,326.13,Médio Risco (LACE 5-9),1018.25,True
+PAC-1345,Plano Especial Corporativo,18-35 anos,Hospital Santa Cruz,Cirúrgica Emergência,2,5,2,27506.33,19477.8,12,False,8.92,141.22,Alto Risco (LACE 10+),2453.56,True
+PAC-1346,Plano Executivo Premium,18-35 anos,Hospital Sírio Metropolitano,Cirúrgica Emergência,1,7,3,25251.65,24235.82,12,True,14.64,104.19,Alto Risco (LACE 10+),3696.84,True
+PAC-1347,Plano Especial Corporativo,Acima de 65 anos,Rede D'Or Barra,Clínica Geral,1,5,3,21993.37,15172.87,8,False,22.26,144.95,Médio Risco (LACE 5-9),4895.72,False
+PAC-1348,Plano Executivo Premium,Acima de 65 anos,Rede D'Or Barra,Cirúrgica Eletiva,0,12,2,34257.33,27707.01,9,False,9.97,123.64,Médio Risco (LACE 5-9),3415.46,True
+PAC-1349,Plano Básico Individual,51-65 anos,Clínica Vida & Saúde,Cirúrgica Emergência,2,17,4,52004.21,10032.31,14,True,30.0,518.37,Alto Risco (LACE 10+),15601.26,True
+PAC-1350,Plano Básico Individual,51-65 anos,Hospital Samaritano Central,Cirúrgica Eletiva,1,3,1,12421.19,12682.47,6,False,7.19,97.94,Médio Risco (LACE 5-9),893.08,False
+PAC-1351,Plano Básico Individual,51-65 anos,Hospital Sírio Metropolitano,Cardiológica,4,12,6,41139.75,9445.75,17,False,5.3,435.54,Alto Risco (LACE 10+),2180.41,True
+PAC-1352,Plano Especial Corporativo,18-35 anos,Clínica Vida & Saúde,Cirúrgica Emergência,3,10,5,31800.46,21682.93,15,True,11.21,146.66,Alto Risco (LACE 10+),3564.83,True
+PAC-1353,Plano Executivo Premium,Acima de 65 anos,Hospital Sírio Metropolitano,Clínica Geral,0,10,5,34968.42,24159.37,9,True,17.5,144.74,Médio Risco (LACE 5-9),6119.47,True
+PAC-1354,Plano Básico Individual,51-65 anos,Hospital Samaritano Central,Clínica Geral,2,1,0,7904.0,10516.1,5,False,16.04,75.16,Médio Risco (LACE 5-9),1267.8,False
+PAC-1355,Plano Especial Corporativo,36-50 anos,Hospital Samaritano Central,Cirúrgica Emergência,1,9,5,34193.58,20979.16,12,True,4.66,162.99,Alto Risco (LACE 10+),1593.42,True
+PAC-1356,Plano Básico Individual,51-65 anos,Clínica Vida & Saúde,Clínica Geral,2,1,0,4022.16,11134.16,6,False,6.3,36.12,Médio Risco (LACE 5-9),253.4,False
+PAC-1357,Plano Especial Corporativo,18-35 anos,Hospital Samaritano Central,Cirúrgica Eletiva,2,5,3,27180.15,17639.66,9,False,30.0,154.09,Médio Risco (LACE 5-9),8154.04,True
+PAC-1358,Plano Especial Corporativo,18-35 anos,Hospital Santa Cruz,Oncológica,1,7,3,21218.11,17343.87,9,False,7.34,122.34,Médio Risco (LACE 5-9),1557.41,False
+PAC-1359,Plano Executivo Premium,Acima de 65 anos,Rede D'Or Barra,Cirúrgica Eletiva,1,12,5,35870.56,31477.65,9,False,8.57,113.96,Médio Risco (LACE 5-9),3074.11,True
+PAC-1360,Plano Especial Corporativo,18-35 anos,Clínica Vida & Saúde,Cirúrgica Eletiva,2,6,1,17534.93,19709.28,10,False,30.0,88.97,Alto Risco (LACE 10+),5260.48,False
+PAC-1361,Plano Básico Individual,51-65 anos,Hospital Sírio Metropolitano,Cirúrgica Emergência,1,11,4,32883.05,11501.74,12,False,20.82,285.9,Alto Risco (LACE 10+),6846.25,True
+PAC-1362,Plano Básico Individual,36-50 anos,Hospital Santa Cruz,Cirúrgica Eletiva,1,2,1,24284.79,10567.59,4,False,8.13,229.8,Baixo Risco (LACE 0-4),1974.35,False
+PAC-1363,Plano Básico Individual,36-50 anos,Clínica Vida & Saúde,Cirúrgica Eletiva,1,3,1,18541.94,10359.51,5,False,3.99,178.98,Médio Risco (LACE 5-9),739.82,False
+PAC-1364,Plano Básico Individual,36-50 anos,Hospital Samaritano Central,Oncológica,0,16,4,36419.65,10459.64,8,False,12.73,348.19,Médio Risco (LACE 5-9),4636.22,True
+PAC-1365,Plano Básico Individual,36-50 anos,Hospital Samaritano Central,Cirúrgica Eletiva,2,1,0,10212.19,8534.1,5,False,8.23,119.66,Médio Risco (LACE 5-9),840.46,False
+PAC-1366,Plano Executivo Premium,51-65 anos,Hospital Samaritano Central,Oncológica,2,6,2,16074.59,27877.74,10,False,10.49,57.66,Alto Risco (LACE 10+),1686.22,False
+PAC-1367,Plano Especial Corporativo,36-50 anos,Hospital Samaritano Central,Oncológica,1,23,4,48854.09,17018.79,12,False,10.53,287.06,Alto Risco (LACE 10+),5144.34,True
+PAC-1368,Plano Especial Corporativo,51-65 anos,Hospital Sírio Metropolitano,Clínica Geral,0,2,1,8746.75,19674.37,2,False,8.67,44.46,Baixo Risco (LACE 0-4),758.34,False
+PAC-1369,Plano Básico Individual,51-65 anos,Hospital Santa Cruz,Clínica Geral,0,3,0,8696.9,9024.9,4,False,17.97,96.37,Baixo Risco (LACE 0-4),1562.83,False
+PAC-1370,Plano Executivo Premium,51-65 anos,Rede D'Or Barra,Clínica Geral,0,2,0,8623.88,27830.7,2,False,8.04,30.99,Baixo Risco (LACE 0-4),693.36,False
+PAC-1371,Plano Especial Corporativo,Acima de 65 anos,Hospital Sírio Metropolitano,Clínica Geral,4,9,3,27376.18,21811.92,12,False,7.44,125.51,Alto Risco (LACE 10+),2036.79,True
+PAC-1372,Plano Básico Individual,Acima de 65 anos,Hospital Sírio Metropolitano,Clínica Geral,1,13,4,34672.93,11294.51,10,False,10.99,306.99,Alto Risco (LACE 10+),3810.56,True
+PAC-1373,Plano Especial Corporativo,36-50 anos,Rede D'Or Barra,Cirúrgica Emergência,1,8,0,29149.5,20418.19,12,True,10.7,142.76,Alto Risco (LACE 10+),3119.0,True
+PAC-1374,Plano Especial Corporativo,18-35 anos,Rede D'Or Barra,Clínica Geral,1,3,0,7976.23,17007.77,6,False,6.9,46.9,Médio Risco (LACE 5-9),550.36,False
+PAC-1375,Plano Básico Individual,36-50 anos,Hospital Samaritano Central,Clínica Geral,2,4,0,8272.65,10052.49,8,False,6.94,82.29,Médio Risco (LACE 5-9),574.12,False
+PAC-1376,Plano Especial Corporativo,51-65 anos,Hospital Sírio Metropolitano,Cardiológica,3,10,4,29616.31,14867.2,17,False,30.0,199.21,Alto Risco (LACE 10+),8884.89,True
+PAC-1377,Plano Especial Corporativo,18-35 anos,Clínica Vida & Saúde,Clínica Geral,1,4,0,9791.53,19000.73,6,False,11.43,51.53,Médio Risco (LACE 5-9),1119.17,False
+PAC-1378,Plano Básico Individual,51-65 anos,Rede D'Or Barra,Cardiológica,2,10,2,21473.82,8936.73,14,True,1.2,240.29,Alto Risco (LACE 10+),257.69,False
+PAC-1379,Plano Executivo Premium,51-65 anos,Rede D'Or Barra,Clínica Geral,1,2,0,6432.33,26987.72,4,False,4.85,23.83,Baixo Risco (LACE 0-4),311.97,False
+PAC-1380,Plano Especial Corporativo,36-50 anos,Hospital Santa Cruz,Clínica Geral,1,1,0,8345.95,14447.41,4,True,14.67,57.77,Baixo Risco (LACE 0-4),1224.35,False
+PAC-1381,Plano Especial Corporativo,Acima de 65 anos,Clínica Vida & Saúde,Cirúrgica Emergência,4,7,3,30292.49,18492.76,17,True,14.38,163.81,Alto Risco (LACE 10+),4356.06,True
+PAC-1382,Plano Especial Corporativo,18-35 anos,Clínica Vida & Saúde,Cirúrgica Emergência,1,8,4,29464.53,14930.65,12,False,11.23,197.34,Alto Risco (LACE 10+),3308.87,True
+PAC-1383,Plano Básico Individual,18-35 anos,Rede D'Or Barra,Cardiológica,1,12,3,27602.82,11487.16,13,False,6.98,240.29,Alto Risco (LACE 10+),1926.68,True
+PAC-1384,Plano Especial Corporativo,Acima de 65 anos,Hospital Samaritano Central,Cirúrgica Emergência,1,16,5,41937.29,15947.54,12,False,17.97,262.97,Alto Risco (LACE 10+),7536.13,True
+PAC-1385,Plano Especial Corporativo,51-65 anos,Hospital Santa Cruz,Cardiológica,0,8,4,27393.12,21360.32,10,False,6.84,128.24,Alto Risco (LACE 10+),1873.69,True
+PAC-1386,Plano Básico Individual,51-65 anos,Clínica Vida & Saúde,Clínica Geral,0,2,0,6555.24,10011.3,2,False,13.15,65.48,Baixo Risco (LACE 0-4),862.01,False
+PAC-1387,Plano Especial Corporativo,51-65 anos,Rede D'Or Barra,Clínica Geral,0,3,0,7460.73,20182.72,4,False,16.96,36.97,Baixo Risco (LACE 0-4),1265.34,False
+PAC-1388,Plano Especial Corporativo,36-50 anos,Clínica Vida & Saúde,Cardiológica,3,8,3,22738.49,20387.63,15,False,30.0,111.53,Alto Risco (LACE 10+),6821.55,False
+PAC-1389,Plano Especial Corporativo,Acima de 65 anos,Hospital Santa Cruz,Cardiológica,0,6,1,16308.02,14970.98,9,True,30.0,108.93,Médio Risco (LACE 5-9),4892.41,False
+PAC-1390,Plano Básico Individual,Acima de 65 anos,Hospital Santa Cruz,Oncológica,0,17,5,39362.98,9893.52,7,False,30.0,397.87,Médio Risco (LACE 5-9),11808.89,True
+PAC-1391,Plano Especial Corporativo,51-65 anos,Hospital Sírio Metropolitano,Cirúrgica Eletiva,0,4,1,26304.23,21358.34,6,False,15.98,123.16,Médio Risco (LACE 5-9),4203.42,True
+PAC-1392,Plano Básico Individual,36-50 anos,Rede D'Or Barra,Cirúrgica Eletiva,1,3,1,19747.85,8833.94,7,False,10.62,223.55,Médio Risco (LACE 5-9),2097.22,False
+PAC-1393,Plano Básico Individual,51-65 anos,Hospital Santa Cruz,Cardiológica,1,13,4,32357.53,9687.39,12,False,8.52,334.02,Alto Risco (LACE 10+),2756.86,True
+PAC-1394,Plano Básico Individual,36-50 anos,Hospital Sírio Metropolitano,Clínica Geral,0,3,1,12551.4,12181.46,3,False,11.7,103.04,Baixo Risco (LACE 0-4),1468.51,False
+PAC-1395,Plano Básico Individual,18-35 anos,Hospital Sírio Metropolitano,Oncológica,2,8,2,23458.6,12212.69,12,False,10.98,192.08,Alto Risco (LACE 10+),2575.75,False
+PAC-1396,Plano Especial Corporativo,Acima de 65 anos,Clínica Vida & Saúde,Cardiológica,0,11,4,32019.05,16800.05,10,False,24.48,190.59,Alto Risco (LACE 10+),7838.26,True
+PAC-1397,Plano Especial Corporativo,18-35 anos,Clínica Vida & Saúde,Cirúrgica Eletiva,1,10,0,21812.8,20749.44,9,False,18.79,105.12,Médio Risco (LACE 5-9),4098.63,False
+PAC-1398,Plano Básico Individual,Acima de 65 anos,Hospital Sírio Metropolitano,Cardiológica,0,12,6,40028.24,9037.56,11,False,20.26,442.91,Alto Risco (LACE 10+),8109.72,True
+PAC-1399,Plano Executivo Premium,51-65 anos,Clínica Vida & Saúde,Cardiológica,3,15,7,45830.77,25713.43,15,False,4.83,178.24,Alto Risco (LACE 10+),2213.63,True
+PAC-1400,Plano Executivo Premium,36-50 anos,Hospital Santa Cruz,Clínica Geral,1,4,1,14931.29,28202.24,7,False,15.93,52.94,Médio Risco (LACE 5-9),2378.55,False
+PAC-1401,Plano Executivo Premium,51-65 anos,Hospital Samaritano Central,Oncológica,2,10,6,36237.12,29823.2,12,False,13.76,121.51,Alto Risco (LACE 10+),4986.23,True
+PAC-1402,Plano Básico Individual,Acima de 65 anos,Hospital Santa Cruz,Cirúrgica Eletiva,1,7,3,28200.93,10629.73,11,False,11.44,265.3,Alto Risco (LACE 10+),3226.19,True
+PAC-1403,Plano Especial Corporativo,Acima de 65 anos,Hospital Sírio Metropolitano,Cardiológica,3,7,4,25757.43,16220.18,15,True,13.04,158.8,Alto Risco (LACE 10+),3358.77,True
+PAC-1404,Plano Executivo Premium,Acima de 65 anos,Hospital Sírio Metropolitano,Clínica Geral,1,10,5,31064.74,31417.24,9,False,5.68,98.88,Médio Risco (LACE 5-9),1764.48,True
+PAC-1405,Plano Especial Corporativo,51-65 anos,Hospital Santa Cruz,Cardiológica,1,32,2,48556.0,21605.96,12,False,11.34,224.73,Alto Risco (LACE 10+),5506.25,True
+PAC-1406,Plano Básico Individual,51-65 anos,Clínica Vida & Saúde,Cirúrgica Eletiva,1,2,0,16413.08,10690.47,4,False,5.7,153.53,Baixo Risco (LACE 0-4),935.55,False
+PAC-1407,Plano Básico Individual,Acima de 65 anos,Clínica Vida & Saúde,Clínica Geral,2,4,1,11409.77,10303.56,8,True,8.46,110.74,Médio Risco (LACE 5-9),965.27,False
+PAC-1408,Plano Especial Corporativo,36-50 anos,Hospital Sírio Metropolitano,Oncológica,1,6,3,23355.37,17341.67,9,False,12.81,134.68,Médio Risco (LACE 5-9),2991.82,False
+PAC-1409,Plano Executivo Premium,51-65 anos,Rede D'Or Barra,Clínica Geral,0,3,0,9459.97,24088.29,3,False,11.49,39.27,Baixo Risco (LACE 0-4),1086.95,False
+PAC-1410,Plano Especial Corporativo,36-50 anos,Clínica Vida & Saúde,Clínica Geral,1,2,1,13044.53,18324.42,4,False,16.41,71.19,Baixo Risco (LACE 0-4),2140.61,False
+PAC-1411,Plano Especial Corporativo,Acima de 65 anos,Hospital Santa Cruz,Oncológica,2,13,2,26896.73,15921.96,11,True,10.25,168.93,Alto Risco (LACE 10+),2756.91,True
+PAC-1412,Plano Básico Individual,Acima de 65 anos,Clínica Vida & Saúde,Oncológica,1,3,1,9383.89,10518.6,7,False,5.04,89.21,Médio Risco (LACE 5-9),472.95,False
+PAC-1413,Plano Especial Corporativo,18-35 anos,Hospital Santa Cruz,Cirúrgica Eletiva,0,4,2,29890.78,15674.79,5,False,2.21,190.69,Médio Risco (LACE 5-9),660.59,True
+PAC-1414,Plano Especial Corporativo,51-65 anos,Hospital Sírio Metropolitano,Cirúrgica Emergência,4,10,2,26407.1,17676.92,16,True,18.14,149.39,Alto Risco (LACE 10+),4790.25,True
+PAC-1415,Plano Básico Individual,Acima de 65 anos,Clínica Vida & Saúde,Cirúrgica Eletiva,1,14,4,43362.15,8440.71,11,False,30.0,513.73,Alto Risco (LACE 10+),13008.64,True
+PAC-1416,Plano Especial Corporativo,36-50 anos,Hospital Santa Cruz,Clínica Geral,2,7,3,21836.86,17985.51,13,False,5.67,121.41,Alto Risco (LACE 10+),1238.15,False
+PAC-1417,Plano Executivo Premium,51-65 anos,Hospital Sírio Metropolitano,Clínica Geral,3,2,0,8526.19,26442.13,9,False,21.89,32.24,Médio Risco (LACE 5-9),1866.38,False
+PAC-1418,Plano Básico Individual,Acima de 65 anos,Rede D'Or Barra,Cirúrgica Emergência,3,8,4,41647.26,8238.91,16,True,12.81,505.49,Alto Risco (LACE 10+),5335.01,True
+PAC-1419,Plano Especial Corporativo,18-35 anos,Hospital Santa Cruz,Cardiológica,0,14,3,31053.11,17084.42,10,True,21.66,181.76,Alto Risco (LACE 10+),6726.1,True
+PAC-1420,Plano Básico Individual,51-65 anos,Rede D'Or Barra,Cardiológica,2,10,8,43210.13,8291.19,15,True,8.63,521.16,Alto Risco (LACE 10+),3729.03,True
+PAC-1421,Plano Especial Corporativo,36-50 anos,Rede D'Or Barra,Cardiológica,1,8,6,35037.3,16146.3,14,False,26.34,217.0,Alto Risco (LACE 10+),9228.82,True
+PAC-1422,Plano Especial Corporativo,Acima de 65 anos,Hospital Samaritano Central,Clínica Geral,1,19,6,47839.51,20197.22,10,False,6.47,236.86,Alto Risco (LACE 10+),3095.22,True
+PAC-1423,Plano Especial Corporativo,Acima de 65 anos,Clínica Vida & Saúde,Cirúrgica Eletiva,2,20,3,46694.33,16150.89,11,True,8.52,289.11,Alto Risco (LACE 10+),3978.36,True
+PAC-1424,Plano Especial Corporativo,Acima de 65 anos,Hospital Santa Cruz,Clínica Geral,2,10,7,39748.27,14508.81,11,False,5.0,273.96,Alto Risco (LACE 10+),1987.41,True
+PAC-1425,Plano Básico Individual,51-65 anos,Rede D'Or Barra,Cirúrgica Eletiva,0,3,0,21787.28,10028.57,5,False,11.07,217.25,Médio Risco (LACE 5-9),2411.85,False
+PAC-1426,Plano Executivo Premium,Acima de 65 anos,Hospital Samaritano Central,Cirúrgica Eletiva,1,5,2,20468.9,27216.57,7,False,22.39,75.21,Médio Risco (LACE 5-9),4582.99,False
+PAC-1427,Plano Especial Corporativo,Acima de 65 anos,Hospital Sírio Metropolitano,Cardiológica,0,10,2,23980.68,20591.17,12,True,7.99,116.46,Alto Risco (LACE 10+),1916.06,False
+PAC-1428,Plano Básico Individual,36-50 anos,Hospital Santa Cruz,Cirúrgica Eletiva,1,6,2,28736.33,8585.32,8,False,3.68,334.71,Médio Risco (LACE 5-9),1057.5,True
+PAC-1429,Plano Especial Corporativo,Acima de 65 anos,Rede D'Or Barra,Clínica Geral,3,14,3,33016.62,14080.38,12,False,13.44,234.49,Alto Risco (LACE 10+),4437.43,True
+PAC-1430,Plano Especial Corporativo,18-35 anos,Clínica Vida & Saúde,Clínica Geral,0,2,0,9149.17,19717.57,3,False,5.33,46.4,Baixo Risco (LACE 0-4),487.65,False
+PAC-1431,Plano Básico Individual,51-65 anos,Hospital Samaritano Central,Cardiológica,2,4,1,12406.18,8129.19,14,False,2.3,152.61,Alto Risco (LACE 10+),285.34,False
+PAC-1432,Plano Executivo Premium,36-50 anos,Rede D'Or Barra,Cirúrgica Emergência,3,6,4,27098.62,24119.63,15,False,18.11,112.35,Alto Risco (LACE 10+),4907.56,True
+PAC-1433,Plano Executivo Premium,18-35 anos,Clínica Vida & Saúde,Clínica Geral,4,2,1,11876.84,33394.18,7,False,22.51,35.57,Médio Risco (LACE 5-9),2673.48,False
+PAC-1434,Plano Básico Individual,18-35 anos,Rede D'Or Barra,Clínica Geral,1,3,1,12077.16,11635.81,7,False,15.58,103.79,Médio Risco (LACE 5-9),1881.62,False
+PAC-1435,Plano Executivo Premium,51-65 anos,Hospital Santa Cruz,Cirúrgica Emergência,3,8,2,23563.48,26242.89,15,False,8.48,89.79,Alto Risco (LACE 10+),1998.18,False
+PAC-1436,Plano Básico Individual,36-50 anos,Hospital Santa Cruz,Clínica Geral,0,2,2,11259.09,12208.08,2,True,10.03,92.23,Baixo Risco (LACE 0-4),1129.29,False
+PAC-1437,Plano Básico Individual,Acima de 65 anos,Hospital Santa Cruz,Cardiológica,4,15,7,48535.43,12441.36,15,True,15.86,390.11,Alto Risco (LACE 10+),7697.72,True
+PAC-1438,Plano Básico Individual,18-35 anos,Hospital Samaritano Central,Cirúrgica Emergência,3,5,3,22400.3,8430.58,14,True,25.92,265.7,Alto Risco (LACE 10+),5806.16,False
+PAC-1439,Plano Executivo Premium,36-50 anos,Hospital Santa Cruz,Clínica Geral,2,1,0,3478.73,30261.97,6,False,6.98,11.5,Médio Risco (LACE 5-9),242.82,False
+PAC-1440,Plano Especial Corporativo,51-65 anos,Clínica Vida & Saúde,Clínica Geral,0,2,0,8304.66,14423.49,2,False,30.0,57.58,Baixo Risco (LACE 0-4),2491.4,False
+PAC-1441,Plano Básico Individual,Acima de 65 anos,Rede D'Or Barra,Oncológica,1,17,7,46651.97,10884.68,10,False,15.2,428.6,Alto Risco (LACE 10+),7091.1,True
+PAC-1442,Plano Básico Individual,36-50 anos,Hospital Sírio Metropolitano,Cirúrgica Eletiva,0,2,0,16228.03,10101.25,3,False,12.8,160.65,Baixo Risco (LACE 0-4),2077.19,False
+PAC-1443,Plano Especial Corporativo,51-65 anos,Clínica Vida & Saúde,Cirúrgica Eletiva,2,6,0,12140.18,16165.47,10,False,4.65,75.1,Alto Risco (LACE 10+),564.52,False
+PAC-1444,Plano Básico Individual,Acima de 65 anos,Clínica Vida & Saúde,Cardiológica,0,10,5,35486.66,10051.52,11,False,14.85,353.05,Alto Risco (LACE 10+),5269.77,True
+PAC-1445,Plano Executivo Premium,51-65 anos,Hospital Santa Cruz,Oncológica,0,7,1,14902.31,27619.95,7,False,30.0,53.95,Médio Risco (LACE 5-9),4470.69,False
+PAC-1446,Plano Especial Corporativo,36-50 anos,Hospital Samaritano Central,Oncológica,2,18,6,47360.43,16015.99,12,True,6.12,295.71,Alto Risco (LACE 10+),2898.46,True
+PAC-1447,Plano Especial Corporativo,18-35 anos,Rede D'Or Barra,Cardiológica,2,8,4,27190.43,20456.86,17,True,14.97,132.92,Alto Risco (LACE 10+),4070.41,True
+PAC-1448,Plano Executivo Premium,Acima de 65 anos,Hospital Samaritano Central,Cirúrgica Eletiva,1,16,3,34954.78,27700.23,10,False,5.88,126.19,Alto Risco (LACE 10+),2055.34,True
+PAC-1449,Plano Básico Individual,18-35 anos,Rede D'Or Barra,Clínica Geral,2,3,1,10150.89,9856.35,9,False,6.01,102.99,Médio Risco (LACE 5-9),610.07,False
+PAC-1450,Plano Executivo Premium,Acima de 65 anos,Rede D'Or Barra,Cardiológica,1,13,5,34826.4,30489.92,13,False,7.21,114.22,Alto Risco (LACE 10+),2510.98,True
+PAC-1451,Plano Especial Corporativo,51-65 anos,Hospital Samaritano Central,Cirúrgica Eletiva,1,4,1,22603.14,17296.14,6,False,2.21,130.68,Médio Risco (LACE 5-9),499.53,False
+PAC-1452,Plano Especial Corporativo,Acima de 65 anos,Clínica Vida & Saúde,Cirúrgica Eletiva,1,11,5,38260.21,21254.93,10,False,5.16,180.01,Alto Risco (LACE 10+),1974.23,True
+PAC-1453,Plano Básico Individual,Acima de 65 anos,Rede D'Or Barra,Oncológica,4,6,4,26896.63,10472.99,11,False,7.41,256.82,Alto Risco (LACE 10+),1993.04,True
+PAC-1454,Plano Executivo Premium,Acima de 65 anos,Hospital Samaritano Central,Clínica Geral,0,8,5,33264.65,32228.55,9,False,8.6,103.21,Médio Risco (LACE 5-9),2860.76,True
+PAC-1455,Plano Básico Individual,36-50 anos,Rede D'Or Barra,Cirúrgica Eletiva,2,2,0,12913.8,9255.96,6,False,16.4,139.52,Médio Risco (LACE 5-9),2117.86,False
+PAC-1456,Plano Básico Individual,Acima de 65 anos,Hospital Sírio Metropolitano,Clínica Geral,0,6,3,21537.29,9733.59,6,False,23.65,221.27,Médio Risco (LACE 5-9),5093.57,False
+PAC-1457,Plano Básico Individual,51-65 anos,Clínica Vida & Saúde,Cirúrgica Eletiva,1,4,0,20326.62,8759.9,7,False,2.6,232.04,Médio Risco (LACE 5-9),528.49,False
+PAC-1458,Plano Especial Corporativo,51-65 anos,Hospital Santa Cruz,Clínica Geral,1,2,0,4681.41,15053.68,5,False,4.08,31.1,Médio Risco (LACE 5-9),191.0,False
+PAC-1459,Plano Especial Corporativo,51-65 anos,Rede D'Or Barra,Clínica Geral,1,4,1,13530.66,19243.49,7,False,20.42,70.31,Médio Risco (LACE 5-9),2762.96,False
+PAC-1460,Plano Especial Corporativo,Acima de 65 anos,Hospital Sírio Metropolitano,Clínica Geral,1,12,5,33133.11,16981.26,11,True,13.05,195.12,Alto Risco (LACE 10+),4323.87,True
+PAC-1461,Plano Executivo Premium,Acima de 65 anos,Hospital Santa Cruz,Cirúrgica Emergência,3,12,6,40352.64,32124.45,16,True,12.51,125.61,Alto Risco (LACE 10+),5048.12,True
+PAC-1462,Plano Básico Individual,Acima de 65 anos,Hospital Santa Cruz,Cirúrgica Emergência,3,11,5,39431.41,12044.29,16,True,30.0,327.39,Alto Risco (LACE 10+),11829.42,True
+PAC-1463,Plano Especial Corporativo,51-65 anos,Rede D'Or Barra,Cirúrgica Eletiva,1,4,0,12454.31,17674.77,6,False,7.24,70.46,Médio Risco (LACE 5-9),901.69,False
+PAC-1464,Plano Básico Individual,51-65 anos,Hospital Samaritano Central,Oncológica,0,22,2,36731.71,11544.5,8,False,3.22,318.17,Médio Risco (LACE 5-9),1182.76,True
+PAC-1465,Plano Executivo Premium,Acima de 65 anos,Rede D'Or Barra,Cirúrgica Eletiva,2,11,2,30407.53,26768.82,14,True,5.04,113.59,Alto Risco (LACE 10+),1532.54,True
+PAC-1466,Plano Especial Corporativo,36-50 anos,Hospital Sírio Metropolitano,Clínica Geral,3,5,1,13525.14,18768.51,10,False,20.59,72.06,Alto Risco (LACE 10+),2784.83,False
+PAC-1467,Plano Especial Corporativo,18-35 anos,Hospital Santa Cruz,Cardiológica,0,8,6,35635.19,17677.06,10,False,26.8,201.59,Alto Risco (LACE 10+),9550.23,True
+PAC-1468,Plano Especial Corporativo,36-50 anos,Rede D'Or Barra,Clínica Geral,1,2,1,7839.41,15905.0,4,False,20.5,49.29,Baixo Risco (LACE 0-4),1607.08,False
+PAC-1469,Plano Básico Individual,36-50 anos,Hospital Samaritano Central,Oncológica,0,10,4,32285.62,11395.86,7,False,12.58,283.31,Médio Risco (LACE 5-9),4061.53,True
+PAC-1470,Plano Especial Corporativo,36-50 anos,Rede D'Or Barra,Clínica Geral,2,1,0,3670.66,14011.43,5,False,21.13,26.2,Médio Risco (LACE 5-9),775.61,False
+PAC-1471,Plano Especial Corporativo,36-50 anos,Clínica Vida & Saúde,Oncológica,1,16,9,52618.24,16243.64,11,False,3.14,323.93,Alto Risco (LACE 10+),1652.21,True
+PAC-1472,Plano Especial Corporativo,18-35 anos,Hospital Samaritano Central,Clínica Geral,0,2,1,12589.59,21800.7,3,False,11.85,57.75,Baixo Risco (LACE 0-4),1491.87,False
+PAC-1473,Plano Básico Individual,18-35 anos,Hospital Sírio Metropolitano,Cardiológica,0,12,3,31001.94,11180.53,10,False,2.47,277.29,Alto Risco (LACE 10+),765.75,True
+PAC-1474,Plano Especial Corporativo,Acima de 65 anos,Hospital Santa Cruz,Cirúrgica Eletiva,3,8,4,33073.08,21914.24,13,True,23.25,150.92,Alto Risco (LACE 10+),7689.49,True
+PAC-1475,Plano Especial Corporativo,51-65 anos,Rede D'Or Barra,Oncológica,3,9,4,27748.08,19833.92,12,False,23.68,139.9,Alto Risco (LACE 10+),6570.75,True
+PAC-1476,Plano Básico Individual,36-50 anos,Hospital Samaritano Central,Clínica Geral,4,4,1,12120.23,9992.39,9,False,13.75,121.29,Médio Risco (LACE 5-9),1666.53,False
+PAC-1477,Plano Básico Individual,51-65 anos,Clínica Vida & Saúde,Cirúrgica Eletiva,2,2,1,13422.24,8490.22,7,False,8.05,158.09,Médio Risco (LACE 5-9),1080.49,False
+PAC-1478,Plano Especial Corporativo,36-50 anos,Hospital Samaritano Central,Oncológica,0,7,2,19731.33,17466.01,7,False,29.36,112.97,Médio Risco (LACE 5-9),5793.12,False
+PAC-1479,Plano Especial Corporativo,Acima de 65 anos,Clínica Vida & Saúde,Cirúrgica Eletiva,3,13,4,37685.2,20191.96,12,True,22.41,186.63,Alto Risco (LACE 10+),8445.25,True
+PAC-1480,Plano Básico Individual,Acima de 65 anos,Hospital Sírio Metropolitano,Cirúrgica Emergência,1,9,3,39696.79,12297.51,15,False,16.83,322.8,Alto Risco (LACE 10+),6680.97,True
+PAC-1481,Plano Básico Individual,18-35 anos,Hospital Santa Cruz,Cirúrgica Emergência,4,9,7,53593.69,9076.35,15,True,18.74,590.48,Alto Risco (LACE 10+),10043.46,True
+PAC-1482,Plano Básico Individual,51-65 anos,Hospital Sírio Metropolitano,Cirúrgica Eletiva,0,2,0,12595.54,12657.72,4,False,8.1,99.51,Baixo Risco (LACE 0-4),1020.24,False
+PAC-1483,Plano Básico Individual,Acima de 65 anos,Rede D'Or Barra,Cirúrgica Emergência,2,10,7,40750.75,9833.19,15,True,6.5,414.42,Alto Risco (LACE 10+),2648.8,True
+PAC-1484,Plano Especial Corporativo,Acima de 65 anos,Hospital Samaritano Central,Cirúrgica Eletiva,2,6,4,26722.04,14969.24,11,False,7.81,178.51,Alto Risco (LACE 10+),2086.99,True
+PAC-1485,Plano Especial Corporativo,51-65 anos,Clínica Vida & Saúde,Oncológica,2,8,4,24953.17,15814.07,12,False,15.76,157.79,Alto Risco (LACE 10+),3932.62,False
+PAC-1486,Plano Especial Corporativo,51-65 anos,Clínica Vida & Saúde,Clínica Geral,1,6,2,18805.64,14575.25,8,True,14.0,129.02,Médio Risco (LACE 5-9),2632.79,False
+PAC-1487,Plano Especial Corporativo,18-35 anos,Hospital Samaritano Central,Clínica Geral,0,3,0,6509.2,18624.58,3,False,8.55,34.95,Baixo Risco (LACE 0-4),556.54,False
+PAC-1488,Plano Básico Individual,Acima de 65 anos,Hospital Samaritano Central,Oncológica,2,9,4,28306.15,12279.63,11,True,11.02,230.51,Alto Risco (LACE 10+),3119.34,True
+PAC-1489,Plano Especial Corporativo,36-50 anos,Rede D'Or Barra,Cardiológica,2,5,3,19467.56,20137.87,13,False,10.87,96.67,Alto Risco (LACE 10+),2116.12,False
+PAC-1490,Plano Especial Corporativo,Acima de 65 anos,Hospital Sírio Metropolitano,Cirúrgica Eletiva,1,7,5,42889.27,15654.98,9,False,9.61,273.97,Médio Risco (LACE 5-9),4121.66,True
+PAC-1491,Plano Executivo Premium,51-65 anos,Clínica Vida & Saúde,Cirúrgica Emergência,0,6,3,34853.68,35160.06,10,False,8.5,99.13,Alto Risco (LACE 10+),2962.56,True
+PAC-1492,Plano Especial Corporativo,51-65 anos,Rede D'Or Barra,Clínica Geral,4,3,1,8256.52,16560.48,10,False,16.52,49.86,Alto Risco (LACE 10+),1363.98,False
+PAC-1493,Plano Básico Individual,51-65 anos,Hospital Sírio Metropolitano,Clínica Geral,3,1,0,6676.88,9312.55,6,False,7.83,71.7,Médio Risco (LACE 5-9),522.8,False
+PAC-1494,Plano Especial Corporativo,36-50 anos,Rede D'Or Barra,Cirúrgica Eletiva,0,4,0,24089.47,15604.52,4,False,22.44,154.37,Baixo Risco (LACE 0-4),5405.68,False
+PAC-1495,Plano Básico Individual,18-35 anos,Clínica Vida & Saúde,Cirúrgica Eletiva,1,2,0,20091.73,11076.74,4,False,8.86,181.39,Baixo Risco (LACE 0-4),1780.13,False
+PAC-1496,Plano Especial Corporativo,36-50 anos,Hospital Samaritano Central,Cirúrgica Eletiva,3,5,0,18499.05,18924.42,10,False,16.21,97.75,Alto Risco (LACE 10+),2998.7,False
+PAC-1497,Plano Básico Individual,36-50 anos,Hospital Samaritano Central,Clínica Geral,0,3,1,12325.42,9602.82,5,True,8.44,128.35,Médio Risco (LACE 5-9),1040.27,False
+PAC-1498,Plano Básico Individual,Acima de 65 anos,Hospital Sírio Metropolitano,Oncológica,0,9,6,35026.52,9586.3,7,True,2.22,365.38,Médio Risco (LACE 5-9),777.59,True
+PAC-1499,Plano Executivo Premium,36-50 anos,Hospital Santa Cruz,Oncológica,1,9,5,34744.12,32076.1,10,False,1.62,108.32,Alto Risco (LACE 10+),562.85,True
+PAC-1500,Plano Básico Individual,18-35 anos,Hospital Sírio Metropolitano,Cirúrgica Emergência,4,10,3,28823.87,12412.48,17,True,5.19,232.22,Alto Risco (LACE 10+),1495.96,True
+PAC-1501,Plano Especial Corporativo,Acima de 65 anos,Hospital Santa Cruz,Cirúrgica Eletiva,2,3,2,18940.99,18326.13,9,True,8.78,103.36,Médio Risco (LACE 5-9),1663.02,False
+PAC-1502,Plano Básico Individual,Acima de 65 anos,Rede D'Or Barra,Clínica Geral,1,16,5,40493.0,12768.52,10,False,8.32,317.13,Alto Risco (LACE 10+),3369.02,True
+PAC-1503,Plano Especial Corporativo,Acima de 65 anos,Rede D'Or Barra,Cardiológica,2,5,3,20470.25,19283.76,13,False,9.8,106.15,Alto Risco (LACE 10+),2006.08,False
+PAC-1504,Plano Especial Corporativo,Acima de 65 anos,Clínica Vida & Saúde,Cirúrgica Emergência,4,5,1,19358.76,18372.92,13,True,11.16,105.37,Alto Risco (LACE 10+),2160.44,False
+PAC-1505,Plano Especial Corporativo,18-35 anos,Hospital Santa Cruz,Clínica Geral,0,7,1,14039.16,15553.03,7,False,9.78,90.27,Médio Risco (LACE 5-9),1373.03,False
+PAC-1506,Plano Básico Individual,36-50 anos,Clínica Vida & Saúde,Oncológica,1,13,6,39301.45,10147.24,9,False,13.51,387.31,Médio Risco (LACE 5-9),5309.63,True
+PAC-1507,Plano Básico Individual,Acima de 65 anos,Hospital Samaritano Central,Cardiológica,4,5,4,22710.01,9199.74,15,False,14.18,246.85,Alto Risco (LACE 10+),3220.28,False
+PAC-1508,Plano Básico Individual,51-65 anos,Hospital Santa Cruz,Oncológica,1,20,4,43075.4,8194.0,9,False,22.54,525.69,Médio Risco (LACE 5-9),9709.2,True
+PAC-1509,Plano Básico Individual,18-35 anos,Hospital Sírio Metropolitano,Cirúrgica Emergência,0,12,4,36961.93,10667.77,10,False,13.65,346.48,Alto Risco (LACE 10+),5045.3,True
+PAC-1510,Plano Especial Corporativo,Acima de 65 anos,Hospital Samaritano Central,Cirúrgica Emergência,0,7,2,21251.83,18034.11,10,False,7.4,117.84,Alto Risco (LACE 10+),1572.64,False
+PAC-1511,Plano Executivo Premium,36-50 anos,Hospital Samaritano Central,Cirúrgica Eletiva,1,2,0,18079.12,30608.29,4,False,7.7,59.07,Baixo Risco (LACE 0-4),1392.09,False
+PAC-1512,Plano Executivo Premium,36-50 anos,Hospital Sírio Metropolitano,Oncológica,0,12,2,28938.85,28601.77,7,False,9.26,101.18,Médio Risco (LACE 5-9),2679.74,True
+PAC-1513,Plano Especial Corporativo,51-65 anos,Hospital Samaritano Central,Cardiológica,0,12,5,35883.61,17565.84,12,False,18.55,204.28,Alto Risco (LACE 10+),6656.41,True
+PAC-1514,Plano Especial Corporativo,51-65 anos,Hospital Santa Cruz,Clínica Geral,0,2,0,8442.66,20271.77,2,False,8.27,41.65,Baixo Risco (LACE 0-4),698.21,False
+PAC-1515,Plano Especial Corporativo,51-65 anos,Clínica Vida & Saúde,Clínica Geral,4,8,2,20019.3,19836.17,12,False,3.86,100.92,Alto Risco (LACE 10+),772.74,False
+PAC-1516,Plano Básico Individual,18-35 anos,Hospital Samaritano Central,Cirúrgica Eletiva,2,6,2,25026.34,10452.25,11,False,14.6,239.43,Alto Risco (LACE 10+),3653.85,True
+PAC-1517,Plano Executivo Premium,Acima de 65 anos,Hospital Santa Cruz,Cardiológica,0,10,7,42030.79,35319.72,11,False,7.68,119.0,Alto Risco (LACE 10+),3227.96,True
+PAC-1518,Plano Especial Corporativo,36-50 anos,Rede D'Or Barra,Oncológica,0,22,3,41817.19,14274.38,9,False,14.91,292.95,Médio Risco (LACE 5-9),6234.94,True
+PAC-1519,Plano Especial Corporativo,18-35 anos,Hospital Santa Cruz,Clínica Geral,1,1,0,5745.24,18985.38,5,True,9.75,30.26,Médio Risco (LACE 5-9),560.16,False
+PAC-1520,Plano Básico Individual,Acima de 65 anos,Clínica Vida & Saúde,Cirúrgica Eletiva,1,9,4,37377.35,10783.55,10,True,14.05,346.61,Alto Risco (LACE 10+),5251.52,True
+PAC-1521,Plano Básico Individual,Acima de 65 anos,Hospital Santa Cruz,Cirúrgica Eletiva,0,6,2,25533.74,11240.51,8,False,30.0,227.16,Médio Risco (LACE 5-9),7660.12,True
+PAC-1522,Plano Especial Corporativo,Acima de 65 anos,Hospital Sírio Metropolitano,Oncológica,1,4,0,12280.0,19514.23,6,True,1.49,62.93,Médio Risco (LACE 5-9),182.97,False
+PAC-1523,Plano Executivo Premium,Acima de 65 anos,Clínica Vida & Saúde,Cardiológica,2,8,5,28273.24,26839.6,14,False,1.95,105.34,Alto Risco (LACE 10+),551.33,True
+PAC-1524,Plano Especial Corporativo,51-65 anos,Rede D'Or Barra,Cardiológica,0,5,0,9847.42,21051.89,8,False,1.1,46.78,Médio Risco (LACE 5-9),108.32,False
+PAC-1525,Plano Básico Individual,51-65 anos,Hospital Sírio Metropolitano,Cirúrgica Eletiva,1,8,0,15913.17,10585.59,9,False,11.88,150.33,Médio Risco (LACE 5-9),1890.48,False
+PAC-1526,Plano Executivo Premium,18-35 anos,Hospital Santa Cruz,Cirúrgica Eletiva,2,3,1,12193.95,30408.43,8,False,3.9,40.1,Médio Risco (LACE 5-9),475.56,False
+PAC-1527,Plano Básico Individual,51-65 anos,Clínica Vida & Saúde,Clínica Geral,2,3,0,7734.39,9622.53,10,False,30.0,80.38,Alto Risco (LACE 10+),2320.32,False
+PAC-1528,Plano Básico Individual,36-50 anos,Rede D'Or Barra,Clínica Geral,1,3,1,10112.87,10432.21,6,False,1.09,96.94,Médio Risco (LACE 5-9),110.23,False
+PAC-1529,Plano Básico Individual,36-50 anos,Hospital Sírio Metropolitano,Cardiológica,1,12,5,34015.91,12728.88,13,True,21.29,267.23,Alto Risco (LACE 10+),7241.99,True
+PAC-1530,Plano Especial Corporativo,Acima de 65 anos,Rede D'Or Barra,Cardiológica,1,11,7,42155.76,20030.51,13,True,8.24,210.46,Alto Risco (LACE 10+),3473.63,True
+PAC-1531,Plano Executivo Premium,51-65 anos,Hospital Santa Cruz,Oncológica,1,8,5,28355.79,35548.38,11,False,1.21,79.77,Alto Risco (LACE 10+),343.11,True
+PAC-1532,Plano Básico Individual,18-35 anos,Rede D'Or Barra,Oncológica,1,8,4,27718.54,9572.17,9,False,6.34,289.57,Médio Risco (LACE 5-9),1757.36,True
+PAC-1533,Plano Executivo Premium,36-50 anos,Hospital Samaritano Central,Cirúrgica Eletiva,3,8,1,27814.29,32533.46,12,False,17.78,85.49,Alto Risco (LACE 10+),4945.38,True
+PAC-1534,Plano Básico Individual,51-65 anos,Hospital Sírio Metropolitano,Cardiológica,2,4,2,18193.32,9891.74,12,True,3.39,183.92,Alto Risco (LACE 10+),616.75,False
+PAC-1535,Plano Executivo Premium,18-35 anos,Rede D'Or Barra,Oncológica,4,8,7,39103.13,26526.34,13,False,16.49,147.41,Alto Risco (LACE 10+),6448.11,True
+PAC-1536,Plano Especial Corporativo,Acima de 65 anos,Hospital Santa Cruz,Cardiológica,2,4,3,21013.8,15824.8,13,False,30.0,132.79,Alto Risco (LACE 10+),6304.14,False
+PAC-1537,Plano Especial Corporativo,51-65 anos,Hospital Santa Cruz,Clínica Geral,2,3,0,9344.55,18479.12,9,False,19.34,50.57,Médio Risco (LACE 5-9),1807.24,False
+PAC-1538,Plano Básico Individual,51-65 anos,Rede D'Or Barra,Cirúrgica Eletiva,2,6,1,21252.62,8655.4,10,False,5.24,245.54,Alto Risco (LACE 10+),1113.64,False
+PAC-1539,Plano Executivo Premium,51-65 anos,Hospital Santa Cruz,Clínica Geral,2,3,0,6689.03,35207.85,7,False,19.06,19.0,Médio Risco (LACE 5-9),1274.93,False
+PAC-1540,Plano Especial Corporativo,Acima de 65 anos,Clínica Vida & Saúde,Oncológica,0,7,3,24437.06,17650.53,9,False,10.79,138.45,Médio Risco (LACE 5-9),2636.76,False
+PAC-1541,Plano Básico Individual,36-50 anos,Clínica Vida & Saúde,Cirúrgica Emergência,1,7,2,27983.52,10828.74,13,False,12.06,258.42,Alto Risco (LACE 10+),3374.81,True
+PAC-1542,Plano Especial Corporativo,51-65 anos,Clínica Vida & Saúde,Clínica Geral,2,4,2,15028.52,15052.52,8,False,13.25,99.84,Médio Risco (LACE 5-9),1991.28,False
+PAC-1543,Plano Básico Individual,51-65 anos,Hospital Samaritano Central,Cirúrgica Emergência,1,13,6,40534.33,12737.14,12,False,25.7,318.24,Alto Risco (LACE 10+),10417.32,True
+PAC-1544,Plano Executivo Premium,36-50 anos,Rede D'Or Barra,Cirúrgica Emergência,1,9,2,29591.91,28062.65,12,False,9.37,105.45,Alto Risco (LACE 10+),2772.76,True
+PAC-1545,Plano Básico Individual,Acima de 65 anos,Hospital Samaritano Central,Cirúrgica Eletiva,1,25,5,56723.96,12097.14,11,False,3.07,468.9,Alto Risco (LACE 10+),1741.43,True
+PAC-1546,Plano Especial Corporativo,Acima de 65 anos,Hospital Santa Cruz,Clínica Geral,1,4,2,18293.3,15303.22,7,True,8.88,119.54,Médio Risco (LACE 5-9),1624.45,False
+PAC-1547,Plano Especial Corporativo,51-65 anos,Hospital Samaritano Central,Cirúrgica Emergência,1,11,3,41191.17,16565.3,12,False,6.18,248.66,Alto Risco (LACE 10+),2545.61,True
+PAC-1548,Plano Básico Individual,Acima de 65 anos,Hospital Santa Cruz,Cirúrgica Eletiva,0,7,4,32240.9,9281.46,7,False,4.94,347.37,Médio Risco (LACE 5-9),1592.7,True
+PAC-1549,Plano Básico Individual,Acima de 65 anos,Hospital Santa Cruz,Cardiológica,1,12,6,36498.6,8957.45,12,False,4.2,407.47,Alto Risco (LACE 10+),1532.94,True
+PAC-1550,Plano Básico Individual,51-65 anos,Hospital Sírio Metropolitano,Cirúrgica Eletiva,3,2,0,20360.63,11207.9,7,False,19.76,181.66,Médio Risco (LACE 5-9),4023.26,False
+PAC-1551,Plano Especial Corporativo,Acima de 65 anos,Clínica Vida & Saúde,Cardiológica,2,9,3,23338.66,20067.08,14,False,14.81,116.3,Alto Risco (LACE 10+),3456.46,False
+PAC-1552,Plano Básico Individual,51-65 anos,Hospital Santa Cruz,Cirúrgica Eletiva,0,6,0,21440.78,9039.12,7,False,3.15,237.2,Médio Risco (LACE 5-9),675.38,False
+PAC-1553,Plano Especial Corporativo,51-65 anos,Hospital Sírio Metropolitano,Cirúrgica Eletiva,3,15,2,41691.51,19778.99,12,False,19.26,210.79,Alto Risco (LACE 10+),8029.78,True
+PAC-1554,Plano Básico Individual,51-65 anos,Clínica Vida & Saúde,Cardiológica,1,5,1,14124.24,9820.61,11,False,4.35,143.82,Alto Risco (LACE 10+),614.4,False
+PAC-1555,Plano Básico Individual,Acima de 65 anos,Hospital Santa Cruz,Cirúrgica Eletiva,0,6,2,31639.7,8202.93,8,False,15.32,385.71,Médio Risco (LACE 5-9),4847.2,True
+PAC-1556,Plano Especial Corporativo,18-35 anos,Hospital Santa Cruz,Clínica Geral,1,5,2,17367.76,16426.25,7,False,3.83,105.73,Médio Risco (LACE 5-9),665.19,False
+PAC-1557,Plano Básico Individual,Acima de 65 anos,Hospital Samaritano Central,Clínica Geral,1,7,1,17331.16,10213.68,9,False,15.68,169.69,Médio Risco (LACE 5-9),2717.53,False
+PAC-1558,Plano Executivo Premium,Acima de 65 anos,Hospital Samaritano Central,Cardiológica,4,4,0,9241.1,26574.78,13,False,1.38,34.77,Alto Risco (LACE 10+),127.53,False
+PAC-1559,Plano Executivo Premium,18-35 anos,Clínica Vida & Saúde,Cirúrgica Emergência,1,6,2,31326.5,35306.23,12,True,12.42,88.73,Alto Risco (LACE 10+),3890.75,True
+PAC-1560,Plano Especial Corporativo,Acima de 65 anos,Hospital Santa Cruz,Cirúrgica Emergência,0,3,0,11505.41,19233.89,6,True,7.13,59.82,Médio Risco (LACE 5-9),820.34,False
+PAC-1561,Plano Especial Corporativo,18-35 anos,Rede D'Or Barra,Clínica Geral,2,5,1,14165.03,18100.61,9,False,4.99,78.26,Médio Risco (LACE 5-9),706.83,False
+PAC-1562,Plano Executivo Premium,36-50 anos,Hospital Samaritano Central,Clínica Geral,1,2,0,8911.9,27951.86,4,False,29.58,31.88,Baixo Risco (LACE 0-4),2636.14,False
+PAC-1563,Plano Básico Individual,Acima de 65 anos,Clínica Vida & Saúde,Clínica Geral,0,9,3,26716.91,12924.65,9,True,16.04,206.71,Médio Risco (LACE 5-9),4285.39,True
+PAC-1564,Plano Básico Individual,18-35 anos,Hospital Santa Cruz,Cirúrgica Eletiva,2,4,1,25471.75,10400.67,8,True,20.75,244.9,Médio Risco (LACE 5-9),5285.39,True
+PAC-1565,Plano Básico Individual,Acima de 65 anos,Hospital Santa Cruz,Cirúrgica Eletiva,1,9,3,37679.25,11370.93,9,False,2.55,331.36,Médio Risco (LACE 5-9),960.82,True
+PAC-1566,Plano Especial Corporativo,Acima de 65 anos,Rede D'Or Barra,Cirúrgica Eletiva,1,6,1,15363.12,18218.49,8,True,6.08,84.33,Médio Risco (LACE 5-9),934.08,False
+PAC-1567,Plano Básico Individual,51-65 anos,Clínica Vida & Saúde,Cirúrgica Eletiva,3,7,0,14014.33,12935.5,12,False,9.83,108.34,Alto Risco (LACE 10+),1377.61,False
+PAC-1568,Plano Especial Corporativo,18-35 anos,Hospital Santa Cruz,Oncológica,1,21,2,39413.89,16290.07,10,False,15.76,241.95,Alto Risco (LACE 10+),6211.63,True
+PAC-1569,Plano Executivo Premium,36-50 anos,Hospital Samaritano Central,Clínica Geral,0,9,1,18811.7,27338.61,7,False,21.06,68.81,Médio Risco (LACE 5-9),3961.74,False
+PAC-1570,Plano Executivo Premium,51-65 anos,Rede D'Or Barra,Cirúrgica Eletiva,0,4,0,19616.26,30868.89,6,False,9.26,63.55,Médio Risco (LACE 5-9),1816.47,False
+PAC-1571,Plano Especial Corporativo,Acima de 65 anos,Clínica Vida & Saúde,Cardiológica,1,4,2,18266.35,15405.72,9,False,11.77,118.57,Médio Risco (LACE 5-9),2149.95,False
+PAC-1572,Plano Básico Individual,51-65 anos,Rede D'Or Barra,Cirúrgica Eletiva,3,1,0,18648.5,10426.28,6,False,18.72,178.86,Médio Risco (LACE 5-9),3491.0,False
+PAC-1573,Plano Especial Corporativo,36-50 anos,Hospital Samaritano Central,Cirúrgica Emergência,0,4,0,19892.1,15569.87,8,False,12.78,127.76,Médio Risco (LACE 5-9),2542.21,False
+PAC-1574,Plano Especial Corporativo,51-65 anos,Clínica Vida & Saúde,Cardiológica,0,6,3,21941.01,14804.96,9,False,4.29,148.2,Médio Risco (LACE 5-9),941.27,False
+PAC-1575,Plano Básico Individual,51-65 anos,Rede D'Or Barra,Oncológica,1,15,4,35389.17,8967.24,11,False,8.9,394.65,Alto Risco (LACE 10+),3149.64,True
+PAC-1576,Plano Básico Individual,Acima de 65 anos,Hospital Sírio Metropolitano,Clínica Geral,1,9,3,23749.55,11196.31,9,False,30.0,212.12,Médio Risco (LACE 5-9),7124.86,False
+PAC-1577,Plano Executivo Premium,18-35 anos,Hospital Samaritano Central,Oncológica,0,5,2,16722.43,31809.94,7,False,3.26,52.57,Médio Risco (LACE 5-9),545.15,False
+PAC-1578,Plano Especial Corporativo,Acima de 65 anos,Hospital Samaritano Central,Cirúrgica Eletiva,1,10,4,37957.83,20970.67,11,False,14.71,181.0,Alto Risco (LACE 10+),5583.6,True
+PAC-1579,Plano Especial Corporativo,51-65 anos,Hospital Samaritano Central,Clínica Geral,0,1,0,5216.91,21310.52,1,False,8.09,24.48,Baixo Risco (LACE 0-4),422.05,False
+PAC-1580,Plano Executivo Premium,Acima de 65 anos,Hospital Sírio Metropolitano,Cirúrgica Eletiva,1,5,3,29233.74,31370.03,9,False,12.42,93.19,Médio Risco (LACE 5-9),3630.83,True
+PAC-1581,Plano Especial Corporativo,36-50 anos,Hospital Sírio Metropolitano,Oncológica,1,15,6,42552.93,17186.0,9,False,19.31,247.6,Médio Risco (LACE 5-9),8216.97,True
+PAC-1582,Plano Especial Corporativo,51-65 anos,Hospital Santa Cruz,Cirúrgica Eletiva,0,10,2,29233.68,16743.73,7,False,9.47,174.59,Médio Risco (LACE 5-9),2768.43,True
+PAC-1583,Plano Básico Individual,Acima de 65 anos,Rede D'Or Barra,Clínica Geral,2,9,4,29389.84,10104.48,11,True,10.86,290.86,Alto Risco (LACE 10+),3191.74,True
+PAC-1584,Plano Básico Individual,18-35 anos,Hospital Santa Cruz,Cirúrgica Emergência,1,10,3,31944.49,9684.24,13,True,22.45,329.86,Alto Risco (LACE 10+),7171.54,True
+PAC-1585,Plano Básico Individual,Acima de 65 anos,Rede D'Or Barra,Clínica Geral,1,15,2,31405.44,9064.25,9,True,10.69,346.48,Médio Risco (LACE 5-9),3357.24,True
+PAC-1586,Plano Especial Corporativo,51-65 anos,Hospital Sírio Metropolitano,Clínica Geral,3,4,0,8571.23,18454.55,10,False,5.99,46.45,Alto Risco (LACE 10+),513.42,False
+PAC-1587,Plano Especial Corporativo,18-35 anos,Hospital Sírio Metropolitano,Clínica Geral,0,3,0,10981.36,20695.42,4,False,28.75,53.06,Baixo Risco (LACE 0-4),3157.14,False
+PAC-1588,Plano Executivo Premium,36-50 anos,Hospital Santa Cruz,Clínica Geral,0,4,0,7985.0,33443.71,5,False,5.0,23.88,Médio Risco (LACE 5-9),399.25,False
+PAC-1589,Plano Básico Individual,51-65 anos,Clínica Vida & Saúde,Clínica Geral,3,3,0,9474.37,9774.23,9,False,2.46,96.93,Médio Risco (LACE 5-9),233.07,False
+PAC-1590,Plano Especial Corporativo,18-35 anos,Hospital Santa Cruz,Clínica Geral,1,7,1,16065.8,14677.19,11,False,23.35,109.46,Alto Risco (LACE 10+),3751.36,False
+PAC-1591,Plano Especial Corporativo,51-65 anos,Rede D'Or Barra,Cirúrgica Emergência,3,8,5,40659.19,20312.32,15,True,12.86,200.17,Alto Risco (LACE 10+),5228.77,True
+PAC-1592,Plano Especial Corporativo,36-50 anos,Hospital Santa Cruz,Clínica Geral,2,1,0,3131.46,18727.33,5,False,1.99,16.72,Médio Risco (LACE 5-9),62.32,False
+PAC-1593,Plano Especial Corporativo,51-65 anos,Hospital Samaritano Central,Clínica Geral,4,5,2,16815.35,19295.76,12,False,13.16,87.15,Alto Risco (LACE 10+),2212.9,False
+PAC-1594,Plano Básico Individual,18-35 anos,Rede D'Or Barra,Cardiológica,2,24,3,43403.33,10642.92,16,False,10.59,407.81,Alto Risco (LACE 10+),4596.41,True
+PAC-1595,Plano Especial Corporativo,Acima de 65 anos,Rede D'Or Barra,Cirúrgica Eletiva,4,12,3,39647.94,18002.44,13,False,15.15,220.24,Alto Risco (LACE 10+),6006.66,True
+PAC-1596,Plano Básico Individual,Acima de 65 anos,Clínica Vida & Saúde,Cirúrgica Emergência,1,9,2,32689.71,8041.77,12,False,29.1,406.5,Alto Risco (LACE 10+),9512.71,True
+PAC-1597,Plano Básico Individual,Acima de 65 anos,Hospital Sírio Metropolitano,Clínica Geral,1,11,7,41787.95,11358.9,12,True,14.9,367.89,Alto Risco (LACE 10+),6226.4,True
+PAC-1598,Plano Especial Corporativo,Acima de 65 anos,Rede D'Or Barra,Clínica Geral,3,10,4,30884.98,18174.9,13,False,9.02,169.93,Alto Risco (LACE 10+),2785.83,True
+PAC-1599,Plano Especial Corporativo,18-35 anos,Hospital Sírio Metropolitano,Clínica Geral,2,4,0,12550.65,15675.25,8,False,22.88,80.07,Médio Risco (LACE 5-9),2871.59,False
