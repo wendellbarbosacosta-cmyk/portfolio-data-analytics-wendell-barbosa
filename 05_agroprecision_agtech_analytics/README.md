@@ -5,8 +5,7 @@
 [![Pandas](https://img.shields.io/badge/Data%20Analysis-Pandas-orange.svg)](https://pandas.pydata.org/)
 [![Seaborn & Plotly](https://img.shields.io/badge/Visualization-Seaborn%20%7C%20Plotly-purple.svg)](https://plotly.com/)
 [![AgTech & Embrapa Standard](https://img.shields.io/badge/Standard-AgTech%20%26%20Precision%20Farming-brightgreen.svg)](#)
-[![Pytest](https://img.shields.io/badge/Testing-Pytest%20Passed-success.svg)](https://pytest.org)
-[![License: MIT](https://img.shields.io/badge/License-MIT-green.svg)](https://opensource.org/licenses/MIT)
+[![Status](https://img.shields.io/badge/Status-Executive%20Ready-success.svg)](#)
 
 > **Projeto Executivo de Portfólio de Data Analytics** focado no setor de **AgTech, Agronegócio de Precisão e Produção de Grãos (Soja e Milho Safrinha)**. O objetivo é diagnosticar fatores limitantes de produtividade agrícola, eliminar o desperdício de fertilizantes NPK e defensivos via **Manejo em Taxa Variável (VRT)** e maximizar a margem líquida por hectare (R$/ha) com evidências estatísticas e sensoriamento remoto (NDVI).
 
@@ -16,10 +15,10 @@
 
 O agronegócio é o principal motor da balança comercial brasileira, respondendo por mais de 25% do PIB nacional. Em operações de grande escala de grãos no Cerrado e Sul do país, a margem operacional por hectare é pressionada pela volatilidade cambial das commodities e pela escalada no custo de insumos agrícolas (fertilizantes fosfatados, potássio e defensivos).
 
-Uma cooperativa / grupo agrícola monitorando **550 talhões comerciais (totalizando mais de 70.000 hectares)** identificou uma disparidade alarmante:
+Uma cooperativa / grupo agrícola monitorando **550 talhões comerciais (totalizando mais de 65.000 hectares)** identificou uma disparidade alarmante:
 1. **Quebra Média de Produtividade:** A produtividade média da soja atingiu **58,4 sc/ha**, muito aquém do potencial agronômico de **72,0 sc/ha** esperado para o pacote tecnológico contratado.
 2. **Superdosagem Indiscriminada de Insumos:** A aplicação convencional de fertilizantes em taxa fixa uniforme gerava um custo de insumos de **R$ 3.180/ha**, com aplicação de adubo em excesso em manchas naturalmente férteis e subnutrição em zonas empobrecidas.
-3. **Acidez Subsuperficial de Solo:** Talhões com saturação de bases (V% < 50%) apresentavam quebras severas de safra e estresse radicular, agravados por veranicos de 14 a 21 dias.
+3. **Acidez Subsuperficial de Solo:** Talhões com saturação de bases ($V% < 50%$) apresentavam quebras severas de safra e estresse radicular, agravados por veranicos de 14 a 21 dias.
 
 ---
 
@@ -27,12 +26,12 @@ Uma cooperativa / grupo agrícola monitorando **550 talhões comerciais (totaliz
 
 | Indicador Agronômico / Financeiro | Valor Atual | Benchmark de Alta Performance | Status / Diagnóstico |
 | :--- | :---: | :---: | :---: |
-| **Produtividade Média Soja** | **58,4 sc/ha** | >= 72,0 sc/ha | 🔴 Gap de -13,6 sc/ha |
-| **Produtividade Média Milho Safrinha** | **96,2 sc/ha** | >= 115,0 sc/ha | 🔴 Gap de -18,8 sc/ha |
-| **Margem Líquida Média Operacional** | **R$ 2.450 / ha** | >= R$ 3.500 / ha | 🟡 Comprimida pelo Custo |
-| **Custo Médio de Insumos NPK/Defensivos** | **R$ 2.870 / ha** | <= R$ 2.400 / ha (VRT) | 🔴 Sobreaplicação (+19,5%) |
-| **Índice Médio de Vigor Vegetativo (NDVI)** | **0,642** | >= 0,750 no R2/R3 | 🟡 Heterogeneidade Foliar |
-| **Talhões Críticos com Acidez (V% < 50%)** | **142 talhões (25,8%)** | <= 10,0% | 🔴 Risco de Solvência |
+| **Produtividade Média Soja** | **58,4 sc/ha** | $ge 72,0$ sc/ha | 🔴 Gap de -13,6 sc/ha |
+| **Produtividade Média Milho Safrinha** | **96,2 sc/ha** | $ge 115,0$ sc/ha | 🔴 Gap de -18,8 sc/ha |
+| **Margem Líquida Média Operacional** | **R$ 2.450 / ha** | $ge$ R$ 3.500 / ha | 🟡 Comprimida pelo Custo |
+| **Custo Médio de Insumos NPK/Defensivos** | **R$ 2.870 / ha** | $le$ R$ 2.400 / ha (VRT) | 🔴 Sobreaplicação (+19,5%) |
+| **Índice Médio de Vigor Vegetativo (NDVI)** | **0,642** | $ge 0,750$ no R2/R3 | 🟡 Heterogeneidade Foliar |
+| **Talhões Críticos com Acidez ($V% < 50%$)** | **142 talhões (25,8%)** | $le 10,0%$ | 🔴 Risco de Solvência |
 | **Adoção de Taxa Variável (VRT)** | **42,0% da área** | Meta: 100% | 🟡 Oportunidade de Expansão |
 
 ---
@@ -40,7 +39,7 @@ Uma cooperativa / grupo agrícola monitorando **550 talhões comerciais (totaliz
 ## 🔍 3. Storytelling: Resposta às 3 Perguntas Críticas de Negócio
 
 ### ❓ Pergunta 1: Qual o impacto da acidez e saturação por bases (V%) na produtividade real da soja?
-* **Causa Raiz Identificada:** Talhões com saturação por bases corrigida (V% > 65%) produzem em média **66,8 sc/ha**, contra apenas **49,6 sc/ha** em solos ácidos (V% < 50%) — quebra de **17,2 sc/ha (-25,8%)**.
+* **Causa Raiz Identificada:** Talhões com saturação por bases corrigida ($V% > 65%$) produzem em média **66,8 sc/ha**, contra apenas **49,6 sc/ha** em solos ácidos ($V% < 50%$) — quebra de **17,2 sc/ha (-25,8%)**.
 * **Decisão de Negócio:** Plano diretor de **correção profunda de perfil** com aplicação antecipada de calcário dolomítico e gesso agrícola nos 142 talhões críticos.
 * **Impacto:** Recuperação de **+12,5 sc/ha** e acréscimo de **R$ 1.687,50/ha** em receita bruta.
 
@@ -56,35 +55,8 @@ Uma cooperativa / grupo agrícola monitorando **550 talhões comerciais (totaliz
 
 ---
 
-## 🛠️ 4. Como Executar o Pipeline Localmente
-
-```bash
-# Clone do repositório completo
-git clone https://github.com/wendellbarbosacosta-cmyk/portfolio-data-analytics-wendell-barbosa.git
-cd portfolio-data-analytics-wendell-barbosa/05_agroprecision_agtech_analytics
-
-# Criação e ativação do ambiente virtual
-python -m venv .venv
-source .venv/bin/activate  # No Windows: .venv\Scripts\activate
-
-# Instalação das dependências
-pip install -r requirements.txt
-
-# Execução do pipeline analítico
-python pipeline_agrotech_analytics.py
-```
-
----
-
 ## 🚀 5. Próximos Passos (Fase 2 do Projeto)
 
 1. **Sensoriamento Remoto Automatizado com Satélites (Sentinel-2 & Planet):** Pipeline de ingestão contínua de índices biofísicos (NDVI, NDRE e EVI) em intervalos de 5 dias.
 2. **Modelo Preditivo de Safra com Machine Learning (Random Forest & XGBoost):** Estimativa da colheita final em D-45 com base em dados de solo, telemetria climática e variedades.
 3. **Integração IoT com Computadores de Bordo de Colheitadeiras:** Coleta de dados via telemetria ISOBUS (mapas de colheita pixel a pixel).
-
----
-
-## 👤 Autor
-
-* **Wendell Barbosa Costa** — Especialista em Análise de Dados, AgTech & Modelagem de Decisão Executiva.
-* GitHub: [@wendellbarbosacosta-cmyk](https://github.com/wendellbarbosacosta-cmyk)

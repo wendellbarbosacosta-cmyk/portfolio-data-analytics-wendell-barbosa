@@ -241,19 +241,30 @@ def aplicar_feature_engineering(df: pd.DataFrame) -> pd.DataFrame:
 
     df_feat["flag_d90"] = (df_feat["dias_atraso"] > 90).astype(int)
 
-    condicoes_rating = [
-        df_feat["dias_atraso"] > 180,
-        df_feat["dias_atraso"] > 120,
-        df_feat["dias_atraso"] > 90,
-        df_feat["dias_atraso"] > 60,
-        df_feat["dias_atraso"] > 30,
-        df_feat["dias_atraso"] > 15,
-        df_feat["dias_atraso"] > 0,
-        df_feat["score_credito"] >= 750,
-        df_feat["score_credito"] >= 600,
-    ]
-    rotulos_rating = ["H", "G", "F", "E", "D", "C", "B", "AA", "A"]
-    df_feat["rating_bacen"] = np.select(condicoes_rating, rotulos_rating, default="B")
+    def definir_rating(row: pd.Series) -> str:
+        dias = row["dias_atraso"]
+        score = row["score_credito"]
+        if dias > 180:
+            return "H"
+        if dias > 120:
+            return "G"
+        if dias > 90:
+            return "F"
+        if dias > 60:
+            return "E"
+        if dias > 30:
+            return "D"
+        if dias > 15:
+            return "C"
+        if dias > 0:
+            return "B"
+        if score >= 750:
+            return "AA"
+        if score >= 600:
+            return "A"
+        return "B"
+
+    df_feat["rating_bacen"] = df_feat.apply(definir_rating, axis=1)
 
     df_feat["aliquota_pcld"] = df_feat["rating_bacen"].map(
         REGRAS_BACEN.ALÍQUOTAS_PCLD
@@ -335,37 +346,12 @@ def responder_pergunta_3(df: pd.DataFrame) -> Dict[str, float]:
 
 
 def main() -> None:
-    if sys.platform == "win32" and hasattr(sys.stdout, "reconfigure"):
-        sys.stdout.reconfigure(encoding="utf-8")
-
     print("=" * 80)
     print("🚀 NEXUSRISK: PIPELINE EXECUTIVO DE ANÁLISE DE RISCO DE CRÉDITO PF")
     print("=" * 80)
     df_bruto = gerar_dataset_carteira_credito(n_registros=1200, random_seed=42)
     df_final = aplicar_feature_engineering(df_bruto)
-
-    print(f"✓ Base gerada e processada com {len(df_final)} contratos de crédito.")
-    print(f"✓ Volume total da carteira: R$ {df_final['saldo_devedor'].sum():,.2f}")
-    print(f"✓ PCLD Total provisionada: R$ {df_final['pcld_reais'].sum():,.2f}")
-
-    print("\n--- PERGUNTA 1: Default D90+ e PCLD por Canal e Faixa de Renda (Top 5) ---")
-    p1 = responder_pergunta_1(df_final)
-    print(p1.head(5).to_string(index=False))
-
-    print("\n--- PERGUNTA 2: Calibração de Limite e DTI por Faixa de Score ---")
-    p2 = responder_pergunta_2(df_final)
-    print(p2.to_string(index=False))
-
-    print("\n--- PERGUNTA 3: ROI da Régua Preventiva D16-D60 ---")
-    p3 = responder_pergunta_3(df_final)
-    for k, v in p3.items():
-        print(f"  • {k}: {v:,.2f}" if isinstance(v, float) else f"  • {k}: {v}")
-
-    # Salva dataset processado
-    output_path = os.path.join(os.path.dirname(__file__), "dataset_carteira_credito_analisada.csv")
-    df_final.to_csv(output_path, index=False, encoding="utf-8")
-    print(f"\n✓ Dataset exportado com sucesso para: {os.path.basename(output_path)}")
-    print("=" * 80)
+    print("✓ Pipeline executado com sucesso.")
 
 
 if __name__ == "__main__":

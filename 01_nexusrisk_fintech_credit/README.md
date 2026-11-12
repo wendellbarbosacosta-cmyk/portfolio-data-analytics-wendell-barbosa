@@ -91,18 +91,11 @@ Para garantir aderência estrita às práticas do mercado bancário brasileiro, 
 ## 🛠️ 6. Como Executar o Pipeline Localmente
 
 ```bash
-# Clone do repositório completo
-git clone https://github.com/wendellbarbosacosta-cmyk/portfolio-data-analytics-wendell-barbosa.git
-cd portfolio-data-analytics-wendell-barbosa/01_nexusrisk_fintech_credit
-
-# Criação e ativação do ambiente virtual
+git clone https://github.com/seu-usuario/nexusrisk-credit-analytics.git
+cd nexusrisk-credit-analytics
 python -m venv .venv
-source .venv/bin/activate  # No Windows: .venv\Scripts\activate
-
-# Instalação das dependências
+source .venv/bin/activate
 pip install -r requirements.txt
-
-# Execução do pipeline
 python pipeline_credit_risk.py
 ```
 
@@ -112,4 +105,4 @@ python pipeline_credit_risk.py
 
 **Wendell Barbosa Costa**  
 *Especialista em Análise de Dados, Risco & Inteligência de Negócio*  
-* GitHub: [@wendellbarbosacosta-cmyk](https://github.com/wendellbarbosacosta-cmyk)
+* [LinkedIn](https://linkedin.com) • [GitHub](https://github.com) • [Email](mailto:wendellbarbosacosta@gmail.com)

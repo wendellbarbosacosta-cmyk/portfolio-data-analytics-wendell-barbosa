@@ -1,12 +1,12 @@
 # ⚡ PulseSaaS: Diagnóstico de Churn de MRR, Otimização de Net Revenue Retention (NRR) & Eficiência de CAC em Plataforma B2B
 
-[![Python](https://img.shields.io/badge/Python-3.11+-3776AB?style=for-the-badge&logo=python&logoColor=white)](https://python.org)
-[![Pandas](https://img.shields.io/badge/Pandas-2.1+-150458?style=for-the-badge&logo=pandas&logoColor=white)](https://pandas.pydata.org)
-[![Seaborn](https://img.shields.io/badge/Seaborn-0.13+-4C72B0?style=for-the-badge)](https://seaborn.pydata.org)
-[![Plotly](https://img.shields.io/badge/Plotly-5.18+-3F4F75?style=for-the-badge&logo=plotly&logoColor=white)](https://plotly.com)
-[![PEP 8](https://img.shields.io/badge/Code%20Style-PEP%208-blueviolet?style=for-the-badge)](https://pep8.org)
-[![SaaS Metrics](https://img.shields.io/badge/Domain-SaaS%20%26%20Subscription%20Economy-purple?style=for-the-badge)](https://github.com)
-[![License](https://img.shields.io/badge/License-MIT-green?style=for-the-badge)](https://opensource.org/licenses/MIT)
+![Python](https://img.shields.io/badge/Python-3.11%2B-blue?logo=python)
+![Pandas](https://img.shields.io/badge/Pandas-2.1%2B-150458?logo=pandas)
+![Seaborn](https://img.shields.io/badge/Seaborn-0.13%2B-4c72b0)
+![Plotly](https://img.shields.io/badge/Plotly-5.18%2B-3f4f75?logo=plotly)
+![PEP 8](https://img.shields.io/badge/Code%20Style-PEP%208-green)
+![SaaS Metrics](https://img.shields.io/badge/Domain-SaaS%20%26%20Subscription%20Economy-purple)
+![License](https://img.shields.io/badge/License-MIT-lightgrey)
 
 > **Projeto de Portfólio de Data Analytics & Inteligência de Negócio**  
 > **Segmento:** SaaS B2B, Computação em Nuvem e Economia da Assinatura (*Recurring Revenue*)  
@@ -17,10 +17,10 @@
 
 ## 📌 1. Contexto do Problema & Desafio de Negócio
 
-Uma empresa scale-up brasileira de software B2B (*Software-as-a-Service* de produtividade e gestão corporativa) acelerou expressivamente suas vendas no último exercício fiscal, ultrapassando a marca de **500 clientes ativos** e **R$ 1,32M de MRR** (faturamento anualizado de **R$ 15,8M de ARR**).
+Uma empresa scale-up brasileira de software B2B (*Software-as-a-Service* de produtividade e gestão corporativa) acelerou expressivamente suas vendas no último exercício fiscal, ultrapassando a marca de **500 clientes ativos** e **R$ 540.000 de MRR** (faturamento anualizado de **R$ 6,48M de ARR**).
 
 Contudo, a pressão por crescimento rápido gerou distorções severas na retenção:
-* O indicador fundamental de saúde em SaaS, o **Net Revenue Retention (NRR)**, desabou de **115% para 91,4%** (o benchmark de scale-ups de excelência do Vale do Silício e B3 é >= 110%). Valores abaixo de 100% significam que a empresa está encolhendo organicamente, mesmo adquirindo novos clientes.
+* O indicador fundamental de saúde em SaaS, o **Net Revenue Retention (NRR)**, desabou de **115% para 91,4%** (o benchmark de scale-ups de excelência do Vale do Silício e B3 é $ge 110%$). Valores abaixo de 100% significam que a empresa está encolhendo organicamente, mesmo adquirindo novos clientes.
 * O **Gross Churn de MRR atingiu R$ 68.500/mês (12,7% do MRR total)**, concentrado no segmento Starter/PME nos primeiros 90 dias após a assinatura (*Onboarding Cliff*).
 * O **CAC Payback dilatou de 8 para 18,5 meses**, forçando a queima de caixa e gerando tensão junto ao Conselho de Administração (*Board of Directors*).
 
@@ -31,23 +31,23 @@ O Comitê Executivo (CEO, CRO e Head de Customer Success) contratou esta consult
 ## 🎯 2. Regras de Negócio e Arcabouço Metodológico de SaaS
 
 | Métrica / Conceito | Fórmula & Definição Operacional | Benchmark Saudável | Status Atual |
-| :--- | :--- | :---: | :---: |
-| **Net Revenue Retention (NRR)** | `((MRR Inicial + Expansão - Contração - Churn) / MRR Inicial) * 100` | >= 110,0% | **91,4%** (Crítico ⚠️) |
-| **Gross Revenue Churn Rate** | `(MRR Cancelado / MRR Inicial) * 100` | <= 1,0% a.m. | **12,7%** a.m. (Crítico ⚠️) |
-| **Quick Ratio de SaaS** | `(Novo MRR + Expansion MRR) / (Churn MRR + Contraction MRR)` | >= 4,0x | **1,62x** (Insuficiente) |
-| **LTV / CAC Ratio** | `LTV / CAC` onde `LTV = (ARPU * Margem Bruta) / Churn Rate` | >= 3,0x | **1,85x** (Comprimido) |
-| **Tempo de Payback do CAC** | `CAC / (ARPU * Margem Bruta 82%)` | <= 12 meses | **18,5 meses** |
+| :--- | :--- | :--- | :--- |
+| **Net Revenue Retention (NRR)** | $rac{	ext{MRR Inicial} + 	ext{Expansão} - 	ext{Contração} - 	ext{Churn}}{	ext{MRR Inicial}} 	imes 100$ | $ge 110,0%$ | **91,4%** (Crítico ⚠️) |
+| **Gross Revenue Churn Rate** | $rac{	ext{MRR Cancelado}}{	ext{MRR Inicial}} 	imes 100$ | $le 1,0%$ a.m. | **12,7%** a.m. (Crítico ⚠️) |
+| **Quick Ratio de SaaS** | $rac{	ext{Novo MRR} + 	ext{Expansion MRR}}{	ext{Churn MRR} + 	ext{Contraction MRR}}$ | $ge 4,0x$ | **1,62x** (Insuficiente) |
+| **LTV / CAC Ratio** | $rac{	ext{LTV}}{	ext{CAC}}$ onde $	ext{LTV} = rac{	ext{ARPU} 	imes 	ext{Margem Bruta}}{	ext{Churn Rate}}$ | $ge 3,0x$ | **1,85x** (Comprimido) |
+| **Tempo de Payback do CAC** | $rac{	ext{CAC}}{	ext{ARPU} 	imes 	ext{Margem Bruta (82%)}}$ | $le 12$ meses | **18,5 meses** |
 
 ### Algoritmo de Health Score do Cliente (0 a 100 pts)
 O Health Score avalia 4 pilares comportamentais com cálculo dinâmico:
 1. **Frequência de Login Semanal (35%):** Normalizado de 0 a 7 dias úteis.
 2. **Adoção de Features Core (35%):** % de módulos estratégicos habilitados no workspace.
-3. **Ocupação de Assentos Licenciados (15%):** `(Assentos Ativos / Assentos Contratados) * 100`.
+3. **Ocupação de Assentos Licenciados (15%):** $rac{	ext{Assentos Ativos}}{	ext{Assentos Contratados}} 	imes 100$.
 4. **Severidade de Chamados de Suporte (15%):** Penalidade progressiva de 12 pts por chamado crítico não resolvido.
-* **Classificação de Faixas de Risco:**
-  * 🟢 **Verde (Saudável):** Score >= 70 (risco de churn < 5%)
-  * 🟡 **Amarelo (Atenção):** Score 50 a 69 (risco de churn 15% - 30%)
-  * 🔴 **Vermelho (Crítico):** Score < 50 (risco de churn > 65%)
+* **Classificação:**
+  * 🟢 **Verde (Saudável):** Score $ge 70$ (risco de churn $< 5%$)
+  * 🟡 **Amarelo (Atenção):** Score $50 - 69$ (risco de churn $15% - 30%$)
+  * 🔴 **Vermelho (Crítico):** Score $< 50$ (risco de churn $> 65%$)
 
 ---
 
@@ -80,37 +80,10 @@ O Health Score avalia 4 pilares comportamentais com cálculo dinâmico:
 
 ---
 
-## 🔮 4. Próximos Passos (Fase 2 do Projeto)
+## 🔮 5. Próximos Passos (Fase 2 do Projeto)
 
 Para evoluir este projeto em um ciclo avançado de engenharia e data science corporativo:
 * [ ] **Machine Learning de Previsão de Churn (Survival Analysis):** Treinar modelo LightGBM e Curvas de Kaplan-Meier para estimar o risco pontual de churn em D-30 e D-60.
 * [ ] **Explicabilidade com SHAP Values:** Fornecer ao time de Customer Success o exato motivo pelo qual o score de uma conta caiu (ex: "queda de 40% no envio de relatórios").
 * [ ] **Microserviço em FastAPI:** Desenvolver API RESTful que recalcula o Health Score a cada evento de telemetria de produto (*product analytics*).
 * [ ] **Integração com Slack e HubSpot via Webhooks:** Envio automático de cards de risco para o canal de CS quando um cliente Enterprise cair para score < 60.
-
----
-
-## 🛠️ 5. Como Executar o Pipeline Localmente
-
-```bash
-# Clone do repositório completo
-git clone https://github.com/wendellbarbosacosta-cmyk/portfolio-data-analytics-wendell-barbosa.git
-cd portfolio-data-analytics-wendell-barbosa/03_pulsesaas_b2b_subscriptions
-
-# Criação e ativação do ambiente virtual
-python -m venv .venv
-source .venv/bin/activate  # No Windows: .venv\Scripts\activate
-
-# Instalação das dependências
-pip install -r requirements.txt
-
-# Execução do pipeline analítico
-python pipeline_saas_metrics.py
-```
-
----
-
-## 👤 Autor
-
-* **Wendell Barbosa Costa** — Especialista em Análise de Dados e Inteligência de Negócio.
-* GitHub: [@wendellbarbosacosta-cmyk](https://github.com/wendellbarbosacosta-cmyk)

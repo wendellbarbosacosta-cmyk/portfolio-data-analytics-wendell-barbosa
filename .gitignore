@@ -30,39 +30,37 @@ venv/
 ENV/
 env/
 
-# Jupyter Notebook checkpoints
-.ipynb_checkpoints
-
-# Environment variables and secrets
-.env
-.env.*
-!.env.example
-
-# Temporary, bulk and database data files
-*.parquet
-*.sqlite
-*.sqlite3
-*.db
-*.log
-*.tar.gz
-*.zip
-*.csv.gz
-data/raw/*
-data/processed/*
-!data/raw/.gitkeep
-!data/processed/.gitkeep
-
-# Output graphics and temp exports (allows versioned presentation assets)
-graficos/*.png
-graficos_logistica/*.png
-graficos_saas/*.png
-
-# Testing and coverage cache
+# Testing & Coverage
 .pytest_cache/
 .coverage
 htmlcov/
+.tox/
+.nox/
 
-# Operating System specific files
+# IDEs and Editors
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# Environment variables & secrets
+.env
+*.env.local
+
+# Operating System temporary files
 .DS_Store
 Thumbs.db
-desktop.ini
+
+# Output graphics, reports and heavy exports
+graficos/*.png
+graficos_logistica/*.png
+graficos_saas/*.png
+graficos_healthcare/*.png
+relatorios_agrotech/*.png
+relatorios_energia/*.png
+relatorios_industrytech/*.png
+relatorios_industrytech/*.html
+*.log

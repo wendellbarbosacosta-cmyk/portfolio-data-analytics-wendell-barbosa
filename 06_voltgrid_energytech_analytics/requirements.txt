@@ -1,0 +1,9 @@
+# VoltGrid EnergyTech Analytics - Production Stack
+# Compatible with Python >= 3.10, 3.11, 3.12, 3.13
+pandas>=2.1.0
+numpy>=1.26.0
+seaborn>=0.13.0
+matplotlib>=3.8.0
+plotly>=5.18.0
+scipy>=1.11.0
+pytest>=8.0.0

@@ -1,1201 +1,451 @@
-id_pedido,regiao_destino,categoria,transportadora,valor_pedido,frete_cobrado,custo_frete_real,prazo_prometido_dias,prazo_real_dias,extraviado,recomprou_60d,nps,dias_atraso,flag_otif,status_entrega,subsidio_frete,custo_indenizacao
-PED-000001,Nordeste,Moda & Vestuário,Jadlog Standard,203.01,0.0,57.86,7,11,False,False,4,4,0,Atraso Crítico (3-5d),57.86,0.0
-PED-000002,Sudeste,Eletrônicos,Mandaê Flex,408.59,0.0,15.19,3,2,False,True,10,0,1,No Prazo (SLA OK),15.19,0.0
-PED-000003,Sudeste,Moda & Vestuário,Total Express,154.67,15.39,18.52,4,4,False,True,10,0,1,No Prazo (SLA OK),3.13,0.0
-PED-000004,Sudeste,Eletrônicos,Total Express,465.8,18.26,22.2,2,1,False,False,10,0,1,No Prazo (SLA OK),3.94,0.0
-PED-000005,Sul,Casa & Decoração,Loggi Express,273.13,24.17,31.31,4,18,True,True,1,14,0,Extraviado/Avaria,7.14,297.3
-PED-000006,Nordeste,Casa & Decoração,Loggi Express,280.7,43.66,52.16,8,8,False,True,10,0,1,No Prazo (SLA OK),8.5,0.0
-PED-000007,Nordeste,Moda & Vestuário,Loggi Express,157.1,30.32,42.67,6,6,False,False,10,0,1,No Prazo (SLA OK),12.35,0.0
-PED-000008,Sudeste,Eletrônicos,Correios Sedex,833.33,0.0,23.12,4,4,False,True,10,0,1,No Prazo (SLA OK),23.12,0.0
-PED-000009,Sudeste,Alimentos & Bebidas,Total Express,90.28,14.21,16.21,2,4,False,True,7,2,0,Atraso Leve (1-2d),2.0,4.26
-PED-000010,Norte,Moda & Vestuário,Total Express,203.23,0.0,64.03,10,9,False,False,10,0,1,No Prazo (SLA OK),64.03,0.0
-PED-000011,Sudeste,Casa & Decoração,Loggi Express,473.98,0.0,17.91,2,2,False,True,10,0,1,No Prazo (SLA OK),17.91,0.0
-PED-000012,Sudeste,Eletrônicos,Mandaê Flex,537.1,0.0,25.82,2,2,False,True,10,0,1,No Prazo (SLA OK),25.82,0.0
-PED-000013,Sudeste,Moda & Vestuário,Correios Sedex,146.92,14.48,16.44,2,2,False,True,10,0,1,No Prazo (SLA OK),1.96,0.0
-PED-000014,Nordeste,Eletrônicos,Loggi Express,599.28,0.0,49.83,7,7,False,False,10,0,1,No Prazo (SLA OK),49.83,0.0
-PED-000015,Nordeste,Moda & Vestuário,Loggi Express,260.78,42.56,46.48,6,6,False,False,10,0,1,No Prazo (SLA OK),3.92,0.0
-PED-000016,Sudeste,Alimentos & Bebidas,Loggi Express,148.73,18.9,20.46,2,5,False,False,4,3,0,Atraso Crítico (3-5d),1.56,18.9
-PED-000017,Sudeste,Moda & Vestuário,Jadlog Standard,158.13,16.53,23.95,2,1,False,True,10,0,1,No Prazo (SLA OK),7.42,0.0
-PED-000018,Nordeste,Eletrônicos,Total Express,756.45,46.95,55.04,9,9,False,True,10,0,1,No Prazo (SLA OK),8.09,0.0
-PED-000019,Sul,Eletrônicos,Jadlog Standard,407.5,0.0,37.01,5,5,False,True,10,0,1,No Prazo (SLA OK),37.01,0.0
-PED-000020,Sudeste,Moda & Vestuário,Jadlog Standard,230.88,20.81,22.41,2,1,False,True,10,0,1,No Prazo (SLA OK),1.6,0.0
-PED-000021,Norte,Eletrônicos,Total Express,739.89,58.16,86.92,8,7,False,False,10,0,1,No Prazo (SLA OK),28.76,0.0
-PED-000022,Sudeste,Eletrônicos,Loggi Express,582.28,0.0,17.39,2,2,False,True,10,0,1,No Prazo (SLA OK),17.39,0.0
-PED-000023,Sudeste,Casa & Decoração,Jadlog Standard,247.76,20.48,21.71,4,4,False,True,10,0,1,No Prazo (SLA OK),1.23,0.0
-PED-000024,Centro-Oeste,Moda & Vestuário,Jadlog Standard,136.8,31.55,40.43,6,6,False,True,10,0,1,No Prazo (SLA OK),8.88,0.0
-PED-000025,Sudeste,Eletrônicos,Jadlog Standard,767.66,11.57,16.17,4,4,False,False,10,0,1,No Prazo (SLA OK),4.6,0.0
-PED-000026,Sul,Beleza & Saúde,Correios Sedex,195.3,26.19,34.1,5,5,False,False,10,0,1,No Prazo (SLA OK),7.91,0.0
-PED-000027,Sudeste,Eletrônicos,Loggi Express,509.79,13.89,19.33,3,3,False,False,10,0,1,No Prazo (SLA OK),5.44,0.0
-PED-000028,Sudeste,Alimentos & Bebidas,Jadlog Standard,160.63,13.94,17.6,2,1,False,False,10,0,1,No Prazo (SLA OK),3.66,0.0
-PED-000029,Norte,Eletrônicos,Total Express,190.85,53.28,69.19,8,8,False,False,10,0,1,No Prazo (SLA OK),15.91,0.0
-PED-000030,Sudeste,Beleza & Saúde,Loggi Express,113.69,19.22,21.0,2,2,False,True,10,0,1,No Prazo (SLA OK),1.78,0.0
-PED-000031,Centro-Oeste,Casa & Decoração,Total Express,336.58,0.0,36.76,5,5,False,True,10,0,1,No Prazo (SLA OK),36.76,0.0
-PED-000032,Sudeste,Beleza & Saúde,Loggi Express,99.06,17.33,22.41,3,2,False,False,10,0,1,No Prazo (SLA OK),5.08,0.0
-PED-000033,Sudeste,Alimentos & Bebidas,Loggi Express,97.86,12.08,14.09,3,3,False,False,10,0,1,No Prazo (SLA OK),2.01,0.0
-PED-000034,Sudeste,Eletrônicos,Mandaê Flex,503.09,0.0,14.46,3,3,False,False,10,0,1,No Prazo (SLA OK),14.46,0.0
-PED-000035,Sul,Alimentos & Bebidas,Mandaê Flex,153.15,23.0,28.73,6,5,False,False,10,0,1,No Prazo (SLA OK),5.73,0.0
-PED-000036,Sudeste,Moda & Vestuário,Correios Sedex,178.76,18.64,22.61,4,4,False,False,10,0,1,No Prazo (SLA OK),3.97,0.0
-PED-000037,Centro-Oeste,Moda & Vestuário,Jadlog Standard,55.71,32.71,41.56,7,6,False,False,10,0,1,No Prazo (SLA OK),8.85,0.0
-PED-000038,Sudeste,Moda & Vestuário,Loggi Express,62.76,17.51,18.63,3,3,False,False,10,0,1,No Prazo (SLA OK),1.12,0.0
-PED-000039,Norte,Moda & Vestuário,Total Express,153.59,53.01,58.33,10,10,False,False,10,0,1,No Prazo (SLA OK),5.32,0.0
-PED-000040,Sudeste,Eletrônicos,Jadlog Standard,750.69,0.0,14.83,3,3,False,True,10,0,1,No Prazo (SLA OK),14.83,0.0
-PED-000041,Centro-Oeste,Moda & Vestuário,Loggi Express,49.9,29.73,41.8,6,5,False,False,10,0,1,No Prazo (SLA OK),12.07,0.0
-PED-000042,Nordeste,Moda & Vestuário,Jadlog Standard,160.02,33.06,49.62,8,8,False,False,10,0,1,No Prazo (SLA OK),16.56,0.0
-PED-000043,Nordeste,Casa & Decoração,Loggi Express,282.11,0.0,48.35,9,9,False,True,10,0,1,No Prazo (SLA OK),48.35,0.0
-PED-000044,Nordeste,Beleza & Saúde,Mandaê Flex,202.48,0.0,58.02,7,8,False,False,7,1,0,Atraso Leve (1-2d),58.02,0.0
-PED-000045,Nordeste,Moda & Vestuário,Loggi Express,166.9,27.81,37.61,6,6,False,False,10,0,1,No Prazo (SLA OK),9.8,0.0
-PED-000046,Sul,Eletrônicos,Total Express,734.26,0.0,29.55,5,4,False,True,10,0,1,No Prazo (SLA OK),29.55,0.0
-PED-000047,Sudeste,Eletrônicos,Jadlog Standard,681.08,13.55,17.99,2,1,False,False,10,0,1,No Prazo (SLA OK),4.44,0.0
-PED-000048,Sudeste,Eletrônicos,Total Express,181.28,13.95,19.82,4,4,False,True,10,0,1,No Prazo (SLA OK),5.87,0.0
-PED-000049,Centro-Oeste,Eletrônicos,Total Express,819.01,32.4,34.29,7,7,False,False,10,0,1,No Prazo (SLA OK),1.89,0.0
-PED-000050,Sul,Moda & Vestuário,Loggi Express,202.92,17.3,23.55,4,3,False,False,10,0,1,No Prazo (SLA OK),6.25,0.0
-PED-000051,Nordeste,Eletrônicos,Mandaê Flex,761.82,0.0,35.1,6,6,False,True,10,0,1,No Prazo (SLA OK),35.1,0.0
-PED-000052,Sul,Alimentos & Bebidas,Correios Sedex,316.68,0.0,24.15,5,4,False,True,10,0,1,No Prazo (SLA OK),24.15,0.0
-PED-000053,Sudeste,Moda & Vestuário,Mandaê Flex,64.95,12.6,19.14,3,3,False,False,10,0,1,No Prazo (SLA OK),6.54,0.0
-PED-000054,Sudeste,Moda & Vestuário,Correios Sedex,293.48,12.97,14.13,3,3,False,True,10,0,1,No Prazo (SLA OK),1.16,0.0
-PED-000055,Nordeste,Moda & Vestuário,Total Express,172.75,38.86,49.0,7,7,False,True,10,0,1,No Prazo (SLA OK),10.14,0.0
-PED-000056,Sudeste,Eletrônicos,Mandaê Flex,713.21,18.51,24.65,2,2,False,False,10,0,1,No Prazo (SLA OK),6.14,0.0
-PED-000057,Sudeste,Moda & Vestuário,Loggi Express,187.27,23.58,25.12,3,3,False,True,10,0,1,No Prazo (SLA OK),1.54,0.0
-PED-000058,Sul,Casa & Decoração,Loggi Express,293.33,0.0,29.25,5,5,False,True,10,0,1,No Prazo (SLA OK),29.25,0.0
-PED-000059,Sudeste,Moda & Vestuário,Loggi Express,155.81,12.95,15.71,4,4,False,False,10,0,1,No Prazo (SLA OK),2.76,0.0
-PED-000060,Sul,Moda & Vestuário,Jadlog Standard,209.77,0.0,26.46,4,3,False,False,10,0,1,No Prazo (SLA OK),26.46,0.0
-PED-000061,Sudeste,Alimentos & Bebidas,Jadlog Standard,71.73,12.07,14.66,4,3,False,False,10,0,1,No Prazo (SLA OK),2.59,0.0
-PED-000062,Nordeste,Beleza & Saúde,Loggi Express,173.78,29.97,38.33,6,5,False,False,10,0,1,No Prazo (SLA OK),8.36,0.0
-PED-000063,Sudeste,Casa & Decoração,Correios Sedex,294.22,0.0,17.11,3,3,False,True,10,0,1,No Prazo (SLA OK),17.11,0.0
-PED-000064,Sudeste,Moda & Vestuário,Jadlog Standard,122.2,16.58,17.64,2,1,False,True,10,0,1,No Prazo (SLA OK),1.06,0.0
-PED-000065,Sudeste,Casa & Decoração,Jadlog Standard,290.5,0.0,18.02,4,4,False,True,10,0,1,No Prazo (SLA OK),18.02,0.0
-PED-000066,Sudeste,Eletrônicos,Total Express,926.57,13.15,14.07,4,4,False,False,10,0,1,No Prazo (SLA OK),0.92,0.0
-PED-000067,Sudeste,Moda & Vestuário,Loggi Express,157.88,14.95,15.94,2,2,False,False,10,0,1,No Prazo (SLA OK),0.99,0.0
-PED-000068,Sudeste,Eletrônicos,Correios Sedex,728.86,0.0,14.17,3,3,False,False,10,0,1,No Prazo (SLA OK),14.17,0.0
-PED-000069,Sul,Moda & Vestuário,Loggi Express,146.14,28.78,33.09,5,4,False,False,10,0,1,No Prazo (SLA OK),4.31,0.0
-PED-000070,Sudeste,Moda & Vestuário,Mandaê Flex,235.48,0.0,17.45,4,4,False,False,10,0,1,No Prazo (SLA OK),17.45,0.0
-PED-000071,Nordeste,Eletrônicos,Correios Sedex,800.81,0.0,45.36,7,7,False,True,10,0,1,No Prazo (SLA OK),45.36,0.0
-PED-000072,Centro-Oeste,Alimentos & Bebidas,Loggi Express,223.19,0.0,41.36,7,7,False,True,10,0,1,No Prazo (SLA OK),41.36,0.0
-PED-000073,Nordeste,Beleza & Saúde,Loggi Express,132.1,32.82,40.36,8,14,False,False,2,6,0,Falha Grave (>5d),7.54,52.64
-PED-000074,Sudeste,Casa & Decoração,Correios Sedex,413.55,16.82,20.18,3,3,False,True,10,0,1,No Prazo (SLA OK),3.36,0.0
-PED-000075,Sul,Moda & Vestuário,Total Express,195.88,24.09,34.35,5,4,False,False,10,0,1,No Prazo (SLA OK),10.26,0.0
-PED-000076,Sudeste,Beleza & Saúde,Total Express,198.31,14.16,18.16,2,1,False,True,10,0,1,No Prazo (SLA OK),4.0,0.0
-PED-000077,Sudeste,Eletrônicos,Correios Sedex,491.86,16.3,19.81,3,3,False,False,10,0,1,No Prazo (SLA OK),3.51,0.0
-PED-000078,Norte,Beleza & Saúde,Loggi Express,173.53,63.06,87.4,10,9,False,False,10,0,1,No Prazo (SLA OK),24.34,0.0
-PED-000079,Sudeste,Eletrônicos,Jadlog Standard,607.17,0.0,20.05,2,2,False,True,10,0,1,No Prazo (SLA OK),20.05,0.0
-PED-000080,Sul,Beleza & Saúde,Loggi Express,137.11,26.01,32.37,4,3,False,False,10,0,1,No Prazo (SLA OK),6.36,0.0
-PED-000081,Sul,Eletrônicos,Correios Sedex,670.19,0.0,37.47,5,7,False,False,7,2,0,Atraso Leve (1-2d),37.47,0.0
-PED-000082,Nordeste,Beleza & Saúde,Total Express,151.35,31.11,37.9,8,11,False,False,4,3,0,Atraso Crítico (3-5d),6.79,31.11
-PED-000083,Sul,Alimentos & Bebidas,Jadlog Standard,134.77,27.11,31.33,6,5,False,False,10,0,1,No Prazo (SLA OK),4.22,0.0
-PED-000084,Sudeste,Eletrônicos,Loggi Express,697.24,0.0,15.11,2,16,True,False,1,14,0,Extraviado/Avaria,15.11,697.24
-PED-000085,Sudeste,Moda & Vestuário,Jadlog Standard,284.69,0.0,24.4,2,1,False,False,10,0,1,No Prazo (SLA OK),24.4,0.0
-PED-000086,Sul,Alimentos & Bebidas,Jadlog Standard,184.35,27.04,37.33,6,5,False,False,10,0,1,No Prazo (SLA OK),10.29,0.0
-PED-000087,Sudeste,Moda & Vestuário,Total Express,242.15,19.38,24.75,2,1,False,False,10,0,1,No Prazo (SLA OK),5.37,0.0
-PED-000088,Sudeste,Beleza & Saúde,Total Express,119.5,17.39,20.31,2,2,False,False,10,0,1,No Prazo (SLA OK),2.92,0.0
-PED-000089,Sudeste,Moda & Vestuário,Correios Sedex,136.65,15.2,22.84,2,2,False,True,10,0,1,No Prazo (SLA OK),7.64,0.0
-PED-000090,Sudeste,Moda & Vestuário,Jadlog Standard,247.32,0.0,18.64,2,2,False,True,10,0,1,No Prazo (SLA OK),18.64,0.0
-PED-000091,Sudeste,Eletrônicos,Loggi Express,842.73,0.0,19.89,2,1,False,True,10,0,1,No Prazo (SLA OK),19.89,0.0
-PED-000092,Sudeste,Eletrônicos,Total Express,973.99,13.7,17.71,2,1,False,True,10,0,1,No Prazo (SLA OK),4.01,0.0
-PED-000093,Sul,Casa & Decoração,Correios Sedex,273.56,22.56,31.22,5,5,False,False,10,0,1,No Prazo (SLA OK),8.66,0.0
-PED-000094,Nordeste,Moda & Vestuário,Total Express,176.23,44.98,54.05,8,7,False,False,10,0,1,No Prazo (SLA OK),9.07,0.0
-PED-000095,Nordeste,Moda & Vestuário,Correios Sedex,91.63,35.44,52.95,6,7,False,True,7,1,0,Atraso Leve (1-2d),17.51,10.63
-PED-000096,Sudeste,Moda & Vestuário,Jadlog Standard,166.45,16.32,22.87,3,3,False,True,10,0,1,No Prazo (SLA OK),6.55,0.0
-PED-000097,Sudeste,Moda & Vestuário,Total Express,249.79,11.32,14.36,3,3,False,True,10,0,1,No Prazo (SLA OK),3.04,0.0
-PED-000098,Sudeste,Beleza & Saúde,Jadlog Standard,119.01,14.61,15.61,2,1,False,False,10,0,1,No Prazo (SLA OK),1.0,0.0
-PED-000099,Sul,Alimentos & Bebidas,Loggi Express,168.82,19.0,25.19,4,3,False,False,10,0,1,No Prazo (SLA OK),6.19,0.0
-PED-000100,Nordeste,Moda & Vestuário,Loggi Express,178.57,33.87,49.25,8,8,False,False,10,0,1,No Prazo (SLA OK),15.38,0.0
-PED-000101,Sudeste,Beleza & Saúde,Loggi Express,154.58,12.04,16.87,2,2,False,False,10,0,1,No Prazo (SLA OK),4.83,0.0
-PED-000102,Centro-Oeste,Casa & Decoração,Total Express,213.75,0.0,38.67,6,6,False,True,10,0,1,No Prazo (SLA OK),38.67,0.0
-PED-000103,Sudeste,Moda & Vestuário,Jadlog Standard,195.11,17.62,18.69,2,2,False,True,10,0,1,No Prazo (SLA OK),1.07,0.0
-PED-000104,Sul,Alimentos & Bebidas,Jadlog Standard,49.9,25.14,34.8,6,6,False,True,10,0,1,No Prazo (SLA OK),9.66,0.0
-PED-000105,Nordeste,Eletrônicos,Mandaê Flex,608.88,0.0,42.87,6,6,False,True,10,0,1,No Prazo (SLA OK),42.87,0.0
-PED-000106,Centro-Oeste,Eletrônicos,Loggi Express,291.3,36.14,40.0,6,6,False,False,10,0,1,No Prazo (SLA OK),3.86,0.0
-PED-000107,Nordeste,Beleza & Saúde,Jadlog Standard,194.27,39.6,53.24,7,8,False,False,7,1,0,Atraso Leve (1-2d),13.64,11.88
-PED-000108,Nordeste,Moda & Vestuário,Correios Sedex,236.64,0.0,53.64,6,6,False,False,10,0,1,No Prazo (SLA OK),53.64,0.0
-PED-000109,Sudeste,Beleza & Saúde,Loggi Express,161.0,15.4,17.95,3,3,False,False,10,0,1,No Prazo (SLA OK),2.55,0.0
-PED-000110,Nordeste,Beleza & Saúde,Loggi Express,208.45,31.38,42.51,8,8,False,True,10,0,1,No Prazo (SLA OK),11.13,0.0
-PED-000111,Sudeste,Eletrônicos,Jadlog Standard,441.24,0.0,22.72,3,3,False,True,10,0,1,No Prazo (SLA OK),22.72,0.0
-PED-000112,Centro-Oeste,Beleza & Saúde,Loggi Express,218.63,0.0,30.05,7,7,False,False,10,0,1,No Prazo (SLA OK),30.05,0.0
-PED-000113,Sul,Moda & Vestuário,Mandaê Flex,245.93,0.0,36.64,5,4,False,False,10,0,1,No Prazo (SLA OK),36.64,0.0
-PED-000114,Nordeste,Moda & Vestuário,Correios Sedex,175.81,36.56,49.91,8,8,False,True,10,0,1,No Prazo (SLA OK),13.35,0.0
-PED-000115,Sudeste,Casa & Decoração,Total Express,464.92,0.0,18.01,3,3,False,False,10,0,1,No Prazo (SLA OK),18.01,0.0
-PED-000116,Sul,Alimentos & Bebidas,Correios Sedex,90.22,26.12,31.11,6,6,False,False,10,0,1,No Prazo (SLA OK),4.99,0.0
-PED-000117,Sul,Eletrônicos,Correios Sedex,468.61,0.0,22.82,5,5,False,True,10,0,1,No Prazo (SLA OK),22.82,0.0
-PED-000118,Nordeste,Moda & Vestuário,Loggi Express,153.48,30.07,42.69,7,7,False,False,10,0,1,No Prazo (SLA OK),12.62,0.0
-PED-000119,Sudeste,Casa & Decoração,Correios Sedex,281.81,0.0,17.87,3,3,False,True,10,0,1,No Prazo (SLA OK),17.87,0.0
-PED-000120,Sudeste,Casa & Decoração,Total Express,223.78,14.2,15.6,3,2,False,False,10,0,1,No Prazo (SLA OK),1.4,0.0
-PED-000121,Sudeste,Casa & Decoração,Correios Sedex,474.54,13.63,15.27,3,2,False,False,10,0,1,No Prazo (SLA OK),1.64,0.0
-PED-000122,Sudeste,Eletrônicos,Correios Sedex,593.05,0.0,15.37,3,3,False,False,10,0,1,No Prazo (SLA OK),15.37,0.0
-PED-000123,Centro-Oeste,Eletrônicos,Jadlog Standard,727.55,0.0,36.39,7,6,False,True,10,0,1,No Prazo (SLA OK),36.39,0.0
-PED-000124,Sudeste,Moda & Vestuário,Loggi Express,155.78,13.43,20.34,3,2,False,True,10,0,1,No Prazo (SLA OK),6.91,0.0
-PED-000125,Norte,Beleza & Saúde,Loggi Express,58.07,45.47,58.26,10,10,False,True,10,0,1,No Prazo (SLA OK),12.79,0.0
-PED-000126,Sudeste,Eletrônicos,Jadlog Standard,709.41,0.0,20.55,2,2,False,True,10,0,1,No Prazo (SLA OK),20.55,0.0
-PED-000127,Sudeste,Eletrônicos,Correios Sedex,229.3,0.0,23.54,3,2,False,False,10,0,1,No Prazo (SLA OK),23.54,0.0
-PED-000128,Nordeste,Alimentos & Bebidas,Correios Sedex,136.91,34.77,38.07,6,5,False,False,10,0,1,No Prazo (SLA OK),3.3,0.0
-PED-000129,Sul,Eletrônicos,Loggi Express,348.97,0.0,29.48,5,5,False,True,10,0,1,No Prazo (SLA OK),29.48,0.0
-PED-000130,Sul,Alimentos & Bebidas,Jadlog Standard,229.43,30.07,35.89,5,4,False,True,10,0,1,No Prazo (SLA OK),5.82,0.0
-PED-000131,Sul,Casa & Decoração,Jadlog Standard,440.25,0.0,23.8,4,4,False,True,10,0,1,No Prazo (SLA OK),23.8,0.0
-PED-000132,Nordeste,Beleza & Saúde,Loggi Express,144.76,27.52,37.8,7,6,False,False,10,0,1,No Prazo (SLA OK),10.28,0.0
-PED-000133,Sudeste,Eletrônicos,Loggi Express,928.02,0.0,25.32,2,2,False,True,10,0,1,No Prazo (SLA OK),25.32,0.0
-PED-000134,Norte,Eletrônicos,Jadlog Standard,463.81,0.0,83.41,12,11,False,True,10,0,1,No Prazo (SLA OK),83.41,0.0
-PED-000135,Norte,Casa & Decoração,Mandaê Flex,399.78,0.0,66.0,12,12,False,False,10,0,1,No Prazo (SLA OK),66.0,0.0
-PED-000136,Sul,Beleza & Saúde,Jadlog Standard,148.99,27.68,37.96,5,4,False,True,10,0,1,No Prazo (SLA OK),10.28,0.0
-PED-000137,Sudeste,Casa & Decoração,Jadlog Standard,369.04,0.0,25.17,2,1,False,False,10,0,1,No Prazo (SLA OK),25.17,0.0
-PED-000138,Nordeste,Eletrônicos,Total Express,929.92,51.18,54.31,8,7,False,False,10,0,1,No Prazo (SLA OK),3.13,0.0
-PED-000139,Sudeste,Casa & Decoração,Jadlog Standard,420.57,12.48,14.78,4,3,False,True,10,0,1,No Prazo (SLA OK),2.3,0.0
-PED-000140,Sudeste,Casa & Decoração,Mandaê Flex,371.76,0.0,15.54,3,2,False,False,10,0,1,No Prazo (SLA OK),15.54,0.0
-PED-000141,Sudeste,Casa & Decoração,Mandaê Flex,157.96,19.5,24.94,4,3,False,False,10,0,1,No Prazo (SLA OK),5.44,0.0
-PED-000142,Sudeste,Casa & Decoração,Loggi Express,234.39,15.79,18.35,2,1,False,False,10,0,1,No Prazo (SLA OK),2.56,0.0
-PED-000143,Centro-Oeste,Beleza & Saúde,Jadlog Standard,134.48,21.0,26.99,6,6,False,True,10,0,1,No Prazo (SLA OK),5.99,0.0
-PED-000144,Nordeste,Casa & Decoração,Jadlog Standard,350.27,0.0,60.0,7,6,False,True,10,0,1,No Prazo (SLA OK),60.0,0.0
-PED-000145,Nordeste,Eletrônicos,Jadlog Standard,401.36,0.0,48.71,7,6,False,False,10,0,1,No Prazo (SLA OK),48.71,0.0
-PED-000146,Sudeste,Moda & Vestuário,Loggi Express,334.7,0.0,18.32,4,8,False,False,4,4,0,Atraso Crítico (3-5d),18.32,0.0
-PED-000147,Sudeste,Eletrônicos,Total Express,983.61,0.0,22.19,2,2,False,True,10,0,1,No Prazo (SLA OK),22.19,0.0
-PED-000148,Sudeste,Moda & Vestuário,Jadlog Standard,226.13,0.0,17.22,3,3,False,True,10,0,1,No Prazo (SLA OK),17.22,0.0
-PED-000149,Norte,Moda & Vestuário,Loggi Express,194.32,53.76,81.22,8,8,False,True,10,0,1,No Prazo (SLA OK),27.46,0.0
-PED-000150,Sudeste,Eletrônicos,Loggi Express,603.31,19.18,24.44,3,2,False,True,10,0,1,No Prazo (SLA OK),5.26,0.0
-PED-000151,Centro-Oeste,Moda & Vestuário,Mandaê Flex,132.88,23.31,27.39,6,6,False,False,10,0,1,No Prazo (SLA OK),4.08,0.0
-PED-000152,Sul,Eletrônicos,Loggi Express,667.05,0.0,25.91,6,5,False,True,10,0,1,No Prazo (SLA OK),25.91,0.0
-PED-000153,Sudeste,Beleza & Saúde,Loggi Express,151.6,17.73,24.53,3,3,False,True,10,0,1,No Prazo (SLA OK),6.8,0.0
-PED-000154,Nordeste,Alimentos & Bebidas,Jadlog Standard,84.12,26.81,39.39,7,9,False,False,7,2,0,Atraso Leve (1-2d),12.58,8.04
-PED-000155,Sul,Eletrônicos,Mandaê Flex,723.52,23.35,35.13,6,9,False,False,4,3,0,Atraso Crítico (3-5d),11.78,23.35
-PED-000156,Centro-Oeste,Alimentos & Bebidas,Loggi Express,133.01,25.51,33.88,7,7,False,False,10,0,1,No Prazo (SLA OK),8.37,0.0
-PED-000157,Centro-Oeste,Moda & Vestuário,Total Express,75.53,24.24,27.64,6,6,False,False,10,0,1,No Prazo (SLA OK),3.4,0.0
-PED-000158,Sudeste,Eletrônicos,Correios Sedex,460.72,0.0,16.24,3,3,False,True,10,0,1,No Prazo (SLA OK),16.24,0.0
-PED-000159,Sudeste,Eletrônicos,Loggi Express,559.01,0.0,14.68,2,1,False,False,10,0,1,No Prazo (SLA OK),14.68,0.0
-PED-000160,Sul,Moda & Vestuário,Total Express,303.26,0.0,22.28,6,6,False,False,10,0,1,No Prazo (SLA OK),22.28,0.0
-PED-000161,Centro-Oeste,Beleza & Saúde,Jadlog Standard,165.04,30.48,40.75,6,6,False,True,10,0,1,No Prazo (SLA OK),10.27,0.0
-PED-000162,Sudeste,Casa & Decoração,Total Express,193.1,15.49,21.16,2,2,False,True,10,0,1,No Prazo (SLA OK),5.67,0.0
-PED-000163,Sul,Eletrônicos,Total Express,756.93,0.0,33.76,4,3,False,False,10,0,1,No Prazo (SLA OK),33.76,0.0
-PED-000164,Sul,Eletrônicos,Total Express,309.59,0.0,33.87,5,4,False,False,10,0,1,No Prazo (SLA OK),33.87,0.0
-PED-000165,Nordeste,Moda & Vestuário,Loggi Express,254.96,0.0,43.87,7,6,False,False,10,0,1,No Prazo (SLA OK),43.87,0.0
-PED-000166,Sudeste,Eletrônicos,Correios Sedex,546.35,20.76,22.11,2,2,False,True,10,0,1,No Prazo (SLA OK),1.35,0.0
-PED-000167,Nordeste,Eletrônicos,Jadlog Standard,629.4,0.0,39.15,8,11,False,False,4,3,0,Atraso Crítico (3-5d),39.15,0.0
-PED-000168,Centro-Oeste,Eletrônicos,Loggi Express,941.68,0.0,36.42,7,10,False,False,4,3,0,Atraso Crítico (3-5d),36.42,0.0
-PED-000169,Sudeste,Beleza & Saúde,Loggi Express,82.08,20.2,22.44,3,3,False,False,10,0,1,No Prazo (SLA OK),2.24,0.0
-PED-000170,Sudeste,Alimentos & Bebidas,Total Express,77.13,20.79,22.97,2,2,False,False,10,0,1,No Prazo (SLA OK),2.18,0.0
-PED-000171,Norte,Moda & Vestuário,Total Express,154.98,60.0,80.62,8,8,False,False,10,0,1,No Prazo (SLA OK),20.62,0.0
-PED-000172,Sudeste,Beleza & Saúde,Loggi Express,186.73,11.87,14.4,4,4,False,False,10,0,1,No Prazo (SLA OK),2.53,0.0
-PED-000173,Nordeste,Moda & Vestuário,Jadlog Standard,98.84,37.91,53.94,6,10,False,False,4,4,0,Atraso Crítico (3-5d),16.03,37.91
-PED-000174,Sul,Moda & Vestuário,Loggi Express,49.9,27.65,29.91,4,3,False,False,10,0,1,No Prazo (SLA OK),2.26,0.0
-PED-000175,Sudeste,Eletrônicos,Total Express,550.75,12.59,15.73,2,2,False,True,10,0,1,No Prazo (SLA OK),3.14,0.0
-PED-000176,Centro-Oeste,Casa & Decoração,Loggi Express,400.69,0.0,28.64,7,7,False,False,10,0,1,No Prazo (SLA OK),28.64,0.0
-PED-000177,Sudeste,Alimentos & Bebidas,Total Express,194.01,13.58,15.88,2,1,False,False,10,0,1,No Prazo (SLA OK),2.3,0.0
-PED-000178,Sul,Casa & Decoração,Jadlog Standard,289.05,0.0,34.08,5,5,False,True,10,0,1,No Prazo (SLA OK),34.08,0.0
-PED-000179,Sudeste,Moda & Vestuário,Mandaê Flex,165.31,17.83,18.87,3,2,False,False,10,0,1,No Prazo (SLA OK),1.04,0.0
-PED-000180,Sul,Casa & Decoração,Loggi Express,466.93,0.0,26.72,4,3,False,True,10,0,1,No Prazo (SLA OK),26.72,0.0
-PED-000181,Sudeste,Eletrônicos,Jadlog Standard,238.66,12.43,17.03,3,3,False,False,10,0,1,No Prazo (SLA OK),4.6,0.0
-PED-000182,Sudeste,Beleza & Saúde,Loggi Express,122.52,12.91,15.24,4,4,False,False,10,0,1,No Prazo (SLA OK),2.33,0.0
-PED-000183,Norte,Moda & Vestuário,Mandaê Flex,201.43,48.53,61.75,12,11,False,True,10,0,1,No Prazo (SLA OK),13.22,0.0
-PED-000184,Sudeste,Moda & Vestuário,Correios Sedex,216.95,0.0,22.12,4,5,False,False,7,1,0,Atraso Leve (1-2d),22.12,0.0
-PED-000185,Sul,Moda & Vestuário,Loggi Express,159.41,18.21,26.86,4,4,False,True,10,0,1,No Prazo (SLA OK),8.65,0.0
-PED-000186,Sudeste,Casa & Decoração,Total Express,343.79,0.0,15.26,2,2,False,False,10,0,1,No Prazo (SLA OK),15.26,0.0
-PED-000187,Nordeste,Eletrônicos,Correios Sedex,102.57,26.16,37.96,8,8,False,False,10,0,1,No Prazo (SLA OK),11.8,0.0
-PED-000188,Sudeste,Casa & Decoração,Total Express,267.59,0.0,16.37,3,3,False,True,10,0,1,No Prazo (SLA OK),16.37,0.0
-PED-000189,Norte,Eletrônicos,Total Express,749.77,69.53,91.95,8,8,False,True,10,0,1,No Prazo (SLA OK),22.42,0.0
-PED-000190,Sudeste,Casa & Decoração,Loggi Express,231.95,0.0,20.45,3,3,False,True,10,0,1,No Prazo (SLA OK),20.45,0.0
-PED-000191,Sudeste,Beleza & Saúde,Loggi Express,142.65,15.72,21.54,3,3,False,False,10,0,1,No Prazo (SLA OK),5.82,0.0
-PED-000192,Sudeste,Beleza & Saúde,Correios Sedex,160.11,17.86,19.47,2,2,False,False,10,0,1,No Prazo (SLA OK),1.61,0.0
-PED-000193,Sudeste,Moda & Vestuário,Mandaê Flex,169.45,22.73,23.99,3,3,False,True,10,0,1,No Prazo (SLA OK),1.26,0.0
-PED-000194,Sul,Moda & Vestuário,Total Express,200.23,0.0,33.07,4,3,False,True,10,0,1,No Prazo (SLA OK),33.07,0.0
-PED-000195,Sudeste,Eletrônicos,Jadlog Standard,438.2,0.0,25.83,4,4,False,True,10,0,1,No Prazo (SLA OK),25.83,0.0
-PED-000196,Nordeste,Casa & Decoração,Jadlog Standard,317.27,0.0,56.36,7,7,False,False,10,0,1,No Prazo (SLA OK),56.36,0.0
-PED-000197,Sudeste,Eletrônicos,Total Express,784.25,0.0,24.92,3,2,False,False,10,0,1,No Prazo (SLA OK),24.92,0.0
-PED-000198,Sudeste,Moda & Vestuário,Correios Sedex,199.42,0.0,19.16,3,2,False,True,10,0,1,No Prazo (SLA OK),19.16,0.0
-PED-000199,Sul,Eletrônicos,Correios Sedex,520.96,31.88,34.19,5,5,False,False,10,0,1,No Prazo (SLA OK),2.31,0.0
-PED-000200,Nordeste,Eletrônicos,Correios Sedex,699.33,42.46,58.49,6,6,False,True,10,0,1,No Prazo (SLA OK),16.03,0.0
-PED-000201,Sudeste,Casa & Decoração,Total Express,418.61,14.46,17.22,2,2,False,False,10,0,1,No Prazo (SLA OK),2.76,0.0
-PED-000202,Sudeste,Eletrônicos,Loggi Express,199.01,11.25,17.09,3,3,False,False,10,0,1,No Prazo (SLA OK),5.84,0.0
-PED-000203,Sudeste,Casa & Decoração,Loggi Express,467.5,0.0,21.52,2,2,False,False,10,0,1,No Prazo (SLA OK),21.52,0.0
-PED-000204,Nordeste,Eletrônicos,Correios Sedex,576.02,0.0,40.58,8,9,False,False,7,1,0,Atraso Leve (1-2d),40.58,0.0
-PED-000205,Sul,Eletrônicos,Total Express,743.61,0.0,31.54,5,5,False,False,10,0,1,No Prazo (SLA OK),31.54,0.0
-PED-000206,Sudeste,Moda & Vestuário,Loggi Express,261.83,0.0,24.91,2,2,False,False,10,0,1,No Prazo (SLA OK),24.91,0.0
-PED-000207,Nordeste,Eletrônicos,Loggi Express,348.23,0.0,61.98,8,8,False,False,10,0,1,No Prazo (SLA OK),61.98,0.0
-PED-000208,Nordeste,Eletrônicos,Total Express,493.92,48.6,52.56,7,7,False,True,10,0,1,No Prazo (SLA OK),3.96,0.0
-PED-000209,Sul,Casa & Decoração,Loggi Express,308.26,0.0,34.72,5,5,False,True,10,0,1,No Prazo (SLA OK),34.72,0.0
-PED-000210,Centro-Oeste,Eletrônicos,Loggi Express,477.57,0.0,43.36,7,7,False,True,10,0,1,No Prazo (SLA OK),43.36,0.0
-PED-000211,Sudeste,Beleza & Saúde,Total Express,218.07,0.0,15.2,2,2,False,False,10,0,1,No Prazo (SLA OK),15.2,0.0
-PED-000212,Sudeste,Eletrônicos,Total Express,461.51,0.0,18.54,3,3,False,True,10,0,1,No Prazo (SLA OK),18.54,0.0
-PED-000213,Sudeste,Eletrônicos,Total Express,527.78,0.0,25.78,2,4,False,True,7,2,0,Atraso Leve (1-2d),25.78,0.0
-PED-000214,Sudeste,Casa & Decoração,Loggi Express,362.48,14.34,16.0,3,2,False,False,10,0,1,No Prazo (SLA OK),1.66,0.0
-PED-000215,Sul,Eletrônicos,Total Express,385.53,0.0,23.12,4,4,False,True,10,0,1,No Prazo (SLA OK),23.12,0.0
-PED-000216,Centro-Oeste,Eletrônicos,Loggi Express,562.95,29.13,36.45,5,5,False,False,10,0,1,No Prazo (SLA OK),7.32,0.0
-PED-000217,Sudeste,Moda & Vestuário,Jadlog Standard,209.05,16.83,19.35,3,3,False,False,10,0,1,No Prazo (SLA OK),2.52,0.0
-PED-000218,Sudeste,Eletrônicos,Correios Sedex,576.77,0.0,18.33,2,1,False,False,10,0,1,No Prazo (SLA OK),18.33,0.0
-PED-000219,Sudeste,Beleza & Saúde,Total Express,135.8,14.86,18.34,2,1,False,False,10,0,1,No Prazo (SLA OK),3.48,0.0
-PED-000220,Centro-Oeste,Eletrônicos,Correios Sedex,533.55,26.93,34.54,7,7,False,False,10,0,1,No Prazo (SLA OK),7.61,0.0
-PED-000221,Sudeste,Beleza & Saúde,Total Express,71.85,19.37,21.14,3,3,False,False,10,0,1,No Prazo (SLA OK),1.77,0.0
-PED-000222,Sul,Beleza & Saúde,Total Express,154.47,26.57,31.67,5,8,False,False,4,3,0,Atraso Crítico (3-5d),5.1,26.57
-PED-000223,Sudeste,Moda & Vestuário,Loggi Express,295.3,0.0,15.73,3,6,False,False,4,3,0,Atraso Crítico (3-5d),15.73,0.0
-PED-000224,Sudeste,Beleza & Saúde,Jadlog Standard,140.83,17.65,24.48,2,2,False,True,10,0,1,No Prazo (SLA OK),6.83,0.0
-PED-000225,Norte,Moda & Vestuário,Loggi Express,203.52,0.0,84.44,8,8,False,True,10,0,1,No Prazo (SLA OK),84.44,0.0
-PED-000226,Norte,Alimentos & Bebidas,Loggi Express,171.17,57.68,61.5,10,10,False,False,10,0,1,No Prazo (SLA OK),3.82,0.0
-PED-000227,Sudeste,Eletrônicos,Mandaê Flex,370.75,0.0,24.37,4,4,False,True,10,0,1,No Prazo (SLA OK),24.37,0.0
-PED-000228,Norte,Casa & Decoração,Jadlog Standard,527.28,0.0,60.76,12,12,False,True,10,0,1,No Prazo (SLA OK),60.76,0.0
-PED-000229,Sul,Moda & Vestuário,Correios Sedex,202.14,0.0,31.39,4,4,False,True,10,0,1,No Prazo (SLA OK),31.39,0.0
-PED-000230,Centro-Oeste,Moda & Vestuário,Total Express,287.91,0.0,26.13,6,6,False,True,10,0,1,No Prazo (SLA OK),26.13,0.0
-PED-000231,Sudeste,Casa & Decoração,Correios Sedex,259.37,13.9,19.31,3,3,False,True,10,0,1,No Prazo (SLA OK),5.41,0.0
-PED-000232,Sul,Casa & Decoração,Jadlog Standard,539.99,0.0,31.41,6,6,False,True,10,0,1,No Prazo (SLA OK),31.41,0.0
-PED-000233,Sul,Eletrônicos,Total Express,820.53,24.83,32.05,4,4,False,False,10,0,1,No Prazo (SLA OK),7.22,0.0
-PED-000234,Sul,Eletrônicos,Jadlog Standard,771.67,0.0,35.87,4,4,False,False,10,0,1,No Prazo (SLA OK),35.87,0.0
-PED-000235,Sudeste,Casa & Decoração,Loggi Express,365.74,0.0,19.85,3,5,False,False,7,2,0,Atraso Leve (1-2d),19.85,0.0
-PED-000236,Sudeste,Casa & Decoração,Total Express,312.66,14.54,18.3,3,3,False,False,10,0,1,No Prazo (SLA OK),3.76,0.0
-PED-000237,Sudeste,Alimentos & Bebidas,Jadlog Standard,194.02,19.23,20.79,3,2,False,True,10,0,1,No Prazo (SLA OK),1.56,0.0
-PED-000238,Nordeste,Casa & Decoração,Loggi Express,355.44,38.51,46.63,8,8,False,True,10,0,1,No Prazo (SLA OK),8.12,0.0
-PED-000239,Sudeste,Alimentos & Bebidas,Total Express,51.48,12.87,16.31,3,3,False,True,10,0,1,No Prazo (SLA OK),3.44,0.0
-PED-000240,Sul,Casa & Decoração,Loggi Express,217.11,0.0,36.64,4,4,False,False,10,0,1,No Prazo (SLA OK),36.64,0.0
-PED-000241,Norte,Eletrônicos,Mandaê Flex,609.11,0.0,76.32,12,15,False,False,4,3,0,Atraso Crítico (3-5d),76.32,0.0
-PED-000242,Sudeste,Eletrônicos,Mandaê Flex,718.2,0.0,15.55,3,3,False,False,10,0,1,No Prazo (SLA OK),15.55,0.0
-PED-000243,Sul,Beleza & Saúde,Mandaê Flex,137.45,25.06,31.97,4,5,False,False,7,1,0,Atraso Leve (1-2d),6.91,7.52
-PED-000244,Sudeste,Casa & Decoração,Jadlog Standard,474.09,0.0,16.65,3,4,False,False,7,1,0,Atraso Leve (1-2d),16.65,0.0
-PED-000245,Centro-Oeste,Eletrônicos,Loggi Express,220.76,33.1,42.68,6,6,False,False,10,0,1,No Prazo (SLA OK),9.58,0.0
-PED-000246,Sudeste,Moda & Vestuário,Mandaê Flex,198.62,14.19,15.01,3,3,False,False,10,0,1,No Prazo (SLA OK),0.82,0.0
-PED-000247,Nordeste,Alimentos & Bebidas,Jadlog Standard,58.19,34.67,41.99,8,7,False,True,10,0,1,No Prazo (SLA OK),7.32,0.0
-PED-000248,Nordeste,Moda & Vestuário,Mandaê Flex,235.58,0.0,61.04,6,6,False,True,10,0,1,No Prazo (SLA OK),61.04,0.0
-PED-000249,Centro-Oeste,Moda & Vestuário,Mandaê Flex,184.33,26.32,30.42,6,7,False,False,7,1,0,Atraso Leve (1-2d),4.1,7.9
-PED-000250,Nordeste,Moda & Vestuário,Correios Sedex,215.18,0.0,52.86,8,8,False,False,10,0,1,No Prazo (SLA OK),52.86,0.0
-PED-000251,Sul,Eletrônicos,Jadlog Standard,459.95,0.0,23.26,6,6,False,True,10,0,1,No Prazo (SLA OK),23.26,0.0
-PED-000252,Sul,Moda & Vestuário,Jadlog Standard,266.77,0.0,37.81,4,4,False,True,10,0,1,No Prazo (SLA OK),37.81,0.0
-PED-000253,Centro-Oeste,Moda & Vestuário,Correios Sedex,252.5,0.0,38.33,6,6,False,False,10,0,1,No Prazo (SLA OK),38.33,0.0
-PED-000254,Sul,Eletrônicos,Jadlog Standard,778.38,0.0,26.5,4,3,False,True,10,0,1,No Prazo (SLA OK),26.5,0.0
-PED-000255,Sudeste,Casa & Decoração,Loggi Express,325.75,13.38,14.24,2,1,False,True,10,0,1,No Prazo (SLA OK),0.86,0.0
-PED-000256,Centro-Oeste,Moda & Vestuário,Total Express,224.79,0.0,32.09,6,5,False,False,10,0,1,No Prazo (SLA OK),32.09,0.0
-PED-000257,Nordeste,Beleza & Saúde,Mandaê Flex,108.19,39.63,57.11,8,9,False,False,7,1,0,Atraso Leve (1-2d),17.48,11.89
-PED-000258,Sul,Beleza & Saúde,Total Express,178.5,28.92,34.64,4,4,False,False,10,0,1,No Prazo (SLA OK),5.72,0.0
-PED-000259,Sudeste,Eletrônicos,Total Express,1012.89,0.0,21.47,2,2,False,False,10,0,1,No Prazo (SLA OK),21.47,0.0
-PED-000260,Sul,Casa & Decoração,Loggi Express,457.77,26.43,34.32,5,5,False,False,10,0,1,No Prazo (SLA OK),7.89,0.0
-PED-000261,Sudeste,Moda & Vestuário,Total Express,146.22,16.64,18.88,4,4,False,True,10,0,1,No Prazo (SLA OK),2.24,0.0
-PED-000262,Sul,Beleza & Saúde,Mandaê Flex,156.26,33.54,36.36,5,5,False,True,10,0,1,No Prazo (SLA OK),2.82,0.0
-PED-000263,Sudeste,Eletrônicos,Loggi Express,365.51,22.4,25.24,2,2,False,False,10,0,1,No Prazo (SLA OK),2.84,0.0
-PED-000264,Sul,Casa & Decoração,Jadlog Standard,402.96,25.7,34.88,4,4,False,False,10,0,1,No Prazo (SLA OK),9.18,0.0
-PED-000265,Norte,Casa & Decoração,Correios Sedex,389.57,0.0,56.99,12,13,False,True,7,1,0,Atraso Leve (1-2d),56.99,0.0
-PED-000266,Sudeste,Eletrônicos,Correios Sedex,238.64,0.0,20.91,3,2,False,False,10,0,1,No Prazo (SLA OK),20.91,0.0
-PED-000267,Norte,Eletrônicos,Total Express,394.41,0.0,93.41,8,8,False,False,10,0,1,No Prazo (SLA OK),93.41,0.0
-PED-000268,Sudeste,Casa & Decoração,Total Express,308.85,0.0,14.17,2,2,False,True,10,0,1,No Prazo (SLA OK),14.17,0.0
-PED-000269,Centro-Oeste,Casa & Decoração,Jadlog Standard,306.91,24.84,37.99,7,11,False,False,4,4,0,Atraso Crítico (3-5d),13.15,24.84
-PED-000270,Nordeste,Eletrônicos,Jadlog Standard,383.92,0.0,46.87,7,10,False,False,4,3,0,Atraso Crítico (3-5d),46.87,0.0
-PED-000271,Sul,Casa & Decoração,Correios Sedex,382.79,0.0,32.95,4,4,False,False,10,0,1,No Prazo (SLA OK),32.95,0.0
-PED-000272,Nordeste,Moda & Vestuário,Correios Sedex,205.09,0.0,47.59,8,8,False,False,10,0,1,No Prazo (SLA OK),47.59,0.0
-PED-000273,Centro-Oeste,Casa & Decoração,Correios Sedex,318.63,24.27,29.1,6,6,False,True,10,0,1,No Prazo (SLA OK),4.83,0.0
-PED-000274,Sudeste,Eletrônicos,Mandaê Flex,483.73,0.0,25.55,2,1,False,False,10,0,1,No Prazo (SLA OK),25.55,0.0
-PED-000275,Sudeste,Beleza & Saúde,Jadlog Standard,187.19,15.62,21.52,2,1,False,False,10,0,1,No Prazo (SLA OK),5.9,0.0
-PED-000276,Sul,Eletrônicos,Jadlog Standard,1014.19,28.09,35.09,6,5,False,False,10,0,1,No Prazo (SLA OK),7.0,0.0
-PED-000277,Nordeste,Moda & Vestuário,Correios Sedex,160.99,38.0,55.1,7,7,False,False,10,0,1,No Prazo (SLA OK),17.1,0.0
-PED-000278,Nordeste,Eletrônicos,Total Express,515.32,0.0,49.29,7,7,False,True,10,0,1,No Prazo (SLA OK),49.29,0.0
-PED-000279,Nordeste,Eletrônicos,Total Express,758.07,39.35,57.89,7,7,False,False,10,0,1,No Prazo (SLA OK),18.54,0.0
-PED-000280,Sudeste,Moda & Vestuário,Correios Sedex,168.52,15.65,17.15,2,2,False,True,10,0,1,No Prazo (SLA OK),1.5,0.0
-PED-000281,Nordeste,Eletrônicos,Correios Sedex,619.33,0.0,54.16,6,6,False,False,10,0,1,No Prazo (SLA OK),54.16,0.0
-PED-000282,Sudeste,Beleza & Saúde,Jadlog Standard,173.28,16.2,18.27,3,3,False,True,10,0,1,No Prazo (SLA OK),2.07,0.0
-PED-000283,Sul,Eletrônicos,Jadlog Standard,229.94,0.0,32.23,4,4,False,False,10,0,1,No Prazo (SLA OK),32.23,0.0
-PED-000284,Sudeste,Moda & Vestuário,Loggi Express,269.1,0.0,24.48,3,3,False,False,10,0,1,No Prazo (SLA OK),24.48,0.0
-PED-000285,Sudeste,Moda & Vestuário,Total Express,194.36,14.54,21.12,4,5,False,True,7,1,0,Atraso Leve (1-2d),6.58,4.36
-PED-000286,Sudeste,Eletrônicos,Loggi Express,559.47,13.98,15.93,3,4,False,False,7,1,0,Atraso Leve (1-2d),1.95,4.19
-PED-000287,Sudeste,Eletrônicos,Jadlog Standard,630.37,18.69,20.07,2,1,False,False,10,0,1,No Prazo (SLA OK),1.38,0.0
-PED-000288,Nordeste,Moda & Vestuário,Total Express,187.75,49.14,60.61,7,6,False,False,10,0,1,No Prazo (SLA OK),11.47,0.0
-PED-000289,Sudeste,Moda & Vestuário,Jadlog Standard,86.13,19.29,24.18,2,2,False,True,10,0,1,No Prazo (SLA OK),4.89,0.0
-PED-000290,Sudeste,Moda & Vestuário,Total Express,279.7,17.89,19.88,3,2,False,False,10,0,1,No Prazo (SLA OK),1.99,0.0
-PED-000291,Sudeste,Moda & Vestuário,Loggi Express,192.48,14.36,18.0,3,2,False,True,10,0,1,No Prazo (SLA OK),3.64,0.0
-PED-000292,Sudeste,Moda & Vestuário,Loggi Express,216.58,13.42,16.86,3,2,False,True,10,0,1,No Prazo (SLA OK),3.44,0.0
-PED-000293,Sudeste,Eletrônicos,Correios Sedex,859.34,0.0,15.28,2,1,False,True,10,0,1,No Prazo (SLA OK),15.28,0.0
-PED-000294,Sudeste,Moda & Vestuário,Jadlog Standard,128.73,12.37,17.66,4,4,False,True,10,0,1,No Prazo (SLA OK),5.29,0.0
-PED-000295,Sul,Alimentos & Bebidas,Loggi Express,161.31,17.78,26.91,5,5,False,False,10,0,1,No Prazo (SLA OK),9.13,0.0
-PED-000296,Sul,Moda & Vestuário,Total Express,173.94,25.04,30.71,5,5,False,False,10,0,1,No Prazo (SLA OK),5.67,0.0
-PED-000297,Sul,Casa & Decoração,Correios Sedex,433.14,22.25,29.16,5,5,False,True,10,0,1,No Prazo (SLA OK),6.91,0.0
-PED-000298,Sudeste,Eletrônicos,Loggi Express,182.01,13.32,16.92,2,2,False,False,10,0,1,No Prazo (SLA OK),3.6,0.0
-PED-000299,Sudeste,Casa & Decoração,Total Express,329.1,10.81,16.47,3,3,False,True,10,0,1,No Prazo (SLA OK),5.66,0.0
-PED-000300,Centro-Oeste,Casa & Decoração,Loggi Express,273.69,0.0,39.97,6,6,False,False,10,0,1,No Prazo (SLA OK),39.97,0.0
-PED-000301,Sul,Moda & Vestuário,Loggi Express,215.94,16.83,25.28,5,4,False,True,10,0,1,No Prazo (SLA OK),8.45,0.0
-PED-000302,Sudeste,Alimentos & Bebidas,Total Express,161.15,14.94,16.38,4,3,False,False,10,0,1,No Prazo (SLA OK),1.44,0.0
-PED-000303,Sudeste,Eletrônicos,Total Express,494.32,0.0,22.67,2,2,False,False,10,0,1,No Prazo (SLA OK),22.67,0.0
-PED-000304,Sudeste,Eletrônicos,Total Express,493.32,0.0,15.52,4,4,False,True,10,0,1,No Prazo (SLA OK),15.52,0.0
-PED-000305,Sudeste,Casa & Decoração,Total Express,327.83,0.0,14.98,3,3,False,False,10,0,1,No Prazo (SLA OK),14.98,0.0
-PED-000306,Sudeste,Beleza & Saúde,Mandaê Flex,99.65,19.62,25.72,4,6,False,True,7,2,0,Atraso Leve (1-2d),6.1,5.89
-PED-000307,Sul,Eletrônicos,Jadlog Standard,835.24,0.0,30.72,6,6,False,True,10,0,1,No Prazo (SLA OK),30.72,0.0
-PED-000308,Sul,Eletrônicos,Jadlog Standard,568.77,23.74,32.54,5,5,False,True,10,0,1,No Prazo (SLA OK),8.8,0.0
-PED-000309,Sul,Eletrônicos,Correios Sedex,49.9,15.62,22.83,5,4,False,True,10,0,1,No Prazo (SLA OK),7.21,0.0
-PED-000310,Nordeste,Eletrônicos,Loggi Express,567.54,54.92,61.98,6,6,False,True,10,0,1,No Prazo (SLA OK),7.06,0.0
-PED-000311,Nordeste,Casa & Decoração,Jadlog Standard,225.76,0.0,42.4,7,13,False,False,2,6,0,Falha Grave (>5d),42.4,33.86
-PED-000312,Nordeste,Moda & Vestuário,Loggi Express,92.12,39.05,44.53,7,7,False,True,10,0,1,No Prazo (SLA OK),5.48,0.0
-PED-000313,Norte,Moda & Vestuário,Loggi Express,115.75,38.08,58.1,10,12,False,False,7,2,0,Atraso Leve (1-2d),20.02,11.42
-PED-000314,Sudeste,Moda & Vestuário,Mandaê Flex,196.56,17.6,18.93,2,4,False,False,7,2,0,Atraso Leve (1-2d),1.33,5.28
-PED-000315,Sudeste,Eletrônicos,Correios Sedex,942.3,0.0,23.62,3,3,False,False,10,0,1,No Prazo (SLA OK),23.62,0.0
-PED-000316,Sudeste,Eletrônicos,Total Express,718.9,13.54,15.3,2,1,False,True,10,0,1,No Prazo (SLA OK),1.76,0.0
-PED-000317,Sul,Casa & Decoração,Jadlog Standard,273.28,0.0,30.2,4,3,False,True,10,0,1,No Prazo (SLA OK),30.2,0.0
-PED-000318,Centro-Oeste,Alimentos & Bebidas,Loggi Express,160.52,35.45,43.03,6,6,False,True,10,0,1,No Prazo (SLA OK),7.58,0.0
-PED-000319,Sudeste,Beleza & Saúde,Loggi Express,119.34,9.77,14.6,3,2,False,False,10,0,1,No Prazo (SLA OK),4.83,0.0
-PED-000320,Centro-Oeste,Eletrônicos,Loggi Express,497.19,23.05,26.58,5,5,False,False,10,0,1,No Prazo (SLA OK),3.53,0.0
-PED-000321,Sudeste,Beleza & Saúde,Total Express,88.05,16.74,24.03,2,1,False,False,10,0,1,No Prazo (SLA OK),7.29,0.0
-PED-000322,Centro-Oeste,Beleza & Saúde,Total Express,61.17,23.22,30.48,6,8,False,True,7,2,0,Atraso Leve (1-2d),7.26,6.97
-PED-000323,Sudeste,Beleza & Saúde,Total Express,122.45,15.34,19.87,2,1,False,True,10,0,1,No Prazo (SLA OK),4.53,0.0
-PED-000324,Sudeste,Moda & Vestuário,Loggi Express,199.48,0.0,14.67,4,4,False,True,10,0,1,No Prazo (SLA OK),14.67,0.0
-PED-000325,Sul,Moda & Vestuário,Mandaê Flex,184.2,21.33,32.01,4,5,False,False,7,1,0,Atraso Leve (1-2d),10.68,6.4
-PED-000326,Sudeste,Eletrônicos,Total Express,558.49,0.0,20.14,3,3,False,False,10,0,1,No Prazo (SLA OK),20.14,0.0
-PED-000327,Sudeste,Eletrônicos,Total Express,441.94,0.0,16.05,3,3,False,True,10,0,1,No Prazo (SLA OK),16.05,0.0
-PED-000328,Sudeste,Eletrônicos,Total Express,783.81,0.0,21.12,2,4,False,False,7,2,0,Atraso Leve (1-2d),21.12,0.0
-PED-000329,Nordeste,Eletrônicos,Jadlog Standard,360.23,0.0,61.16,6,6,False,True,10,0,1,No Prazo (SLA OK),61.16,0.0
-PED-000330,Sul,Moda & Vestuário,Loggi Express,236.56,0.0,34.61,6,6,False,True,10,0,1,No Prazo (SLA OK),34.61,0.0
-PED-000331,Sudeste,Casa & Decoração,Jadlog Standard,229.76,0.0,15.75,2,1,False,False,10,0,1,No Prazo (SLA OK),15.75,0.0
-PED-000332,Sul,Moda & Vestuário,Correios Sedex,144.85,32.15,34.52,5,5,False,False,10,0,1,No Prazo (SLA OK),2.37,0.0
-PED-000333,Nordeste,Eletrônicos,Loggi Express,327.31,0.0,38.36,8,9,False,False,7,1,0,Atraso Leve (1-2d),38.36,0.0
-PED-000334,Sudeste,Alimentos & Bebidas,Loggi Express,117.44,11.09,16.51,3,3,False,True,10,0,1,No Prazo (SLA OK),5.42,0.0
-PED-000335,Sudeste,Alimentos & Bebidas,Loggi Express,183.89,17.44,18.83,3,2,False,False,10,0,1,No Prazo (SLA OK),1.39,0.0
-PED-000336,Sudeste,Beleza & Saúde,Loggi Express,163.2,14.09,15.09,3,6,False,False,4,3,0,Atraso Crítico (3-5d),1.0,14.09
-PED-000337,Sudeste,Alimentos & Bebidas,Correios Sedex,184.03,13.91,18.05,2,2,False,False,10,0,1,No Prazo (SLA OK),4.14,0.0
-PED-000338,Nordeste,Moda & Vestuário,Total Express,221.33,0.0,47.9,6,6,False,True,10,0,1,No Prazo (SLA OK),47.9,0.0
-PED-000339,Sudeste,Alimentos & Bebidas,Jadlog Standard,90.33,16.06,18.21,3,3,False,True,10,0,1,No Prazo (SLA OK),2.15,0.0
-PED-000340,Sul,Eletrônicos,Loggi Express,577.23,0.0,24.45,6,6,False,False,10,0,1,No Prazo (SLA OK),24.45,0.0
-PED-000341,Nordeste,Moda & Vestuário,Jadlog Standard,143.19,34.02,38.24,7,7,False,False,10,0,1,No Prazo (SLA OK),4.22,0.0
-PED-000342,Sudeste,Eletrônicos,Jadlog Standard,942.73,0.0,16.28,3,3,False,True,10,0,1,No Prazo (SLA OK),16.28,0.0
-PED-000343,Sul,Eletrônicos,Loggi Express,386.71,0.0,32.05,4,4,False,False,10,0,1,No Prazo (SLA OK),32.05,0.0
-PED-000344,Sudeste,Eletrônicos,Jadlog Standard,846.61,0.0,23.37,4,4,False,False,10,0,1,No Prazo (SLA OK),23.37,0.0
-PED-000345,Norte,Casa & Decoração,Jadlog Standard,438.22,0.0,91.45,10,11,False,False,7,1,0,Atraso Leve (1-2d),91.45,0.0
-PED-000346,Sul,Beleza & Saúde,Total Express,222.33,23.66,28.06,4,4,False,True,10,0,1,No Prazo (SLA OK),4.4,0.0
-PED-000347,Nordeste,Moda & Vestuário,Total Express,165.42,53.5,58.27,8,10,False,False,7,2,0,Atraso Leve (1-2d),4.77,16.05
-PED-000348,Sul,Eletrônicos,Loggi Express,806.71,0.0,23.52,6,6,False,False,10,0,1,No Prazo (SLA OK),23.52,0.0
-PED-000349,Sudeste,Beleza & Saúde,Jadlog Standard,242.67,0.0,23.08,3,3,False,False,10,0,1,No Prazo (SLA OK),23.08,0.0
-PED-000350,Sul,Casa & Decoração,Total Express,272.06,23.49,34.76,4,4,False,False,10,0,1,No Prazo (SLA OK),11.27,0.0
-PED-000351,Norte,Moda & Vestuário,Jadlog Standard,97.9,46.55,61.96,10,10,False,True,10,0,1,No Prazo (SLA OK),15.41,0.0
-PED-000352,Sul,Casa & Decoração,Correios Sedex,133.2,23.15,28.41,4,4,False,True,10,0,1,No Prazo (SLA OK),5.26,0.0
-PED-000353,Nordeste,Eletrônicos,Total Express,806.8,37.57,52.58,8,8,False,False,10,0,1,No Prazo (SLA OK),15.01,0.0
-PED-000354,Centro-Oeste,Moda & Vestuário,Loggi Express,77.01,28.8,41.33,5,4,False,True,10,0,1,No Prazo (SLA OK),12.53,0.0
-PED-000355,Sudeste,Beleza & Saúde,Loggi Express,123.25,19.29,24.11,4,4,False,False,10,0,1,No Prazo (SLA OK),4.82,0.0
-PED-000356,Sudeste,Eletrônicos,Total Express,746.21,0.0,15.17,4,4,False,False,10,0,1,No Prazo (SLA OK),15.17,0.0
-PED-000357,Sul,Moda & Vestuário,Loggi Express,201.11,18.48,27.6,5,5,False,False,10,0,1,No Prazo (SLA OK),9.12,0.0
-PED-000358,Sudeste,Beleza & Saúde,Total Express,159.15,17.84,21.09,3,2,False,True,10,0,1,No Prazo (SLA OK),3.25,0.0
-PED-000359,Nordeste,Casa & Decoração,Mandaê Flex,364.45,31.32,44.21,7,6,False,False,10,0,1,No Prazo (SLA OK),12.89,0.0
-PED-000360,Centro-Oeste,Eletrônicos,Total Express,931.35,31.22,36.13,7,7,False,False,10,0,1,No Prazo (SLA OK),4.91,0.0
-PED-000361,Sudeste,Eletrônicos,Jadlog Standard,440.49,16.24,20.83,2,16,True,False,1,14,0,Extraviado/Avaria,4.59,456.73
-PED-000362,Sudeste,Eletrônicos,Total Express,501.06,0.0,19.43,4,4,False,False,10,0,1,No Prazo (SLA OK),19.43,0.0
-PED-000363,Nordeste,Casa & Decoração,Jadlog Standard,255.01,0.0,60.65,7,13,False,False,2,6,0,Falha Grave (>5d),60.65,38.25
-PED-000364,Sudeste,Moda & Vestuário,Total Express,239.81,0.0,24.58,4,4,False,True,10,0,1,No Prazo (SLA OK),24.58,0.0
-PED-000365,Nordeste,Eletrônicos,Mandaê Flex,848.09,0.0,54.29,6,6,False,True,10,0,1,No Prazo (SLA OK),54.29,0.0
-PED-000366,Sudeste,Alimentos & Bebidas,Jadlog Standard,160.31,15.36,19.31,3,11,False,False,2,8,0,Falha Grave (>5d),3.95,39.41
-PED-000367,Sul,Moda & Vestuário,Mandaê Flex,261.01,0.0,28.12,5,5,False,False,10,0,1,No Prazo (SLA OK),28.12,0.0
-PED-000368,Sudeste,Eletrônicos,Mandaê Flex,390.83,0.0,18.41,2,2,False,False,10,0,1,No Prazo (SLA OK),18.41,0.0
-PED-000369,Sul,Moda & Vestuário,Loggi Express,290.03,0.0,27.79,6,5,False,False,10,0,1,No Prazo (SLA OK),27.79,0.0
-PED-000370,Sudeste,Casa & Decoração,Loggi Express,507.56,0.0,17.23,3,3,False,False,10,0,1,No Prazo (SLA OK),17.23,0.0
-PED-000371,Sul,Eletrônicos,Loggi Express,811.84,0.0,33.58,6,6,False,True,10,0,1,No Prazo (SLA OK),33.58,0.0
-PED-000372,Sudeste,Eletrônicos,Loggi Express,1042.0,0.0,14.35,3,17,True,False,1,14,0,Extraviado/Avaria,14.35,1042.0
-PED-000373,Nordeste,Beleza & Saúde,Loggi Express,65.45,37.35,49.28,7,6,False,True,10,0,1,No Prazo (SLA OK),11.93,0.0
-PED-000374,Centro-Oeste,Moda & Vestuário,Total Express,158.53,27.57,29.48,5,5,False,True,10,0,1,No Prazo (SLA OK),1.91,0.0
-PED-000375,Sudeste,Moda & Vestuário,Loggi Express,145.88,13.05,19.6,3,3,False,False,10,0,1,No Prazo (SLA OK),6.55,0.0
-PED-000376,Sudeste,Moda & Vestuário,Jadlog Standard,233.29,0.0,22.61,2,2,False,False,10,0,1,No Prazo (SLA OK),22.61,0.0
-PED-000377,Sudeste,Eletrônicos,Correios Sedex,418.97,11.85,16.92,3,3,False,False,10,0,1,No Prazo (SLA OK),5.07,0.0
-PED-000378,Sul,Eletrônicos,Loggi Express,816.65,0.0,29.37,4,4,False,True,10,0,1,No Prazo (SLA OK),29.37,0.0
-PED-000379,Sul,Moda & Vestuário,Correios Sedex,272.23,0.0,32.32,4,4,False,False,10,0,1,No Prazo (SLA OK),32.32,0.0
-PED-000380,Sul,Eletrônicos,Jadlog Standard,802.94,0.0,28.68,6,5,False,True,10,0,1,No Prazo (SLA OK),28.68,0.0
-PED-000381,Sudeste,Eletrônicos,Loggi Express,712.43,0.0,25.76,2,1,False,True,10,0,1,No Prazo (SLA OK),25.76,0.0
-PED-000382,Sudeste,Beleza & Saúde,Total Express,95.55,11.35,14.09,3,3,False,False,10,0,1,No Prazo (SLA OK),2.74,0.0
-PED-000383,Sul,Alimentos & Bebidas,Total Express,101.89,28.81,31.11,4,4,False,False,10,0,1,No Prazo (SLA OK),2.3,0.0
-PED-000384,Sul,Beleza & Saúde,Correios Sedex,196.23,24.13,30.65,6,6,False,False,10,0,1,No Prazo (SLA OK),6.52,0.0
-PED-000385,Norte,Beleza & Saúde,Total Express,175.07,54.86,81.94,12,11,False,False,10,0,1,No Prazo (SLA OK),27.08,0.0
-PED-000386,Sudeste,Eletrônicos,Correios Sedex,641.42,0.0,16.88,3,3,False,False,10,0,1,No Prazo (SLA OK),16.88,0.0
-PED-000387,Nordeste,Alimentos & Bebidas,Jadlog Standard,121.19,38.08,50.3,7,9,False,False,7,2,0,Atraso Leve (1-2d),12.22,11.42
-PED-000388,Sudeste,Eletrônicos,Loggi Express,204.32,17.02,20.04,2,2,False,False,10,0,1,No Prazo (SLA OK),3.02,0.0
-PED-000389,Sudeste,Alimentos & Bebidas,Correios Sedex,91.81,23.3,25.23,2,2,False,False,10,0,1,No Prazo (SLA OK),1.93,0.0
-PED-000390,Nordeste,Alimentos & Bebidas,Correios Sedex,226.01,31.53,35.1,7,7,False,False,10,0,1,No Prazo (SLA OK),3.57,0.0
-PED-000391,Nordeste,Casa & Decoração,Mandaê Flex,199.15,0.0,58.92,9,8,False,False,10,0,1,No Prazo (SLA OK),58.92,0.0
-PED-000392,Norte,Alimentos & Bebidas,Jadlog Standard,148.53,40.63,56.11,10,10,False,True,10,0,1,No Prazo (SLA OK),15.48,0.0
-PED-000393,Sudeste,Moda & Vestuário,Jadlog Standard,250.45,0.0,21.54,3,3,False,False,10,0,1,No Prazo (SLA OK),21.54,0.0
-PED-000394,Sudeste,Eletrônicos,Correios Sedex,373.92,0.0,17.36,3,3,False,False,10,0,1,No Prazo (SLA OK),17.36,0.0
-PED-000395,Nordeste,Moda & Vestuário,Jadlog Standard,201.08,39.11,45.58,6,7,False,False,7,1,0,Atraso Leve (1-2d),6.47,11.73
-PED-000396,Sul,Moda & Vestuário,Mandaê Flex,246.27,0.0,26.45,6,5,False,False,10,0,1,No Prazo (SLA OK),26.45,0.0
-PED-000397,Sudeste,Eletrônicos,Correios Sedex,652.75,16.5,19.29,2,1,False,True,10,0,1,No Prazo (SLA OK),2.79,0.0
-PED-000398,Sudeste,Casa & Decoração,Jadlog Standard,655.52,10.98,16.44,4,3,False,False,10,0,1,No Prazo (SLA OK),5.46,0.0
-PED-000399,Sudeste,Alimentos & Bebidas,Correios Sedex,64.91,13.36,17.95,4,4,False,False,10,0,1,No Prazo (SLA OK),4.59,0.0
-PED-000400,Centro-Oeste,Eletrônicos,Correios Sedex,882.92,0.0,42.93,6,6,False,True,10,0,1,No Prazo (SLA OK),42.93,0.0
-PED-000401,Sudeste,Beleza & Saúde,Loggi Express,132.22,18.67,24.28,2,2,False,True,10,0,1,No Prazo (SLA OK),5.61,0.0
-PED-000402,Sudeste,Beleza & Saúde,Mandaê Flex,174.74,14.62,19.1,2,2,False,False,10,0,1,No Prazo (SLA OK),4.48,0.0
-PED-000403,Sudeste,Alimentos & Bebidas,Jadlog Standard,159.86,18.55,23.14,4,4,False,True,10,0,1,No Prazo (SLA OK),4.59,0.0
-PED-000404,Sudeste,Alimentos & Bebidas,Correios Sedex,107.01,13.07,19.58,4,4,False,True,10,0,1,No Prazo (SLA OK),6.51,0.0
-PED-000405,Sudeste,Moda & Vestuário,Jadlog Standard,203.74,0.0,19.23,2,1,False,True,10,0,1,No Prazo (SLA OK),19.23,0.0
-PED-000406,Sul,Alimentos & Bebidas,Correios Sedex,56.39,25.03,34.27,6,6,False,False,10,0,1,No Prazo (SLA OK),9.24,0.0
-PED-000407,Sudeste,Casa & Decoração,Jadlog Standard,406.36,20.72,22.66,3,3,False,False,10,0,1,No Prazo (SLA OK),1.94,0.0
-PED-000408,Nordeste,Eletrônicos,Loggi Express,715.59,0.0,55.69,7,7,False,False,10,0,1,No Prazo (SLA OK),55.69,0.0
-PED-000409,Sudeste,Moda & Vestuário,Mandaê Flex,228.32,0.0,15.38,3,2,False,False,10,0,1,No Prazo (SLA OK),15.38,0.0
-PED-000410,Sul,Casa & Decoração,Loggi Express,456.39,0.0,26.3,5,5,False,False,10,0,1,No Prazo (SLA OK),26.3,0.0
-PED-000411,Centro-Oeste,Eletrônicos,Jadlog Standard,730.88,0.0,26.58,6,5,False,False,10,0,1,No Prazo (SLA OK),26.58,0.0
-PED-000412,Sul,Casa & Decoração,Mandaê Flex,356.29,0.0,37.5,5,5,False,True,10,0,1,No Prazo (SLA OK),37.5,0.0
-PED-000413,Sul,Casa & Decoração,Mandaê Flex,243.08,29.26,30.83,4,4,False,False,10,0,1,No Prazo (SLA OK),1.57,0.0
-PED-000414,Sudeste,Eletrônicos,Total Express,493.31,12.62,17.84,3,3,False,False,10,0,1,No Prazo (SLA OK),5.22,0.0
-PED-000415,Sudeste,Moda & Vestuário,Total Express,261.2,0.0,18.87,3,2,False,False,10,0,1,No Prazo (SLA OK),18.87,0.0
-PED-000416,Sul,Casa & Decoração,Jadlog Standard,498.0,0.0,26.24,5,4,False,True,10,0,1,No Prazo (SLA OK),26.24,0.0
-PED-000417,Norte,Moda & Vestuário,Jadlog Standard,175.71,58.72,65.72,12,12,False,True,10,0,1,No Prazo (SLA OK),7.0,0.0
-PED-000418,Sul,Eletrônicos,Jadlog Standard,660.12,0.0,30.61,4,4,False,True,10,0,1,No Prazo (SLA OK),30.61,0.0
-PED-000419,Sul,Eletrônicos,Total Express,450.98,0.0,34.26,6,6,False,True,10,0,1,No Prazo (SLA OK),34.26,0.0
-PED-000420,Nordeste,Moda & Vestuário,Correios Sedex,260.37,45.05,52.13,8,8,False,False,10,0,1,No Prazo (SLA OK),7.08,0.0
-PED-000421,Sudeste,Alimentos & Bebidas,Correios Sedex,169.94,13.84,20.21,4,4,False,True,10,0,1,No Prazo (SLA OK),6.37,0.0
-PED-000422,Sudeste,Eletrônicos,Correios Sedex,1077.07,0.0,15.52,3,2,False,False,10,0,1,No Prazo (SLA OK),15.52,0.0
-PED-000423,Sul,Casa & Decoração,Loggi Express,243.38,0.0,31.96,5,5,False,True,10,0,1,No Prazo (SLA OK),31.96,0.0
-PED-000424,Norte,Eletrônicos,Jadlog Standard,566.84,57.12,74.65,8,8,False,True,10,0,1,No Prazo (SLA OK),17.53,0.0
-PED-000425,Sudeste,Moda & Vestuário,Loggi Express,203.89,0.0,22.58,3,2,False,False,10,0,1,No Prazo (SLA OK),22.58,0.0
-PED-000426,Nordeste,Beleza & Saúde,Total Express,169.09,32.55,45.5,7,10,False,False,4,3,0,Atraso Crítico (3-5d),12.95,32.55
-PED-000427,Sudeste,Casa & Decoração,Jadlog Standard,316.28,0.0,15.57,4,4,False,False,10,0,1,No Prazo (SLA OK),15.57,0.0
-PED-000428,Sul,Eletrônicos,Correios Sedex,457.95,18.15,25.55,4,3,False,True,10,0,1,No Prazo (SLA OK),7.4,0.0
-PED-000429,Sudeste,Moda & Vestuário,Jadlog Standard,242.88,0.0,19.69,2,2,False,True,10,0,1,No Prazo (SLA OK),19.69,0.0
-PED-000430,Sudeste,Eletrônicos,Loggi Express,808.65,21.9,23.69,2,1,False,False,10,0,1,No Prazo (SLA OK),1.79,0.0
-PED-000431,Nordeste,Moda & Vestuário,Loggi Express,135.02,35.37,53.13,8,8,False,False,10,0,1,No Prazo (SLA OK),17.76,0.0
-PED-000432,Sudeste,Casa & Decoração,Correios Sedex,489.1,19.38,24.15,3,2,False,True,10,0,1,No Prazo (SLA OK),4.77,0.0
-PED-000433,Sul,Eletrônicos,Total Express,907.44,33.54,35.53,4,4,False,True,10,0,1,No Prazo (SLA OK),1.99,0.0
-PED-000434,Nordeste,Eletrônicos,Loggi Express,679.55,0.0,40.32,6,6,False,False,10,0,1,No Prazo (SLA OK),40.32,0.0
-PED-000435,Centro-Oeste,Moda & Vestuário,Loggi Express,194.78,19.67,29.36,7,6,False,False,10,0,1,No Prazo (SLA OK),9.69,0.0
-PED-000436,Sudeste,Beleza & Saúde,Total Express,164.93,12.88,14.3,4,4,False,False,10,0,1,No Prazo (SLA OK),1.42,0.0
-PED-000437,Sudeste,Alimentos & Bebidas,Loggi Express,101.22,19.67,24.1,2,2,False,True,10,0,1,No Prazo (SLA OK),4.43,0.0
-PED-000438,Sudeste,Eletrônicos,Correios Sedex,656.61,0.0,25.11,4,3,False,False,10,0,1,No Prazo (SLA OK),25.11,0.0
-PED-000439,Norte,Casa & Decoração,Total Express,103.24,55.31,65.01,8,7,False,True,10,0,1,No Prazo (SLA OK),9.7,0.0
-PED-000440,Centro-Oeste,Moda & Vestuário,Loggi Express,242.59,0.0,34.28,7,7,False,True,10,0,1,No Prazo (SLA OK),34.28,0.0
-PED-000441,Sul,Moda & Vestuário,Loggi Express,96.31,32.79,34.88,4,3,False,False,10,0,1,No Prazo (SLA OK),2.09,0.0
-PED-000442,Nordeste,Casa & Decoração,Mandaê Flex,505.38,0.0,47.86,7,7,False,True,10,0,1,No Prazo (SLA OK),47.86,0.0
-PED-000443,Sul,Beleza & Saúde,Jadlog Standard,125.14,20.83,30.04,5,5,False,True,10,0,1,No Prazo (SLA OK),9.21,0.0
-PED-000444,Sul,Alimentos & Bebidas,Jadlog Standard,130.47,22.06,27.35,5,4,False,True,10,0,1,No Prazo (SLA OK),5.29,0.0
-PED-000445,Sudeste,Moda & Vestuário,Correios Sedex,152.34,12.39,14.1,3,3,False,True,10,0,1,No Prazo (SLA OK),1.71,0.0
-PED-000446,Nordeste,Moda & Vestuário,Mandaê Flex,172.72,29.47,44.26,8,8,False,False,10,0,1,No Prazo (SLA OK),14.79,0.0
-PED-000447,Sudeste,Beleza & Saúde,Mandaê Flex,203.83,0.0,25.46,3,2,False,False,10,0,1,No Prazo (SLA OK),25.46,0.0
-PED-000448,Nordeste,Eletrônicos,Correios Sedex,102.68,32.22,39.15,7,7,False,True,10,0,1,No Prazo (SLA OK),6.93,0.0
-PED-000449,Nordeste,Moda & Vestuário,Jadlog Standard,266.62,0.0,43.97,6,6,False,False,10,0,1,No Prazo (SLA OK),43.97,0.0
-PED-000450,Nordeste,Moda & Vestuário,Loggi Express,210.28,0.0,44.82,7,7,False,False,10,0,1,No Prazo (SLA OK),44.82,0.0
-PED-000451,Sudeste,Casa & Decoração,Correios Sedex,207.23,0.0,14.07,3,3,False,False,10,0,1,No Prazo (SLA OK),14.07,0.0
-PED-000452,Sudeste,Eletrônicos,Total Express,413.43,13.83,14.93,4,4,False,True,10,0,1,No Prazo (SLA OK),1.1,0.0
-PED-000453,Sudeste,Eletrônicos,Jadlog Standard,1018.81,0.0,18.45,2,2,False,False,10,0,1,No Prazo (SLA OK),18.45,0.0
-PED-000454,Sudeste,Beleza & Saúde,Mandaê Flex,97.45,22.06,25.3,4,18,True,False,1,14,0,Extraviado/Avaria,3.24,119.51
-PED-000455,Sudeste,Eletrônicos,Loggi Express,396.26,0.0,22.03,2,2,False,True,10,0,1,No Prazo (SLA OK),22.03,0.0
-PED-000456,Centro-Oeste,Moda & Vestuário,Jadlog Standard,258.24,0.0,26.88,6,6,False,True,10,0,1,No Prazo (SLA OK),26.88,0.0
-PED-000457,Sul,Eletrônicos,Loggi Express,724.48,0.0,29.26,5,4,False,True,10,0,1,No Prazo (SLA OK),29.26,0.0
-PED-000458,Sudeste,Eletrônicos,Jadlog Standard,443.66,17.75,24.25,2,1,False,False,10,0,1,No Prazo (SLA OK),6.5,0.0
-PED-000459,Sudeste,Eletrônicos,Loggi Express,697.66,14.04,17.02,2,1,False,True,10,0,1,No Prazo (SLA OK),2.98,0.0
-PED-000460,Sudeste,Eletrônicos,Loggi Express,424.33,0.0,21.16,3,3,False,False,10,0,1,No Prazo (SLA OK),21.16,0.0
-PED-000461,Sul,Beleza & Saúde,Loggi Express,189.54,20.81,30.37,6,5,False,True,10,0,1,No Prazo (SLA OK),9.56,0.0
-PED-000462,Sul,Eletrônicos,Total Express,883.5,22.71,30.59,4,4,False,False,10,0,1,No Prazo (SLA OK),7.88,0.0
-PED-000463,Centro-Oeste,Alimentos & Bebidas,Correios Sedex,163.94,28.8,39.75,7,6,False,True,10,0,1,No Prazo (SLA OK),10.95,0.0
-PED-000464,Sul,Moda & Vestuário,Total Express,211.7,16.77,23.63,4,4,False,False,10,0,1,No Prazo (SLA OK),6.86,0.0
-PED-000465,Norte,Moda & Vestuário,Mandaê Flex,295.67,51.34,75.07,10,11,False,False,7,1,0,Atraso Leve (1-2d),23.73,15.4
-PED-000466,Nordeste,Moda & Vestuário,Jadlog Standard,189.98,38.65,47.58,7,8,False,True,7,1,0,Atraso Leve (1-2d),8.93,11.6
-PED-000467,Sudeste,Moda & Vestuário,Jadlog Standard,119.09,14.33,16.06,3,2,False,False,10,0,1,No Prazo (SLA OK),1.73,0.0
-PED-000468,Centro-Oeste,Casa & Decoração,Correios Sedex,389.44,0.0,36.01,6,6,False,True,10,0,1,No Prazo (SLA OK),36.01,0.0
-PED-000469,Sudeste,Eletrônicos,Loggi Express,1108.93,0.0,15.66,3,3,False,False,10,0,1,No Prazo (SLA OK),15.66,0.0
-PED-000470,Nordeste,Moda & Vestuário,Mandaê Flex,129.11,39.0,51.9,7,6,False,False,10,0,1,No Prazo (SLA OK),12.9,0.0
-PED-000471,Sudeste,Beleza & Saúde,Loggi Express,123.73,14.22,21.05,4,4,False,True,10,0,1,No Prazo (SLA OK),6.83,0.0
-PED-000472,Centro-Oeste,Alimentos & Bebidas,Mandaê Flex,158.74,35.19,39.61,6,6,False,True,10,0,1,No Prazo (SLA OK),4.42,0.0
-PED-000473,Centro-Oeste,Beleza & Saúde,Loggi Express,137.57,30.75,42.11,6,6,False,True,10,0,1,No Prazo (SLA OK),11.36,0.0
-PED-000474,Nordeste,Moda & Vestuário,Correios Sedex,131.06,54.36,59.16,7,7,False,False,10,0,1,No Prazo (SLA OK),4.8,0.0
-PED-000475,Nordeste,Beleza & Saúde,Total Express,190.48,39.28,58.05,8,8,False,False,10,0,1,No Prazo (SLA OK),18.77,0.0
-PED-000476,Sudeste,Moda & Vestuário,Mandaê Flex,329.2,0.0,17.85,4,4,False,False,10,0,1,No Prazo (SLA OK),17.85,0.0
-PED-000477,Sudeste,Moda & Vestuário,Loggi Express,201.77,0.0,19.02,2,1,False,True,10,0,1,No Prazo (SLA OK),19.02,0.0
-PED-000478,Sudeste,Eletrônicos,Total Express,451.1,0.0,15.62,2,1,False,True,10,0,1,No Prazo (SLA OK),15.62,0.0
-PED-000479,Sudeste,Moda & Vestuário,Mandaê Flex,97.06,14.55,19.3,3,17,True,False,1,14,0,Extraviado/Avaria,4.75,111.61
-PED-000480,Nordeste,Eletrônicos,Total Express,706.75,44.24,59.02,8,8,False,True,10,0,1,No Prazo (SLA OK),14.78,0.0
-PED-000481,Sudeste,Moda & Vestuário,Total Express,256.23,0.0,15.82,3,3,False,False,10,0,1,No Prazo (SLA OK),15.82,0.0
-PED-000482,Norte,Beleza & Saúde,Total Express,161.38,63.2,87.31,10,10,False,True,10,0,1,No Prazo (SLA OK),24.11,0.0
-PED-000483,Sul,Eletrônicos,Jadlog Standard,649.47,20.25,24.11,4,4,False,True,10,0,1,No Prazo (SLA OK),3.86,0.0
-PED-000484,Nordeste,Eletrônicos,Total Express,520.36,0.0,49.55,7,6,False,False,10,0,1,No Prazo (SLA OK),49.55,0.0
-PED-000485,Sudeste,Eletrônicos,Total Express,409.72,12.48,16.8,3,3,False,False,10,0,1,No Prazo (SLA OK),4.32,0.0
-PED-000486,Centro-Oeste,Alimentos & Bebidas,Mandaê Flex,177.56,20.03,26.29,6,6,False,False,10,0,1,No Prazo (SLA OK),6.26,0.0
-PED-000487,Centro-Oeste,Moda & Vestuário,Loggi Express,244.83,0.0,35.78,6,5,False,True,10,0,1,No Prazo (SLA OK),35.78,0.0
-PED-000488,Sul,Moda & Vestuário,Jadlog Standard,97.26,21.74,25.48,5,5,False,True,10,0,1,No Prazo (SLA OK),3.74,0.0
-PED-000489,Sul,Beleza & Saúde,Mandaê Flex,211.54,26.3,30.99,6,6,False,False,10,0,1,No Prazo (SLA OK),4.69,0.0
-PED-000490,Nordeste,Beleza & Saúde,Correios Sedex,165.83,41.83,56.65,7,7,False,False,10,0,1,No Prazo (SLA OK),14.82,0.0
-PED-000491,Sudeste,Moda & Vestuário,Jadlog Standard,273.98,0.0,22.94,3,3,False,False,10,0,1,No Prazo (SLA OK),22.94,0.0
-PED-000492,Sul,Casa & Decoração,Total Express,192.37,26.28,29.35,5,5,False,True,10,0,1,No Prazo (SLA OK),3.07,0.0
-PED-000493,Sudeste,Casa & Decoração,Loggi Express,189.76,17.43,20.54,4,4,False,False,10,0,1,No Prazo (SLA OK),3.11,0.0
-PED-000494,Sudeste,Casa & Decoração,Loggi Express,323.61,0.0,15.18,4,4,False,False,10,0,1,No Prazo (SLA OK),15.18,0.0
-PED-000495,Sudeste,Eletrônicos,Jadlog Standard,760.61,18.5,23.88,3,3,False,False,10,0,1,No Prazo (SLA OK),5.38,0.0
-PED-000496,Sudeste,Beleza & Saúde,Jadlog Standard,220.84,0.0,19.25,2,1,False,False,10,0,1,No Prazo (SLA OK),19.25,0.0
-PED-000497,Sudeste,Moda & Vestuário,Total Express,232.36,0.0,23.27,2,2,False,True,10,0,1,No Prazo (SLA OK),23.27,0.0
-PED-000498,Sudeste,Eletrônicos,Loggi Express,596.61,0.0,19.13,3,3,False,False,10,0,1,No Prazo (SLA OK),19.13,0.0
-PED-000499,Norte,Moda & Vestuário,Mandaê Flex,128.42,46.36,68.49,8,7,False,False,10,0,1,No Prazo (SLA OK),22.13,0.0
-PED-000500,Sul,Eletrônicos,Mandaê Flex,920.6,0.0,34.92,6,5,False,False,10,0,1,No Prazo (SLA OK),34.92,0.0
-PED-000501,Norte,Eletrônicos,Total Express,437.76,0.0,92.34,8,8,False,False,10,0,1,No Prazo (SLA OK),92.34,0.0
-PED-000502,Sudeste,Casa & Decoração,Total Express,519.13,13.52,20.76,2,2,False,False,10,0,1,No Prazo (SLA OK),7.24,0.0
-PED-000503,Sudeste,Eletrônicos,Jadlog Standard,587.44,0.0,25.26,2,2,False,False,10,0,1,No Prazo (SLA OK),25.26,0.0
-PED-000504,Sul,Moda & Vestuário,Correios Sedex,285.43,24.68,31.12,4,4,False,True,10,0,1,No Prazo (SLA OK),6.44,0.0
-PED-000505,Sudeste,Moda & Vestuário,Total Express,230.74,0.0,22.15,4,3,False,True,10,0,1,No Prazo (SLA OK),22.15,0.0
-PED-000506,Sudeste,Eletrônicos,Loggi Express,619.86,0.0,18.89,4,3,False,True,10,0,1,No Prazo (SLA OK),18.89,0.0
-PED-000507,Sul,Alimentos & Bebidas,Mandaê Flex,116.63,18.16,26.87,5,5,False,True,10,0,1,No Prazo (SLA OK),8.71,0.0
-PED-000508,Sudeste,Eletrônicos,Correios Sedex,575.0,15.94,19.4,2,1,False,True,10,0,1,No Prazo (SLA OK),3.46,0.0
-PED-000509,Sul,Eletrônicos,Mandaê Flex,744.23,0.0,26.59,6,5,False,True,10,0,1,No Prazo (SLA OK),26.59,0.0
-PED-000510,Sul,Eletrônicos,Total Express,666.97,0.0,24.63,4,4,False,True,10,0,1,No Prazo (SLA OK),24.63,0.0
-PED-000511,Sudeste,Eletrônicos,Total Express,519.36,17.9,24.87,3,3,False,True,10,0,1,No Prazo (SLA OK),6.97,0.0
-PED-000512,Sudeste,Eletrônicos,Jadlog Standard,613.56,0.0,17.94,4,3,False,True,10,0,1,No Prazo (SLA OK),17.94,0.0
-PED-000513,Nordeste,Casa & Decoração,Mandaê Flex,348.64,0.0,51.81,8,8,False,True,10,0,1,No Prazo (SLA OK),51.81,0.0
-PED-000514,Sudeste,Alimentos & Bebidas,Correios Sedex,49.9,15.2,17.45,3,3,False,False,10,0,1,No Prazo (SLA OK),2.25,0.0
-PED-000515,Sudeste,Eletrônicos,Loggi Express,750.8,0.0,25.87,3,2,False,False,10,0,1,No Prazo (SLA OK),25.87,0.0
-PED-000516,Norte,Casa & Decoração,Loggi Express,232.23,0.0,74.28,10,10,False,True,10,0,1,No Prazo (SLA OK),74.28,0.0
-PED-000517,Sudeste,Casa & Decoração,Jadlog Standard,213.13,21.2,22.75,2,4,False,False,7,2,0,Atraso Leve (1-2d),1.55,6.36
-PED-000518,Nordeste,Beleza & Saúde,Correios Sedex,64.07,47.13,57.82,8,8,False,False,10,0,1,No Prazo (SLA OK),10.69,0.0
-PED-000519,Norte,Moda & Vestuário,Mandaê Flex,82.37,51.67,67.14,12,12,False,True,10,0,1,No Prazo (SLA OK),15.47,0.0
-PED-000520,Sudeste,Eletrônicos,Loggi Express,351.8,0.0,19.61,2,8,False,False,2,6,0,Falha Grave (>5d),19.61,52.77
-PED-000521,Sudeste,Moda & Vestuário,Total Express,147.46,12.06,17.75,4,4,False,False,10,0,1,No Prazo (SLA OK),5.69,0.0
-PED-000522,Sudeste,Casa & Decoração,Jadlog Standard,554.86,0.0,14.69,3,3,False,False,10,0,1,No Prazo (SLA OK),14.69,0.0
-PED-000523,Sudeste,Beleza & Saúde,Mandaê Flex,116.34,15.27,19.57,2,2,False,True,10,0,1,No Prazo (SLA OK),4.3,0.0
-PED-000524,Sudeste,Eletrônicos,Correios Sedex,689.11,0.0,22.87,3,3,False,False,10,0,1,No Prazo (SLA OK),22.87,0.0
-PED-000525,Nordeste,Moda & Vestuário,Correios Sedex,214.03,28.53,42.86,7,10,False,False,4,3,0,Atraso Crítico (3-5d),14.33,28.53
-PED-000526,Sudeste,Beleza & Saúde,Jadlog Standard,145.9,18.68,23.55,2,2,False,False,10,0,1,No Prazo (SLA OK),4.87,0.0
-PED-000527,Sul,Beleza & Saúde,Jadlog Standard,136.52,23.96,25.77,4,3,False,False,10,0,1,No Prazo (SLA OK),1.81,0.0
-PED-000528,Norte,Alimentos & Bebidas,Loggi Express,86.21,66.27,83.39,12,14,False,False,7,2,0,Atraso Leve (1-2d),17.12,19.88
-PED-000529,Nordeste,Casa & Decoração,Loggi Express,499.6,43.81,61.31,7,7,False,False,10,0,1,No Prazo (SLA OK),17.5,0.0
-PED-000530,Sul,Moda & Vestuário,Correios Sedex,298.43,0.0,25.16,6,6,False,True,10,0,1,No Prazo (SLA OK),25.16,0.0
-PED-000531,Sudeste,Moda & Vestuário,Correios Sedex,89.04,17.53,18.86,3,3,False,False,10,0,1,No Prazo (SLA OK),1.33,0.0
-PED-000532,Sul,Casa & Decoração,Mandaê Flex,227.36,27.81,30.18,4,4,False,False,10,0,1,No Prazo (SLA OK),2.37,0.0
-PED-000533,Sul,Eletrônicos,Mandaê Flex,588.44,0.0,27.87,4,4,False,True,10,0,1,No Prazo (SLA OK),27.87,0.0
-PED-000534,Sudeste,Moda & Vestuário,Total Express,132.13,23.68,25.62,2,2,False,False,10,0,1,No Prazo (SLA OK),1.94,0.0
-PED-000535,Sudeste,Casa & Decoração,Correios Sedex,395.66,0.0,15.45,2,1,False,True,10,0,1,No Prazo (SLA OK),15.45,0.0
-PED-000536,Centro-Oeste,Eletrônicos,Mandaê Flex,489.78,0.0,29.49,7,7,False,True,10,0,1,No Prazo (SLA OK),29.49,0.0
-PED-000537,Sudeste,Beleza & Saúde,Correios Sedex,237.43,0.0,21.19,3,3,False,False,10,0,1,No Prazo (SLA OK),21.19,0.0
-PED-000538,Sudeste,Moda & Vestuário,Loggi Express,261.43,22.27,25.18,2,2,False,True,10,0,1,No Prazo (SLA OK),2.91,0.0
-PED-000539,Sudeste,Alimentos & Bebidas,Jadlog Standard,149.57,15.03,17.92,2,1,False,False,10,0,1,No Prazo (SLA OK),2.89,0.0
-PED-000540,Sudeste,Eletrônicos,Loggi Express,875.94,0.0,24.92,2,1,False,True,10,0,1,No Prazo (SLA OK),24.92,0.0
-PED-000541,Nordeste,Eletrônicos,Mandaê Flex,893.3,40.03,59.45,6,8,False,True,7,2,0,Atraso Leve (1-2d),19.42,12.01
-PED-000542,Nordeste,Casa & Decoração,Total Express,277.97,0.0,42.49,7,7,False,False,10,0,1,No Prazo (SLA OK),42.49,0.0
-PED-000543,Nordeste,Eletrônicos,Loggi Express,470.43,40.2,50.19,6,6,False,True,10,0,1,No Prazo (SLA OK),9.99,0.0
-PED-000544,Sudeste,Casa & Decoração,Total Express,348.6,0.0,21.44,2,1,False,False,10,0,1,No Prazo (SLA OK),21.44,0.0
-PED-000545,Sudeste,Casa & Decoração,Total Express,434.78,0.0,19.22,4,4,False,False,10,0,1,No Prazo (SLA OK),19.22,0.0
-PED-000546,Sul,Eletrônicos,Jadlog Standard,680.59,0.0,34.3,4,7,False,False,4,3,0,Atraso Crítico (3-5d),34.3,0.0
-PED-000547,Sudeste,Moda & Vestuário,Loggi Express,95.38,12.3,16.47,3,2,False,False,10,0,1,No Prazo (SLA OK),4.17,0.0
-PED-000548,Sudeste,Moda & Vestuário,Total Express,141.83,23.53,25.32,3,2,False,False,10,0,1,No Prazo (SLA OK),1.79,0.0
-PED-000549,Nordeste,Moda & Vestuário,Total Express,185.56,30.59,44.03,7,6,False,True,10,0,1,No Prazo (SLA OK),13.44,0.0
-PED-000550,Sudeste,Alimentos & Bebidas,Correios Sedex,136.6,17.97,19.53,3,2,False,False,10,0,1,No Prazo (SLA OK),1.56,0.0
-PED-000551,Sul,Beleza & Saúde,Total Express,228.76,0.0,28.14,6,6,False,True,10,0,1,No Prazo (SLA OK),28.14,0.0
-PED-000552,Sudeste,Casa & Decoração,Correios Sedex,187.54,15.42,23.68,4,4,False,False,10,0,1,No Prazo (SLA OK),8.26,0.0
-PED-000553,Sudeste,Casa & Decoração,Total Express,395.61,0.0,19.06,2,2,False,False,10,0,1,No Prazo (SLA OK),19.06,0.0
-PED-000554,Sudeste,Moda & Vestuário,Total Express,279.35,0.0,14.45,2,2,False,False,10,0,1,No Prazo (SLA OK),14.45,0.0
-PED-000555,Norte,Alimentos & Bebidas,Correios Sedex,242.22,0.0,57.09,8,8,False,False,10,0,1,No Prazo (SLA OK),57.09,0.0
-PED-000556,Nordeste,Casa & Decoração,Jadlog Standard,295.52,0.0,57.84,8,7,False,False,10,0,1,No Prazo (SLA OK),57.84,0.0
-PED-000557,Norte,Casa & Decoração,Loggi Express,394.06,0.0,94.11,10,10,False,False,10,0,1,No Prazo (SLA OK),94.11,0.0
-PED-000558,Sul,Beleza & Saúde,Loggi Express,165.64,18.72,26.67,4,4,False,False,10,0,1,No Prazo (SLA OK),7.95,0.0
-PED-000559,Sudeste,Eletrônicos,Correios Sedex,693.01,0.0,24.93,2,2,False,True,10,0,1,No Prazo (SLA OK),24.93,0.0
-PED-000560,Sul,Beleza & Saúde,Total Express,135.55,24.56,36.95,5,4,False,True,10,0,1,No Prazo (SLA OK),12.39,0.0
-PED-000561,Sudeste,Eletrônicos,Total Express,745.91,0.0,20.79,2,2,False,False,10,0,1,No Prazo (SLA OK),20.79,0.0
-PED-000562,Nordeste,Moda & Vestuário,Loggi Express,49.9,38.25,45.29,6,7,False,False,7,1,0,Atraso Leve (1-2d),7.04,11.48
-PED-000563,Sudeste,Moda & Vestuário,Loggi Express,230.92,0.0,21.66,3,2,False,True,10,0,1,No Prazo (SLA OK),21.66,0.0
-PED-000564,Sul,Alimentos & Bebidas,Loggi Express,145.68,19.86,28.83,4,4,False,True,10,0,1,No Prazo (SLA OK),8.97,0.0
-PED-000565,Sudeste,Beleza & Saúde,Jadlog Standard,129.99,14.68,19.7,4,4,False,True,10,0,1,No Prazo (SLA OK),5.02,0.0
-PED-000566,Sudeste,Casa & Decoração,Total Express,565.15,0.0,19.98,3,3,False,False,10,0,1,No Prazo (SLA OK),19.98,0.0
-PED-000567,Nordeste,Casa & Decoração,Jadlog Standard,265.76,0.0,58.28,8,8,False,False,10,0,1,No Prazo (SLA OK),58.28,0.0
-PED-000568,Sudeste,Moda & Vestuário,Jadlog Standard,165.82,18.28,20.8,2,1,False,True,10,0,1,No Prazo (SLA OK),2.52,0.0
-PED-000569,Sudeste,Alimentos & Bebidas,Mandaê Flex,229.62,10.98,16.74,2,2,False,True,10,0,1,No Prazo (SLA OK),5.76,0.0
-PED-000570,Sudeste,Moda & Vestuário,Jadlog Standard,140.08,15.43,19.69,3,2,False,True,10,0,1,No Prazo (SLA OK),4.26,0.0
-PED-000571,Sudeste,Moda & Vestuário,Jadlog Standard,156.99,18.06,23.83,2,2,False,True,10,0,1,No Prazo (SLA OK),5.77,0.0
-PED-000572,Nordeste,Eletrônicos,Correios Sedex,617.65,49.62,52.96,7,6,False,True,10,0,1,No Prazo (SLA OK),3.34,0.0
-PED-000573,Centro-Oeste,Beleza & Saúde,Jadlog Standard,177.83,31.07,33.19,6,5,False,False,10,0,1,No Prazo (SLA OK),2.12,0.0
-PED-000574,Norte,Casa & Decoração,Total Express,362.86,0.0,66.93,10,10,False,False,10,0,1,No Prazo (SLA OK),66.93,0.0
-PED-000575,Nordeste,Moda & Vestuário,Correios Sedex,112.44,37.44,44.14,8,7,False,True,10,0,1,No Prazo (SLA OK),6.7,0.0
-PED-000576,Sudeste,Eletrônicos,Mandaê Flex,532.92,0.0,16.39,3,2,False,True,10,0,1,No Prazo (SLA OK),16.39,0.0
-PED-000577,Nordeste,Beleza & Saúde,Loggi Express,112.67,37.1,45.57,6,6,False,True,10,0,1,No Prazo (SLA OK),8.47,0.0
-PED-000578,Sudeste,Eletrônicos,Mandaê Flex,633.01,20.26,22.98,3,3,False,False,10,0,1,No Prazo (SLA OK),2.72,0.0
-PED-000579,Sudeste,Casa & Decoração,Jadlog Standard,386.84,0.0,16.33,2,2,False,True,10,0,1,No Prazo (SLA OK),16.33,0.0
-PED-000580,Nordeste,Alimentos & Bebidas,Loggi Express,158.82,51.8,57.38,9,10,False,False,7,1,0,Atraso Leve (1-2d),5.58,15.54
-PED-000581,Sudeste,Moda & Vestuário,Jadlog Standard,83.44,15.15,19.15,2,1,False,True,10,0,1,No Prazo (SLA OK),4.0,0.0
-PED-000582,Centro-Oeste,Eletrônicos,Mandaê Flex,884.07,19.18,26.56,5,5,False,False,10,0,1,No Prazo (SLA OK),7.38,0.0
-PED-000583,Sudeste,Casa & Decoração,Jadlog Standard,367.78,12.36,15.0,2,1,False,False,10,0,1,No Prazo (SLA OK),2.64,0.0
-PED-000584,Sul,Beleza & Saúde,Jadlog Standard,202.3,0.0,36.59,5,5,False,False,10,0,1,No Prazo (SLA OK),36.59,0.0
-PED-000585,Sul,Moda & Vestuário,Total Express,216.65,0.0,22.62,5,5,False,True,10,0,1,No Prazo (SLA OK),22.62,0.0
-PED-000586,Centro-Oeste,Alimentos & Bebidas,Loggi Express,189.56,30.06,39.8,7,7,False,False,10,0,1,No Prazo (SLA OK),9.74,0.0
-PED-000587,Sul,Eletrônicos,Loggi Express,752.64,0.0,30.54,5,4,False,False,10,0,1,No Prazo (SLA OK),30.54,0.0
-PED-000588,Sul,Moda & Vestuário,Loggi Express,270.77,0.0,25.33,4,4,False,True,10,0,1,No Prazo (SLA OK),25.33,0.0
-PED-000589,Sudeste,Casa & Decoração,Loggi Express,397.45,0.0,17.36,3,2,False,True,10,0,1,No Prazo (SLA OK),17.36,0.0
-PED-000590,Sul,Beleza & Saúde,Loggi Express,135.59,25.9,35.85,5,5,False,False,10,0,1,No Prazo (SLA OK),9.95,0.0
-PED-000591,Sudeste,Eletrônicos,Loggi Express,1149.94,14.9,18.28,2,2,False,True,10,0,1,No Prazo (SLA OK),3.38,0.0
-PED-000592,Nordeste,Beleza & Saúde,Total Express,180.01,54.04,60.87,8,16,False,False,2,8,0,Falha Grave (>5d),6.83,81.04
-PED-000593,Sul,Moda & Vestuário,Loggi Express,224.42,0.0,29.89,5,5,False,False,10,0,1,No Prazo (SLA OK),29.89,0.0
-PED-000594,Nordeste,Moda & Vestuário,Jadlog Standard,113.42,31.12,44.74,9,9,False,False,10,0,1,No Prazo (SLA OK),13.62,0.0
-PED-000595,Sudeste,Eletrônicos,Correios Sedex,366.57,0.0,17.41,3,2,False,True,10,0,1,No Prazo (SLA OK),17.41,0.0
-PED-000596,Sudeste,Beleza & Saúde,Jadlog Standard,153.17,17.43,19.35,3,3,False,False,10,0,1,No Prazo (SLA OK),1.92,0.0
-PED-000597,Nordeste,Eletrônicos,Total Express,682.01,0.0,46.56,7,8,False,False,7,1,0,Atraso Leve (1-2d),46.56,0.0
-PED-000598,Sudeste,Eletrônicos,Loggi Express,514.89,0.0,23.41,3,3,False,True,10,0,1,No Prazo (SLA OK),23.41,0.0
-PED-000599,Sudeste,Eletrônicos,Loggi Express,681.02,12.09,15.81,3,3,False,False,10,0,1,No Prazo (SLA OK),3.72,0.0
-PED-000600,Sudeste,Beleza & Saúde,Loggi Express,211.49,0.0,14.24,3,3,False,True,10,0,1,No Prazo (SLA OK),14.24,0.0
-PED-000601,Norte,Casa & Decoração,Loggi Express,416.49,0.0,90.13,10,10,False,True,10,0,1,No Prazo (SLA OK),90.13,0.0
-PED-000602,Nordeste,Beleza & Saúde,Loggi Express,88.65,37.9,47.55,9,9,False,False,10,0,1,No Prazo (SLA OK),9.65,0.0
-PED-000603,Sudeste,Eletrônicos,Loggi Express,625.47,0.0,23.63,2,1,False,True,10,0,1,No Prazo (SLA OK),23.63,0.0
-PED-000604,Sudeste,Casa & Decoração,Loggi Express,251.45,20.1,24.93,4,4,False,True,10,0,1,No Prazo (SLA OK),4.83,0.0
-PED-000605,Sudeste,Moda & Vestuário,Loggi Express,166.74,16.09,23.34,3,3,False,True,10,0,1,No Prazo (SLA OK),7.25,0.0
-PED-000606,Nordeste,Beleza & Saúde,Jadlog Standard,121.39,27.94,34.96,8,10,False,False,7,2,0,Atraso Leve (1-2d),7.02,8.38
-PED-000607,Sul,Beleza & Saúde,Loggi Express,118.51,18.93,24.93,4,4,False,False,10,0,1,No Prazo (SLA OK),6.0,0.0
-PED-000608,Sudeste,Eletrônicos,Jadlog Standard,373.87,0.0,21.48,3,3,False,True,10,0,1,No Prazo (SLA OK),21.48,0.0
-PED-000609,Sudeste,Casa & Decoração,Jadlog Standard,325.96,0.0,16.19,3,3,False,False,10,0,1,No Prazo (SLA OK),16.19,0.0
-PED-000610,Sudeste,Eletrônicos,Total Express,526.67,15.52,20.68,3,2,False,True,10,0,1,No Prazo (SLA OK),5.16,0.0
-PED-000611,Sul,Moda & Vestuário,Loggi Express,49.9,23.0,28.92,5,5,False,False,10,0,1,No Prazo (SLA OK),5.92,0.0
-PED-000612,Nordeste,Eletrônicos,Correios Sedex,1101.65,0.0,34.51,8,8,False,True,10,0,1,No Prazo (SLA OK),34.51,0.0
-PED-000613,Sudeste,Eletrônicos,Total Express,889.53,0.0,17.72,3,3,False,False,10,0,1,No Prazo (SLA OK),17.72,0.0
-PED-000614,Sudeste,Moda & Vestuário,Loggi Express,167.42,21.49,25.08,2,2,False,False,10,0,1,No Prazo (SLA OK),3.59,0.0
-PED-000615,Sudeste,Casa & Decoração,Correios Sedex,342.07,0.0,18.28,2,2,False,False,10,0,1,No Prazo (SLA OK),18.28,0.0
-PED-000616,Norte,Moda & Vestuário,Mandaê Flex,119.7,40.91,56.75,12,13,False,True,7,1,0,Atraso Leve (1-2d),15.84,12.27
-PED-000617,Sudeste,Casa & Decoração,Loggi Express,526.53,0.0,14.11,4,3,False,False,10,0,1,No Prazo (SLA OK),14.11,0.0
-PED-000618,Nordeste,Moda & Vestuário,Loggi Express,303.84,0.0,51.18,9,9,False,True,10,0,1,No Prazo (SLA OK),51.18,0.0
-PED-000619,Sul,Eletrônicos,Correios Sedex,684.47,0.0,22.45,4,3,False,False,10,0,1,No Prazo (SLA OK),22.45,0.0
-PED-000620,Sudeste,Beleza & Saúde,Correios Sedex,186.06,16.45,18.99,4,4,False,True,10,0,1,No Prazo (SLA OK),2.54,0.0
-PED-000621,Sudeste,Eletrônicos,Loggi Express,688.56,0.0,18.9,4,3,False,True,10,0,1,No Prazo (SLA OK),18.9,0.0
-PED-000622,Sudeste,Moda & Vestuário,Loggi Express,109.8,22.19,24.9,3,3,False,True,10,0,1,No Prazo (SLA OK),2.71,0.0
-PED-000623,Sul,Casa & Decoração,Jadlog Standard,294.7,0.0,33.08,4,4,False,True,10,0,1,No Prazo (SLA OK),33.08,0.0
-PED-000624,Nordeste,Moda & Vestuário,Jadlog Standard,197.92,30.33,37.43,9,9,False,False,10,0,1,No Prazo (SLA OK),7.1,0.0
-PED-000625,Sul,Eletrônicos,Total Express,550.0,0.0,28.56,6,6,False,False,10,0,1,No Prazo (SLA OK),28.56,0.0
-PED-000626,Sul,Moda & Vestuário,Jadlog Standard,176.88,19.77,26.45,4,4,False,False,10,0,1,No Prazo (SLA OK),6.68,0.0
-PED-000627,Sudeste,Alimentos & Bebidas,Jadlog Standard,135.89,13.71,17.39,4,3,False,False,10,0,1,No Prazo (SLA OK),3.68,0.0
-PED-000628,Norte,Casa & Decoração,Correios Sedex,331.1,0.0,61.49,10,9,False,False,10,0,1,No Prazo (SLA OK),61.49,0.0
-PED-000629,Nordeste,Casa & Decoração,Loggi Express,345.75,0.0,58.27,8,7,False,True,10,0,1,No Prazo (SLA OK),58.27,0.0
-PED-000630,Sudeste,Casa & Decoração,Loggi Express,223.33,10.7,15.52,3,2,False,True,10,0,1,No Prazo (SLA OK),4.82,0.0
-PED-000631,Norte,Eletrônicos,Total Express,492.26,56.8,65.59,12,12,False,True,10,0,1,No Prazo (SLA OK),8.79,0.0
-PED-000632,Sul,Moda & Vestuário,Correios Sedex,112.92,19.97,25.5,5,5,False,True,10,0,1,No Prazo (SLA OK),5.53,0.0
-PED-000633,Sul,Casa & Decoração,Jadlog Standard,447.56,0.0,34.32,5,5,False,True,10,0,1,No Prazo (SLA OK),34.32,0.0
-PED-000634,Nordeste,Eletrônicos,Total Express,186.76,43.08,58.93,9,9,False,True,10,0,1,No Prazo (SLA OK),15.85,0.0
-PED-000635,Nordeste,Eletrônicos,Loggi Express,903.79,0.0,48.51,8,10,False,True,7,2,0,Atraso Leve (1-2d),48.51,0.0
-PED-000636,Sul,Eletrônicos,Jadlog Standard,955.0,24.2,31.3,5,4,False,True,10,0,1,No Prazo (SLA OK),7.1,0.0
-PED-000637,Sudeste,Moda & Vestuário,Total Express,171.87,19.33,22.39,3,3,False,False,10,0,1,No Prazo (SLA OK),3.06,0.0
-PED-000638,Sudeste,Alimentos & Bebidas,Loggi Express,49.9,19.15,24.32,2,2,False,True,10,0,1,No Prazo (SLA OK),5.17,0.0
-PED-000639,Centro-Oeste,Eletrônicos,Loggi Express,570.51,0.0,30.35,6,6,False,False,10,0,1,No Prazo (SLA OK),30.35,0.0
-PED-000640,Sudeste,Moda & Vestuário,Jadlog Standard,186.15,16.22,18.54,4,3,False,False,10,0,1,No Prazo (SLA OK),2.32,0.0
-PED-000641,Sudeste,Eletrônicos,Loggi Express,427.67,17.37,19.71,2,4,False,False,7,2,0,Atraso Leve (1-2d),2.34,5.21
-PED-000642,Sudeste,Alimentos & Bebidas,Jadlog Standard,116.82,14.41,20.02,2,1,False,True,10,0,1,No Prazo (SLA OK),5.61,0.0
-PED-000643,Sudeste,Eletrônicos,Loggi Express,986.64,16.78,23.36,3,2,False,True,10,0,1,No Prazo (SLA OK),6.58,0.0
-PED-000644,Sul,Moda & Vestuário,Jadlog Standard,229.9,0.0,31.48,6,6,False,True,10,0,1,No Prazo (SLA OK),31.48,0.0
-PED-000645,Centro-Oeste,Casa & Decoração,Loggi Express,238.3,0.0,36.89,6,6,False,True,10,0,1,No Prazo (SLA OK),36.89,0.0
-PED-000646,Sudeste,Casa & Decoração,Correios Sedex,164.26,14.1,20.06,3,2,False,True,10,0,1,No Prazo (SLA OK),5.96,0.0
-PED-000647,Sudeste,Moda & Vestuário,Total Express,170.38,14.13,20.5,3,3,False,False,10,0,1,No Prazo (SLA OK),6.37,0.0
-PED-000648,Sudeste,Moda & Vestuário,Total Express,177.19,23.53,25.19,3,3,False,False,10,0,1,No Prazo (SLA OK),1.66,0.0
-PED-000649,Centro-Oeste,Moda & Vestuário,Correios Sedex,219.77,0.0,28.44,6,5,False,False,10,0,1,No Prazo (SLA OK),28.44,0.0
-PED-000650,Sul,Eletrônicos,Jadlog Standard,532.23,0.0,36.94,4,4,False,True,10,0,1,No Prazo (SLA OK),36.94,0.0
-PED-000651,Sudeste,Eletrônicos,Loggi Express,762.53,0.0,18.88,2,2,False,True,10,0,1,No Prazo (SLA OK),18.88,0.0
-PED-000652,Nordeste,Moda & Vestuário,Total Express,306.11,0.0,46.78,8,8,False,False,10,0,1,No Prazo (SLA OK),46.78,0.0
-PED-000653,Centro-Oeste,Eletrônicos,Total Express,829.41,0.0,35.16,6,6,False,True,10,0,1,No Prazo (SLA OK),35.16,0.0
-PED-000654,Nordeste,Eletrônicos,Correios Sedex,639.42,46.42,49.84,8,8,False,False,10,0,1,No Prazo (SLA OK),3.42,0.0
-PED-000655,Centro-Oeste,Casa & Decoração,Jadlog Standard,319.85,0.0,43.03,7,6,False,False,10,0,1,No Prazo (SLA OK),43.03,0.0
-PED-000656,Sudeste,Alimentos & Bebidas,Loggi Express,123.95,16.19,17.63,2,2,False,True,10,0,1,No Prazo (SLA OK),1.44,0.0
-PED-000657,Nordeste,Casa & Decoração,Jadlog Standard,469.87,0.0,58.06,9,10,False,False,7,1,0,Atraso Leve (1-2d),58.06,0.0
-PED-000658,Sudeste,Eletrônicos,Jadlog Standard,511.99,0.0,19.08,4,4,False,False,10,0,1,No Prazo (SLA OK),19.08,0.0
-PED-000659,Nordeste,Eletrônicos,Total Express,659.95,0.0,35.29,7,7,False,True,10,0,1,No Prazo (SLA OK),35.29,0.0
-PED-000660,Nordeste,Alimentos & Bebidas,Total Express,142.3,39.41,47.26,7,7,False,True,10,0,1,No Prazo (SLA OK),7.85,0.0
-PED-000661,Nordeste,Eletrônicos,Jadlog Standard,539.61,0.0,52.53,8,9,False,True,7,1,0,Atraso Leve (1-2d),52.53,0.0
-PED-000662,Sul,Eletrônicos,Mandaê Flex,348.06,0.0,36.49,6,5,False,True,10,0,1,No Prazo (SLA OK),36.49,0.0
-PED-000663,Sudeste,Moda & Vestuário,Total Express,209.38,0.0,17.41,3,3,False,False,10,0,1,No Prazo (SLA OK),17.41,0.0
-PED-000664,Sul,Casa & Decoração,Loggi Express,333.29,0.0,35.8,5,5,False,False,10,0,1,No Prazo (SLA OK),35.8,0.0
-PED-000665,Norte,Casa & Decoração,Loggi Express,395.03,65.03,89.14,12,12,False,True,10,0,1,No Prazo (SLA OK),24.11,0.0
-PED-000666,Centro-Oeste,Eletrônicos,Loggi Express,532.61,0.0,31.77,7,7,False,False,10,0,1,No Prazo (SLA OK),31.77,0.0
-PED-000667,Sudeste,Eletrônicos,Loggi Express,918.58,11.38,14.53,2,2,False,False,10,0,1,No Prazo (SLA OK),3.15,0.0
-PED-000668,Sudeste,Alimentos & Bebidas,Loggi Express,100.55,13.86,16.28,2,2,False,False,10,0,1,No Prazo (SLA OK),2.42,0.0
-PED-000669,Sudeste,Eletrônicos,Loggi Express,1026.65,0.0,23.67,2,2,False,False,10,0,1,No Prazo (SLA OK),23.67,0.0
-PED-000670,Nordeste,Casa & Decoração,Jadlog Standard,147.76,35.65,44.81,6,6,False,True,10,0,1,No Prazo (SLA OK),9.16,0.0
-PED-000671,Nordeste,Casa & Decoração,Loggi Express,387.82,36.21,42.98,7,10,False,True,4,3,0,Atraso Crítico (3-5d),6.77,36.21
-PED-000672,Sudeste,Casa & Decoração,Correios Sedex,392.3,14.19,19.16,2,2,False,False,10,0,1,No Prazo (SLA OK),4.97,0.0
-PED-000673,Sul,Eletrônicos,Loggi Express,474.98,0.0,34.13,4,4,False,False,10,0,1,No Prazo (SLA OK),34.13,0.0
-PED-000674,Nordeste,Eletrônicos,Total Express,743.37,0.0,35.5,7,6,False,False,10,0,1,No Prazo (SLA OK),35.5,0.0
-PED-000675,Nordeste,Moda & Vestuário,Jadlog Standard,266.77,0.0,39.82,8,8,False,False,10,0,1,No Prazo (SLA OK),39.82,0.0
-PED-000676,Sul,Beleza & Saúde,Mandaê Flex,49.9,24.8,26.54,5,4,False,False,10,0,1,No Prazo (SLA OK),1.74,0.0
-PED-000677,Sul,Alimentos & Bebidas,Loggi Express,162.62,22.6,33.56,6,6,False,True,10,0,1,No Prazo (SLA OK),10.96,0.0
-PED-000678,Sul,Eletrônicos,Jadlog Standard,101.48,20.87,29.88,4,4,False,True,10,0,1,No Prazo (SLA OK),9.01,0.0
-PED-000679,Sudeste,Eletrônicos,Mandaê Flex,437.55,0.0,15.9,4,3,False,True,10,0,1,No Prazo (SLA OK),15.9,0.0
-PED-000680,Sul,Alimentos & Bebidas,Correios Sedex,213.31,0.0,32.23,5,5,False,False,10,0,1,No Prazo (SLA OK),32.23,0.0
-PED-000681,Nordeste,Casa & Decoração,Correios Sedex,276.0,27.61,41.69,7,7,False,False,10,0,1,No Prazo (SLA OK),14.08,0.0
-PED-000682,Centro-Oeste,Beleza & Saúde,Loggi Express,87.18,30.31,40.99,7,7,False,False,10,0,1,No Prazo (SLA OK),10.68,0.0
-PED-000683,Sul,Eletrônicos,Loggi Express,606.45,18.18,22.5,5,4,False,False,10,0,1,No Prazo (SLA OK),4.32,0.0
-PED-000684,Nordeste,Moda & Vestuário,Total Express,314.07,0.0,44.15,7,7,False,False,10,0,1,No Prazo (SLA OK),44.15,0.0
-PED-000685,Sudeste,Casa & Decoração,Mandaê Flex,138.51,12.25,14.47,4,3,False,False,10,0,1,No Prazo (SLA OK),2.22,0.0
-PED-000686,Sudeste,Casa & Decoração,Total Express,224.36,0.0,25.39,3,3,False,False,10,0,1,No Prazo (SLA OK),25.39,0.0
-PED-000687,Sudeste,Moda & Vestuário,Total Express,279.85,13.27,19.79,3,7,False,False,4,4,0,Atraso Crítico (3-5d),6.52,13.27
-PED-000688,Sudeste,Eletrônicos,Loggi Express,1058.69,11.71,16.57,2,2,False,False,10,0,1,No Prazo (SLA OK),4.86,0.0
-PED-000689,Nordeste,Moda & Vestuário,Correios Sedex,183.79,36.36,40.03,7,6,False,False,10,0,1,No Prazo (SLA OK),3.67,0.0
-PED-000690,Norte,Eletrônicos,Loggi Express,377.41,0.0,75.74,12,12,False,True,10,0,1,No Prazo (SLA OK),75.74,0.0
-PED-000691,Sudeste,Moda & Vestuário,Jadlog Standard,315.75,0.0,14.6,2,2,False,True,10,0,1,No Prazo (SLA OK),14.6,0.0
-PED-000692,Sudeste,Alimentos & Bebidas,Jadlog Standard,211.75,15.69,20.4,3,3,False,False,10,0,1,No Prazo (SLA OK),4.71,0.0
-PED-000693,Nordeste,Moda & Vestuário,Jadlog Standard,230.74,0.0,47.7,8,8,False,True,10,0,1,No Prazo (SLA OK),47.7,0.0
-PED-000694,Sudeste,Beleza & Saúde,Loggi Express,103.44,15.4,19.46,2,2,False,False,10,0,1,No Prazo (SLA OK),4.06,0.0
-PED-000695,Sul,Eletrônicos,Loggi Express,639.21,0.0,37.05,5,4,False,True,10,0,1,No Prazo (SLA OK),37.05,0.0
-PED-000696,Nordeste,Casa & Decoração,Total Express,322.36,0.0,47.9,6,5,False,False,10,0,1,No Prazo (SLA OK),47.9,0.0
-PED-000697,Sul,Alimentos & Bebidas,Jadlog Standard,154.89,32.3,34.17,4,4,False,False,10,0,1,No Prazo (SLA OK),1.87,0.0
-PED-000698,Sudeste,Eletrônicos,Total Express,969.22,14.1,16.37,4,4,False,True,10,0,1,No Prazo (SLA OK),2.27,0.0
-PED-000699,Sudeste,Eletrônicos,Loggi Express,843.47,16.27,20.49,3,3,False,True,10,0,1,No Prazo (SLA OK),4.22,0.0
-PED-000700,Nordeste,Moda & Vestuário,Jadlog Standard,125.36,39.38,47.81,7,9,False,False,7,2,0,Atraso Leve (1-2d),8.43,11.81
-PED-000701,Sul,Eletrônicos,Total Express,952.83,0.0,36.41,4,5,False,False,7,1,0,Atraso Leve (1-2d),36.41,0.0
-PED-000702,Sudeste,Casa & Decoração,Loggi Express,374.44,0.0,15.19,3,17,True,False,1,14,0,Extraviado/Avaria,15.19,374.44
-PED-000703,Nordeste,Beleza & Saúde,Jadlog Standard,170.92,29.26,36.2,6,5,False,True,10,0,1,No Prazo (SLA OK),6.94,0.0
-PED-000704,Sudeste,Moda & Vestuário,Loggi Express,277.99,0.0,21.07,3,3,False,True,10,0,1,No Prazo (SLA OK),21.07,0.0
-PED-000705,Nordeste,Eletrônicos,Loggi Express,405.45,31.83,38.89,7,7,False,True,10,0,1,No Prazo (SLA OK),7.06,0.0
-PED-000706,Sudeste,Moda & Vestuário,Mandaê Flex,187.85,12.15,17.91,3,2,False,False,10,0,1,No Prazo (SLA OK),5.76,0.0
-PED-000707,Norte,Casa & Decoração,Jadlog Standard,281.54,0.0,66.45,12,12,False,True,10,0,1,No Prazo (SLA OK),66.45,0.0
-PED-000708,Sudeste,Eletrônicos,Correios Sedex,305.07,11.59,14.3,3,3,False,True,10,0,1,No Prazo (SLA OK),2.71,0.0
-PED-000709,Sudeste,Moda & Vestuário,Loggi Express,210.8,0.0,14.74,2,2,False,True,10,0,1,No Prazo (SLA OK),14.74,0.0
-PED-000710,Sudeste,Casa & Decoração,Total Express,616.27,0.0,22.23,4,4,False,True,10,0,1,No Prazo (SLA OK),22.23,0.0
-PED-000711,Sudeste,Casa & Decoração,Correios Sedex,137.59,18.31,22.29,2,2,False,False,10,0,1,No Prazo (SLA OK),3.98,0.0
-PED-000712,Centro-Oeste,Eletrônicos,Total Express,642.9,0.0,32.55,6,6,False,True,10,0,1,No Prazo (SLA OK),32.55,0.0
-PED-000713,Norte,Casa & Decoração,Jadlog Standard,410.46,0.0,93.83,10,10,False,False,10,0,1,No Prazo (SLA OK),93.83,0.0
-PED-000714,Sudeste,Eletrônicos,Jadlog Standard,677.08,0.0,19.09,3,4,False,False,7,1,0,Atraso Leve (1-2d),19.09,0.0
-PED-000715,Sudeste,Eletrônicos,Jadlog Standard,625.11,0.0,23.9,2,2,False,True,10,0,1,No Prazo (SLA OK),23.9,0.0
-PED-000716,Nordeste,Beleza & Saúde,Mandaê Flex,81.54,29.97,42.53,7,7,False,False,10,0,1,No Prazo (SLA OK),12.56,0.0
-PED-000717,Centro-Oeste,Casa & Decoração,Correios Sedex,365.61,0.0,38.85,5,5,False,False,10,0,1,No Prazo (SLA OK),38.85,0.0
-PED-000718,Sul,Eletrônicos,Mandaê Flex,483.51,0.0,28.25,5,4,False,False,10,0,1,No Prazo (SLA OK),28.25,0.0
-PED-000719,Sudeste,Eletrônicos,Loggi Express,168.22,12.52,18.41,3,3,False,True,10,0,1,No Prazo (SLA OK),5.89,0.0
-PED-000720,Sudeste,Eletrônicos,Total Express,912.81,0.0,21.96,2,2,False,True,10,0,1,No Prazo (SLA OK),21.96,0.0
-PED-000721,Nordeste,Eletrônicos,Mandaê Flex,860.84,0.0,46.88,7,7,False,True,10,0,1,No Prazo (SLA OK),46.88,0.0
-PED-000722,Sudeste,Eletrônicos,Loggi Express,661.37,10.18,14.28,2,1,False,False,10,0,1,No Prazo (SLA OK),4.1,0.0
-PED-000723,Sul,Eletrônicos,Loggi Express,700.4,0.0,26.47,4,4,False,False,10,0,1,No Prazo (SLA OK),26.47,0.0
-PED-000724,Sudeste,Moda & Vestuário,Correios Sedex,254.46,0.0,14.9,3,2,False,False,10,0,1,No Prazo (SLA OK),14.9,0.0
-PED-000725,Nordeste,Casa & Decoração,Total Express,364.68,35.56,43.51,8,8,False,True,10,0,1,No Prazo (SLA OK),7.95,0.0
-PED-000726,Sudeste,Casa & Decoração,Correios Sedex,439.44,0.0,21.81,2,2,False,True,10,0,1,No Prazo (SLA OK),21.81,0.0
-PED-000727,Sul,Casa & Decoração,Loggi Express,307.28,0.0,28.99,5,4,False,False,10,0,1,No Prazo (SLA OK),28.99,0.0
-PED-000728,Sul,Eletrônicos,Correios Sedex,938.64,29.92,35.94,5,5,False,False,10,0,1,No Prazo (SLA OK),6.02,0.0
-PED-000729,Sul,Alimentos & Bebidas,Loggi Express,154.44,18.62,25.6,5,5,False,False,10,0,1,No Prazo (SLA OK),6.98,0.0
-PED-000730,Sudeste,Beleza & Saúde,Loggi Express,148.73,17.01,18.41,3,2,False,True,10,0,1,No Prazo (SLA OK),1.4,0.0
-PED-000731,Sul,Beleza & Saúde,Loggi Express,82.85,21.4,27.98,5,4,False,True,10,0,1,No Prazo (SLA OK),6.58,0.0
-PED-000732,Sul,Beleza & Saúde,Correios Sedex,152.91,27.04,32.41,6,6,False,True,10,0,1,No Prazo (SLA OK),5.37,0.0
-PED-000733,Sul,Alimentos & Bebidas,Total Express,102.56,23.21,35.09,5,5,False,True,10,0,1,No Prazo (SLA OK),11.88,0.0
-PED-000734,Sul,Moda & Vestuário,Total Express,151.7,23.24,30.2,6,6,False,True,10,0,1,No Prazo (SLA OK),6.96,0.0
-PED-000735,Sul,Eletrônicos,Jadlog Standard,470.62,0.0,32.68,5,4,False,True,10,0,1,No Prazo (SLA OK),32.68,0.0
-PED-000736,Nordeste,Casa & Decoração,Correios Sedex,222.71,0.0,46.51,8,8,False,True,10,0,1,No Prazo (SLA OK),46.51,0.0
-PED-000737,Sudeste,Casa & Decoração,Jadlog Standard,573.72,0.0,19.27,2,2,False,True,10,0,1,No Prazo (SLA OK),19.27,0.0
-PED-000738,Nordeste,Casa & Decoração,Correios Sedex,486.45,0.0,53.0,7,6,False,True,10,0,1,No Prazo (SLA OK),53.0,0.0
-PED-000739,Sul,Moda & Vestuário,Jadlog Standard,305.22,21.57,31.59,6,6,False,False,10,0,1,No Prazo (SLA OK),10.02,0.0
-PED-000740,Sudeste,Eletrônicos,Jadlog Standard,380.96,0.0,18.04,2,5,False,False,4,3,0,Atraso Crítico (3-5d),18.04,0.0
-PED-000741,Sudeste,Moda & Vestuário,Jadlog Standard,194.28,10.04,14.94,4,3,False,False,10,0,1,No Prazo (SLA OK),4.9,0.0
-PED-000742,Sudeste,Alimentos & Bebidas,Jadlog Standard,81.79,14.08,16.55,4,7,False,False,4,3,0,Atraso Crítico (3-5d),2.47,14.08
-PED-000743,Nordeste,Moda & Vestuário,Correios Sedex,148.26,39.41,57.32,7,6,False,False,10,0,1,No Prazo (SLA OK),17.91,0.0
-PED-000744,Nordeste,Moda & Vestuário,Jadlog Standard,134.91,46.31,49.59,6,6,False,False,10,0,1,No Prazo (SLA OK),3.28,0.0
-PED-000745,Nordeste,Eletrônicos,Loggi Express,922.71,0.0,43.15,7,7,False,True,10,0,1,No Prazo (SLA OK),43.15,0.0
-PED-000746,Sul,Moda & Vestuário,Correios Sedex,166.23,33.57,35.39,6,5,False,False,10,0,1,No Prazo (SLA OK),1.82,0.0
-PED-000747,Sudeste,Beleza & Saúde,Jadlog Standard,188.08,12.79,15.35,2,2,False,False,10,0,1,No Prazo (SLA OK),2.56,0.0
-PED-000748,Sudeste,Casa & Decoração,Total Express,406.45,0.0,17.42,3,3,False,False,10,0,1,No Prazo (SLA OK),17.42,0.0
-PED-000749,Sudeste,Beleza & Saúde,Mandaê Flex,243.66,0.0,14.68,3,2,False,True,10,0,1,No Prazo (SLA OK),14.68,0.0
-PED-000750,Sudeste,Moda & Vestuário,Total Express,101.23,18.0,20.72,3,3,False,True,10,0,1,No Prazo (SLA OK),2.72,0.0
-PED-000751,Sudeste,Casa & Decoração,Loggi Express,478.52,0.0,21.35,2,2,False,True,10,0,1,No Prazo (SLA OK),21.35,0.0
-PED-000752,Sudeste,Eletrônicos,Mandaê Flex,902.22,0.0,21.69,3,2,False,False,10,0,1,No Prazo (SLA OK),21.69,0.0
-PED-000753,Sul,Casa & Decoração,Total Express,232.93,0.0,23.91,4,4,False,False,10,0,1,No Prazo (SLA OK),23.91,0.0
-PED-000754,Nordeste,Moda & Vestuário,Jadlog Standard,250.43,51.01,57.53,7,10,False,False,4,3,0,Atraso Crítico (3-5d),6.52,51.01
-PED-000755,Norte,Moda & Vestuário,Loggi Express,210.17,0.0,71.19,10,10,False,False,10,0,1,No Prazo (SLA OK),71.19,0.0
-PED-000756,Centro-Oeste,Casa & Decoração,Correios Sedex,314.98,0.0,27.1,5,5,False,False,10,0,1,No Prazo (SLA OK),27.1,0.0
-PED-000757,Sul,Alimentos & Bebidas,Total Express,102.92,16.38,24.67,6,5,False,True,10,0,1,No Prazo (SLA OK),8.29,0.0
-PED-000758,Sudeste,Eletrônicos,Total Express,491.8,14.67,17.03,3,2,False,False,10,0,1,No Prazo (SLA OK),2.36,0.0
-PED-000759,Sul,Beleza & Saúde,Correios Sedex,232.24,0.0,28.54,6,6,False,False,10,0,1,No Prazo (SLA OK),28.54,0.0
-PED-000760,Nordeste,Eletrônicos,Correios Sedex,650.15,0.0,51.66,7,6,False,True,10,0,1,No Prazo (SLA OK),51.66,0.0
-PED-000761,Sudeste,Moda & Vestuário,Loggi Express,236.93,0.0,20.09,2,2,False,False,10,0,1,No Prazo (SLA OK),20.09,0.0
-PED-000762,Sudeste,Eletrônicos,Jadlog Standard,476.0,0.0,22.83,3,2,False,True,10,0,1,No Prazo (SLA OK),22.83,0.0
-PED-000763,Nordeste,Eletrônicos,Loggi Express,478.43,0.0,54.18,6,10,False,False,4,4,0,Atraso Crítico (3-5d),54.18,0.0
-PED-000764,Sudeste,Moda & Vestuário,Correios Sedex,254.92,0.0,25.04,4,4,False,False,10,0,1,No Prazo (SLA OK),25.04,0.0
-PED-000765,Sul,Eletrônicos,Loggi Express,353.09,0.0,22.6,6,6,False,False,10,0,1,No Prazo (SLA OK),22.6,0.0
-PED-000766,Sul,Moda & Vestuário,Total Express,165.09,21.3,24.37,5,4,False,True,10,0,1,No Prazo (SLA OK),3.07,0.0
-PED-000767,Sudeste,Alimentos & Bebidas,Correios Sedex,141.53,13.21,16.02,2,1,False,True,10,0,1,No Prazo (SLA OK),2.81,0.0
-PED-000768,Sudeste,Eletrônicos,Correios Sedex,674.5,21.29,25.0,3,3,False,True,10,0,1,No Prazo (SLA OK),3.71,0.0
-PED-000769,Sudeste,Casa & Decoração,Jadlog Standard,320.3,0.0,14.02,2,2,False,False,10,0,1,No Prazo (SLA OK),14.02,0.0
-PED-000770,Sudeste,Moda & Vestuário,Correios Sedex,213.75,0.0,22.1,3,3,False,True,10,0,1,No Prazo (SLA OK),22.1,0.0
-PED-000771,Sudeste,Casa & Decoração,Loggi Express,416.21,0.0,20.26,3,3,False,False,10,0,1,No Prazo (SLA OK),20.26,0.0
-PED-000772,Nordeste,Eletrônicos,Correios Sedex,811.62,52.83,57.52,6,5,False,True,10,0,1,No Prazo (SLA OK),4.69,0.0
-PED-000773,Sudeste,Eletrônicos,Loggi Express,433.12,0.0,25.88,2,2,False,True,10,0,1,No Prazo (SLA OK),25.88,0.0
-PED-000774,Sul,Eletrônicos,Jadlog Standard,587.49,0.0,37.96,4,4,False,True,10,0,1,No Prazo (SLA OK),37.96,0.0
-PED-000775,Sudeste,Eletrônicos,Correios Sedex,912.85,0.0,16.12,3,3,False,False,10,0,1,No Prazo (SLA OK),16.12,0.0
-PED-000776,Centro-Oeste,Eletrônicos,Loggi Express,846.82,0.0,31.76,7,6,False,False,10,0,1,No Prazo (SLA OK),31.76,0.0
-PED-000777,Sudeste,Casa & Decoração,Loggi Express,188.99,16.14,21.5,2,2,False,True,10,0,1,No Prazo (SLA OK),5.36,0.0
-PED-000778,Sudeste,Beleza & Saúde,Total Express,155.82,12.5,17.76,2,2,False,True,10,0,1,No Prazo (SLA OK),5.26,0.0
-PED-000779,Centro-Oeste,Beleza & Saúde,Total Express,50.98,23.99,33.15,7,7,False,False,10,0,1,No Prazo (SLA OK),9.16,0.0
-PED-000780,Nordeste,Casa & Decoração,Total Express,345.16,40.46,42.98,7,6,False,True,10,0,1,No Prazo (SLA OK),2.52,0.0
-PED-000781,Sudeste,Eletrônicos,Total Express,1067.51,0.0,24.33,3,2,False,False,10,0,1,No Prazo (SLA OK),24.33,0.0
-PED-000782,Nordeste,Eletrônicos,Total Express,441.46,0.0,53.34,6,7,False,False,7,1,0,Atraso Leve (1-2d),53.34,0.0
-PED-000783,Sudeste,Eletrônicos,Loggi Express,466.45,0.0,24.68,3,3,False,False,10,0,1,No Prazo (SLA OK),24.68,0.0
-PED-000784,Sul,Eletrônicos,Jadlog Standard,818.09,0.0,34.01,6,6,False,False,10,0,1,No Prazo (SLA OK),34.01,0.0
-PED-000785,Sudeste,Moda & Vestuário,Loggi Express,97.43,16.92,17.91,3,3,False,False,10,0,1,No Prazo (SLA OK),0.99,0.0
-PED-000786,Sudeste,Moda & Vestuário,Mandaê Flex,152.03,10.87,14.53,3,3,False,False,10,0,1,No Prazo (SLA OK),3.66,0.0
-PED-000787,Nordeste,Moda & Vestuário,Total Express,225.79,0.0,35.58,8,14,False,False,2,6,0,Falha Grave (>5d),35.58,33.87
-PED-000788,Sul,Moda & Vestuário,Jadlog Standard,151.94,21.35,27.32,5,4,False,False,10,0,1,No Prazo (SLA OK),5.97,0.0
-PED-000789,Sudeste,Beleza & Saúde,Jadlog Standard,129.38,13.69,15.98,2,2,False,True,10,0,1,No Prazo (SLA OK),2.29,0.0
-PED-000790,Nordeste,Beleza & Saúde,Mandaê Flex,173.49,29.54,39.6,7,8,False,False,7,1,0,Atraso Leve (1-2d),10.06,8.86
-PED-000791,Nordeste,Eletrônicos,Loggi Express,742.74,0.0,36.02,7,10,False,False,4,3,0,Atraso Crítico (3-5d),36.02,0.0
-PED-000792,Sudeste,Beleza & Saúde,Total Express,152.01,20.8,23.75,2,2,False,False,10,0,1,No Prazo (SLA OK),2.95,0.0
-PED-000793,Sul,Alimentos & Bebidas,Jadlog Standard,124.74,28.47,33.46,5,5,False,False,10,0,1,No Prazo (SLA OK),4.99,0.0
-PED-000794,Sudeste,Moda & Vestuário,Total Express,212.2,0.0,21.71,3,3,False,True,10,0,1,No Prazo (SLA OK),21.71,0.0
-PED-000795,Nordeste,Moda & Vestuário,Loggi Express,182.58,44.63,55.78,8,9,False,True,7,1,0,Atraso Leve (1-2d),11.15,13.39
-PED-000796,Sul,Moda & Vestuário,Correios Sedex,217.47,0.0,26.44,5,4,False,False,10,0,1,No Prazo (SLA OK),26.44,0.0
-PED-000797,Norte,Alimentos & Bebidas,Mandaê Flex,117.64,67.62,89.84,10,10,False,False,10,0,1,No Prazo (SLA OK),22.22,0.0
-PED-000798,Sudeste,Beleza & Saúde,Total Express,131.78,18.97,20.74,3,2,False,False,10,0,1,No Prazo (SLA OK),1.77,0.0
-PED-000799,Sudeste,Eletrônicos,Total Express,432.21,0.0,20.21,3,3,False,False,10,0,1,No Prazo (SLA OK),20.21,0.0
-PED-000800,Sudeste,Moda & Vestuário,Mandaê Flex,187.9,17.19,25.58,3,3,False,True,10,0,1,No Prazo (SLA OK),8.39,0.0
-PED-000801,Sudeste,Moda & Vestuário,Total Express,141.34,20.43,25.25,2,1,False,False,10,0,1,No Prazo (SLA OK),4.82,0.0
-PED-000802,Sudeste,Moda & Vestuário,Loggi Express,123.16,13.42,19.79,3,3,False,True,10,0,1,No Prazo (SLA OK),6.37,0.0
-PED-000803,Centro-Oeste,Eletrônicos,Total Express,706.91,0.0,39.45,7,7,False,False,10,0,1,No Prazo (SLA OK),39.45,0.0
-PED-000804,Sudeste,Beleza & Saúde,Total Express,149.57,16.16,24.05,2,2,False,True,10,0,1,No Prazo (SLA OK),7.89,0.0
-PED-000805,Sudeste,Casa & Decoração,Jadlog Standard,426.12,0.0,17.08,4,4,False,False,10,0,1,No Prazo (SLA OK),17.08,0.0
-PED-000806,Nordeste,Beleza & Saúde,Total Express,120.6,41.03,52.99,9,8,False,True,10,0,1,No Prazo (SLA OK),11.96,0.0
-PED-000807,Sudeste,Beleza & Saúde,Mandaê Flex,158.36,13.29,18.13,3,2,False,True,10,0,1,No Prazo (SLA OK),4.84,0.0
-PED-000808,Nordeste,Casa & Decoração,Mandaê Flex,400.59,0.0,55.02,9,13,False,False,4,4,0,Atraso Crítico (3-5d),55.02,0.0
-PED-000809,Sudeste,Moda & Vestuário,Jadlog Standard,216.69,0.0,14.59,2,3,False,True,7,1,0,Atraso Leve (1-2d),14.59,0.0
-PED-000810,Sul,Casa & Decoração,Loggi Express,249.18,0.0,34.19,5,5,False,True,10,0,1,No Prazo (SLA OK),34.19,0.0
-PED-000811,Sudeste,Eletrônicos,Mandaê Flex,682.86,0.0,14.4,3,2,False,False,10,0,1,No Prazo (SLA OK),14.4,0.0
-PED-000812,Sudeste,Casa & Decoração,Correios Sedex,380.06,0.0,19.37,2,2,False,False,10,0,1,No Prazo (SLA OK),19.37,0.0
-PED-000813,Centro-Oeste,Eletrônicos,Loggi Express,651.58,23.35,30.02,7,7,False,True,10,0,1,No Prazo (SLA OK),6.67,0.0
-PED-000814,Sudeste,Casa & Decoração,Mandaê Flex,110.49,19.19,20.65,4,3,False,False,10,0,1,No Prazo (SLA OK),1.46,0.0
-PED-000815,Sul,Eletrônicos,Correios Sedex,685.31,23.51,33.97,4,3,False,False,10,0,1,No Prazo (SLA OK),10.46,0.0
-PED-000816,Sudeste,Eletrônicos,Jadlog Standard,1136.76,15.52,19.09,2,2,False,True,10,0,1,No Prazo (SLA OK),3.57,0.0
-PED-000817,Sudeste,Eletrônicos,Total Express,570.79,0.0,15.69,3,2,False,True,10,0,1,No Prazo (SLA OK),15.69,0.0
-PED-000818,Centro-Oeste,Eletrônicos,Jadlog Standard,489.82,0.0,27.58,7,7,False,True,10,0,1,No Prazo (SLA OK),27.58,0.0
-PED-000819,Sudeste,Casa & Decoração,Loggi Express,381.07,0.0,16.5,4,4,False,False,10,0,1,No Prazo (SLA OK),16.5,0.0
-PED-000820,Sul,Casa & Decoração,Jadlog Standard,374.36,0.0,31.66,4,4,False,True,10,0,1,No Prazo (SLA OK),31.66,0.0
-PED-000821,Norte,Moda & Vestuário,Correios Sedex,261.56,0.0,67.05,12,11,False,True,10,0,1,No Prazo (SLA OK),67.05,0.0
-PED-000822,Sul,Eletrônicos,Loggi Express,373.27,18.33,24.74,5,6,False,False,7,1,0,Atraso Leve (1-2d),6.41,5.5
-PED-000823,Centro-Oeste,Eletrônicos,Jadlog Standard,810.9,0.0,28.85,6,5,False,False,10,0,1,No Prazo (SLA OK),28.85,0.0
-PED-000824,Sudeste,Eletrônicos,Jadlog Standard,779.89,0.0,19.1,2,2,False,True,10,0,1,No Prazo (SLA OK),19.1,0.0
-PED-000825,Sudeste,Eletrônicos,Total Express,618.73,15.73,17.14,3,3,False,False,10,0,1,No Prazo (SLA OK),1.41,0.0
-PED-000826,Sudeste,Beleza & Saúde,Mandaê Flex,155.24,14.45,21.37,2,2,False,True,10,0,1,No Prazo (SLA OK),6.92,0.0
-PED-000827,Nordeste,Eletrônicos,Jadlog Standard,876.48,0.0,53.97,7,7,False,True,10,0,1,No Prazo (SLA OK),53.97,0.0
-PED-000828,Norte,Moda & Vestuário,Jadlog Standard,242.34,0.0,66.3,10,10,False,False,10,0,1,No Prazo (SLA OK),66.3,0.0
-PED-000829,Sudeste,Eletrônicos,Total Express,398.54,0.0,22.63,2,2,False,False,10,0,1,No Prazo (SLA OK),22.63,0.0
-PED-000830,Sul,Eletrônicos,Jadlog Standard,830.43,0.0,25.98,5,5,False,True,10,0,1,No Prazo (SLA OK),25.98,0.0
-PED-000831,Sudeste,Moda & Vestuário,Loggi Express,186.12,10.76,14.31,2,1,False,False,10,0,1,No Prazo (SLA OK),3.55,0.0
-PED-000832,Sul,Casa & Decoração,Jadlog Standard,348.02,0.0,36.36,6,6,False,False,10,0,1,No Prazo (SLA OK),36.36,0.0
-PED-000833,Sudeste,Eletrônicos,Loggi Express,666.1,9.4,14.37,3,2,False,True,10,0,1,No Prazo (SLA OK),4.97,0.0
-PED-000834,Norte,Eletrônicos,Loggi Express,616.95,0.0,74.57,12,15,False,False,4,3,0,Atraso Crítico (3-5d),74.57,0.0
-PED-000835,Sul,Moda & Vestuário,Jadlog Standard,261.5,0.0,22.39,6,20,True,False,1,14,0,Extraviado/Avaria,22.39,261.5
-PED-000836,Sudeste,Eletrônicos,Jadlog Standard,631.58,0.0,16.63,3,3,False,False,10,0,1,No Prazo (SLA OK),16.63,0.0
-PED-000837,Sudeste,Eletrônicos,Mandaê Flex,403.7,0.0,22.73,3,2,False,False,10,0,1,No Prazo (SLA OK),22.73,0.0
-PED-000838,Sudeste,Alimentos & Bebidas,Jadlog Standard,122.29,11.5,15.97,4,3,False,True,10,0,1,No Prazo (SLA OK),4.47,0.0
-PED-000839,Sudeste,Casa & Decoração,Total Express,359.66,0.0,14.45,2,2,False,True,10,0,1,No Prazo (SLA OK),14.45,0.0
-PED-000840,Sudeste,Moda & Vestuário,Total Express,263.75,0.0,17.78,4,4,False,True,10,0,1,No Prazo (SLA OK),17.78,0.0
-PED-000841,Nordeste,Moda & Vestuário,Loggi Express,226.19,39.37,54.14,6,5,False,True,10,0,1,No Prazo (SLA OK),14.77,0.0
-PED-000842,Sul,Moda & Vestuário,Total Express,138.97,17.05,25.57,4,8,False,False,4,4,0,Atraso Crítico (3-5d),8.52,17.05
-PED-000843,Sul,Moda & Vestuário,Loggi Express,339.11,0.0,28.9,4,4,False,True,10,0,1,No Prazo (SLA OK),28.9,0.0
-PED-000844,Sudeste,Casa & Decoração,Mandaê Flex,369.13,15.71,17.04,3,3,False,False,10,0,1,No Prazo (SLA OK),1.33,0.0
-PED-000845,Centro-Oeste,Casa & Decoração,Loggi Express,480.29,0.0,32.38,6,5,False,True,10,0,1,No Prazo (SLA OK),32.38,0.0
-PED-000846,Nordeste,Eletrônicos,Jadlog Standard,616.62,0.0,54.37,7,8,False,False,7,1,0,Atraso Leve (1-2d),54.37,0.0
-PED-000847,Sudeste,Moda & Vestuário,Loggi Express,222.0,0.0,25.33,4,4,False,False,10,0,1,No Prazo (SLA OK),25.33,0.0
-PED-000848,Nordeste,Moda & Vestuário,Mandaê Flex,240.37,0.0,36.66,7,10,False,False,4,3,0,Atraso Crítico (3-5d),36.66,0.0
-PED-000849,Sul,Beleza & Saúde,Jadlog Standard,194.82,23.1,25.3,5,5,False,False,10,0,1,No Prazo (SLA OK),2.2,0.0
-PED-000850,Sudeste,Casa & Decoração,Total Express,456.31,0.0,19.47,2,2,False,True,10,0,1,No Prazo (SLA OK),19.47,0.0
-PED-000851,Sudeste,Moda & Vestuário,Loggi Express,242.33,15.26,18.6,3,3,False,True,10,0,1,No Prazo (SLA OK),3.34,0.0
-PED-000852,Sul,Eletrônicos,Correios Sedex,580.68,0.0,23.08,5,4,False,False,10,0,1,No Prazo (SLA OK),23.08,0.0
-PED-000853,Sudeste,Casa & Decoração,Loggi Express,277.11,17.06,21.37,3,3,False,False,10,0,1,No Prazo (SLA OK),4.31,0.0
-PED-000854,Centro-Oeste,Eletrônicos,Correios Sedex,723.17,0.0,26.25,5,5,False,False,10,0,1,No Prazo (SLA OK),26.25,0.0
-PED-000855,Nordeste,Moda & Vestuário,Loggi Express,245.99,0.0,56.13,8,7,False,False,10,0,1,No Prazo (SLA OK),56.13,0.0
-PED-000856,Sul,Eletrônicos,Loggi Express,601.0,0.0,28.74,5,5,False,False,10,0,1,No Prazo (SLA OK),28.74,0.0
-PED-000857,Sudeste,Casa & Decoração,Loggi Express,457.17,0.0,15.64,2,2,False,False,10,0,1,No Prazo (SLA OK),15.64,0.0
-PED-000858,Sudeste,Eletrônicos,Jadlog Standard,969.58,0.0,16.38,2,4,False,False,7,2,0,Atraso Leve (1-2d),16.38,0.0
-PED-000859,Sul,Moda & Vestuário,Total Express,135.02,25.49,27.06,5,5,False,True,10,0,1,No Prazo (SLA OK),1.57,0.0
-PED-000860,Sul,Beleza & Saúde,Loggi Express,102.34,20.85,27.53,4,4,False,True,10,0,1,No Prazo (SLA OK),6.68,0.0
-PED-000861,Sudeste,Eletrônicos,Correios Sedex,619.12,0.0,24.07,2,1,False,False,10,0,1,No Prazo (SLA OK),24.07,0.0
-PED-000862,Sul,Moda & Vestuário,Jadlog Standard,208.46,0.0,36.27,6,6,False,True,10,0,1,No Prazo (SLA OK),36.27,0.0
-PED-000863,Nordeste,Moda & Vestuário,Total Express,158.53,40.07,52.31,7,6,False,True,10,0,1,No Prazo (SLA OK),12.24,0.0
-PED-000864,Sudeste,Eletrônicos,Jadlog Standard,947.48,0.0,14.54,3,3,False,True,10,0,1,No Prazo (SLA OK),14.54,0.0
-PED-000865,Sudeste,Beleza & Saúde,Jadlog Standard,159.08,18.87,20.6,3,2,False,False,10,0,1,No Prazo (SLA OK),1.73,0.0
-PED-000866,Nordeste,Eletrônicos,Total Express,658.68,0.0,57.03,6,6,False,True,10,0,1,No Prazo (SLA OK),57.03,0.0
-PED-000867,Sudeste,Moda & Vestuário,Loggi Express,103.85,13.71,17.8,2,2,False,False,10,0,1,No Prazo (SLA OK),4.09,0.0
-PED-000868,Sudeste,Moda & Vestuário,Loggi Express,111.05,17.85,20.04,2,1,False,True,10,0,1,No Prazo (SLA OK),2.19,0.0
-PED-000869,Sudeste,Casa & Decoração,Correios Sedex,370.91,17.14,19.89,3,2,False,True,10,0,1,No Prazo (SLA OK),2.75,0.0
-PED-000870,Sudeste,Casa & Decoração,Mandaê Flex,105.41,15.65,17.09,3,3,False,True,10,0,1,No Prazo (SLA OK),1.44,0.0
-PED-000871,Nordeste,Eletrônicos,Jadlog Standard,872.78,0.0,40.19,7,6,False,True,10,0,1,No Prazo (SLA OK),40.19,0.0
-PED-000872,Sul,Eletrônicos,Loggi Express,615.21,15.65,22.71,6,5,False,False,10,0,1,No Prazo (SLA OK),7.06,0.0
-PED-000873,Sudeste,Casa & Decoração,Total Express,696.74,0.0,18.74,3,2,False,True,10,0,1,No Prazo (SLA OK),18.74,0.0
-PED-000874,Centro-Oeste,Moda & Vestuário,Jadlog Standard,328.47,0.0,33.43,7,7,False,True,10,0,1,No Prazo (SLA OK),33.43,0.0
-PED-000875,Centro-Oeste,Beleza & Saúde,Loggi Express,131.83,18.84,26.04,5,5,False,False,10,0,1,No Prazo (SLA OK),7.2,0.0
-PED-000876,Centro-Oeste,Beleza & Saúde,Loggi Express,135.21,19.28,28.18,6,5,False,False,10,0,1,No Prazo (SLA OK),8.9,0.0
-PED-000877,Sudeste,Beleza & Saúde,Total Express,184.8,18.8,21.77,3,3,False,True,10,0,1,No Prazo (SLA OK),2.97,0.0
-PED-000878,Sudeste,Moda & Vestuário,Total Express,292.19,10.89,14.96,2,1,False,True,10,0,1,No Prazo (SLA OK),4.07,0.0
-PED-000879,Norte,Moda & Vestuário,Loggi Express,91.72,78.95,89.54,12,12,False,False,10,0,1,No Prazo (SLA OK),10.59,0.0
-PED-000880,Nordeste,Beleza & Saúde,Loggi Express,59.61,50.21,57.01,6,6,False,False,10,0,1,No Prazo (SLA OK),6.8,0.0
-PED-000881,Sudeste,Moda & Vestuário,Loggi Express,152.68,13.15,18.05,3,3,False,True,10,0,1,No Prazo (SLA OK),4.9,0.0
-PED-000882,Sudeste,Eletrônicos,Total Express,778.2,0.0,20.12,2,1,False,False,10,0,1,No Prazo (SLA OK),20.12,0.0
-PED-000883,Sudeste,Beleza & Saúde,Loggi Express,162.36,14.96,19.7,2,2,False,True,10,0,1,No Prazo (SLA OK),4.74,0.0
-PED-000884,Centro-Oeste,Beleza & Saúde,Loggi Express,188.14,29.52,42.22,6,6,False,True,10,0,1,No Prazo (SLA OK),12.7,0.0
-PED-000885,Sul,Moda & Vestuário,Correios Sedex,118.02,20.31,24.25,5,5,False,False,10,0,1,No Prazo (SLA OK),3.94,0.0
-PED-000886,Sul,Eletrônicos,Loggi Express,140.45,27.08,36.91,5,5,False,False,10,0,1,No Prazo (SLA OK),9.83,0.0
-PED-000887,Sudeste,Moda & Vestuário,Total Express,241.48,0.0,14.76,4,4,False,True,10,0,1,No Prazo (SLA OK),14.76,0.0
-PED-000888,Sul,Beleza & Saúde,Loggi Express,102.73,29.36,36.3,4,4,False,False,10,0,1,No Prazo (SLA OK),6.94,0.0
-PED-000889,Nordeste,Beleza & Saúde,Loggi Express,49.9,39.82,57.28,8,8,False,True,10,0,1,No Prazo (SLA OK),17.46,0.0
-PED-000890,Sudeste,Eletrônicos,Loggi Express,681.91,0.0,24.55,2,2,False,True,10,0,1,No Prazo (SLA OK),24.55,0.0
-PED-000891,Nordeste,Eletrônicos,Total Express,824.5,0.0,47.12,6,6,False,True,10,0,1,No Prazo (SLA OK),47.12,0.0
-PED-000892,Norte,Beleza & Saúde,Correios Sedex,134.51,43.55,66.0,8,8,False,True,10,0,1,No Prazo (SLA OK),22.45,0.0
-PED-000893,Sudeste,Moda & Vestuário,Correios Sedex,162.53,23.38,24.74,3,2,False,False,10,0,1,No Prazo (SLA OK),1.36,0.0
-PED-000894,Sul,Moda & Vestuário,Jadlog Standard,180.44,22.66,24.59,5,4,False,False,10,0,1,No Prazo (SLA OK),1.93,0.0
-PED-000895,Sudeste,Alimentos & Bebidas,Total Express,123.32,14.68,15.84,3,3,False,True,10,0,1,No Prazo (SLA OK),1.16,0.0
-PED-000896,Nordeste,Eletrônicos,Loggi Express,353.43,38.69,54.49,8,8,False,False,10,0,1,No Prazo (SLA OK),15.8,0.0
-PED-000897,Sul,Casa & Decoração,Jadlog Standard,261.39,0.0,33.01,4,4,False,False,10,0,1,No Prazo (SLA OK),33.01,0.0
-PED-000898,Sul,Eletrônicos,Correios Sedex,764.68,27.13,34.51,5,5,False,False,10,0,1,No Prazo (SLA OK),7.38,0.0
-PED-000899,Nordeste,Moda & Vestuário,Loggi Express,209.3,0.0,57.48,8,10,False,False,7,2,0,Atraso Leve (1-2d),57.48,0.0
-PED-000900,Sudeste,Beleza & Saúde,Loggi Express,147.56,12.87,17.29,2,2,False,True,10,0,1,No Prazo (SLA OK),4.42,0.0
-PED-000901,Centro-Oeste,Moda & Vestuário,Loggi Express,130.29,22.04,30.92,5,4,False,False,10,0,1,No Prazo (SLA OK),8.88,0.0
-PED-000902,Sul,Alimentos & Bebidas,Loggi Express,131.83,24.89,36.54,5,5,False,False,10,0,1,No Prazo (SLA OK),11.65,0.0
-PED-000903,Sudeste,Moda & Vestuário,Loggi Express,59.38,15.1,22.25,3,2,False,False,10,0,1,No Prazo (SLA OK),7.15,0.0
-PED-000904,Nordeste,Moda & Vestuário,Total Express,200.71,0.0,49.92,9,9,False,False,10,0,1,No Prazo (SLA OK),49.92,0.0
-PED-000905,Nordeste,Eletrônicos,Jadlog Standard,964.35,0.0,41.21,8,8,False,True,10,0,1,No Prazo (SLA OK),41.21,0.0
-PED-000906,Sudeste,Moda & Vestuário,Correios Sedex,101.55,18.88,24.07,2,1,False,False,10,0,1,No Prazo (SLA OK),5.19,0.0
-PED-000907,Nordeste,Moda & Vestuário,Correios Sedex,154.84,34.29,40.19,8,8,False,True,10,0,1,No Prazo (SLA OK),5.9,0.0
-PED-000908,Centro-Oeste,Eletrônicos,Jadlog Standard,722.4,0.0,34.52,7,7,False,True,10,0,1,No Prazo (SLA OK),34.52,0.0
-PED-000909,Sudeste,Moda & Vestuário,Loggi Express,265.17,0.0,24.73,3,3,False,True,10,0,1,No Prazo (SLA OK),24.73,0.0
-PED-000910,Norte,Moda & Vestuário,Jadlog Standard,163.11,67.31,87.05,12,13,False,False,7,1,0,Atraso Leve (1-2d),19.74,20.19
-PED-000911,Sudeste,Casa & Decoração,Total Express,263.85,13.56,18.87,2,1,False,True,10,0,1,No Prazo (SLA OK),5.31,0.0
-PED-000912,Sudeste,Casa & Decoração,Loggi Express,123.42,17.9,23.67,3,3,False,False,10,0,1,No Prazo (SLA OK),5.77,0.0
-PED-000913,Sudeste,Casa & Decoração,Total Express,351.38,0.0,16.95,3,3,False,True,10,0,1,No Prazo (SLA OK),16.95,0.0
-PED-000914,Centro-Oeste,Eletrônicos,Jadlog Standard,1099.26,0.0,27.78,7,7,False,False,10,0,1,No Prazo (SLA OK),27.78,0.0
-PED-000915,Sul,Eletrônicos,Total Express,711.02,26.0,27.54,6,6,False,True,10,0,1,No Prazo (SLA OK),1.54,0.0
-PED-000916,Sudeste,Casa & Decoração,Jadlog Standard,337.55,11.38,14.49,2,2,False,False,10,0,1,No Prazo (SLA OK),3.11,0.0
-PED-000917,Sudeste,Moda & Vestuário,Jadlog Standard,209.32,0.0,22.49,2,2,False,False,10,0,1,No Prazo (SLA OK),22.49,0.0
-PED-000918,Sul,Eletrônicos,Mandaê Flex,647.56,0.0,24.22,6,6,False,True,10,0,1,No Prazo (SLA OK),24.22,0.0
-PED-000919,Sudeste,Beleza & Saúde,Correios Sedex,103.41,21.9,25.52,2,2,False,True,10,0,1,No Prazo (SLA OK),3.62,0.0
-PED-000920,Centro-Oeste,Casa & Decoração,Loggi Express,430.56,0.0,33.16,7,7,False,False,10,0,1,No Prazo (SLA OK),33.16,0.0
-PED-000921,Nordeste,Moda & Vestuário,Correios Sedex,203.55,0.0,47.46,7,7,False,False,10,0,1,No Prazo (SLA OK),47.46,0.0
-PED-000922,Sul,Eletrônicos,Jadlog Standard,653.87,18.3,26.11,5,5,False,False,10,0,1,No Prazo (SLA OK),7.81,0.0
-PED-000923,Norte,Casa & Decoração,Correios Sedex,232.71,0.0,55.59,12,11,False,True,10,0,1,No Prazo (SLA OK),55.59,0.0
-PED-000924,Sudeste,Moda & Vestuário,Correios Sedex,268.21,0.0,19.39,2,2,False,False,10,0,1,No Prazo (SLA OK),19.39,0.0
-PED-000925,Norte,Beleza & Saúde,Jadlog Standard,169.91,62.27,71.59,10,9,False,True,10,0,1,No Prazo (SLA OK),9.32,0.0
-PED-000926,Sul,Casa & Decoração,Loggi Express,279.18,0.0,35.33,5,5,False,False,10,0,1,No Prazo (SLA OK),35.33,0.0
-PED-000927,Sul,Beleza & Saúde,Loggi Express,185.08,23.86,31.36,5,5,False,False,10,0,1,No Prazo (SLA OK),7.5,0.0
-PED-000928,Sudeste,Moda & Vestuário,Total Express,160.15,12.3,17.77,3,2,False,True,10,0,1,No Prazo (SLA OK),5.47,0.0
-PED-000929,Centro-Oeste,Eletrônicos,Total Express,477.96,0.0,27.9,5,4,False,False,10,0,1,No Prazo (SLA OK),27.9,0.0
-PED-000930,Sudeste,Casa & Decoração,Loggi Express,256.43,16.91,25.41,3,3,False,False,10,0,1,No Prazo (SLA OK),8.5,0.0
-PED-000931,Sudeste,Casa & Decoração,Loggi Express,145.18,19.07,24.35,4,4,False,False,10,0,1,No Prazo (SLA OK),5.28,0.0
-PED-000932,Sudeste,Casa & Decoração,Correios Sedex,391.87,0.0,25.71,3,3,False,True,10,0,1,No Prazo (SLA OK),25.71,0.0
-PED-000933,Sul,Eletrônicos,Mandaê Flex,247.15,0.0,23.33,6,6,False,True,10,0,1,No Prazo (SLA OK),23.33,0.0
-PED-000934,Sul,Eletrônicos,Total Express,379.74,29.68,31.36,5,5,False,False,10,0,1,No Prazo (SLA OK),1.68,0.0
-PED-000935,Nordeste,Beleza & Saúde,Loggi Express,49.9,31.45,35.33,7,7,False,True,10,0,1,No Prazo (SLA OK),3.88,0.0
-PED-000936,Centro-Oeste,Casa & Decoração,Loggi Express,330.53,0.0,29.57,6,6,False,True,10,0,1,No Prazo (SLA OK),29.57,0.0
-PED-000937,Sudeste,Beleza & Saúde,Loggi Express,133.24,18.59,23.24,3,3,False,False,10,0,1,No Prazo (SLA OK),4.65,0.0
-PED-000938,Nordeste,Casa & Decoração,Mandaê Flex,304.06,0.0,61.26,7,7,False,True,10,0,1,No Prazo (SLA OK),61.26,0.0
-PED-000939,Sudeste,Moda & Vestuário,Loggi Express,127.45,15.1,17.37,3,3,False,False,10,0,1,No Prazo (SLA OK),2.27,0.0
-PED-000940,Nordeste,Casa & Decoração,Total Express,211.05,0.0,38.81,7,6,False,True,10,0,1,No Prazo (SLA OK),38.81,0.0
-PED-000941,Nordeste,Beleza & Saúde,Loggi Express,160.9,35.37,51.61,7,8,False,False,7,1,0,Atraso Leve (1-2d),16.24,10.61
-PED-000942,Sul,Moda & Vestuário,Total Express,156.97,17.25,26.53,5,5,False,False,10,0,1,No Prazo (SLA OK),9.28,0.0
-PED-000943,Nordeste,Casa & Decoração,Total Express,374.8,43.31,60.14,6,5,False,False,10,0,1,No Prazo (SLA OK),16.83,0.0
-PED-000944,Sudeste,Eletrônicos,Correios Sedex,455.25,16.23,21.3,3,3,False,False,10,0,1,No Prazo (SLA OK),5.07,0.0
-PED-000945,Sudeste,Moda & Vestuário,Loggi Express,200.86,0.0,14.76,3,2,False,False,10,0,1,No Prazo (SLA OK),14.76,0.0
-PED-000946,Nordeste,Casa & Decoração,Loggi Express,483.36,0.0,49.09,9,9,False,False,10,0,1,No Prazo (SLA OK),49.09,0.0
-PED-000947,Sudeste,Eletrônicos,Loggi Express,778.96,0.0,22.44,2,2,False,True,10,0,1,No Prazo (SLA OK),22.44,0.0
-PED-000948,Sudeste,Eletrônicos,Mandaê Flex,559.27,0.0,25.41,2,2,False,True,10,0,1,No Prazo (SLA OK),25.41,0.0
-PED-000949,Sul,Eletrônicos,Correios Sedex,706.58,0.0,36.74,5,6,False,True,7,1,0,Atraso Leve (1-2d),36.74,0.0
-PED-000950,Nordeste,Eletrônicos,Total Express,597.05,33.34,48.96,7,7,False,False,10,0,1,No Prazo (SLA OK),15.62,0.0
-PED-000951,Sudeste,Eletrônicos,Total Express,651.73,0.0,23.54,4,4,False,True,10,0,1,No Prazo (SLA OK),23.54,0.0
-PED-000952,Sudeste,Moda & Vestuário,Total Express,170.46,14.35,18.62,3,3,False,True,10,0,1,No Prazo (SLA OK),4.27,0.0
-PED-000953,Nordeste,Beleza & Saúde,Loggi Express,132.6,41.94,60.96,8,7,False,False,10,0,1,No Prazo (SLA OK),19.02,0.0
-PED-000954,Nordeste,Moda & Vestuário,Mandaê Flex,202.73,0.0,47.47,7,6,False,True,10,0,1,No Prazo (SLA OK),47.47,0.0
-PED-000955,Sudeste,Eletrônicos,Jadlog Standard,431.46,0.0,14.63,2,2,False,True,10,0,1,No Prazo (SLA OK),14.63,0.0
-PED-000956,Sudeste,Eletrônicos,Jadlog Standard,426.51,14.55,16.34,3,3,False,False,10,0,1,No Prazo (SLA OK),1.79,0.0
-PED-000957,Sudeste,Casa & Decoração,Jadlog Standard,187.26,14.79,17.58,3,3,False,True,10,0,1,No Prazo (SLA OK),2.79,0.0
-PED-000958,Sudeste,Moda & Vestuário,Loggi Express,93.98,14.63,16.83,2,2,False,False,10,0,1,No Prazo (SLA OK),2.2,0.0
-PED-000959,Sudeste,Beleza & Saúde,Loggi Express,85.22,9.87,15.14,2,2,False,False,10,0,1,No Prazo (SLA OK),5.27,0.0
-PED-000960,Nordeste,Casa & Decoração,Total Express,357.54,26.47,35.93,6,5,False,True,10,0,1,No Prazo (SLA OK),9.46,0.0
-PED-000961,Sul,Beleza & Saúde,Loggi Express,99.82,24.07,25.86,4,3,False,False,10,0,1,No Prazo (SLA OK),1.79,0.0
-PED-000962,Sul,Eletrônicos,Total Express,763.0,21.39,27.84,5,6,False,True,7,1,0,Atraso Leve (1-2d),6.45,6.42
-PED-000963,Sudeste,Casa & Decoração,Loggi Express,343.82,0.0,16.49,2,2,False,False,10,0,1,No Prazo (SLA OK),16.49,0.0
-PED-000964,Nordeste,Eletrônicos,Jadlog Standard,216.93,0.0,52.96,7,9,False,False,7,2,0,Atraso Leve (1-2d),52.96,0.0
-PED-000965,Sudeste,Alimentos & Bebidas,Jadlog Standard,169.47,10.46,14.79,3,2,False,False,10,0,1,No Prazo (SLA OK),4.33,0.0
-PED-000966,Norte,Casa & Decoração,Jadlog Standard,429.19,0.0,92.48,10,10,False,False,10,0,1,No Prazo (SLA OK),92.48,0.0
-PED-000967,Sul,Moda & Vestuário,Total Express,130.37,17.95,26.08,5,4,False,True,10,0,1,No Prazo (SLA OK),8.13,0.0
-PED-000968,Sudeste,Eletrônicos,Jadlog Standard,742.44,0.0,17.66,2,1,False,True,10,0,1,No Prazo (SLA OK),17.66,0.0
-PED-000969,Sul,Eletrônicos,Total Express,461.57,0.0,34.17,4,6,False,False,7,2,0,Atraso Leve (1-2d),34.17,0.0
-PED-000970,Sudeste,Casa & Decoração,Jadlog Standard,350.74,0.0,18.55,3,2,False,True,10,0,1,No Prazo (SLA OK),18.55,0.0
-PED-000971,Nordeste,Eletrônicos,Total Express,371.81,0.0,42.77,7,9,False,False,7,2,0,Atraso Leve (1-2d),42.77,0.0
-PED-000972,Sudeste,Moda & Vestuário,Mandaê Flex,82.41,17.31,24.46,3,3,False,True,10,0,1,No Prazo (SLA OK),7.15,0.0
-PED-000973,Sudeste,Eletrônicos,Total Express,565.78,0.0,24.77,2,1,False,False,10,0,1,No Prazo (SLA OK),24.77,0.0
-PED-000974,Nordeste,Casa & Decoração,Loggi Express,326.39,0.0,44.07,7,7,False,True,10,0,1,No Prazo (SLA OK),44.07,0.0
-PED-000975,Sudeste,Beleza & Saúde,Loggi Express,122.1,14.43,20.3,3,3,False,False,10,0,1,No Prazo (SLA OK),5.87,0.0
-PED-000976,Nordeste,Casa & Decoração,Loggi Express,209.76,0.0,56.31,7,6,False,True,10,0,1,No Prazo (SLA OK),56.31,0.0
-PED-000977,Sudeste,Casa & Decoração,Total Express,296.01,18.27,20.58,2,2,False,True,10,0,1,No Prazo (SLA OK),2.31,0.0
-PED-000978,Sul,Eletrônicos,Loggi Express,709.24,20.85,24.44,5,5,False,False,10,0,1,No Prazo (SLA OK),3.59,0.0
-PED-000979,Nordeste,Eletrônicos,Jadlog Standard,640.12,0.0,45.53,6,5,False,True,10,0,1,No Prazo (SLA OK),45.53,0.0
-PED-000980,Sul,Casa & Decoração,Total Express,360.08,0.0,25.46,5,4,False,False,10,0,1,No Prazo (SLA OK),25.46,0.0
-PED-000981,Sudeste,Moda & Vestuário,Jadlog Standard,149.79,21.84,23.57,4,4,False,True,10,0,1,No Prazo (SLA OK),1.73,0.0
-PED-000982,Sudeste,Moda & Vestuário,Correios Sedex,260.3,0.0,14.13,4,4,False,True,10,0,1,No Prazo (SLA OK),14.13,0.0
-PED-000983,Sudeste,Eletrônicos,Loggi Express,391.24,0.0,24.32,3,3,False,True,10,0,1,No Prazo (SLA OK),24.32,0.0
-PED-000984,Sudeste,Eletrônicos,Loggi Express,757.26,14.44,21.36,4,3,False,False,10,0,1,No Prazo (SLA OK),6.92,0.0
-PED-000985,Sul,Eletrônicos,Total Express,910.02,0.0,34.13,4,4,False,False,10,0,1,No Prazo (SLA OK),34.13,0.0
-PED-000986,Centro-Oeste,Beleza & Saúde,Jadlog Standard,161.64,22.24,26.25,7,7,False,False,10,0,1,No Prazo (SLA OK),4.01,0.0
-PED-000987,Centro-Oeste,Eletrônicos,Total Express,605.44,0.0,37.01,6,9,False,False,4,3,0,Atraso Crítico (3-5d),37.01,0.0
-PED-000988,Nordeste,Moda & Vestuário,Jadlog Standard,158.3,24.84,37.02,7,8,False,False,7,1,0,Atraso Leve (1-2d),12.18,7.45
-PED-000989,Nordeste,Eletrônicos,Loggi Express,877.94,39.0,48.58,7,7,False,False,10,0,1,No Prazo (SLA OK),9.58,0.0
-PED-000990,Sul,Casa & Decoração,Correios Sedex,183.47,18.67,28.37,5,5,False,False,10,0,1,No Prazo (SLA OK),9.7,0.0
-PED-000991,Sudeste,Moda & Vestuário,Correios Sedex,131.79,23.45,25.71,2,2,False,False,10,0,1,No Prazo (SLA OK),2.26,0.0
-PED-000992,Centro-Oeste,Beleza & Saúde,Total Express,122.11,33.08,36.58,6,6,False,False,10,0,1,No Prazo (SLA OK),3.5,0.0
-PED-000993,Sul,Beleza & Saúde,Loggi Express,195.69,14.98,22.29,5,5,False,True,10,0,1,No Prazo (SLA OK),7.31,0.0
-PED-000994,Sul,Moda & Vestuário,Total Express,212.79,0.0,37.51,5,4,False,False,10,0,1,No Prazo (SLA OK),37.51,0.0
-PED-000995,Sudeste,Beleza & Saúde,Jadlog Standard,96.44,14.34,16.27,2,2,False,False,10,0,1,No Prazo (SLA OK),1.93,0.0
-PED-000996,Sudeste,Alimentos & Bebidas,Loggi Express,126.04,18.06,21.41,3,3,False,False,10,0,1,No Prazo (SLA OK),3.35,0.0
-PED-000997,Sudeste,Beleza & Saúde,Mandaê Flex,112.36,21.22,23.94,2,1,False,True,10,0,1,No Prazo (SLA OK),2.72,0.0
-PED-000998,Centro-Oeste,Beleza & Saúde,Loggi Express,108.06,27.69,38.76,6,5,False,True,10,0,1,No Prazo (SLA OK),11.07,0.0
-PED-000999,Sul,Eletrônicos,Mandaê Flex,865.36,0.0,25.22,4,3,False,True,10,0,1,No Prazo (SLA OK),25.22,0.0
-PED-001000,Sudeste,Moda & Vestuário,Jadlog Standard,107.7,15.27,19.02,2,1,False,True,10,0,1,No Prazo (SLA OK),3.75,0.0
-PED-001001,Norte,Eletrônicos,Loggi Express,1003.93,0.0,65.83,10,10,False,True,10,0,1,No Prazo (SLA OK),65.83,0.0
-PED-001002,Sudeste,Eletrônicos,Total Express,832.21,0.0,18.75,3,3,False,False,10,0,1,No Prazo (SLA OK),18.75,0.0
-PED-001003,Sudeste,Alimentos & Bebidas,Correios Sedex,189.09,20.83,22.96,4,4,False,False,10,0,1,No Prazo (SLA OK),2.13,0.0
-PED-001004,Sudeste,Moda & Vestuário,Total Express,162.22,13.37,15.57,3,3,False,False,10,0,1,No Prazo (SLA OK),2.2,0.0
-PED-001005,Nordeste,Casa & Decoração,Correios Sedex,323.51,0.0,46.35,7,7,False,False,10,0,1,No Prazo (SLA OK),46.35,0.0
-PED-001006,Centro-Oeste,Beleza & Saúde,Total Express,75.51,26.03,28.27,7,7,False,True,10,0,1,No Prazo (SLA OK),2.24,0.0
-PED-001007,Sudeste,Beleza & Saúde,Total Express,116.39,17.1,19.57,4,3,False,False,10,0,1,No Prazo (SLA OK),2.47,0.0
-PED-001008,Nordeste,Alimentos & Bebidas,Correios Sedex,162.21,44.03,56.49,8,8,False,True,10,0,1,No Prazo (SLA OK),12.46,0.0
-PED-001009,Sudeste,Eletrônicos,Loggi Express,935.13,15.56,19.55,3,2,False,False,10,0,1,No Prazo (SLA OK),3.99,0.0
-PED-001010,Centro-Oeste,Eletrônicos,Jadlog Standard,406.43,32.76,40.13,6,9,False,False,4,3,0,Atraso Crítico (3-5d),7.37,32.76
-PED-001011,Nordeste,Moda & Vestuário,Loggi Express,168.07,44.29,47.1,6,6,False,True,10,0,1,No Prazo (SLA OK),2.81,0.0
-PED-001012,Nordeste,Eletrônicos,Mandaê Flex,616.71,0.0,56.71,8,7,False,True,10,0,1,No Prazo (SLA OK),56.71,0.0
-PED-001013,Sudeste,Eletrônicos,Mandaê Flex,342.93,14.47,21.76,3,3,False,False,10,0,1,No Prazo (SLA OK),7.29,0.0
-PED-001014,Norte,Moda & Vestuário,Loggi Express,225.48,0.0,76.94,12,12,False,True,10,0,1,No Prazo (SLA OK),76.94,0.0
-PED-001015,Nordeste,Beleza & Saúde,Total Express,107.42,33.9,41.89,7,8,False,False,7,1,0,Atraso Leve (1-2d),7.99,10.17
-PED-001016,Sudeste,Moda & Vestuário,Mandaê Flex,178.28,14.21,15.9,2,2,False,False,10,0,1,No Prazo (SLA OK),1.69,0.0
-PED-001017,Nordeste,Eletrônicos,Loggi Express,550.57,0.0,40.54,6,6,False,False,10,0,1,No Prazo (SLA OK),40.54,0.0
-PED-001018,Sudeste,Casa & Decoração,Total Express,253.17,0.0,23.16,3,2,False,True,10,0,1,No Prazo (SLA OK),23.16,0.0
-PED-001019,Centro-Oeste,Eletrônicos,Mandaê Flex,648.45,0.0,37.13,7,7,False,False,10,0,1,No Prazo (SLA OK),37.13,0.0
-PED-001020,Sudeste,Eletrônicos,Loggi Express,602.57,0.0,19.24,2,16,True,False,1,14,0,Extraviado/Avaria,19.24,602.57
-PED-001021,Nordeste,Casa & Decoração,Total Express,299.1,0.0,50.26,8,10,False,True,7,2,0,Atraso Leve (1-2d),50.26,0.0
-PED-001022,Sul,Casa & Decoração,Jadlog Standard,259.87,0.0,25.63,4,4,False,False,10,0,1,No Prazo (SLA OK),25.63,0.0
-PED-001023,Sudeste,Casa & Decoração,Mandaê Flex,375.15,0.0,20.18,3,3,False,True,10,0,1,No Prazo (SLA OK),20.18,0.0
-PED-001024,Sudeste,Eletrônicos,Mandaê Flex,1013.8,0.0,24.23,3,3,False,False,10,0,1,No Prazo (SLA OK),24.23,0.0
-PED-001025,Sudeste,Beleza & Saúde,Mandaê Flex,146.29,19.28,25.71,3,7,False,False,4,4,0,Atraso Crítico (3-5d),6.43,19.28
-PED-001026,Sudeste,Casa & Decoração,Jadlog Standard,449.57,0.0,15.08,3,3,False,False,10,0,1,No Prazo (SLA OK),15.08,0.0
-PED-001027,Sudeste,Moda & Vestuário,Correios Sedex,106.59,22.06,25.51,2,2,False,False,10,0,1,No Prazo (SLA OK),3.45,0.0
-PED-001028,Sul,Casa & Decoração,Correios Sedex,357.35,0.0,33.27,5,4,False,True,10,0,1,No Prazo (SLA OK),33.27,0.0
-PED-001029,Sudeste,Beleza & Saúde,Jadlog Standard,90.62,22.77,24.3,3,3,False,True,10,0,1,No Prazo (SLA OK),1.53,0.0
-PED-001030,Sudeste,Moda & Vestuário,Correios Sedex,101.38,20.77,25.18,3,3,False,False,10,0,1,No Prazo (SLA OK),4.41,0.0
-PED-001031,Nordeste,Moda & Vestuário,Loggi Express,145.64,33.31,46.73,7,7,False,False,10,0,1,No Prazo (SLA OK),13.42,0.0
-PED-001032,Sudeste,Alimentos & Bebidas,Total Express,193.64,13.57,16.9,2,1,False,True,10,0,1,No Prazo (SLA OK),3.33,0.0
-PED-001033,Centro-Oeste,Casa & Decoração,Loggi Express,444.5,25.73,34.07,6,6,False,False,10,0,1,No Prazo (SLA OK),8.34,0.0
-PED-001034,Nordeste,Moda & Vestuário,Loggi Express,204.58,0.0,37.74,7,6,False,True,10,0,1,No Prazo (SLA OK),37.74,0.0
-PED-001035,Sul,Casa & Decoração,Loggi Express,171.4,27.34,31.13,5,4,False,True,10,0,1,No Prazo (SLA OK),3.79,0.0
-PED-001036,Sul,Moda & Vestuário,Total Express,178.22,22.62,31.15,4,4,False,False,10,0,1,No Prazo (SLA OK),8.53,0.0
-PED-001037,Centro-Oeste,Eletrônicos,Jadlog Standard,716.37,0.0,26.21,5,4,False,True,10,0,1,No Prazo (SLA OK),26.21,0.0
-PED-001038,Sudeste,Moda & Vestuário,Total Express,200.53,11.44,15.4,2,2,False,False,10,0,1,No Prazo (SLA OK),3.96,0.0
-PED-001039,Sudeste,Alimentos & Bebidas,Loggi Express,57.03,13.54,16.39,2,2,False,True,10,0,1,No Prazo (SLA OK),2.85,0.0
-PED-001040,Sudeste,Alimentos & Bebidas,Jadlog Standard,99.94,22.85,24.35,2,2,False,True,10,0,1,No Prazo (SLA OK),1.5,0.0
-PED-001041,Nordeste,Moda & Vestuário,Total Express,186.16,30.6,46.6,7,6,False,False,10,0,1,No Prazo (SLA OK),16.0,0.0
-PED-001042,Sudeste,Moda & Vestuário,Correios Sedex,222.18,0.0,18.97,3,2,False,False,10,0,1,No Prazo (SLA OK),18.97,0.0
-PED-001043,Sul,Eletrônicos,Jadlog Standard,166.85,25.16,32.46,4,4,False,True,10,0,1,No Prazo (SLA OK),7.3,0.0
-PED-001044,Norte,Alimentos & Bebidas,Total Express,132.7,67.66,82.56,8,7,False,True,10,0,1,No Prazo (SLA OK),14.9,0.0
-PED-001045,Nordeste,Alimentos & Bebidas,Correios Sedex,146.44,33.03,37.29,8,7,False,True,10,0,1,No Prazo (SLA OK),4.26,0.0
-PED-001046,Sul,Casa & Decoração,Total Express,433.46,0.0,23.84,5,5,False,False,10,0,1,No Prazo (SLA OK),23.84,0.0
-PED-001047,Sudeste,Beleza & Saúde,Loggi Express,171.18,17.55,25.34,3,3,False,False,10,0,1,No Prazo (SLA OK),7.79,0.0
-PED-001048,Nordeste,Casa & Decoração,Loggi Express,404.08,33.48,44.7,8,8,False,False,10,0,1,No Prazo (SLA OK),11.22,0.0
-PED-001049,Sul,Moda & Vestuário,Correios Sedex,142.0,26.63,36.42,6,5,False,True,10,0,1,No Prazo (SLA OK),9.79,0.0
-PED-001050,Sudeste,Eletrônicos,Loggi Express,230.24,0.0,25.95,3,3,False,True,10,0,1,No Prazo (SLA OK),25.95,0.0
-PED-001051,Sudeste,Moda & Vestuário,Correios Sedex,166.42,14.95,20.24,3,3,False,False,10,0,1,No Prazo (SLA OK),5.29,0.0
-PED-001052,Centro-Oeste,Casa & Decoração,Total Express,450.18,0.0,29.96,5,5,False,False,10,0,1,No Prazo (SLA OK),29.96,0.0
-PED-001053,Sul,Casa & Decoração,Mandaê Flex,493.28,21.31,24.74,5,5,False,False,10,0,1,No Prazo (SLA OK),3.43,0.0
-PED-001054,Nordeste,Moda & Vestuário,Correios Sedex,232.63,0.0,52.2,6,7,False,False,7,1,0,Atraso Leve (1-2d),52.2,0.0
-PED-001055,Centro-Oeste,Alimentos & Bebidas,Mandaê Flex,159.32,18.87,26.05,7,7,False,True,10,0,1,No Prazo (SLA OK),7.18,0.0
-PED-001056,Sul,Eletrônicos,Jadlog Standard,733.52,32.47,36.91,6,6,False,False,10,0,1,No Prazo (SLA OK),4.44,0.0
-PED-001057,Sul,Moda & Vestuário,Correios Sedex,156.63,21.74,30.22,4,4,False,False,10,0,1,No Prazo (SLA OK),8.48,0.0
-PED-001058,Sudeste,Casa & Decoração,Jadlog Standard,325.69,0.0,23.72,2,2,False,False,10,0,1,No Prazo (SLA OK),23.72,0.0
-PED-001059,Sudeste,Casa & Decoração,Jadlog Standard,523.6,0.0,25.26,3,2,False,True,10,0,1,No Prazo (SLA OK),25.26,0.0
-PED-001060,Sudeste,Casa & Decoração,Total Express,236.32,0.0,25.93,4,4,False,True,10,0,1,No Prazo (SLA OK),25.93,0.0
-PED-001061,Nordeste,Eletrônicos,Correios Sedex,1005.25,0.0,42.85,6,6,False,True,10,0,1,No Prazo (SLA OK),42.85,0.0
-PED-001062,Sul,Eletrônicos,Mandaê Flex,579.15,18.44,26.49,5,5,False,False,10,0,1,No Prazo (SLA OK),8.05,0.0
-PED-001063,Centro-Oeste,Casa & Decoração,Correios Sedex,485.8,0.0,26.01,6,6,False,True,10,0,1,No Prazo (SLA OK),26.01,0.0
-PED-001064,Sudeste,Moda & Vestuário,Jadlog Standard,105.59,12.32,17.46,4,3,False,True,10,0,1,No Prazo (SLA OK),5.14,0.0
-PED-001065,Sul,Eletrônicos,Jadlog Standard,778.9,0.0,33.4,5,5,False,False,10,0,1,No Prazo (SLA OK),33.4,0.0
-PED-001066,Sul,Casa & Decoração,Total Express,258.96,24.13,26.04,5,4,False,True,10,0,1,No Prazo (SLA OK),1.91,0.0
-PED-001067,Sul,Moda & Vestuário,Loggi Express,105.08,27.92,35.54,5,5,False,True,10,0,1,No Prazo (SLA OK),7.62,0.0
-PED-001068,Nordeste,Casa & Decoração,Loggi Express,364.04,0.0,38.39,7,6,False,True,10,0,1,No Prazo (SLA OK),38.39,0.0
-PED-001069,Sudeste,Beleza & Saúde,Jadlog Standard,185.43,11.18,14.27,3,3,False,True,10,0,1,No Prazo (SLA OK),3.09,0.0
-PED-001070,Sul,Eletrônicos,Jadlog Standard,464.11,0.0,32.88,5,5,False,True,10,0,1,No Prazo (SLA OK),32.88,0.0
-PED-001071,Sudeste,Eletrônicos,Jadlog Standard,320.22,0.0,14.22,4,4,False,False,10,0,1,No Prazo (SLA OK),14.22,0.0
-PED-001072,Sudeste,Casa & Decoração,Loggi Express,329.9,0.0,20.5,3,3,False,False,10,0,1,No Prazo (SLA OK),20.5,0.0
-PED-001073,Sul,Casa & Decoração,Loggi Express,330.38,0.0,36.2,4,4,False,False,10,0,1,No Prazo (SLA OK),36.2,0.0
-PED-001074,Sul,Casa & Decoração,Loggi Express,400.32,0.0,31.37,6,6,False,True,10,0,1,No Prazo (SLA OK),31.37,0.0
-PED-001075,Norte,Beleza & Saúde,Mandaê Flex,182.73,62.6,81.37,12,12,False,False,10,0,1,No Prazo (SLA OK),18.77,0.0
-PED-001076,Sul,Beleza & Saúde,Jadlog Standard,137.33,26.56,34.85,5,5,False,True,10,0,1,No Prazo (SLA OK),8.29,0.0
-PED-001077,Nordeste,Alimentos & Bebidas,Jadlog Standard,223.5,24.84,36.68,7,8,False,True,7,1,0,Atraso Leve (1-2d),11.84,7.45
-PED-001078,Sul,Moda & Vestuário,Total Express,203.45,0.0,28.61,5,5,False,False,10,0,1,No Prazo (SLA OK),28.61,0.0
-PED-001079,Sul,Moda & Vestuário,Loggi Express,169.21,19.11,23.07,5,5,False,True,10,0,1,No Prazo (SLA OK),3.96,0.0
-PED-001080,Sudeste,Moda & Vestuário,Mandaê Flex,93.31,16.78,23.94,3,3,False,True,10,0,1,No Prazo (SLA OK),7.16,0.0
-PED-001081,Sudeste,Eletrônicos,Correios Sedex,592.21,17.4,21.87,4,4,False,False,10,0,1,No Prazo (SLA OK),4.47,0.0
-PED-001082,Sudeste,Moda & Vestuário,Loggi Express,169.82,23.03,25.03,3,2,False,False,10,0,1,No Prazo (SLA OK),2.0,0.0
-PED-001083,Sudeste,Eletrônicos,Jadlog Standard,861.27,0.0,17.29,3,3,False,True,10,0,1,No Prazo (SLA OK),17.29,0.0
-PED-001084,Sudeste,Alimentos & Bebidas,Correios Sedex,160.81,12.74,17.44,2,1,False,True,10,0,1,No Prazo (SLA OK),4.7,0.0
-PED-001085,Sudeste,Moda & Vestuário,Mandaê Flex,119.24,12.66,14.84,4,4,False,True,10,0,1,No Prazo (SLA OK),2.18,0.0
-PED-001086,Sudeste,Moda & Vestuário,Jadlog Standard,200.34,0.0,18.13,2,2,False,False,10,0,1,No Prazo (SLA OK),18.13,0.0
-PED-001087,Norte,Moda & Vestuário,Total Express,230.29,61.43,85.74,8,8,False,True,10,0,1,No Prazo (SLA OK),24.31,0.0
-PED-001088,Sudeste,Eletrônicos,Loggi Express,986.17,17.26,19.64,3,2,False,True,10,0,1,No Prazo (SLA OK),2.38,0.0
-PED-001089,Sul,Eletrônicos,Mandaê Flex,845.25,21.37,32.73,5,5,False,False,10,0,1,No Prazo (SLA OK),11.36,0.0
-PED-001090,Sudeste,Moda & Vestuário,Loggi Express,235.65,20.23,24.89,3,3,False,False,10,0,1,No Prazo (SLA OK),4.66,0.0
-PED-001091,Sul,Eletrônicos,Mandaê Flex,663.22,0.0,27.56,5,5,False,True,10,0,1,No Prazo (SLA OK),27.56,0.0
-PED-001092,Sudeste,Casa & Decoração,Total Express,382.71,17.28,19.02,3,3,False,True,10,0,1,No Prazo (SLA OK),1.74,0.0
-PED-001093,Sudeste,Beleza & Saúde,Total Express,196.23,15.0,19.42,2,2,False,False,10,0,1,No Prazo (SLA OK),4.42,0.0
-PED-001094,Sul,Beleza & Saúde,Jadlog Standard,80.03,21.89,26.0,5,4,False,False,10,0,1,No Prazo (SLA OK),4.11,0.0
-PED-001095,Sudeste,Casa & Decoração,Loggi Express,301.56,18.03,19.02,4,10,False,False,2,6,0,Falha Grave (>5d),0.99,63.26
-PED-001096,Sudeste,Eletrônicos,Loggi Express,480.03,15.75,16.8,2,2,False,True,10,0,1,No Prazo (SLA OK),1.05,0.0
-PED-001097,Sudeste,Beleza & Saúde,Loggi Express,157.06,9.9,14.18,2,1,False,True,10,0,1,No Prazo (SLA OK),4.28,0.0
-PED-001098,Sudeste,Beleza & Saúde,Loggi Express,195.36,12.94,16.16,4,4,False,True,10,0,1,No Prazo (SLA OK),3.22,0.0
-PED-001099,Sudeste,Eletrônicos,Correios Sedex,518.67,0.0,14.24,3,3,False,False,10,0,1,No Prazo (SLA OK),14.24,0.0
-PED-001100,Sudeste,Casa & Decoração,Jadlog Standard,77.07,17.9,24.35,2,2,False,True,10,0,1,No Prazo (SLA OK),6.45,0.0
-PED-001101,Nordeste,Eletrônicos,Loggi Express,559.31,0.0,52.88,8,7,False,False,10,0,1,No Prazo (SLA OK),52.88,0.0
-PED-001102,Sul,Beleza & Saúde,Mandaê Flex,181.11,21.03,28.55,4,4,False,False,10,0,1,No Prazo (SLA OK),7.52,0.0
-PED-001103,Sul,Alimentos & Bebidas,Correios Sedex,164.19,27.4,34.81,6,6,False,False,10,0,1,No Prazo (SLA OK),7.41,0.0
-PED-001104,Sudeste,Eletrônicos,Mandaê Flex,744.2,16.52,21.25,3,3,False,True,10,0,1,No Prazo (SLA OK),4.73,0.0
-PED-001105,Centro-Oeste,Beleza & Saúde,Mandaê Flex,127.4,24.95,30.77,6,5,False,False,10,0,1,No Prazo (SLA OK),5.82,0.0
-PED-001106,Sudeste,Casa & Decoração,Loggi Express,199.31,0.0,19.28,3,2,False,True,10,0,1,No Prazo (SLA OK),19.28,0.0
-PED-001107,Sudeste,Alimentos & Bebidas,Jadlog Standard,163.19,11.75,16.56,3,7,False,False,4,4,0,Atraso Crítico (3-5d),4.81,11.75
-PED-001108,Sul,Moda & Vestuário,Correios Sedex,139.94,21.16,25.64,5,5,False,False,10,0,1,No Prazo (SLA OK),4.48,0.0
-PED-001109,Sudeste,Beleza & Saúde,Total Express,238.28,0.0,19.39,2,2,False,True,10,0,1,No Prazo (SLA OK),19.39,0.0
-PED-001110,Sudeste,Eletrônicos,Loggi Express,775.51,12.38,15.87,2,1,False,True,10,0,1,No Prazo (SLA OK),3.49,0.0
-PED-001111,Sul,Moda & Vestuário,Correios Sedex,155.16,18.04,22.57,5,4,False,True,10,0,1,No Prazo (SLA OK),4.53,0.0
-PED-001112,Centro-Oeste,Eletrônicos,Loggi Express,515.5,25.36,36.06,6,6,False,False,10,0,1,No Prazo (SLA OK),10.7,0.0
-PED-001113,Sul,Alimentos & Bebidas,Loggi Express,135.82,32.67,34.97,4,3,False,False,10,0,1,No Prazo (SLA OK),2.3,0.0
-PED-001114,Nordeste,Beleza & Saúde,Total Express,129.22,34.24,47.93,6,6,False,False,10,0,1,No Prazo (SLA OK),13.69,0.0
-PED-001115,Norte,Beleza & Saúde,Total Express,190.26,47.15,68.02,8,8,False,False,10,0,1,No Prazo (SLA OK),20.87,0.0
-PED-001116,Sudeste,Alimentos & Bebidas,Total Express,148.39,14.14,20.4,3,3,False,True,10,0,1,No Prazo (SLA OK),6.26,0.0
-PED-001117,Sudeste,Eletrônicos,Loggi Express,489.04,0.0,23.7,2,1,False,False,10,0,1,No Prazo (SLA OK),23.7,0.0
-PED-001118,Sudeste,Moda & Vestuário,Correios Sedex,303.43,0.0,18.04,3,3,False,False,10,0,1,No Prazo (SLA OK),18.04,0.0
-PED-001119,Sudeste,Eletrônicos,Loggi Express,660.85,0.0,15.04,2,2,False,False,10,0,1,No Prazo (SLA OK),15.04,0.0
-PED-001120,Sudeste,Eletrônicos,Loggi Express,819.14,0.0,19.14,2,1,False,False,10,0,1,No Prazo (SLA OK),19.14,0.0
-PED-001121,Centro-Oeste,Eletrônicos,Correios Sedex,516.19,0.0,26.22,6,6,False,False,10,0,1,No Prazo (SLA OK),26.22,0.0
-PED-001122,Nordeste,Moda & Vestuário,Mandaê Flex,211.79,0.0,60.96,8,8,False,False,10,0,1,No Prazo (SLA OK),60.96,0.0
-PED-001123,Sul,Eletrônicos,Correios Sedex,718.44,28.01,31.17,5,7,False,False,7,2,0,Atraso Leve (1-2d),3.16,8.4
-PED-001124,Sudeste,Eletrônicos,Correios Sedex,234.28,0.0,16.85,2,2,False,False,10,0,1,No Prazo (SLA OK),16.85,0.0
-PED-001125,Nordeste,Eletrônicos,Total Express,1093.36,0.0,54.83,7,7,False,False,10,0,1,No Prazo (SLA OK),54.83,0.0
-PED-001126,Norte,Eletrônicos,Total Express,933.94,61.85,83.94,8,10,False,False,7,2,0,Atraso Leve (1-2d),22.09,18.56
-PED-001127,Nordeste,Alimentos & Bebidas,Loggi Express,122.13,42.12,45.94,8,8,False,False,10,0,1,No Prazo (SLA OK),3.82,0.0
-PED-001128,Sudeste,Casa & Decoração,Jadlog Standard,218.75,0.0,20.31,3,3,False,False,10,0,1,No Prazo (SLA OK),20.31,0.0
-PED-001129,Sul,Alimentos & Bebidas,Jadlog Standard,155.64,22.27,29.93,6,6,False,True,10,0,1,No Prazo (SLA OK),7.66,0.0
-PED-001130,Sudeste,Moda & Vestuário,Loggi Express,195.2,12.76,16.64,3,3,False,True,10,0,1,No Prazo (SLA OK),3.88,0.0
-PED-001131,Sudeste,Eletrônicos,Total Express,728.25,0.0,22.69,4,4,False,True,10,0,1,No Prazo (SLA OK),22.69,0.0
-PED-001132,Sudeste,Beleza & Saúde,Jadlog Standard,148.62,13.43,18.27,2,2,False,False,10,0,1,No Prazo (SLA OK),4.84,0.0
-PED-001133,Sul,Moda & Vestuário,Loggi Express,220.37,0.0,33.89,4,4,False,False,10,0,1,No Prazo (SLA OK),33.89,0.0
-PED-001134,Nordeste,Eletrônicos,Loggi Express,968.41,34.38,44.8,7,9,False,False,7,2,0,Atraso Leve (1-2d),10.42,10.31
-PED-001135,Sudeste,Eletrônicos,Total Express,774.98,0.0,15.08,2,1,False,True,10,0,1,No Prazo (SLA OK),15.08,0.0
-PED-001136,Sudeste,Eletrônicos,Loggi Express,419.08,0.0,19.03,3,3,False,True,10,0,1,No Prazo (SLA OK),19.03,0.0
-PED-001137,Sudeste,Eletrônicos,Correios Sedex,949.76,0.0,20.2,2,1,False,True,10,0,1,No Prazo (SLA OK),20.2,0.0
-PED-001138,Sudeste,Moda & Vestuário,Jadlog Standard,288.44,0.0,15.25,2,2,False,True,10,0,1,No Prazo (SLA OK),15.25,0.0
-PED-001139,Sudeste,Casa & Decoração,Jadlog Standard,686.73,0.0,21.32,2,1,False,False,10,0,1,No Prazo (SLA OK),21.32,0.0
-PED-001140,Sudeste,Eletrônicos,Total Express,402.83,14.58,16.08,2,2,False,True,10,0,1,No Prazo (SLA OK),1.5,0.0
-PED-001141,Nordeste,Eletrônicos,Correios Sedex,703.43,0.0,43.17,7,7,False,False,10,0,1,No Prazo (SLA OK),43.17,0.0
-PED-001142,Sudeste,Beleza & Saúde,Jadlog Standard,49.9,12.12,14.24,3,2,False,False,10,0,1,No Prazo (SLA OK),2.12,0.0
-PED-001143,Sudeste,Eletrônicos,Total Express,771.69,0.0,24.78,3,3,False,False,10,0,1,No Prazo (SLA OK),24.78,0.0
-PED-001144,Sudeste,Moda & Vestuário,Total Express,157.11,16.17,23.5,3,3,False,False,10,0,1,No Prazo (SLA OK),7.33,0.0
-PED-001145,Centro-Oeste,Beleza & Saúde,Loggi Express,226.56,0.0,29.06,6,5,False,True,10,0,1,No Prazo (SLA OK),29.06,0.0
-PED-001146,Sul,Eletrônicos,Correios Sedex,479.58,0.0,30.9,4,4,False,True,10,0,1,No Prazo (SLA OK),30.9,0.0
-PED-001147,Sul,Eletrônicos,Correios Sedex,278.38,17.28,24.02,6,6,False,False,10,0,1,No Prazo (SLA OK),6.74,0.0
-PED-001148,Sudeste,Moda & Vestuário,Total Express,161.72,12.52,18.07,3,3,False,False,10,0,1,No Prazo (SLA OK),5.55,0.0
-PED-001149,Sul,Eletrônicos,Correios Sedex,215.39,0.0,26.94,6,6,False,True,10,0,1,No Prazo (SLA OK),26.94,0.0
-PED-001150,Sudeste,Moda & Vestuário,Correios Sedex,235.07,0.0,19.66,3,3,False,True,10,0,1,No Prazo (SLA OK),19.66,0.0
-PED-001151,Sul,Beleza & Saúde,Total Express,49.9,19.9,23.4,5,4,False,True,10,0,1,No Prazo (SLA OK),3.5,0.0
-PED-001152,Centro-Oeste,Eletrônicos,Correios Sedex,656.26,0.0,27.04,7,6,False,True,10,0,1,No Prazo (SLA OK),27.04,0.0
-PED-001153,Sul,Moda & Vestuário,Total Express,65.33,22.36,29.0,5,5,False,False,10,0,1,No Prazo (SLA OK),6.64,0.0
-PED-001154,Centro-Oeste,Moda & Vestuário,Total Express,170.78,24.16,35.12,5,5,False,False,10,0,1,No Prazo (SLA OK),10.96,0.0
-PED-001155,Nordeste,Eletrônicos,Total Express,1011.54,0.0,55.38,7,10,False,False,4,3,0,Atraso Crítico (3-5d),55.38,0.0
-PED-001156,Sudeste,Casa & Decoração,Correios Sedex,379.67,0.0,25.9,3,3,False,False,10,0,1,No Prazo (SLA OK),25.9,0.0
-PED-001157,Centro-Oeste,Eletrônicos,Loggi Express,460.03,22.16,33.47,7,7,False,False,10,0,1,No Prazo (SLA OK),11.31,0.0
-PED-001158,Sudeste,Moda & Vestuário,Correios Sedex,188.13,12.67,16.44,2,2,False,True,10,0,1,No Prazo (SLA OK),3.77,0.0
-PED-001159,Sul,Eletrônicos,Correios Sedex,653.96,0.0,27.54,6,6,False,False,10,0,1,No Prazo (SLA OK),27.54,0.0
-PED-001160,Sudeste,Moda & Vestuário,Loggi Express,218.36,0.0,21.03,3,3,False,False,10,0,1,No Prazo (SLA OK),21.03,0.0
-PED-001161,Sudeste,Eletrônicos,Correios Sedex,349.29,0.0,18.11,3,2,False,False,10,0,1,No Prazo (SLA OK),18.11,0.0
-PED-001162,Sudeste,Beleza & Saúde,Loggi Express,166.67,10.43,15.53,4,5,False,False,7,1,0,Atraso Leve (1-2d),5.1,3.13
-PED-001163,Sudeste,Eletrônicos,Jadlog Standard,55.03,14.89,17.62,4,4,False,False,10,0,1,No Prazo (SLA OK),2.73,0.0
-PED-001164,Sul,Moda & Vestuário,Correios Sedex,152.21,20.59,28.26,5,4,False,True,10,0,1,No Prazo (SLA OK),7.67,0.0
-PED-001165,Sul,Moda & Vestuário,Loggi Express,160.7,24.75,28.57,5,5,False,False,10,0,1,No Prazo (SLA OK),3.82,0.0
-PED-001166,Sudeste,Casa & Decoração,Correios Sedex,409.67,0.0,25.32,3,3,False,False,10,0,1,No Prazo (SLA OK),25.32,0.0
-PED-001167,Sudeste,Moda & Vestuário,Correios Sedex,191.36,19.46,21.01,3,3,False,True,10,0,1,No Prazo (SLA OK),1.55,0.0
-PED-001168,Sul,Casa & Decoração,Jadlog Standard,185.39,28.25,31.18,4,3,False,False,10,0,1,No Prazo (SLA OK),2.93,0.0
-PED-001169,Sudeste,Casa & Decoração,Loggi Express,231.65,0.0,24.52,2,2,False,False,10,0,1,No Prazo (SLA OK),24.52,0.0
-PED-001170,Nordeste,Beleza & Saúde,Jadlog Standard,148.94,50.94,60.13,8,8,False,True,10,0,1,No Prazo (SLA OK),9.19,0.0
-PED-001171,Sul,Eletrônicos,Total Express,632.61,17.97,22.72,5,5,False,False,10,0,1,No Prazo (SLA OK),4.75,0.0
-PED-001172,Nordeste,Moda & Vestuário,Mandaê Flex,155.25,42.36,53.31,6,6,False,True,10,0,1,No Prazo (SLA OK),10.95,0.0
-PED-001173,Nordeste,Beleza & Saúde,Total Express,118.36,26.77,40.0,6,5,False,False,10,0,1,No Prazo (SLA OK),13.23,0.0
-PED-001174,Sudeste,Alimentos & Bebidas,Loggi Express,171.33,17.21,21.46,3,3,False,True,10,0,1,No Prazo (SLA OK),4.25,0.0
-PED-001175,Sul,Beleza & Saúde,Total Express,116.7,29.86,35.78,6,8,False,False,7,2,0,Atraso Leve (1-2d),5.92,8.96
-PED-001176,Sudeste,Moda & Vestuário,Total Express,184.71,17.32,22.34,2,2,False,True,10,0,1,No Prazo (SLA OK),5.02,0.0
-PED-001177,Sudeste,Eletrônicos,Correios Sedex,1127.39,0.0,21.79,3,3,False,True,10,0,1,No Prazo (SLA OK),21.79,0.0
-PED-001178,Nordeste,Moda & Vestuário,Loggi Express,104.58,32.14,37.75,9,9,False,True,10,0,1,No Prazo (SLA OK),5.61,0.0
-PED-001179,Sudeste,Casa & Decoração,Correios Sedex,136.3,17.16,25.1,2,2,False,False,10,0,1,No Prazo (SLA OK),7.94,0.0
-PED-001180,Nordeste,Moda & Vestuário,Total Express,237.02,0.0,43.32,6,9,False,False,4,3,0,Atraso Crítico (3-5d),43.32,0.0
-PED-001181,Nordeste,Moda & Vestuário,Mandaê Flex,149.28,39.44,50.38,7,7,False,False,10,0,1,No Prazo (SLA OK),10.94,0.0
-PED-001182,Nordeste,Beleza & Saúde,Jadlog Standard,125.68,38.36,42.95,6,7,False,False,7,1,0,Atraso Leve (1-2d),4.59,11.51
-PED-001183,Centro-Oeste,Moda & Vestuário,Total Express,143.13,33.56,39.05,6,5,False,False,10,0,1,No Prazo (SLA OK),5.49,0.0
-PED-001184,Sudeste,Beleza & Saúde,Mandaê Flex,128.31,11.12,15.2,2,2,False,True,10,0,1,No Prazo (SLA OK),4.08,0.0
-PED-001185,Sudeste,Moda & Vestuário,Loggi Express,285.91,0.0,25.77,3,3,False,False,10,0,1,No Prazo (SLA OK),25.77,0.0
-PED-001186,Sul,Moda & Vestuário,Mandaê Flex,238.13,0.0,24.24,4,4,False,True,10,0,1,No Prazo (SLA OK),24.24,0.0
-PED-001187,Sudeste,Moda & Vestuário,Total Express,241.73,11.32,14.9,3,3,False,False,10,0,1,No Prazo (SLA OK),3.58,0.0
-PED-001188,Sul,Casa & Decoração,Loggi Express,184.22,30.23,34.49,6,6,False,False,10,0,1,No Prazo (SLA OK),4.26,0.0
-PED-001189,Nordeste,Eletrônicos,Jadlog Standard,396.75,0.0,51.55,8,9,False,False,7,1,0,Atraso Leve (1-2d),51.55,0.0
-PED-001190,Nordeste,Eletrônicos,Total Express,49.9,46.83,49.5,8,8,False,True,10,0,1,No Prazo (SLA OK),2.67,0.0
-PED-001191,Sudeste,Alimentos & Bebidas,Loggi Express,103.58,21.26,23.32,3,3,False,False,10,0,1,No Prazo (SLA OK),2.06,0.0
-PED-001192,Sudeste,Eletrônicos,Total Express,860.47,0.0,15.01,2,2,False,True,10,0,1,No Prazo (SLA OK),15.01,0.0
-PED-001193,Sudeste,Moda & Vestuário,Jadlog Standard,221.02,0.0,23.95,3,2,False,True,10,0,1,No Prazo (SLA OK),23.95,0.0
-PED-001194,Sudeste,Moda & Vestuário,Total Express,176.71,13.44,20.32,3,3,False,True,10,0,1,No Prazo (SLA OK),6.88,0.0
-PED-001195,Centro-Oeste,Moda & Vestuário,Loggi Express,188.66,28.52,40.9,6,6,False,False,10,0,1,No Prazo (SLA OK),12.38,0.0
-PED-001196,Sudeste,Casa & Decoração,Correios Sedex,264.22,0.0,21.12,3,2,False,False,10,0,1,No Prazo (SLA OK),21.12,0.0
-PED-001197,Sudeste,Eletrônicos,Mandaê Flex,695.05,0.0,25.76,2,2,False,True,10,0,1,No Prazo (SLA OK),25.76,0.0
-PED-001198,Sudeste,Moda & Vestuário,Mandaê Flex,235.95,0.0,16.06,2,2,False,True,10,0,1,No Prazo (SLA OK),16.06,0.0
-PED-001199,Sul,Moda & Vestuário,Correios Sedex,93.05,21.85,32.3,5,5,False,False,10,0,1,No Prazo (SLA OK),10.45,0.0
-PED-001200,Sul,Casa & Decoração,Loggi Express,372.96,0.0,28.23,6,10,False,False,4,4,0,Atraso Crítico (3-5d),28.23,0.0
+pedido_id,cliente_nome,regiao_destino,uf_destino,categoria_produto,transportadora,valor_pedido,valor_frete_cobrado,custo_frete_real,prazo_prometido_dias,prazo_real_dias,dias_atraso,status_entrega,recomprou_em_60_dias,nps_score,custo_estorno_indenizacao
+PED-00001,"Lucas Silva",Sul,SC,Alimentos & Bebidas,Jadlog Standard,219,23,32.36,4,3,0,No Prazo (SLA OK),0,10,0
+PED-00002,"Mariana Santos",Nordeste,RN,Beleza & Saúde,Mandaê Flex,295,0,56.96,9,13,4,Atraso Crítico (3-5d),0,5,0
+PED-00003,"Mariana Santos",Sudeste,SP,Alimentos & Bebidas,Correios Sedex,401,0,16.54,3,3,0,No Prazo (SLA OK),1,10,0
+PED-00004,"Vanessa Dias",Norte,PA,Eletrônicos,Total Express,864,71,79.54,8,10,2,Atraso Leve (1-2d),0,8,21.3
+PED-00005,"Mariana Santos",Nordeste,CE,Alimentos & Bebidas,Total Express,280,28,36.56,7,7,0,No Prazo (SLA OK),1,9,0
+PED-00006,"Renata Barbosa",Nordeste,BA,Casa & Decoração,Jadlog Standard,461,51,54.69,7,7,0,No Prazo (SLA OK),1,9,0
+PED-00007,"Fernanda Ribeiro",Sudeste,SP,Casa & Decoração,Correios Sedex,406,14,17.3,2,2,0,No Prazo (SLA OK),0,10,0
+PED-00008,"Vanessa Dias",Nordeste,PE,Eletrônicos,Mandaê Flex,475,0,57.36,8,22,14,Extraviado/Avaria,0,1,475
+PED-00009,"Fernanda Ribeiro",Sudeste,RJ,Eletrônicos,Total Express,862,0,14.66,4,4,0,No Prazo (SLA OK),0,10,0
+PED-00010,"Bruno Costa",Centro-Oeste,GO,Eletrônicos,Mandaê Flex,687,24,34.64,7,7,0,No Prazo (SLA OK),0,10,0
+PED-00011,"Larissa Gomes",Sudeste,RJ,Beleza & Saúde,Correios Sedex,463,14,17.12,4,4,0,No Prazo (SLA OK),1,10,0
+PED-00012,"Gabriel Oliveira",Sudeste,RJ,Moda & Vestuário,Loggi Express,499,13,14.8,4,3,0,No Prazo (SLA OK),0,9,0
+PED-00013,"Gustavo Vieira",Sul,SC,Alimentos & Bebidas,Mandaê Flex,330,27,32.08,6,6,0,No Prazo (SLA OK),0,9,0
+PED-00014,"Fernanda Ribeiro",Sudeste,RJ,Casa & Decoração,Loggi Express,616,0,22.68,2,2,0,No Prazo (SLA OK),1,10,0
+PED-00015,"Matheus Rodrigues",Nordeste,RN,Eletrônicos,Correios Sedex,789,35,49.02,6,5,0,No Prazo (SLA OK),1,10,0
+PED-00016,"Rodrigo Alves",Nordeste,PE,Beleza & Saúde,Total Express,163,32,38.35,9,9,0,No Prazo (SLA OK),1,10,0
+PED-00017,"Mariana Santos",Sudeste,SP,Eletrônicos,Correios Sedex,849,0,21.26,2,1,0,No Prazo (SLA OK),1,10,0
+PED-00018,"Juliana Souza",Sudeste,ES,Moda & Vestuário,Jadlog Standard,409,0,25.94,4,4,0,No Prazo (SLA OK),0,10,0
+PED-00019,"Fernanda Ribeiro",Sudeste,SP,Alimentos & Bebidas,Loggi Express,353,21,24.56,4,3,0,No Prazo (SLA OK),1,9,0
+PED-00020,"Rodrigo Alves",Centro-Oeste,MT,Beleza & Saúde,Mandaê Flex,538,0,36.54,5,5,0,No Prazo (SLA OK),1,9,0
+PED-00021,"Thiago Almeida",Sudeste,MG,Casa & Decoração,Correios Sedex,279,19,23.7,2,2,0,No Prazo (SLA OK),0,9,0
+PED-00022,"Felipe Lima",Centro-Oeste,GO,Alimentos & Bebidas,Total Express,340,0,28.11,6,6,0,No Prazo (SLA OK),0,10,0
+PED-00023,"Camila Pereira",Sul,SC,Moda & Vestuário,Loggi Express,232,18,25.29,6,12,6,Falha Grave (>5d),0,1,52.8
+PED-00024,"Mariana Santos",Nordeste,CE,Beleza & Saúde,Jadlog Standard,220,35,37.65,6,8,2,Atraso Leve (1-2d),1,7,10.5
+PED-00025,"Rodrigo Alves",Sudeste,MG,Eletrônicos,Jadlog Standard,617,0,14.39,3,3,0,No Prazo (SLA OK),0,10,0
+PED-00026,"Marcelo Nascimento",Centro-Oeste,DF,Alimentos & Bebidas,Mandaê Flex,172,26,33.56,7,7,0,No Prazo (SLA OK),1,10,0
+PED-00027,"Juliana Souza",Nordeste,PE,Alimentos & Bebidas,Total Express,196,36,52.28,6,8,2,Atraso Leve (1-2d),0,8,10.8
+PED-00028,"Matheus Rodrigues",Sudeste,SP,Alimentos & Bebidas,Mandaê Flex,163,21,24.15,2,2,0,No Prazo (SLA OK),1,10,0
+PED-00029,"Renata Barbosa",Sudeste,SP,Beleza & Saúde,Correios Sedex,354,0,14.52,4,4,0,No Prazo (SLA OK),0,10,0
+PED-00030,"Juliana Souza",Sudeste,MG,Casa & Decoração,Loggi Express,699,0,23.15,2,2,0,No Prazo (SLA OK),1,10,0
+PED-00031,"Gustavo Vieira",Sudeste,RJ,Eletrônicos,Total Express,712,0,21.85,4,4,0,No Prazo (SLA OK),1,10,0
+PED-00032,"André Ramos",Centro-Oeste,GO,Casa & Decoração,Mandaê Flex,369,0,35.12,5,5,0,No Prazo (SLA OK),0,9,0
+PED-00033,"Carolina Lopes",Sul,PR,Moda & Vestuário,Loggi Express,546,24,30.51,5,5,0,No Prazo (SLA OK),0,10,0
+PED-00034,"Bruna Fernandes",Centro-Oeste,MS,Alimentos & Bebidas,Mandaê Flex,171,23,30.35,7,7,0,No Prazo (SLA OK),0,10,0
+PED-00035,"Matheus Rodrigues",Centro-Oeste,DF,Casa & Decoração,Loggi Express,394,0,33.8,5,5,0,No Prazo (SLA OK),0,9,0
+PED-00036,"Thiago Almeida",Sudeste,RJ,Alimentos & Bebidas,Jadlog Standard,313,0,18.19,2,2,0,No Prazo (SLA OK),1,10,0
+PED-00037,"Thiago Almeida",Sudeste,ES,Casa & Decoração,Loggi Express,556,0,22.26,2,2,0,No Prazo (SLA OK),1,10,0
+PED-00038,"Bruno Costa",Sudeste,ES,Eletrônicos,Correios Sedex,562,0,17.94,2,2,0,No Prazo (SLA OK),1,10,0
+PED-00039,"Thiago Almeida",Sul,RS,Casa & Decoração,Correios Sedex,504,25,31.78,5,19,14,Extraviado/Avaria,0,1,529
+PED-00040,"Matheus Rodrigues",Sul,PR,Moda & Vestuário,Correios Sedex,394,0,27.27,5,4,0,No Prazo (SLA OK),1,10,0
+PED-00041,"Rodrigo Alves",Sudeste,RJ,Casa & Decoração,Loggi Express,375,14,20.18,4,4,0,No Prazo (SLA OK),0,10,0
+PED-00042,"Matheus Rodrigues",Sudeste,ES,Beleza & Saúde,Correios Sedex,282,0,16.18,2,1,0,No Prazo (SLA OK),0,10,0
+PED-00043,"Bruno Costa",Sudeste,RJ,Alimentos & Bebidas,Jadlog Standard,308,0,24.73,2,2,0,No Prazo (SLA OK),0,10,0
+PED-00044,"Gustavo Vieira",Sudeste,ES,Alimentos & Bebidas,Loggi Express,461,18,19.33,4,4,0,No Prazo (SLA OK),0,9,0
+PED-00045,"Beatriz Ferreira",Centro-Oeste,MT,Beleza & Saúde,Loggi Express,311,0,36.33,7,7,0,No Prazo (SLA OK),0,10,0
+PED-00046,"Camila Pereira",Sudeste,RJ,Casa & Decoração,Correios Sedex,702,0,15.02,2,2,0,No Prazo (SLA OK),0,10,0
+PED-00047,"Juliana Souza",Nordeste,PE,Alimentos & Bebidas,Jadlog Standard,478,0,47.99,6,10,4,Atraso Crítico (3-5d),0,5,0
+PED-00048,"Bruna Fernandes",Sudeste,MG,Alimentos & Bebidas,Mandaê Flex,536,0,18.95,2,1,0,No Prazo (SLA OK),1,10,0
+PED-00049,"Thiago Almeida",Sul,RS,Alimentos & Bebidas,Correios Sedex,391,0,27.76,6,6,0,No Prazo (SLA OK),1,10,0
+PED-00050,"Renata Barbosa",Sudeste,ES,Beleza & Saúde,Total Express,467,0,22.91,2,2,0,No Prazo (SLA OK),1,10,0
+PED-00051,"Juliana Souza",Sudeste,RJ,Moda & Vestuário,Correios Sedex,224,0,15.59,2,2,0,No Prazo (SLA OK),0,10,0
+PED-00052,"Larissa Gomes",Nordeste,RN,Alimentos & Bebidas,Mandaê Flex,276,0,51.1,8,8,0,No Prazo (SLA OK),1,9,0
+PED-00053,"Guilherme Martins",Nordeste,RN,Moda & Vestuário,Jadlog Standard,263,0,47.25,7,6,0,No Prazo (SLA OK),0,10,0
+PED-00054,"Guilherme Martins",Sul,PR,Alimentos & Bebidas,Correios Sedex,501,24,33.33,4,4,0,No Prazo (SLA OK),0,9,0
+PED-00055,"Felipe Lima",Centro-Oeste,DF,Moda & Vestuário,Mandaê Flex,524,0,42.04,7,7,0,No Prazo (SLA OK),0,9,0
+PED-00056,"André Ramos",Sudeste,SP,Alimentos & Bebidas,Total Express,405,20,20.93,2,2,0,No Prazo (SLA OK),1,10,0
+PED-00057,"Gustavo Vieira",Sul,PR,Beleza & Saúde,Total Express,464,19,23.31,6,6,0,No Prazo (SLA OK),0,10,0
+PED-00058,"Vanessa Dias",Sudeste,SP,Beleza & Saúde,Mandaê Flex,240,0,19.7,2,7,5,Atraso Crítico (3-5d),0,5,0
+PED-00059,"Bruna Fernandes",Nordeste,MA,Eletrônicos,Total Express,724,0,42.8,7,7,0,No Prazo (SLA OK),1,9,0
+PED-00060,"Juliana Souza",Nordeste,CE,Eletrônicos,Correios Sedex,876,0,45.04,7,6,0,No Prazo (SLA OK),1,10,0
+PED-00061,"Vanessa Dias",Sudeste,RJ,Alimentos & Bebidas,Mandaê Flex,177,22,24.56,2,1,0,No Prazo (SLA OK),0,9,0
+PED-00062,"Gabriel Oliveira",Nordeste,CE,Casa & Decoração,Loggi Express,662,0,48.25,6,5,0,No Prazo (SLA OK),1,9,0
+PED-00063,"Gabriel Oliveira",Sudeste,SP,Casa & Decoração,Loggi Express,432,0,21.96,4,4,0,No Prazo (SLA OK),1,9,0
+PED-00064,"Guilherme Martins",Centro-Oeste,MS,Beleza & Saúde,Jadlog Standard,241,27,36.82,6,6,0,No Prazo (SLA OK),1,9,0
+PED-00065,"Vanessa Dias",Sul,PR,Eletrônicos,Correios Sedex,567,0,29.95,5,4,0,No Prazo (SLA OK),0,10,0
+PED-00066,"Matheus Rodrigues",Sudeste,RJ,Eletrônicos,Jadlog Standard,693,0,25.07,4,4,0,No Prazo (SLA OK),0,10,0
+PED-00067,"Amanda Carvalho",Sudeste,ES,Moda & Vestuário,Jadlog Standard,505,0,24.5,4,4,0,No Prazo (SLA OK),1,9,0
+PED-00068,"Guilherme Martins",Centro-Oeste,MS,Beleza & Saúde,Loggi Express,292,29,37.1,5,5,0,No Prazo (SLA OK),1,10,0
+PED-00069,"Matheus Rodrigues",Nordeste,CE,Casa & Decoração,Jadlog Standard,490,0,45.69,9,12,3,Atraso Crítico (3-5d),1,5,0
+PED-00070,"Bruna Fernandes",Nordeste,MA,Casa & Decoração,Jadlog Standard,623,0,42.25,8,8,0,No Prazo (SLA OK),0,9,0
+PED-00071,"Mariana Santos",Sul,PR,Eletrônicos,Mandaê Flex,663,24,27.84,5,5,0,No Prazo (SLA OK),1,9,0
+PED-00072,"Lucas Silva",Nordeste,CE,Eletrônicos,Total Express,806,43,57.77,6,6,0,No Prazo (SLA OK),0,10,0
+PED-00073,"Guilherme Martins",Sudeste,MG,Moda & Vestuário,Jadlog Standard,402,0,24.69,3,3,0,No Prazo (SLA OK),0,10,0
+PED-00074,"Gustavo Vieira",Sul,SC,Alimentos & Bebidas,Correios Sedex,168,20,28.5,5,4,0,No Prazo (SLA OK),1,10,0
+PED-00075,"Marcelo Nascimento",Centro-Oeste,MS,Moda & Vestuário,Loggi Express,244,27,33.38,5,10,5,Atraso Crítico (3-5d),0,5,27
+PED-00076,"Amanda Carvalho",Centro-Oeste,DF,Alimentos & Bebidas,Loggi Express,191,24,35.78,7,6,0,No Prazo (SLA OK),0,10,0
+PED-00077,"Rodrigo Alves",Sudeste,ES,Moda & Vestuário,Correios Sedex,183,12,16.07,2,1,0,No Prazo (SLA OK),1,10,0
+PED-00078,"Bruno Costa",Sul,PR,Beleza & Saúde,Loggi Express,395,0,33.2,6,6,0,No Prazo (SLA OK),1,9,0
+PED-00079,"Bruno Costa",Norte,AM,Casa & Decoração,Mandaê Flex,298,0,72.27,8,7,0,No Prazo (SLA OK),0,10,0
+PED-00080,"Carolina Lopes",Sudeste,ES,Beleza & Saúde,Total Express,460,0,24.32,2,1,0,No Prazo (SLA OK),0,10,0
+PED-00081,"Amanda Carvalho",Nordeste,CE,Eletrônicos,Loggi Express,857,0,43.26,9,9,0,No Prazo (SLA OK),1,10,0
+PED-00082,"Guilherme Martins",Sul,PR,Moda & Vestuário,Correios Sedex,116,24,34.56,5,4,0,No Prazo (SLA OK),0,10,0
+PED-00083,"Felipe Lima",Sul,SC,Eletrônicos,Loggi Express,786,0,35.34,6,6,0,No Prazo (SLA OK),0,10,0
+PED-00084,"Bruna Fernandes",Sudeste,SP,Casa & Decoração,Jadlog Standard,514,0,21.28,2,1,0,No Prazo (SLA OK),0,10,0
+PED-00085,"Larissa Gomes",Nordeste,RN,Alimentos & Bebidas,Mandaê Flex,217,0,37.49,9,8,0,No Prazo (SLA OK),0,9,0
+PED-00086,"Renata Barbosa",Sul,PR,Alimentos & Bebidas,Jadlog Standard,507,17,23.3,5,4,0,No Prazo (SLA OK),1,10,0
+PED-00087,"Renata Barbosa",Sul,PR,Casa & Decoração,Total Express,674,0,23.07,5,5,0,No Prazo (SLA OK),1,10,0
+PED-00088,"Gabriel Oliveira",Nordeste,PE,Moda & Vestuário,Loggi Express,508,0,37.81,6,6,0,No Prazo (SLA OK),1,10,0
+PED-00089,"Gustavo Vieira",Nordeste,RN,Alimentos & Bebidas,Jadlog Standard,410,0,43.93,7,6,0,No Prazo (SLA OK),0,10,0
+PED-00090,"Amanda Carvalho",Nordeste,PE,Casa & Decoração,Mandaê Flex,613,0,53.8,7,9,2,Atraso Leve (1-2d),0,8,0
+PED-00091,"André Ramos",Sul,SC,Eletrônicos,Total Express,825,0,34.78,5,5,0,No Prazo (SLA OK),1,10,0
+PED-00092,"Juliana Souza",Sul,RS,Eletrônicos,Total Express,713,23,29.21,5,5,0,No Prazo (SLA OK),1,10,0
+PED-00093,"Rodrigo Alves",Sul,PR,Moda & Vestuário,Loggi Express,501,23,24.26,5,5,0,No Prazo (SLA OK),1,9,0
+PED-00094,"Carolina Lopes",Sudeste,MG,Alimentos & Bebidas,Mandaê Flex,262,14,16.24,2,1,0,No Prazo (SLA OK),1,10,0
+PED-00095,"Matheus Rodrigues",Sudeste,RJ,Eletrônicos,Mandaê Flex,638,0,14.02,3,7,4,Atraso Crítico (3-5d),0,5,0
+PED-00096,"Camila Pereira",Sudeste,SP,Alimentos & Bebidas,Total Express,234,0,17.33,2,2,0,No Prazo (SLA OK),1,10,0
+PED-00097,"Marcelo Nascimento",Sudeste,RJ,Beleza & Saúde,Mandaê Flex,423,0,22.62,4,3,0,No Prazo (SLA OK),1,10,0
+PED-00098,"Lucas Silva",Sudeste,RJ,Alimentos & Bebidas,Mandaê Flex,197,14,16.87,2,1,0,No Prazo (SLA OK),0,10,0
+PED-00099,"Gabriel Oliveira",Nordeste,CE,Moda & Vestuário,Correios Sedex,407,0,37.62,8,8,0,No Prazo (SLA OK),0,10,0
+PED-00100,"Rafael Soares",Centro-Oeste,GO,Beleza & Saúde,Loggi Express,268,0,41.36,5,4,0,No Prazo (SLA OK),0,10,0
+PED-00101,"Bruno Costa",Nordeste,CE,Eletrônicos,Mandaê Flex,451,28,42.39,9,9,0,No Prazo (SLA OK),1,9,0
+PED-00102,"Bruna Fernandes",Nordeste,PE,Alimentos & Bebidas,Total Express,379,30,43.27,6,6,0,No Prazo (SLA OK),1,10,0
+PED-00103,"Felipe Lima",Sul,RS,Casa & Decoração,Jadlog Standard,617,20,28.78,6,5,0,No Prazo (SLA OK),0,9,0
+PED-00104,"Juliana Souza",Centro-Oeste,GO,Casa & Decoração,Mandaê Flex,497,0,40.48,5,5,0,No Prazo (SLA OK),0,10,0
+PED-00105,"Bruno Costa",Nordeste,MA,Moda & Vestuário,Loggi Express,404,46,51.82,7,7,0,No Prazo (SLA OK),0,9,0
+PED-00106,"Leonardo Rocha",Sudeste,SP,Casa & Decoração,Total Express,718,16,18.83,3,3,0,No Prazo (SLA OK),1,10,0
+PED-00107,"Rafael Soares",Norte,PA,Beleza & Saúde,Mandaê Flex,263,0,91.71,10,10,0,No Prazo (SLA OK),0,9,0
+PED-00108,"Carolina Lopes",Nordeste,RN,Moda & Vestuário,Correios Sedex,199,0,38.28,6,5,0,No Prazo (SLA OK),1,10,0
+PED-00109,"Felipe Lima",Nordeste,CE,Eletrônicos,Correios Sedex,705,0,46.37,6,6,0,No Prazo (SLA OK),0,10,0
+PED-00110,"Thiago Almeida",Sul,SC,Moda & Vestuário,Mandaê Flex,219,24,25.05,4,4,0,No Prazo (SLA OK),0,10,0
+PED-00111,"Vanessa Dias",Sudeste,ES,Moda & Vestuário,Jadlog Standard,254,0,25.57,4,4,0,No Prazo (SLA OK),1,10,0
+PED-00112,"Bruna Fernandes",Norte,TO,Alimentos & Bebidas,Mandaê Flex,300,49,68.2,10,15,5,Atraso Crítico (3-5d),1,5,49
+PED-00113,"Larissa Gomes",Sudeste,ES,Eletrônicos,Jadlog Standard,892,0,25.59,3,3,0,No Prazo (SLA OK),0,9,0
+PED-00114,"Gabriel Oliveira",Nordeste,BA,Casa & Decoração,Total Express,451,43,47.75,7,7,0,No Prazo (SLA OK),1,10,0
+PED-00115,"Carolina Lopes",Centro-Oeste,MT,Casa & Decoração,Mandaê Flex,298,0,36.78,7,7,0,No Prazo (SLA OK),0,10,0
+PED-00116,"Leonardo Rocha",Sudeste,ES,Casa & Decoração,Loggi Express,619,0,21,4,4,0,No Prazo (SLA OK),0,10,0
+PED-00117,"Amanda Carvalho",Centro-Oeste,MS,Moda & Vestuário,Jadlog Standard,530,0,37.53,5,4,0,No Prazo (SLA OK),1,10,0
+PED-00118,"Bruna Fernandes",Sudeste,MG,Casa & Decoração,Loggi Express,443,0,23.87,3,3,0,No Prazo (SLA OK),1,9,0
+PED-00119,"André Ramos",Centro-Oeste,DF,Alimentos & Bebidas,Mandaê Flex,395,0,36.08,7,7,0,No Prazo (SLA OK),0,10,0
+PED-00120,"Vanessa Dias",Sudeste,RJ,Beleza & Saúde,Loggi Express,515,0,15.4,3,2,0,No Prazo (SLA OK),0,10,0
+PED-00121,"Lucas Silva",Centro-Oeste,MT,Casa & Decoração,Correios Sedex,541,24,35.45,7,7,0,No Prazo (SLA OK),0,9,0
+PED-00122,"Renata Barbosa",Sudeste,MG,Eletrônicos,Loggi Express,782,0,14.49,4,4,0,No Prazo (SLA OK),0,10,0
+PED-00123,"Marcelo Nascimento",Nordeste,MA,Beleza & Saúde,Mandaê Flex,461,30,45.22,7,9,2,Atraso Leve (1-2d),1,8,9
+PED-00124,"Patrícia Andrade",Nordeste,MA,Moda & Vestuário,Mandaê Flex,538,0,49.07,9,9,0,No Prazo (SLA OK),0,10,0
+PED-00125,"Amanda Carvalho",Sudeste,RJ,Moda & Vestuário,Mandaê Flex,255,0,18.06,3,3,0,No Prazo (SLA OK),0,10,0
+PED-00126,"Rodrigo Alves",Sudeste,RJ,Beleza & Saúde,Correios Sedex,285,0,16.77,2,1,0,No Prazo (SLA OK),1,10,0
+PED-00127,"Renata Barbosa",Nordeste,MA,Casa & Decoração,Mandaê Flex,597,0,58.04,7,7,0,No Prazo (SLA OK),1,10,0
+PED-00128,"Marcelo Nascimento",Sudeste,RJ,Casa & Decoração,Jadlog Standard,432,0,21.53,2,2,0,No Prazo (SLA OK),1,10,0
+PED-00129,"Thiago Almeida",Nordeste,PE,Beleza & Saúde,Total Express,102,38,48.47,6,10,4,Atraso Crítico (3-5d),0,5,38
+PED-00130,"Patrícia Andrade",Nordeste,BA,Beleza & Saúde,Loggi Express,282,0,49.75,8,8,0,No Prazo (SLA OK),1,10,0
+PED-00131,"Beatriz Ferreira",Nordeste,BA,Alimentos & Bebidas,Correios Sedex,149,49,57.53,8,13,5,Atraso Crítico (3-5d),1,5,49
+PED-00132,"Patrícia Andrade",Sul,PR,Moda & Vestuário,Mandaê Flex,268,29,34.6,6,11,5,Atraso Crítico (3-5d),1,4,29
+PED-00133,"André Ramos",Sudeste,SP,Casa & Decoração,Jadlog Standard,354,14,17.27,3,3,0,No Prazo (SLA OK),0,10,0
+PED-00134,"Larissa Gomes",Centro-Oeste,MT,Moda & Vestuário,Loggi Express,190,30,36.29,7,6,0,No Prazo (SLA OK),0,10,0
+PED-00135,"Patrícia Andrade",Sudeste,SP,Alimentos & Bebidas,Total Express,128,17,21.6,2,7,5,Atraso Crítico (3-5d),0,4,17
+PED-00136,"Fernanda Ribeiro",Nordeste,CE,Eletrônicos,Total Express,645,0,55.65,8,8,0,No Prazo (SLA OK),1,10,0
+PED-00137,"Thiago Almeida",Sudeste,SP,Moda & Vestuário,Jadlog Standard,176,17,23.5,4,4,0,No Prazo (SLA OK),1,9,0
+PED-00138,"Rodrigo Alves",Sul,PR,Casa & Decoração,Loggi Express,483,0,25,6,6,0,No Prazo (SLA OK),1,10,0
+PED-00139,"Leonardo Rocha",Sudeste,SP,Beleza & Saúde,Loggi Express,386,0,16.46,2,1,0,No Prazo (SLA OK),1,9,0
+PED-00140,"Beatriz Ferreira",Sul,PR,Beleza & Saúde,Loggi Express,167,19,22.86,4,4,0,No Prazo (SLA OK),1,10,0
+PED-00141,"Felipe Lima",Sul,RS,Alimentos & Bebidas,Loggi Express,245,15,22.85,4,3,0,No Prazo (SLA OK),0,10,0
+PED-00142,"Matheus Rodrigues",Sudeste,RJ,Alimentos & Bebidas,Mandaê Flex,179,18,25.41,3,2,0,No Prazo (SLA OK),0,10,0
+PED-00143,"Guilherme Martins",Sul,RS,Alimentos & Bebidas,Total Express,497,25,27.55,6,6,0,No Prazo (SLA OK),0,10,0
+PED-00144,"Patrícia Andrade",Sudeste,SP,Beleza & Saúde,Jadlog Standard,425,0,15.44,3,2,0,No Prazo (SLA OK),0,10,0
+PED-00145,"Gustavo Vieira",Sudeste,ES,Casa & Decoração,Loggi Express,711,11,14.75,2,2,0,No Prazo (SLA OK),1,10,0
+PED-00146,"Leonardo Rocha",Sul,RS,Moda & Vestuário,Correios Sedex,269,17,24.92,5,5,0,No Prazo (SLA OK),0,10,0
+PED-00147,"Rodrigo Alves",Sul,SC,Casa & Decoração,Total Express,674,0,23.08,4,4,0,No Prazo (SLA OK),0,10,0
+PED-00148,"Felipe Lima",Sul,PR,Alimentos & Bebidas,Total Express,362,17,22.1,6,5,0,No Prazo (SLA OK),0,10,0
+PED-00149,"Beatriz Ferreira",Sudeste,RJ,Casa & Decoração,Total Express,610,16,23.12,4,4,0,No Prazo (SLA OK),0,10,0
+PED-00150,"Amanda Carvalho",Sudeste,MG,Beleza & Saúde,Mandaê Flex,465,23,25.22,2,2,0,No Prazo (SLA OK),1,9,0
+PED-00151,"Camila Pereira",Sul,PR,Alimentos & Bebidas,Mandaê Flex,309,0,31.76,6,6,0,No Prazo (SLA OK),1,9,0
+PED-00152,"Amanda Carvalho",Sudeste,RJ,Alimentos & Bebidas,Total Express,170,22,24.84,3,2,0,No Prazo (SLA OK),0,10,0
+PED-00153,"Bruna Fernandes",Sul,SC,Beleza & Saúde,Total Express,483,21,29.71,6,6,0,No Prazo (SLA OK),1,9,0
+PED-00154,"Leonardo Rocha",Sudeste,RJ,Eletrônicos,Correios Sedex,648,0,19.36,4,4,0,No Prazo (SLA OK),1,10,0
+PED-00155,"Rodrigo Alves",Sudeste,ES,Moda & Vestuário,Total Express,445,0,22.76,3,3,0,No Prazo (SLA OK),1,9,0
+PED-00156,"Rafael Soares",Sudeste,MG,Moda & Vestuário,Loggi Express,116,23,25.29,4,4,0,No Prazo (SLA OK),1,10,0
+PED-00157,"Felipe Lima",Sul,SC,Moda & Vestuário,Correios Sedex,233,0,26.87,4,4,0,No Prazo (SLA OK),1,10,0
+PED-00158,"Amanda Carvalho",Nordeste,MA,Eletrônicos,Loggi Express,519,38,53.32,8,10,2,Atraso Leve (1-2d),1,8,11.4
+PED-00159,"Juliana Souza",Centro-Oeste,MT,Casa & Decoração,Jadlog Standard,481,0,31.74,7,7,0,No Prazo (SLA OK),0,10,0
+PED-00160,"Bruno Costa",Nordeste,MA,Casa & Decoração,Correios Sedex,641,0,50.94,9,8,0,No Prazo (SLA OK),1,10,0
+PED-00161,"Guilherme Martins",Norte,RO,Moda & Vestuário,Correios Sedex,506,0,80.43,10,9,0,No Prazo (SLA OK),0,10,0
+PED-00162,"Leonardo Rocha",Norte,RO,Casa & Decoração,Jadlog Standard,585,0,87.46,9,9,0,No Prazo (SLA OK),1,9,0
+PED-00163,"Amanda Carvalho",Sudeste,ES,Alimentos & Bebidas,Loggi Express,116,16,19.38,3,3,0,No Prazo (SLA OK),1,10,0
+PED-00164,"Patrícia Andrade",Nordeste,BA,Beleza & Saúde,Mandaê Flex,190,26,37.91,8,7,0,No Prazo (SLA OK),1,10,0
+PED-00165,"Thiago Almeida",Sudeste,RJ,Moda & Vestuário,Loggi Express,217,0,20.22,4,4,0,No Prazo (SLA OK),1,10,0
+PED-00166,"Rafael Soares",Sudeste,SP,Eletrônicos,Total Express,465,0,18.37,2,2,0,No Prazo (SLA OK),1,10,0
+PED-00167,"Gustavo Vieira",Nordeste,PE,Moda & Vestuário,Loggi Express,310,0,55.66,8,13,5,Atraso Crítico (3-5d),0,5,0
+PED-00168,"André Ramos",Sudeste,SP,Alimentos & Bebidas,Correios Sedex,474,18,25.56,3,2,0,No Prazo (SLA OK),0,10,0
+PED-00169,"Camila Pereira",Sudeste,MG,Casa & Decoração,Jadlog Standard,718,0,19.42,2,4,2,Atraso Leve (1-2d),0,8,0
+PED-00170,"Bruna Fernandes",Nordeste,RN,Eletrônicos,Mandaê Flex,695,34,43.33,7,7,0,No Prazo (SLA OK),0,10,0
+PED-00171,"Renata Barbosa",Nordeste,MA,Eletrônicos,Mandaê Flex,539,0,47.16,9,15,6,Falha Grave (>5d),0,1,80.85
+PED-00172,"Mariana Santos",Nordeste,BA,Beleza & Saúde,Correios Sedex,236,0,53.45,7,7,0,No Prazo (SLA OK),0,10,0
+PED-00173,"Amanda Carvalho",Sudeste,ES,Alimentos & Bebidas,Correios Sedex,484,16,23.25,4,4,0,No Prazo (SLA OK),0,10,0
+PED-00174,"Larissa Gomes",Sudeste,RJ,Casa & Decoração,Jadlog Standard,422,0,22.66,4,4,0,No Prazo (SLA OK),0,9,0
+PED-00175,"Matheus Rodrigues",Nordeste,MA,Beleza & Saúde,Loggi Express,125,36,49.63,6,5,0,No Prazo (SLA OK),1,10,0
+PED-00176,"Juliana Souza",Sudeste,MG,Moda & Vestuário,Loggi Express,471,0,19.61,2,4,2,Atraso Leve (1-2d),0,7,0
+PED-00177,"Matheus Rodrigues",Sul,RS,Eletrônicos,Loggi Express,487,0,24.88,5,5,0,No Prazo (SLA OK),0,10,0
+PED-00178,"Marcelo Nascimento",Sul,SC,Alimentos & Bebidas,Mandaê Flex,157,21,27.99,6,6,0,No Prazo (SLA OK),1,10,0
+PED-00179,"Bruno Costa",Sudeste,SP,Moda & Vestuário,Correios Sedex,520,17,20.5,4,3,0,No Prazo (SLA OK),0,10,0
+PED-00180,"Beatriz Ferreira",Sudeste,SP,Casa & Decoração,Mandaê Flex,660,0,20.34,4,3,0,No Prazo (SLA OK),1,10,0
+PED-00181,"Matheus Rodrigues",Sudeste,ES,Eletrônicos,Total Express,595,19,25.23,2,2,0,No Prazo (SLA OK),1,9,0
+PED-00182,"Lucas Silva",Sudeste,RJ,Alimentos & Bebidas,Jadlog Standard,374,0,17.21,3,3,0,No Prazo (SLA OK),1,10,0
+PED-00183,"Lucas Silva",Nordeste,PE,Eletrônicos,Loggi Express,746,0,38.16,8,8,0,No Prazo (SLA OK),1,10,0
+PED-00184,"Marcelo Nascimento",Sudeste,RJ,Casa & Decoração,Total Express,442,0,24.96,4,3,0,No Prazo (SLA OK),0,9,0
+PED-00185,"Rafael Soares",Nordeste,PE,Beleza & Saúde,Total Express,496,0,35.13,8,8,0,No Prazo (SLA OK),0,9,0
+PED-00186,"Gabriel Oliveira",Sudeste,MG,Moda & Vestuário,Total Express,188,16,17.48,4,4,0,No Prazo (SLA OK),0,10,0
+PED-00187,"Patrícia Andrade",Sul,SC,Beleza & Saúde,Correios Sedex,477,0,32.28,5,5,0,No Prazo (SLA OK),1,9,0
+PED-00188,"Carolina Lopes",Sudeste,SP,Alimentos & Bebidas,Mandaê Flex,105,20,24.38,4,3,0,No Prazo (SLA OK),0,10,0
+PED-00189,"Carolina Lopes",Nordeste,BA,Alimentos & Bebidas,Loggi Express,130,45,55.35,6,5,0,No Prazo (SLA OK),1,9,0
+PED-00190,"Fernanda Ribeiro",Centro-Oeste,MS,Moda & Vestuário,Loggi Express,414,0,36.38,7,7,0,No Prazo (SLA OK),1,10,0
+PED-00191,"Patrícia Andrade",Sudeste,SP,Eletrônicos,Total Express,811,17,21.88,4,4,0,No Prazo (SLA OK),1,10,0
+PED-00192,"Carolina Lopes",Sul,PR,Moda & Vestuário,Mandaê Flex,351,0,35.04,5,5,0,No Prazo (SLA OK),1,10,0
+PED-00193,"Larissa Gomes",Sudeste,RJ,Eletrônicos,Correios Sedex,583,20,21.51,4,4,0,No Prazo (SLA OK),1,10,0
+PED-00194,"Juliana Souza",Norte,AM,Beleza & Saúde,Loggi Express,542,58,64.64,11,11,0,No Prazo (SLA OK),0,10,0
+PED-00195,"Marcelo Nascimento",Nordeste,RN,Alimentos & Bebidas,Total Express,315,0,37.52,7,7,0,No Prazo (SLA OK),0,10,0
+PED-00196,"Gustavo Vieira",Nordeste,PE,Beleza & Saúde,Total Express,307,49,53.21,6,6,0,No Prazo (SLA OK),0,10,0
+PED-00197,"Gabriel Oliveira",Sudeste,RJ,Beleza & Saúde,Correios Sedex,511,14,14.94,3,3,0,No Prazo (SLA OK),1,10,0
+PED-00198,"Rodrigo Alves",Sul,SC,Beleza & Saúde,Mandaê Flex,388,21,25.13,5,5,0,No Prazo (SLA OK),0,10,0
+PED-00199,"Vanessa Dias",Norte,TO,Moda & Vestuário,Jadlog Standard,204,0,82.26,12,16,4,Atraso Crítico (3-5d),0,4,0
+PED-00200,"Mariana Santos",Sudeste,MG,Beleza & Saúde,Jadlog Standard,167,16,19.72,3,3,0,No Prazo (SLA OK),0,10,0
+PED-00201,"Guilherme Martins",Sudeste,ES,Casa & Decoração,Correios Sedex,619,0,21.5,4,4,0,No Prazo (SLA OK),1,9,0
+PED-00202,"Fernanda Ribeiro",Nordeste,CE,Eletrônicos,Jadlog Standard,795,0,51.09,8,7,0,No Prazo (SLA OK),0,10,0
+PED-00203,"Amanda Carvalho",Sul,RS,Casa & Decoração,Loggi Express,478,0,29.64,5,4,0,No Prazo (SLA OK),1,10,0
+PED-00204,"Camila Pereira",Centro-Oeste,MS,Alimentos & Bebidas,Jadlog Standard,373,33,39.63,5,5,0,No Prazo (SLA OK),1,10,0
+PED-00205,"Beatriz Ferreira",Sudeste,ES,Moda & Vestuário,Mandaê Flex,365,0,25.47,4,3,0,No Prazo (SLA OK),0,10,0
+PED-00206,"Larissa Gomes",Centro-Oeste,MT,Moda & Vestuário,Total Express,393,31,42.26,6,5,0,No Prazo (SLA OK),0,10,0
+PED-00207,"Bruno Costa",Sudeste,MG,Alimentos & Bebidas,Mandaê Flex,415,0,21.88,2,1,0,No Prazo (SLA OK),0,10,0
+PED-00208,"Thiago Almeida",Sudeste,SP,Eletrônicos,Correios Sedex,833,0,17.39,3,3,0,No Prazo (SLA OK),1,10,0
+PED-00209,"Fernanda Ribeiro",Sudeste,ES,Beleza & Saúde,Loggi Express,239,0,17.15,2,2,0,No Prazo (SLA OK),1,10,0
+PED-00210,"Matheus Rodrigues",Sudeste,RJ,Alimentos & Bebidas,Correios Sedex,455,0,24.63,2,2,0,No Prazo (SLA OK),1,10,0
+PED-00211,"André Ramos",Sudeste,SP,Moda & Vestuário,Jadlog Standard,200,0,23.38,4,4,0,No Prazo (SLA OK),0,10,0
+PED-00212,"Larissa Gomes",Sul,SC,Casa & Decoração,Total Express,432,0,27.72,4,8,4,Atraso Crítico (3-5d),0,4,0
+PED-00213,"Thiago Almeida",Sudeste,MG,Alimentos & Bebidas,Correios Sedex,436,0,15.95,2,1,0,No Prazo (SLA OK),1,9,0
+PED-00214,"Juliana Souza",Sudeste,ES,Moda & Vestuário,Loggi Express,522,0,22.91,2,2,0,No Prazo (SLA OK),0,9,0
+PED-00215,"Juliana Souza",Sul,SC,Beleza & Saúde,Total Express,533,28,35.22,5,5,0,No Prazo (SLA OK),0,10,0
+PED-00216,"Guilherme Martins",Nordeste,CE,Alimentos & Bebidas,Loggi Express,162,45,55.29,7,7,0,No Prazo (SLA OK),0,10,0
+PED-00217,"Patrícia Andrade",Sudeste,RJ,Casa & Decoração,Mandaê Flex,599,16,19.99,2,2,0,No Prazo (SLA OK),0,10,0
+PED-00218,"Renata Barbosa",Sudeste,SP,Moda & Vestuário,Correios Sedex,194,16,19.54,2,2,0,No Prazo (SLA OK),1,10,0
+PED-00219,"Beatriz Ferreira",Nordeste,MA,Casa & Decoração,Correios Sedex,531,0,42.91,8,7,0,No Prazo (SLA OK),1,9,0
+PED-00220,"Lucas Silva",Centro-Oeste,DF,Moda & Vestuário,Jadlog Standard,175,25,32.79,5,5,0,No Prazo (SLA OK),0,10,0
+PED-00221,"Gabriel Oliveira",Centro-Oeste,MS,Eletrônicos,Total Express,573,0,31.9,7,7,0,No Prazo (SLA OK),0,10,0
+PED-00222,"Amanda Carvalho",Nordeste,PE,Eletrônicos,Correios Sedex,575,0,45.4,7,9,2,Atraso Leve (1-2d),0,8,0
+PED-00223,"Amanda Carvalho",Sul,RS,Eletrônicos,Total Express,615,0,22.8,5,4,0,No Prazo (SLA OK),0,9,0
+PED-00224,"Vanessa Dias",Sudeste,MG,Moda & Vestuário,Correios Sedex,371,0,15.89,4,4,0,No Prazo (SLA OK),1,10,0
+PED-00225,"Beatriz Ferreira",Sudeste,MG,Alimentos & Bebidas,Jadlog Standard,356,0,18.18,3,3,0,No Prazo (SLA OK),1,9,0
+PED-00226,"Renata Barbosa",Nordeste,BA,Eletrônicos,Loggi Express,843,0,43.8,8,12,4,Atraso Crítico (3-5d),1,4,0
+PED-00227,"Matheus Rodrigues",Norte,PA,Eletrônicos,Jadlog Standard,747,0,70.03,10,10,0,No Prazo (SLA OK),1,10,0
+PED-00228,"Rafael Soares",Nordeste,BA,Eletrônicos,Jadlog Standard,463,0,44.48,8,9,1,Atraso Leve (1-2d),0,8,0
+PED-00229,"Patrícia Andrade",Sudeste,RJ,Casa & Decoração,Mandaê Flex,599,16,19.64,3,3,0,No Prazo (SLA OK),0,9,0
+PED-00230,"Larissa Gomes",Sudeste,ES,Beleza & Saúde,Correios Sedex,199,0,25.39,4,4,0,No Prazo (SLA OK),0,10,0
+PED-00231,"Patrícia Andrade",Nordeste,CE,Eletrônicos,Loggi Express,770,29,43.72,6,7,1,Atraso Leve (1-2d),0,8,8.7
+PED-00232,"Gabriel Oliveira",Nordeste,MA,Casa & Decoração,Loggi Express,305,0,43.82,8,14,6,Falha Grave (>5d),0,2,45.75
+PED-00233,"Gabriel Oliveira",Nordeste,MA,Casa & Decoração,Correios Sedex,283,31,38.76,8,8,0,No Prazo (SLA OK),0,10,0
+PED-00234,"Thiago Almeida",Centro-Oeste,DF,Alimentos & Bebidas,Total Express,186,27,40.35,6,6,0,No Prazo (SLA OK),1,10,0
+PED-00235,"Carolina Lopes",Nordeste,PE,Eletrônicos,Loggi Express,480,28,36.96,9,14,5,Atraso Crítico (3-5d),1,5,28
+PED-00236,"André Ramos",Sul,RS,Casa & Decoração,Total Express,477,25,26.46,4,4,0,No Prazo (SLA OK),1,10,0
+PED-00237,"Bruno Costa",Centro-Oeste,MS,Eletrônicos,Total Express,479,0,27.23,5,4,0,No Prazo (SLA OK),1,10,0
+PED-00238,"Mariana Santos",Sudeste,RJ,Casa & Decoração,Jadlog Standard,444,0,17.25,3,3,0,No Prazo (SLA OK),1,9,0
+PED-00239,"Camila Pereira",Centro-Oeste,MT,Eletrônicos,Total Express,739,0,42.7,6,6,0,No Prazo (SLA OK),1,9,0
+PED-00240,"Gabriel Oliveira",Nordeste,RN,Beleza & Saúde,Loggi Express,376,0,52.28,6,9,3,Atraso Crítico (3-5d),0,4,0
+PED-00241,"Vanessa Dias",Sudeste,SP,Eletrônicos,Mandaê Flex,750,18,21.92,3,3,0,No Prazo (SLA OK),0,10,0
+PED-00242,"Leonardo Rocha",Sul,SC,Beleza & Saúde,Loggi Express,236,0,35.92,4,4,0,No Prazo (SLA OK),1,9,0
+PED-00243,"Amanda Carvalho",Sudeste,MG,Beleza & Saúde,Mandaê Flex,391,18,25.12,4,4,0,No Prazo (SLA OK),1,9,0
+PED-00244,"Bruna Fernandes",Sudeste,RJ,Casa & Decoração,Loggi Express,280,0,22.17,3,3,0,No Prazo (SLA OK),0,10,0
+PED-00245,"Rafael Soares",Centro-Oeste,DF,Casa & Decoração,Correios Sedex,532,0,43.1,5,5,0,No Prazo (SLA OK),0,10,0
+PED-00246,"Carolina Lopes",Nordeste,PE,Beleza & Saúde,Total Express,534,0,52.14,7,7,0,No Prazo (SLA OK),1,10,0
+PED-00247,"Rodrigo Alves",Sul,PR,Moda & Vestuário,Total Express,283,0,26.73,6,6,0,No Prazo (SLA OK),1,10,0
+PED-00248,"Bruna Fernandes",Sudeste,ES,Beleza & Saúde,Correios Sedex,263,12,15.21,2,2,0,No Prazo (SLA OK),1,10,0
+PED-00249,"Larissa Gomes",Norte,TO,Casa & Decoração,Correios Sedex,617,0,63.08,9,9,0,No Prazo (SLA OK),1,10,0
+PED-00250,"Thiago Almeida",Sul,SC,Moda & Vestuário,Mandaê Flex,355,0,30.79,5,5,0,No Prazo (SLA OK),0,10,0
+PED-00251,"Amanda Carvalho",Nordeste,BA,Eletrônicos,Jadlog Standard,463,0,43.44,9,12,3,Atraso Crítico (3-5d),1,4,0
+PED-00252,"Vanessa Dias",Nordeste,BA,Moda & Vestuário,Mandaê Flex,270,0,56.55,8,8,0,No Prazo (SLA OK),0,10,0
+PED-00253,"Felipe Lima",Sudeste,RJ,Casa & Decoração,Total Express,339,21,25.99,3,2,0,No Prazo (SLA OK),1,10,0
+PED-00254,"Patrícia Andrade",Norte,TO,Moda & Vestuário,Total Express,106,67,82.93,10,10,0,No Prazo (SLA OK),1,10,0
+PED-00255,"Larissa Gomes",Nordeste,RN,Alimentos & Bebidas,Loggi Express,214,42,44.81,7,11,4,Atraso Crítico (3-5d),0,5,42
+PED-00256,"Bruno Costa",Sudeste,SP,Moda & Vestuário,Loggi Express,470,0,14.42,2,2,0,No Prazo (SLA OK),1,9,0
+PED-00257,"Vanessa Dias",Nordeste,BA,Eletrônicos,Loggi Express,589,0,52.65,6,6,0,No Prazo (SLA OK),0,10,0
+PED-00258,"Larissa Gomes",Sudeste,MG,Eletrônicos,Correios Sedex,724,0,15,2,1,0,No Prazo (SLA OK),0,10,0
+PED-00259,"Amanda Carvalho",Sul,RS,Beleza & Saúde,Jadlog Standard,226,24,33.66,5,5,0,No Prazo (SLA OK),1,10,0
+PED-00260,"Matheus Rodrigues",Centro-Oeste,MT,Casa & Decoração,Jadlog Standard,312,0,39.28,7,7,0,No Prazo (SLA OK),1,10,0
+PED-00261,"Bruna Fernandes",Sudeste,MG,Casa & Decoração,Loggi Express,505,0,22.27,3,2,0,No Prazo (SLA OK),0,10,0
+PED-00262,"Felipe Lima",Sudeste,MG,Casa & Decoração,Correios Sedex,465,0,18.28,2,2,0,No Prazo (SLA OK),0,9,0
+PED-00263,"Carolina Lopes",Centro-Oeste,MT,Moda & Vestuário,Loggi Express,135,34,37.38,5,4,0,No Prazo (SLA OK),1,10,0
+PED-00264,"Rafael Soares",Sudeste,MG,Alimentos & Bebidas,Total Express,237,0,19.11,2,1,0,No Prazo (SLA OK),0,9,0
+PED-00265,"Larissa Gomes",Sudeste,RJ,Moda & Vestuário,Loggi Express,436,0,24.46,3,3,0,No Prazo (SLA OK),0,10,0
+PED-00266,"Thiago Almeida",Centro-Oeste,DF,Casa & Decoração,Mandaê Flex,570,33,41.3,6,6,0,No Prazo (SLA OK),1,10,0
+PED-00267,"Guilherme Martins",Nordeste,PE,Eletrônicos,Total Express,733,46,57.17,7,7,0,No Prazo (SLA OK),1,10,0
+PED-00268,"Camila Pereira",Sudeste,ES,Casa & Decoração,Total Express,629,21,22.61,4,4,0,No Prazo (SLA OK),1,10,0
+PED-00269,"Camila Pereira",Centro-Oeste,MS,Alimentos & Bebidas,Jadlog Standard,333,0,39.09,7,7,0,No Prazo (SLA OK),1,10,0
+PED-00270,"Thiago Almeida",Nordeste,RN,Alimentos & Bebidas,Total Express,395,0,49.82,6,6,0,No Prazo (SLA OK),1,10,0
+PED-00271,"Gabriel Oliveira",Sul,RS,Beleza & Saúde,Jadlog Standard,207,28,33.91,6,6,0,No Prazo (SLA OK),0,10,0
+PED-00272,"Carolina Lopes",Sudeste,SP,Casa & Decoração,Correios Sedex,643,0,24.88,2,1,0,No Prazo (SLA OK),0,9,0
+PED-00273,"Vanessa Dias",Sul,RS,Eletrônicos,Total Express,639,29,34.66,4,4,0,No Prazo (SLA OK),0,10,0
+PED-00274,"Leonardo Rocha",Sul,PR,Moda & Vestuário,Correios Sedex,481,0,35.71,5,4,0,No Prazo (SLA OK),0,10,0
+PED-00275,"Felipe Lima",Centro-Oeste,DF,Eletrônicos,Correios Sedex,563,35,42.61,7,7,0,No Prazo (SLA OK),0,9,0
+PED-00276,"André Ramos",Sul,SC,Moda & Vestuário,Total Express,497,25,27.87,5,5,0,No Prazo (SLA OK),0,10,0
+PED-00277,"Rodrigo Alves",Nordeste,CE,Alimentos & Bebidas,Loggi Express,519,0,51.95,8,8,0,No Prazo (SLA OK),0,9,0
+PED-00278,"Larissa Gomes",Nordeste,BA,Casa & Decoração,Correios Sedex,434,0,57.15,8,8,0,No Prazo (SLA OK),0,9,0
+PED-00279,"Mariana Santos",Sudeste,ES,Alimentos & Bebidas,Total Express,431,0,15.8,4,3,0,No Prazo (SLA OK),1,10,0
+PED-00280,"Vanessa Dias",Sudeste,MG,Alimentos & Bebidas,Mandaê Flex,520,0,20.96,2,2,0,No Prazo (SLA OK),1,10,0
+PED-00281,"Patrícia Andrade",Sudeste,MG,Eletrônicos,Total Express,866,0,18.6,2,2,0,No Prazo (SLA OK),0,9,0
+PED-00282,"Juliana Souza",Sudeste,RJ,Alimentos & Bebidas,Loggi Express,314,0,18.56,4,4,0,No Prazo (SLA OK),1,10,0
+PED-00283,"Lucas Silva",Centro-Oeste,GO,Casa & Decoração,Jadlog Standard,706,24,27.27,7,7,0,No Prazo (SLA OK),0,10,0
+PED-00284,"Fernanda Ribeiro",Sudeste,SP,Beleza & Saúde,Total Express,369,21,24.24,4,4,0,No Prazo (SLA OK),1,9,0
+PED-00285,"Fernanda Ribeiro",Norte,PA,Eletrônicos,Loggi Express,518,0,65.64,11,11,0,No Prazo (SLA OK),0,10,0
+PED-00286,"Marcelo Nascimento",Centro-Oeste,MS,Eletrônicos,Correios Sedex,524,0,34.44,7,7,0,No Prazo (SLA OK),1,10,0
+PED-00287,"Vanessa Dias",Sudeste,SP,Moda & Vestuário,Correios Sedex,226,0,22.76,2,2,0,No Prazo (SLA OK),0,10,0
+PED-00288,"Patrícia Andrade",Sudeste,MG,Eletrônicos,Mandaê Flex,817,0,23.49,3,2,0,No Prazo (SLA OK),1,9,0
+PED-00289,"Amanda Carvalho",Nordeste,RN,Beleza & Saúde,Jadlog Standard,103,33,42.89,7,9,2,Atraso Leve (1-2d),0,7,9.9
+PED-00290,"Juliana Souza",Sudeste,SP,Moda & Vestuário,Correios Sedex,298,11,17.06,4,3,0,No Prazo (SLA OK),1,10,0
+PED-00291,"Carolina Lopes",Nordeste,CE,Moda & Vestuário,Mandaê Flex,109,32,41.66,9,9,0,No Prazo (SLA OK),1,10,0
+PED-00292,"Vanessa Dias",Nordeste,CE,Casa & Decoração,Mandaê Flex,609,41,51.5,8,7,0,No Prazo (SLA OK),0,10,0
+PED-00293,"Rodrigo Alves",Sudeste,ES,Beleza & Saúde,Jadlog Standard,214,12,16.15,3,3,0,No Prazo (SLA OK),0,9,0
+PED-00294,"Camila Pereira",Sudeste,SP,Moda & Vestuário,Jadlog Standard,450,0,18.11,2,1,0,No Prazo (SLA OK),0,10,0
+PED-00295,"Larissa Gomes",Sudeste,MG,Alimentos & Bebidas,Total Express,110,21,23.84,4,18,14,Extraviado/Avaria,0,1,131
+PED-00296,"Amanda Carvalho",Sudeste,RJ,Alimentos & Bebidas,Loggi Express,459,0,15.18,4,4,0,No Prazo (SLA OK),0,10,0
+PED-00297,"Thiago Almeida",Nordeste,MA,Eletrônicos,Correios Sedex,889,36,50.92,8,8,0,No Prazo (SLA OK),0,10,0
+PED-00298,"Patrícia Andrade",Sudeste,RJ,Beleza & Saúde,Loggi Express,141,13,19.77,2,1,0,No Prazo (SLA OK),1,9,0
+PED-00299,"Mariana Santos",Nordeste,MA,Casa & Decoração,Correios Sedex,288,34,38.87,6,12,6,Falha Grave (>5d),0,3,77.2
+PED-00300,"Guilherme Martins",Norte,RO,Alimentos & Bebidas,Correios Sedex,458,0,74.84,9,8,0,No Prazo (SLA OK),0,10,0
+PED-00301,"Felipe Lima",Sul,RS,Casa & Decoração,Total Express,446,0,32.29,6,5,0,No Prazo (SLA OK),0,10,0
+PED-00302,"Fernanda Ribeiro",Sul,SC,Alimentos & Bebidas,Correios Sedex,338,0,33.38,5,4,0,No Prazo (SLA OK),1,9,0
+PED-00303,"Fernanda Ribeiro",Sudeste,SP,Casa & Decoração,Loggi Express,419,0,24.93,4,4,0,No Prazo (SLA OK),0,10,0
+PED-00304,"Felipe Lima",Centro-Oeste,DF,Moda & Vestuário,Loggi Express,238,21,27.65,5,5,0,No Prazo (SLA OK),1,10,0
+PED-00305,"Guilherme Martins",Sul,RS,Alimentos & Bebidas,Mandaê Flex,519,21,28.56,6,6,0,No Prazo (SLA OK),1,10,0
+PED-00306,"Matheus Rodrigues",Sul,SC,Casa & Decoração,Loggi Express,282,23,25.51,4,4,0,No Prazo (SLA OK),1,9,0
+PED-00307,"Guilherme Martins",Sudeste,SP,Beleza & Saúde,Jadlog Standard,135,18,25.14,4,4,0,No Prazo (SLA OK),0,10,0
+PED-00308,"André Ramos",Nordeste,RN,Beleza & Saúde,Correios Sedex,241,0,40.26,7,7,0,No Prazo (SLA OK),0,9,0
+PED-00309,"Leonardo Rocha",Sudeste,ES,Beleza & Saúde,Loggi Express,145,15,21.48,2,2,0,No Prazo (SLA OK),0,10,0
+PED-00310,"Beatriz Ferreira",Sudeste,RJ,Beleza & Saúde,Loggi Express,224,0,19.69,3,3,0,No Prazo (SLA OK),0,10,0
+PED-00311,"Gabriel Oliveira",Sudeste,SP,Eletrônicos,Loggi Express,688,0,14.33,2,1,0,No Prazo (SLA OK),0,10,0
+PED-00312,"Guilherme Martins",Sudeste,MG,Alimentos & Bebidas,Jadlog Standard,263,0,22.12,4,10,6,Falha Grave (>5d),0,3,39.45
+PED-00313,"Gustavo Vieira",Nordeste,PE,Alimentos & Bebidas,Mandaê Flex,465,0,54.77,6,6,0,No Prazo (SLA OK),1,9,0
+PED-00314,"Camila Pereira",Sudeste,SP,Moda & Vestuário,Jadlog Standard,448,16,24.27,2,2,0,No Prazo (SLA OK),1,9,0
+PED-00315,"Matheus Rodrigues",Sudeste,RJ,Eletrônicos,Mandaê Flex,756,0,19.46,2,2,0,No Prazo (SLA OK),0,10,0
+PED-00316,"Leonardo Rocha",Centro-Oeste,MS,Eletrônicos,Loggi Express,807,24,36.16,5,5,0,No Prazo (SLA OK),1,10,0
+PED-00317,"Patrícia Andrade",Sul,SC,Eletrônicos,Total Express,488,25,27.25,4,4,0,No Prazo (SLA OK),0,10,0
+PED-00318,"Fernanda Ribeiro",Sudeste,SP,Beleza & Saúde,Loggi Express,156,17,20.47,2,2,0,No Prazo (SLA OK),0,10,0
+PED-00319,"Gustavo Vieira",Sudeste,MG,Beleza & Saúde,Jadlog Standard,494,0,23.21,4,3,0,No Prazo (SLA OK),1,10,0
+PED-00320,"Felipe Lima",Sudeste,SP,Alimentos & Bebidas,Total Express,207,0,25.1,2,2,0,No Prazo (SLA OK),0,10,0
+PED-00321,"Fernanda Ribeiro",Sul,PR,Casa & Decoração,Loggi Express,632,0,25.46,6,6,0,No Prazo (SLA OK),0,10,0
+PED-00322,"Patrícia Andrade",Sudeste,ES,Alimentos & Bebidas,Loggi Express,477,0,17.62,2,1,0,No Prazo (SLA OK),0,10,0
+PED-00323,"Beatriz Ferreira",Sudeste,ES,Casa & Decoração,Correios Sedex,349,0,19.48,2,4,2,Atraso Leve (1-2d),1,7,0
+PED-00324,"Guilherme Martins",Sul,SC,Casa & Decoração,Jadlog Standard,573,29,33.02,5,5,0,No Prazo (SLA OK),1,9,0
+PED-00325,"Leonardo Rocha",Sudeste,ES,Casa & Decoração,Total Express,402,0,19.52,4,4,0,No Prazo (SLA OK),1,10,0
+PED-00326,"Camila Pereira",Sul,RS,Alimentos & Bebidas,Total Express,128,22,28.55,4,7,3,Atraso Crítico (3-5d),0,4,22
+PED-00327,"Amanda Carvalho",Norte,PA,Eletrônicos,Loggi Express,825,0,78.44,11,11,0,No Prazo (SLA OK),1,10,0
+PED-00328,"Guilherme Martins",Sudeste,ES,Beleza & Saúde,Correios Sedex,141,13,17.64,3,2,0,No Prazo (SLA OK),1,10,0
+PED-00329,"Beatriz Ferreira",Centro-Oeste,MS,Alimentos & Bebidas,Correios Sedex,420,27,29.37,6,6,0,No Prazo (SLA OK),0,10,0
+PED-00330,"Vanessa Dias",Sudeste,SP,Casa & Decoração,Mandaê Flex,678,17,22.2,4,3,0,No Prazo (SLA OK),0,10,0
+PED-00331,"Guilherme Martins",Nordeste,RN,Alimentos & Bebidas,Jadlog Standard,386,31,36.98,7,10,3,Atraso Crítico (3-5d),1,4,31
+PED-00332,"Gabriel Oliveira",Sudeste,ES,Alimentos & Bebidas,Total Express,329,0,17.13,4,4,0,No Prazo (SLA OK),1,10,0
+PED-00333,"Larissa Gomes",Sudeste,ES,Beleza & Saúde,Total Express,435,16,23.43,3,3,0,No Prazo (SLA OK),0,10,0
+PED-00334,"Lucas Silva",Sudeste,SP,Eletrônicos,Correios Sedex,852,0,15.97,4,4,0,No Prazo (SLA OK),0,10,0
+PED-00335,"Guilherme Martins",Sudeste,RJ,Moda & Vestuário,Loggi Express,199,14,15.09,4,4,0,No Prazo (SLA OK),0,9,0
+PED-00336,"Juliana Souza",Sudeste,MG,Alimentos & Bebidas,Mandaê Flex,497,0,25.72,2,1,0,No Prazo (SLA OK),0,9,0
+PED-00337,"Mariana Santos",Sudeste,RJ,Alimentos & Bebidas,Loggi Express,522,0,17.57,4,4,0,No Prazo (SLA OK),1,10,0
+PED-00338,"Bruna Fernandes",Sudeste,ES,Alimentos & Bebidas,Jadlog Standard,425,13,14.9,4,4,0,No Prazo (SLA OK),0,10,0
+PED-00339,"Marcelo Nascimento",Sul,RS,Moda & Vestuário,Loggi Express,371,0,25.08,4,9,5,Atraso Crítico (3-5d),0,4,0
+PED-00340,"Felipe Lima",Nordeste,MA,Eletrônicos,Mandaê Flex,684,54,57.68,7,7,0,No Prazo (SLA OK),1,10,0
+PED-00341,"Bruna Fernandes",Sudeste,RJ,Eletrônicos,Jadlog Standard,653,0,18.21,4,4,0,No Prazo (SLA OK),0,10,0
+PED-00342,"André Ramos",Sudeste,ES,Moda & Vestuário,Total Express,449,0,15.26,2,2,0,No Prazo (SLA OK),0,10,0
+PED-00343,"Camila Pereira",Sudeste,RJ,Eletrônicos,Total Express,884,0,18.89,2,2,0,No Prazo (SLA OK),1,10,0
+PED-00344,"Larissa Gomes",Nordeste,PE,Beleza & Saúde,Mandaê Flex,445,0,47.7,8,7,0,No Prazo (SLA OK),0,10,0
+PED-00345,"Amanda Carvalho",Nordeste,BA,Alimentos & Bebidas,Total Express,129,54,58.46,8,8,0,No Prazo (SLA OK),0,10,0
+PED-00346,"André Ramos",Norte,RO,Casa & Decoração,Jadlog Standard,377,0,69.92,9,9,0,No Prazo (SLA OK),0,9,0
+PED-00347,"Felipe Lima",Sul,PR,Alimentos & Bebidas,Correios Sedex,460,0,24.17,6,9,3,Atraso Crítico (3-5d),0,5,0
+PED-00348,"Felipe Lima",Sudeste,SP,Eletrônicos,Total Express,864,0,15.99,4,3,0,No Prazo (SLA OK),1,10,0
+PED-00349,"Mariana Santos",Sul,PR,Alimentos & Bebidas,Loggi Express,391,27,34.25,5,4,0,No Prazo (SLA OK),1,10,0
+PED-00350,"Fernanda Ribeiro",Sudeste,ES,Casa & Decoração,Jadlog Standard,520,11,14.9,4,4,0,No Prazo (SLA OK),1,10,0
+PED-00351,"Juliana Souza",Sul,PR,Eletrônicos,Loggi Express,692,0,35.99,5,4,0,No Prazo (SLA OK),0,10,0
+PED-00352,"Mariana Santos",Sul,RS,Beleza & Saúde,Correios Sedex,469,30,34.88,4,4,0,No Prazo (SLA OK),0,10,0
+PED-00353,"Rodrigo Alves",Sudeste,RJ,Moda & Vestuário,Total Express,394,0,25.09,2,2,0,No Prazo (SLA OK),1,10,0
+PED-00354,"Rafael Soares",Centro-Oeste,MT,Moda & Vestuário,Jadlog Standard,331,0,27.65,5,5,0,No Prazo (SLA OK),1,9,0
+PED-00355,"Vanessa Dias",Nordeste,BA,Moda & Vestuário,Loggi Express,316,0,59.03,8,8,0,No Prazo (SLA OK),0,10,0
+PED-00356,"Gustavo Vieira",Sudeste,RJ,Moda & Vestuário,Loggi Express,480,17,22.7,4,3,0,No Prazo (SLA OK),0,9,0
+PED-00357,"Renata Barbosa",Sudeste,ES,Casa & Decoração,Mandaê Flex,330,0,15.59,3,2,0,No Prazo (SLA OK),1,10,0
+PED-00358,"Thiago Almeida",Sudeste,RJ,Casa & Decoração,Jadlog Standard,464,17,18.49,3,3,0,No Prazo (SLA OK),0,10,0
+PED-00359,"André Ramos",Sudeste,ES,Alimentos & Bebidas,Mandaê Flex,526,0,20.2,2,1,0,No Prazo (SLA OK),0,10,0
+PED-00360,"Carolina Lopes",Sudeste,RJ,Eletrônicos,Jadlog Standard,771,0,24,4,3,0,No Prazo (SLA OK),1,10,0
+PED-00361,"Matheus Rodrigues",Sul,SC,Moda & Vestuário,Jadlog Standard,162,18,22.05,4,4,0,No Prazo (SLA OK),0,10,0
+PED-00362,"Rodrigo Alves",Sul,RS,Moda & Vestuário,Mandaê Flex,477,0,22.93,6,5,0,No Prazo (SLA OK),0,10,0
+PED-00363,"Lucas Silva",Nordeste,BA,Beleza & Saúde,Loggi Express,321,0,57.49,9,8,0,No Prazo (SLA OK),1,10,0
+PED-00364,"Carolina Lopes",Centro-Oeste,MT,Moda & Vestuário,Jadlog Standard,432,29,33.88,7,7,0,No Prazo (SLA OK),0,10,0
+PED-00365,"Leonardo Rocha",Nordeste,CE,Alimentos & Bebidas,Total Express,328,0,44.32,8,8,0,No Prazo (SLA OK),1,9,0
+PED-00366,"Camila Pereira",Sul,SC,Casa & Decoração,Mandaê Flex,678,0,27.25,6,5,0,No Prazo (SLA OK),0,9,0
+PED-00367,"Juliana Souza",Nordeste,CE,Alimentos & Bebidas,Correios Sedex,482,0,55.89,7,13,6,Falha Grave (>5d),0,3,72.3
+PED-00368,"Camila Pereira",Centro-Oeste,DF,Beleza & Saúde,Correios Sedex,397,0,36.95,5,5,0,No Prazo (SLA OK),0,9,0
+PED-00369,"Fernanda Ribeiro",Nordeste,MA,Alimentos & Bebidas,Loggi Express,228,0,59.54,8,8,0,No Prazo (SLA OK),1,10,0
+PED-00370,"Lucas Silva",Nordeste,RN,Eletrônicos,Total Express,886,0,46.39,9,8,0,No Prazo (SLA OK),0,10,0
+PED-00371,"Marcelo Nascimento",Sudeste,MG,Beleza & Saúde,Loggi Express,391,0,15.91,3,3,0,No Prazo (SLA OK),0,10,0
+PED-00372,"Bruno Costa",Nordeste,CE,Casa & Decoração,Correios Sedex,635,0,47.85,9,9,0,No Prazo (SLA OK),0,10,0
+PED-00373,"Fernanda Ribeiro",Sudeste,ES,Moda & Vestuário,Total Express,339,0,20.66,4,4,0,No Prazo (SLA OK),0,10,0
+PED-00374,"Carolina Lopes",Nordeste,RN,Casa & Decoração,Correios Sedex,500,36,45.13,6,5,0,No Prazo (SLA OK),0,9,0
+PED-00375,"Juliana Souza",Sul,RS,Eletrônicos,Loggi Express,560,0,23.08,4,4,0,No Prazo (SLA OK),0,10,0
+PED-00376,"Bruna Fernandes",Sul,RS,Moda & Vestuário,Mandaê Flex,458,0,28.03,5,4,0,No Prazo (SLA OK),0,9,0
+PED-00377,"Lucas Silva",Sudeste,ES,Casa & Decoração,Total Express,485,0,17.6,2,1,0,No Prazo (SLA OK),0,10,0
+PED-00378,"Bruno Costa",Sudeste,MG,Moda & Vestuário,Correios Sedex,237,13,17.63,3,2,0,No Prazo (SLA OK),0,10,0
+PED-00379,"Leonardo Rocha",Sudeste,RJ,Casa & Decoração,Mandaê Flex,312,0,24.89,3,3,0,No Prazo (SLA OK),1,10,0
+PED-00380,"Beatriz Ferreira",Sudeste,SP,Casa & Decoração,Correios Sedex,334,18,21.41,3,2,0,No Prazo (SLA OK),1,9,0
+PED-00381,"Guilherme Martins",Sul,SC,Alimentos & Bebidas,Loggi Express,525,0,26.69,5,5,0,No Prazo (SLA OK),0,9,0
+PED-00382,"Mariana Santos",Sul,PR,Moda & Vestuário,Jadlog Standard,286,32,35.78,6,5,0,No Prazo (SLA OK),1,10,0
+PED-00383,"Fernanda Ribeiro",Centro-Oeste,MT,Eletrônicos,Mandaê Flex,820,0,37.8,5,5,0,No Prazo (SLA OK),1,10,0
+PED-00384,"Matheus Rodrigues",Norte,RO,Beleza & Saúde,Jadlog Standard,180,69,78.48,8,7,0,No Prazo (SLA OK),1,10,0
+PED-00385,"Bruna Fernandes",Sul,RS,Alimentos & Bebidas,Mandaê Flex,440,16,22.86,4,4,0,No Prazo (SLA OK),0,10,0
+PED-00386,"Felipe Lima",Sul,PR,Beleza & Saúde,Jadlog Standard,190,19,22.91,4,3,0,No Prazo (SLA OK),1,9,0
+PED-00387,"Marcelo Nascimento",Sudeste,ES,Moda & Vestuário,Loggi Express,166,13,20.22,4,4,0,No Prazo (SLA OK),0,10,0
+PED-00388,"Gustavo Vieira",Sul,PR,Moda & Vestuário,Loggi Express,445,22,29.51,6,5,0,No Prazo (SLA OK),1,10,0
+PED-00389,"Rodrigo Alves",Sul,SC,Beleza & Saúde,Loggi Express,145,24,32.94,4,4,0,No Prazo (SLA OK),1,10,0
+PED-00390,"Bruna Fernandes",Nordeste,CE,Casa & Decoração,Loggi Express,676,33,46.28,7,7,0,No Prazo (SLA OK),1,10,0
+PED-00391,"Juliana Souza",Centro-Oeste,DF,Beleza & Saúde,Correios Sedex,219,0,35.77,6,5,0,No Prazo (SLA OK),1,10,0
+PED-00392,"Fernanda Ribeiro",Sudeste,SP,Moda & Vestuário,Mandaê Flex,182,14,16.42,3,3,0,No Prazo (SLA OK),0,10,0
+PED-00393,"André Ramos",Sul,SC,Alimentos & Bebidas,Loggi Express,255,21,32.19,6,6,0,No Prazo (SLA OK),1,10,0
+PED-00394,"Beatriz Ferreira",Sul,RS,Beleza & Saúde,Correios Sedex,182,22,28.95,4,4,0,No Prazo (SLA OK),0,10,0
+PED-00395,"Amanda Carvalho",Sul,RS,Eletrônicos,Mandaê Flex,588,0,33.21,6,6,0,No Prazo (SLA OK),1,10,0
+PED-00396,"Felipe Lima",Centro-Oeste,GO,Moda & Vestuário,Correios Sedex,188,26,32.88,6,6,0,No Prazo (SLA OK),0,10,0
+PED-00397,"Thiago Almeida",Sul,PR,Beleza & Saúde,Mandaê Flex,525,0,30.15,5,8,3,Atraso Crítico (3-5d),0,4,0
+PED-00398,"Leonardo Rocha",Centro-Oeste,MT,Alimentos & Bebidas,Jadlog Standard,198,36,41.32,7,7,0,No Prazo (SLA OK),1,9,0
+PED-00399,"Juliana Souza",Sudeste,MG,Moda & Vestuário,Jadlog Standard,320,17,24.1,4,3,0,No Prazo (SLA OK),1,10,0
+PED-00400,"Leonardo Rocha",Sudeste,ES,Beleza & Saúde,Correios Sedex,425,0,21.09,3,3,0,No Prazo (SLA OK),1,10,0
+PED-00401,"Bruno Costa",Sudeste,ES,Alimentos & Bebidas,Jadlog Standard,232,0,23.34,3,3,0,No Prazo (SLA OK),0,10,0
+PED-00402,"Beatriz Ferreira",Norte,PA,Eletrônicos,Mandaê Flex,503,0,64.09,9,9,0,No Prazo (SLA OK),0,9,0
+PED-00403,"Gabriel Oliveira",Nordeste,MA,Casa & Decoração,Mandaê Flex,553,0,46.82,7,6,0,No Prazo (SLA OK),0,10,0
+PED-00404,"Gustavo Vieira",Sudeste,ES,Eletrônicos,Loggi Express,889,0,17,2,2,0,No Prazo (SLA OK),0,10,0
+PED-00405,"Mariana Santos",Norte,AM,Alimentos & Bebidas,Jadlog Standard,338,54,60.43,11,10,0,No Prazo (SLA OK),0,9,0
+PED-00406,"Gabriel Oliveira",Nordeste,PE,Casa & Decoração,Mandaê Flex,710,0,44.94,6,8,2,Atraso Leve (1-2d),0,7,0
+PED-00407,"Matheus Rodrigues",Sudeste,SP,Moda & Vestuário,Jadlog Standard,129,20,23.33,2,1,0,No Prazo (SLA OK),0,10,0
+PED-00408,"Camila Pereira",Centro-Oeste,MS,Beleza & Saúde,Jadlog Standard,428,38,40.06,5,4,0,No Prazo (SLA OK),0,10,0
+PED-00409,"Renata Barbosa",Centro-Oeste,DF,Casa & Decoração,Correios Sedex,363,0,39.52,6,6,0,No Prazo (SLA OK),0,10,0
+PED-00410,"Larissa Gomes",Nordeste,PE,Moda & Vestuário,Jadlog Standard,531,0,48.7,7,12,5,Atraso Crítico (3-5d),0,5,0
+PED-00411,"Gabriel Oliveira",Sudeste,ES,Beleza & Saúde,Total Express,117,11,15.45,2,1,0,No Prazo (SLA OK),1,9,0
+PED-00412,"Beatriz Ferreira",Sudeste,MG,Alimentos & Bebidas,Mandaê Flex,191,13,18.49,3,3,0,No Prazo (SLA OK),0,10,0
+PED-00413,"Lucas Silva",Sudeste,RJ,Moda & Vestuário,Correios Sedex,220,0,22.88,3,3,0,No Prazo (SLA OK),0,10,0
+PED-00414,"André Ramos",Nordeste,CE,Casa & Decoração,Jadlog Standard,690,0,57.85,9,14,5,Atraso Crítico (3-5d),0,4,0
+PED-00415,"Bruno Costa",Sudeste,RJ,Casa & Decoração,Correios Sedex,663,0,18.06,4,3,0,No Prazo (SLA OK),1,9,0
+PED-00416,"Beatriz Ferreira",Sudeste,ES,Beleza & Saúde,Correios Sedex,445,0,20.54,4,4,0,No Prazo (SLA OK),1,9,0
+PED-00417,"Bruno Costa",Sudeste,MG,Eletrônicos,Jadlog Standard,584,0,21.83,2,2,0,No Prazo (SLA OK),0,10,0
+PED-00418,"Matheus Rodrigues",Sul,SC,Alimentos & Bebidas,Correios Sedex,214,0,23.33,6,6,0,No Prazo (SLA OK),0,10,0
+PED-00419,"Fernanda Ribeiro",Nordeste,CE,Moda & Vestuário,Jadlog Standard,398,0,48.27,8,12,4,Atraso Crítico (3-5d),0,4,0
+PED-00420,"André Ramos",Sudeste,ES,Moda & Vestuário,Correios Sedex,313,16,23.28,2,1,0,No Prazo (SLA OK),1,10,0
+PED-00421,"Lucas Silva",Sul,SC,Alimentos & Bebidas,Mandaê Flex,527,0,35.76,5,5,0,No Prazo (SLA OK),0,10,0
+PED-00422,"Fernanda Ribeiro",Centro-Oeste,MT,Eletrônicos,Jadlog Standard,592,30,37.22,6,7,1,Atraso Leve (1-2d),0,7,9
+PED-00423,"Rodrigo Alves",Sul,SC,Beleza & Saúde,Mandaê Flex,305,0,25.27,6,5,0,No Prazo (SLA OK),1,9,0
+PED-00424,"Leonardo Rocha",Sul,SC,Moda & Vestuário,Total Express,349,28,34.28,5,8,3,Atraso Crítico (3-5d),0,5,28
+PED-00425,"Felipe Lima",Nordeste,RN,Beleza & Saúde,Total Express,168,41,59.37,6,5,0,No Prazo (SLA OK),0,10,0
+PED-00426,"Felipe Lima",Sudeste,RJ,Alimentos & Bebidas,Correios Sedex,257,20,24.25,2,1,0,No Prazo (SLA OK),0,10,0
+PED-00427,"Vanessa Dias",Sudeste,ES,Beleza & Saúde,Mandaê Flex,448,16,19.78,3,2,0,No Prazo (SLA OK),1,10,0
+PED-00428,"Renata Barbosa",Nordeste,RN,Beleza & Saúde,Correios Sedex,364,0,50.89,6,6,0,No Prazo (SLA OK),1,9,0
+PED-00429,"Patrícia Andrade",Nordeste,MA,Casa & Decoração,Total Express,689,0,35,6,7,1,Atraso Leve (1-2d),1,8,0
+PED-00430,"Gustavo Vieira",Sudeste,MG,Moda & Vestuário,Correios Sedex,128,17,24.89,3,3,0,No Prazo (SLA OK),0,10,0
+PED-00431,"Vanessa Dias",Sul,RS,Moda & Vestuário,Total Express,254,20,29.29,6,5,0,No Prazo (SLA OK),1,10,0
+PED-00432,"Rafael Soares",Centro-Oeste,MS,Eletrônicos,Total Express,588,0,39.4,6,6,0,No Prazo (SLA OK),0,9,0
+PED-00433,"Vanessa Dias",Nordeste,CE,Beleza & Saúde,Mandaê Flex,181,31,35.99,8,8,0,No Prazo (SLA OK),1,10,0
+PED-00434,"Rodrigo Alves",Nordeste,PE,Casa & Decoração,Jadlog Standard,299,36,48.57,9,9,0,No Prazo (SLA OK),0,10,0
+PED-00435,"Felipe Lima",Sul,PR,Alimentos & Bebidas,Jadlog Standard,417,23,31.43,4,3,0,No Prazo (SLA OK),1,10,0
+PED-00436,"Thiago Almeida",Sudeste,RJ,Beleza & Saúde,Correios Sedex,157,18,19.3,4,4,0,No Prazo (SLA OK),1,9,0
+PED-00437,"Thiago Almeida",Sudeste,SP,Casa & Decoração,Loggi Express,576,14,17.94,3,3,0,No Prazo (SLA OK),0,9,0
+PED-00438,"Guilherme Martins",Sudeste,MG,Eletrônicos,Total Express,544,0,23.53,4,4,0,No Prazo (SLA OK),0,10,0
+PED-00439,"Felipe Lima",Sudeste,RJ,Casa & Decoração,Loggi Express,446,0,15.29,4,4,0,No Prazo (SLA OK),0,9,0
+PED-00440,"Bruna Fernandes",Sul,PR,Beleza & Saúde,Correios Sedex,195,19,22.85,4,4,0,No Prazo (SLA OK),0,9,0
+PED-00441,"Gabriel Oliveira",Sudeste,RJ,Moda & Vestuário,Mandaê Flex,161,16,18.85,3,3,0,No Prazo (SLA OK),1,10,0
+PED-00442,"Guilherme Martins",Centro-Oeste,MT,Moda & Vestuário,Mandaê Flex,235,0,30.85,7,6,0,No Prazo (SLA OK),0,10,0
+PED-00443,"André Ramos",Sudeste,RJ,Beleza & Saúde,Total Express,252,0,15.13,4,4,0,No Prazo (SLA OK),0,9,0
+PED-00444,"Lucas Silva",Sudeste,ES,Moda & Vestuário,Mandaê Flex,150,16,17.52,4,4,0,No Prazo (SLA OK),0,10,0
+PED-00445,"Juliana Souza",Sudeste,SP,Alimentos & Bebidas,Total Express,250,0,25.61,2,1,0,No Prazo (SLA OK),1,9,0
+PED-00446,"Juliana Souza",Sudeste,SP,Moda & Vestuário,Total Express,289,22,25.04,2,1,0,No Prazo (SLA OK),1,10,0
+PED-00447,"Larissa Gomes",Sudeste,MG,Eletrônicos,Loggi Express,712,16,19.03,2,2,0,No Prazo (SLA OK),0,10,0
+PED-00448,"Bruna Fernandes",Nordeste,RN,Eletrônicos,Total Express,493,0,37.01,9,9,0,No Prazo (SLA OK),1,9,0
+PED-00449,"Bruno Costa",Sudeste,MG,Alimentos & Bebidas,Correios Sedex,518,17,23.67,4,3,0,No Prazo (SLA OK),1,10,0
+PED-00450,"Thiago Almeida",Centro-Oeste,MS,Casa & Decoração,Mandaê Flex,628,0,39.68,7,7,0,No Prazo (SLA OK),0,9,0

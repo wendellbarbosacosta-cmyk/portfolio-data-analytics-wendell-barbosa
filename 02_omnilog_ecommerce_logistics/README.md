@@ -87,18 +87,11 @@ Um e-commerce brasileiro de médio/grande porte (faturando R$ 65M anuais) regist
 ## 🛠️ 6. Como Executar o Pipeline Localmente
 
 ```bash
-# Clone do repositório completo
-git clone https://github.com/wendellbarbosacosta-cmyk/portfolio-data-analytics-wendell-barbosa.git
-cd portfolio-data-analytics-wendell-barbosa/02_omnilog_ecommerce_logistics
-
-# Criação e ativação do ambiente virtual
+git clone https://github.com/seu-usuario/omnilog-ecommerce-analytics.git
+cd omnilog-ecommerce-analytics
 python -m venv .venv
-source .venv/bin/activate  # No Windows: .venv\Scripts\activate
-
-# Instalação das dependências
+source .venv/bin/activate
 pip install -r requirements.txt
-
-# Execução do pipeline
 python pipeline_ecommerce_logistics.py
 ```
 
@@ -107,5 +100,5 @@ python pipeline_ecommerce_logistics.py
 ## 👤 Autor
 
 **Wendell Barbosa Costa**  
-*Especialista em Análise de Dados, Supply Chain & Inteligência de Negócio*  
-* GitHub: [@wendellbarbosacosta-cmyk](https://github.com/wendellbarbosacosta-cmyk)
+*Especialista em Análise de Dados, Risco & Inteligência de Negócio*  
+* [LinkedIn](https://linkedin.com) • [GitHub](https://github.com) • [Email](mailto:wendellbarbosacosta@gmail.com)
