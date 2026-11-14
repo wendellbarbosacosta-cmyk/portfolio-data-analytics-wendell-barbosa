@@ -63,4 +63,6 @@ relatorios_agrotech/*.png
 relatorios_energia/*.png
 relatorios_industrytech/*.png
 relatorios_industrytech/*.html
+relatorios_telecom_ftth/*.png
+relatorios_telecom_ftth/*.html
 *.log

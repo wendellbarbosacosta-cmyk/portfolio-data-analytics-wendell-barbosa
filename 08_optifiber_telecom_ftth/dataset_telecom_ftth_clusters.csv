@@ -1,0 +1,501 @@
+cluster_id,regional_uf,tecnologia_acesso,plano_predominante,assinantes_ativos,portas_cto_instaladas,ocupacao_cto_pct,faixa_ocupacao_cto,potencia_rx_media_dbm,saude_optica,possui_wifi6_mesh,chamados_suporte_mes,truck_rolls_mes,custo_truck_roll_anual_rs,arpu_mensal_rs,churn_mensal_pct,receita_perdida_churn_anual_rs,perda_total_anual_rs,nps_rede
+CTO-3001,"Rio & Baixada (RJ)","FTTH XGS-PON","Fibra 300 Mbps",163,192,85.1,"Alta Densidade (>= 75%)",-19.03,"Nominal (>= -23.0 dBm)",1,9,3,8640,102.49,0.77,1544,10184,78
+CTO-3002,"Sul Integrado (PR/SC)","FTTH GPON","Fibra 600 Mbps",146,256,56.9,"Maturação (45% - 74.9%)",-21.41,"Nominal (>= -23.0 dBm)",0,17,5,14400,117.41,1.38,2839,17239,72
+CTO-3003,"Sul Integrado (PR/SC)","FTTH GPON","Fibra 1 Gbps + Wi-Fi 6",58,256,22.6,"Ociosa (< 45%)",-25.53,"Degradado (-23.1 a -27.0 dBm)",1,10,3,8640,155.98,2.3,2497,11137,56
+CTO-3004,"Grande São Paulo (SP)","FTTH GPON","Fibra 1 Gbps + Wi-Fi 6",229,256,89.5,"Alta Densidade (>= 75%)",-25.32,"Degradado (-23.1 a -27.0 dBm)",1,22,6,17280,157.15,2.03,8767,26047,64
+CTO-3005,"Nordeste Litoral (BA/PE)","FTTH GPON","Fibra 300 Mbps",116,192,60.6,"Maturação (45% - 74.9%)",-22.27,"Nominal (>= -23.0 dBm)",0,9,3,8640,90.88,1.51,1910,10550,79
+CTO-3006,"Grande São Paulo (SP)","FTTH XGS-PON","Fibra 1 Gbps + Wi-Fi 6",172,192,89.5,"Alta Densidade (>= 75%)",-20.74,"Nominal (>= -23.0 dBm)",1,14,4,11520,166.84,1.01,3478,14998,86
+CTO-3007,"Rio & Baixada (RJ)","FTTH XGS-PON","Fibra 1 Gbps + Wi-Fi 6",192,256,75.1,"Alta Densidade (>= 75%)",-22.06,"Nominal (>= -23.0 dBm)",1,8,2,5760,159.3,0.86,3156,8916,78
+CTO-3008,"Sul Integrado (PR/SC)","FTTH GPON","Fibra 300 Mbps",56,192,29.1,"Ociosa (< 45%)",-21.48,"Nominal (>= -23.0 dBm)",0,8,2,5760,102.12,1.6,1098,6858,68
+CTO-3009,"Rio & Baixada (RJ)","FTTH GPON","Fibra 600 Mbps",139,256,54.4,"Maturação (45% - 74.9%)",-24.61,"Degradado (-23.1 a -27.0 dBm)",0,30,8,23040,125.89,2.9,6090,29130,49
+CTO-3010,"Nordeste Litoral (BA/PE)","FTTH GPON","Fibra 300 Mbps",129,256,50.3,"Maturação (45% - 74.9%)",-19.39,"Nominal (>= -23.0 dBm)",0,11,3,8640,89.91,1.3,1809,10449,73
+CTO-3011,"Rio & Baixada (RJ)","FTTH GPON","Fibra 600 Mbps",122,256,47.8,"Maturação (45% - 74.9%)",-25.93,"Degradado (-23.1 a -27.0 dBm)",1,17,5,14400,124.31,1.92,3494,17894,53
+CTO-3012,"Minas Gerais (MG)","FTTH XGS-PON","Fibra 1 Gbps + Wi-Fi 6",222,256,86.7,"Alta Densidade (>= 75%)",-23.13,"Degradado (-23.1 a -27.0 dBm)",1,23,6,17280,146.78,1.88,7351,24631,66
+CTO-3013,"Grande São Paulo (SP)","FWA 5G","Fibra 300 Mbps",83,128,64.5,"Maturação (45% - 74.9%)",-20.07,"Nominal (>= -23.0 dBm)",0,10,3,8640,116.35,1.05,1217,9857,69
+CTO-3014,"Minas Gerais (MG)","FTTH XGS-PON","Fibra 300 Mbps",186,256,72.8,"Maturação (45% - 74.9%)",-20.84,"Nominal (>= -23.0 dBm)",0,14,4,11520,102.61,1.4,3206,14726,80
+CTO-3015,"Nordeste Litoral (BA/PE)","FTTH GPON","Fibra 600 Mbps",202,256,79,"Alta Densidade (>= 75%)",-20.57,"Nominal (>= -23.0 dBm)",0,18,5,14400,104.69,1.55,3933,18333,83
+CTO-3016,"Rio & Baixada (RJ)","FTTH XGS-PON","Fibra 600 Mbps",111,192,57.8,"Maturação (45% - 74.9%)",-23.05,"Degradado (-23.1 a -27.0 dBm)",1,13,4,11520,123.54,1.95,3209,14729,63
+CTO-3017,"Nordeste Litoral (BA/PE)","FTTH GPON","Fibra 1 Gbps + Wi-Fi 6",89,192,46.3,"Maturação (45% - 74.9%)",-19.8,"Nominal (>= -23.0 dBm)",1,6,2,5760,142.39,1.13,1718,7478,81
+CTO-3018,"Rio & Baixada (RJ)","FTTH GPON","Fibra 1 Gbps + Wi-Fi 6",127,192,66.2,"Maturação (45% - 74.9%)",-27.75,"Crítico (< -27.0 dBm)",1,25,11,31680,160.67,3.11,7615,39295,30
+CTO-3019,"Minas Gerais (MG)","FTTH GPON","Fibra 600 Mbps",79,256,30.7,"Ociosa (< 45%)",-25.87,"Degradado (-23.1 a -27.0 dBm)",0,21,6,17280,124.16,3.13,3684,20964,57
+CTO-3020,"Minas Gerais (MG)","FTTH XGS-PON","Fibra 1 Gbps + Wi-Fi 6",138,192,72,"Maturação (45% - 74.9%)",-20.89,"Nominal (>= -23.0 dBm)",1,12,3,8640,144.9,0.78,1872,10512,85
+CTO-3021,"Minas Gerais (MG)","FTTH GPON","Fibra 300 Mbps",96,192,50,"Maturação (45% - 74.9%)",-29.36,"Crítico (< -27.0 dBm)",0,35,15,43200,96.93,5.16,5762,48962,26
+CTO-3022,"Sul Integrado (PR/SC)","FTTH XGS-PON","Fibra 1 Gbps + Wi-Fi 6",152,192,79.2,"Alta Densidade (>= 75%)",-22.28,"Nominal (>= -23.0 dBm)",1,8,2,5760,152.98,0.76,2121,7881,75
+CTO-3023,"Minas Gerais (MG)","FTTH GPON","Fibra 300 Mbps",201,256,78.7,"Alta Densidade (>= 75%)",-21.58,"Nominal (>= -23.0 dBm)",0,20,6,17280,94.11,1.56,3541,20821,79
+CTO-3024,"Minas Gerais (MG)","FTTH GPON","Fibra 600 Mbps",49,192,25.6,"Ociosa (< 45%)",-21.98,"Nominal (>= -23.0 dBm)",0,6,2,5760,112.15,1.71,1128,6888,77
+CTO-3025,"Grande São Paulo (SP)","FTTH GPON","Fibra 600 Mbps",131,192,68.4,"Maturação (45% - 74.9%)",-20.87,"Nominal (>= -23.0 dBm)",0,14,4,11520,136.43,1.48,3174,14694,75
+CTO-3026,"Grande São Paulo (SP)","FTTH GPON","Fibra 300 Mbps",98,192,51,"Maturação (45% - 74.9%)",-26.01,"Degradado (-23.1 a -27.0 dBm)",0,20,6,17280,104.91,2.44,3010,20290,49
+CTO-3027,"Rio & Baixada (RJ)","FTTH GPON","Fibra 300 Mbps",200,256,78.2,"Alta Densidade (>= 75%)",-20.21,"Nominal (>= -23.0 dBm)",0,16,4,11520,106.34,1.29,3292,14812,81
+CTO-3028,"Sul Integrado (PR/SC)","FTTH XGS-PON","Fibra 300 Mbps",152,256,59.5,"Maturação (45% - 74.9%)",-22.98,"Nominal (>= -23.0 dBm)",0,14,4,11520,107.43,1.43,2802,14322,75
+CTO-3029,"Rio & Baixada (RJ)","FWA 5G","Fibra 300 Mbps",88,128,69,"Maturação (45% - 74.9%)",-21.03,"Nominal (>= -23.0 dBm)",0,14,4,11520,100.56,1.41,1497,13017,75
+CTO-3030,"Sul Integrado (PR/SC)","FTTH GPON","Fibra 600 Mbps",140,256,54.8,"Maturação (45% - 74.9%)",-29.98,"Crítico (< -27.0 dBm)",1,28,12,34560,116.41,4.14,8097,42657,36
+CTO-3031,"Grande São Paulo (SP)","FTTH GPON","Fibra 1 Gbps + Wi-Fi 6",121,256,47.3,"Maturação (45% - 74.9%)",-23.76,"Degradado (-23.1 a -27.0 dBm)",1,15,4,11520,159.04,2.25,5196,16716,57
+CTO-3032,"Grande São Paulo (SP)","FTTH GPON","Fibra 1 Gbps + Wi-Fi 6",144,256,56.1,"Maturação (45% - 74.9%)",-26.2,"Degradado (-23.1 a -27.0 dBm)",1,15,4,11520,161.47,2.05,5720,17240,58
+CTO-3033,"Minas Gerais (MG)","FTTH XGS-PON","Fibra 1 Gbps + Wi-Fi 6",67,256,26.2,"Ociosa (< 45%)",-23.66,"Degradado (-23.1 a -27.0 dBm)",1,12,3,8640,142.77,2.56,2939,11579,55
+CTO-3034,"Grande São Paulo (SP)","FTTH GPON","Fibra 1 Gbps + Wi-Fi 6",63,192,32.7,"Ociosa (< 45%)",-21.14,"Nominal (>= -23.0 dBm)",1,6,2,5760,156.83,1.22,1446,7206,89
+CTO-3035,"Grande São Paulo (SP)","FTTH XGS-PON","Fibra 300 Mbps",98,192,51.2,"Maturação (45% - 74.9%)",-19.35,"Nominal (>= -23.0 dBm)",1,8,2,5760,112.51,0.95,1257,7017,91
+CTO-3036,"Grande São Paulo (SP)","FTTH GPON","Fibra 600 Mbps",157,192,81.6,"Alta Densidade (>= 75%)",-26.84,"Degradado (-23.1 a -27.0 dBm)",0,29,8,23040,134.79,3.11,7898,30938,53
+CTO-3037,"Rio & Baixada (RJ)","FTTH GPON","Fibra 600 Mbps",126,192,65.7,"Maturação (45% - 74.9%)",-29.08,"Crítico (< -27.0 dBm)",0,41,18,51840,128.34,4.21,8170,60010,32
+CTO-3038,"Nordeste Litoral (BA/PE)","FTTH GPON","Fibra 600 Mbps",103,192,53.5,"Maturação (45% - 74.9%)",-29.42,"Crítico (< -27.0 dBm)",1,21,9,25920,115.17,3.75,5338,31258,40
+CTO-3039,"Grande São Paulo (SP)","FWA 5G","Fibra 600 Mbps",94,128,73.5,"Maturação (45% - 74.9%)",-19.7,"Nominal (>= -23.0 dBm)",0,9,3,8640,128.85,1.18,1715,10355,69
+CTO-3040,"Sul Integrado (PR/SC)","FWA 5G","Fibra 300 Mbps",83,128,65,"Maturação (45% - 74.9%)",-26.76,"Degradado (-23.1 a -27.0 dBm)",0,16,4,11520,105.43,2.49,2615,14135,59
+CTO-3041,"Sul Integrado (PR/SC)","FWA 5G","Fibra 600 Mbps",80,128,62.4,"Maturação (45% - 74.9%)",-29.65,"Crítico (< -27.0 dBm)",0,31,14,40320,129.26,4.92,6105,46425,38
+CTO-3042,"Minas Gerais (MG)","FTTH GPON","Fibra 1 Gbps + Wi-Fi 6",105,192,54.8,"Maturação (45% - 74.9%)",-20.73,"Nominal (>= -23.0 dBm)",1,8,2,5760,147.92,0.78,1454,7214,86
+CTO-3043,"Rio & Baixada (RJ)","FTTH XGS-PON","Fibra 300 Mbps",131,256,51.1,"Maturação (45% - 74.9%)",-23.49,"Degradado (-23.1 a -27.0 dBm)",0,28,8,23040,107.65,2.63,4451,27491,50
+CTO-3044,"Sul Integrado (PR/SC)","FTTH GPON","Fibra 300 Mbps",82,256,32,"Ociosa (< 45%)",-22.71,"Nominal (>= -23.0 dBm)",0,13,4,11520,97.4,1.61,1543,13063,71
+CTO-3045,"Minas Gerais (MG)","FWA 5G","Fibra 1 Gbps + Wi-Fi 6",88,128,68.6,"Maturação (45% - 74.9%)",-30.19,"Crítico (< -27.0 dBm)",1,16,7,20160,142.45,3.8,5716,25876,37
+CTO-3046,"Grande São Paulo (SP)","FWA 5G","Fibra 600 Mbps",70,128,54.3,"Maturação (45% - 74.9%)",-23.48,"Degradado (-23.1 a -27.0 dBm)",0,14,4,11520,129.35,2.76,2999,14519,57
+CTO-3047,"Grande São Paulo (SP)","FTTH GPON","Fibra 600 Mbps",81,256,31.7,"Ociosa (< 45%)",-20.87,"Nominal (>= -23.0 dBm)",0,8,2,5760,130.59,1.79,2272,8032,77
+CTO-3048,"Sul Integrado (PR/SC)","FWA 5G","Fibra 600 Mbps",73,128,57.4,"Maturação (45% - 74.9%)",-24.94,"Degradado (-23.1 a -27.0 dBm)",0,20,6,17280,121.72,3.13,3337,20617,54
+CTO-3049,"Grande São Paulo (SP)","FTTH GPON","Fibra 300 Mbps",93,256,36.3,"Ociosa (< 45%)",-19.42,"Nominal (>= -23.0 dBm)",1,9,3,8640,116.84,1.28,1669,10309,82
+CTO-3050,"Minas Gerais (MG)","FTTH GPON","Fibra 1 Gbps + Wi-Fi 6",187,256,73.1,"Maturação (45% - 74.9%)",-19.74,"Nominal (>= -23.0 dBm)",1,11,3,8640,147.01,1.12,3695,12335,90
+CTO-3051,"Minas Gerais (MG)","FTTH GPON","Fibra 600 Mbps",52,192,27.2,"Ociosa (< 45%)",-20.03,"Nominal (>= -23.0 dBm)",1,5,1,2880,125.06,1.35,1054,3934,87
+CTO-3052,"Minas Gerais (MG)","FTTH GPON","Fibra 300 Mbps",169,192,88.1,"Alta Densidade (>= 75%)",-26.18,"Degradado (-23.1 a -27.0 dBm)",0,35,10,28800,97.47,2.6,5139,33939,54
+CTO-3053,"Nordeste Litoral (BA/PE)","FTTH GPON","Fibra 300 Mbps",192,256,75.1,"Alta Densidade (>= 75%)",-27.74,"Crítico (< -27.0 dBm)",0,62,27,77760,84.3,4.86,9439,87199,34
+CTO-3054,"Grande São Paulo (SP)","FTTH GPON","Fibra 600 Mbps",129,192,67.2,"Maturação (45% - 74.9%)",-26.26,"Degradado (-23.1 a -27.0 dBm)",0,28,8,23040,127.85,2.58,5106,28146,57
+CTO-3055,"Sul Integrado (PR/SC)","FTTH GPON","Fibra 600 Mbps",124,192,64.7,"Maturação (45% - 74.9%)",-28.02,"Crítico (< -27.0 dBm)",0,42,18,51840,120.76,5.31,9542,61382,22
+CTO-3056,"Rio & Baixada (RJ)","FTTH XGS-PON","Fibra 1 Gbps + Wi-Fi 6",131,192,68,"Maturação (45% - 74.9%)",-20.76,"Nominal (>= -23.0 dBm)",1,8,2,5760,148.76,0.9,2105,7865,78
+CTO-3057,"Nordeste Litoral (BA/PE)","FTTH GPON","Fibra 1 Gbps + Wi-Fi 6",82,192,42.9,"Ociosa (< 45%)",-19.75,"Nominal (>= -23.0 dBm)",1,10,3,8640,139.08,1.36,1861,10501,82
+CTO-3058,"Nordeste Litoral (BA/PE)","FTTH GPON","Fibra 300 Mbps",50,192,25.8,"Ociosa (< 45%)",-22.4,"Nominal (>= -23.0 dBm)",0,7,2,5760,84.21,1.33,672,6432,83
+CTO-3059,"Grande São Paulo (SP)","FTTH GPON","Fibra 300 Mbps",155,192,80.6,"Alta Densidade (>= 75%)",-19.49,"Nominal (>= -23.0 dBm)",0,17,5,14400,109.77,1.22,2491,16891,82
+CTO-3060,"Rio & Baixada (RJ)","FTTH GPON","Fibra 1 Gbps + Wi-Fi 6",162,192,84.3,"Alta Densidade (>= 75%)",-26.38,"Degradado (-23.1 a -27.0 dBm)",1,17,5,14400,154.99,1.93,5815,20215,57
+CTO-3061,"Sul Integrado (PR/SC)","FTTH GPON","Fibra 300 Mbps",142,256,55.4,"Maturação (45% - 74.9%)",-25.31,"Degradado (-23.1 a -27.0 dBm)",0,30,8,23040,93.97,2.82,4516,27556,52
+CTO-3062,"Grande São Paulo (SP)","FTTH XGS-PON","Fibra 300 Mbps",173,192,89.9,"Alta Densidade (>= 75%)",-23.22,"Degradado (-23.1 a -27.0 dBm)",0,30,8,23040,116.6,2.94,7117,30157,49
+CTO-3063,"Sul Integrado (PR/SC)","FTTH GPON","Fibra 600 Mbps",137,256,53.4,"Maturação (45% - 74.9%)",-25.51,"Degradado (-23.1 a -27.0 dBm)",0,25,7,20160,125.88,2.92,6043,26203,51
+CTO-3064,"Minas Gerais (MG)","FTTH XGS-PON","Fibra 1 Gbps + Wi-Fi 6",172,192,89.5,"Alta Densidade (>= 75%)",-21.67,"Nominal (>= -23.0 dBm)",1,8,2,5760,147.29,0.87,2645,8405,82
+CTO-3065,"Minas Gerais (MG)","FTTH XGS-PON","Fibra 300 Mbps",67,192,35,"Ociosa (< 45%)",-23.11,"Degradado (-23.1 a -27.0 dBm)",0,17,5,14400,103.68,3.17,2642,17042,54
+CTO-3066,"Grande São Paulo (SP)","FTTH GPON","Fibra 600 Mbps",100,192,52.2,"Maturação (45% - 74.9%)",-19.95,"Nominal (>= -23.0 dBm)",0,15,4,11520,132.23,1.27,2015,13535,69
+CTO-3067,"Nordeste Litoral (BA/PE)","FTTH GPON","Fibra 600 Mbps",86,256,33.5,"Ociosa (< 45%)",-21.53,"Nominal (>= -23.0 dBm)",0,14,4,11520,111.08,1.46,1674,13194,79
+CTO-3068,"Sul Integrado (PR/SC)","FTTH XGS-PON","Fibra 600 Mbps",96,256,37.6,"Ociosa (< 45%)",-19.86,"Nominal (>= -23.0 dBm)",0,8,2,5760,126.39,1.38,2009,7769,84
+CTO-3069,"Grande São Paulo (SP)","FTTH GPON","Fibra 600 Mbps",184,256,71.8,"Maturação (45% - 74.9%)",-26.66,"Degradado (-23.1 a -27.0 dBm)",0,33,9,25920,133.33,2.56,7536,33456,50
+CTO-3070,"Nordeste Litoral (BA/PE)","FTTH XGS-PON","Fibra 300 Mbps",128,256,50,"Maturação (45% - 74.9%)",-19.52,"Nominal (>= -23.0 dBm)",0,15,4,11520,83.21,1.12,1431,12951,72
+CTO-3071,"Nordeste Litoral (BA/PE)","FTTH GPON","Fibra 300 Mbps",142,192,73.7,"Maturação (45% - 74.9%)",-22.35,"Nominal (>= -23.0 dBm)",0,13,4,11520,80.09,1.54,2102,13622,84
+CTO-3072,"Sul Integrado (PR/SC)","FTTH GPON","Fibra 1 Gbps + Wi-Fi 6",54,192,27.9,"Ociosa (< 45%)",-20.24,"Nominal (>= -23.0 dBm)",1,8,2,5760,154.48,1.24,1241,7001,80
+CTO-3073,"Minas Gerais (MG)","FTTH GPON","Fibra 1 Gbps + Wi-Fi 6",128,256,49.9,"Maturação (45% - 74.9%)",-30.07,"Crítico (< -27.0 dBm)",1,26,11,31680,154.85,3.99,9490,41170,41
+CTO-3074,"Nordeste Litoral (BA/PE)","FTTH GPON","Fibra 300 Mbps",120,192,62.5,"Maturação (45% - 74.9%)",-25.84,"Degradado (-23.1 a -27.0 dBm)",1,16,4,11520,85.44,2.28,2805,14325,64
+CTO-3075,"Minas Gerais (MG)","FTTH GPON","Fibra 600 Mbps",75,192,39.2,"Ociosa (< 45%)",-21.88,"Nominal (>= -23.0 dBm)",1,9,3,8640,123.4,1.05,1166,9806,91
+CTO-3076,"Sul Integrado (PR/SC)","FTTH GPON","Fibra 600 Mbps",124,192,64.7,"Maturação (45% - 74.9%)",-21.28,"Nominal (>= -23.0 dBm)",0,10,3,8640,126.02,1.23,2306,10946,71
+CTO-3077,"Grande São Paulo (SP)","FTTH GPON","Fibra 1 Gbps + Wi-Fi 6",148,256,57.7,"Maturação (45% - 74.9%)",-26.81,"Degradado (-23.1 a -27.0 dBm)",1,18,5,14400,159.51,2.13,6034,20434,55
+CTO-3078,"Rio & Baixada (RJ)","FWA 5G","Fibra 600 Mbps",97,128,75.5,"Alta Densidade (>= 75%)",-26.27,"Degradado (-23.1 a -27.0 dBm)",0,19,5,14400,120.94,2.72,3829,18229,52
+CTO-3079,"Minas Gerais (MG)","FTTH GPON","Fibra 600 Mbps",196,256,76.7,"Alta Densidade (>= 75%)",-20.65,"Nominal (>= -23.0 dBm)",0,22,6,17280,119.19,1.1,3084,20364,74
+CTO-3080,"Sul Integrado (PR/SC)","FTTH XGS-PON","Fibra 1 Gbps + Wi-Fi 6",73,192,37.9,"Ociosa (< 45%)",-21.27,"Nominal (>= -23.0 dBm)",1,10,3,8640,150.19,1.41,1855,10495,83
+CTO-3081,"Minas Gerais (MG)","FTTH GPON","Fibra 600 Mbps",147,256,57.3,"Maturação (45% - 74.9%)",-27.94,"Crítico (< -27.0 dBm)",0,47,21,60480,115.61,5.29,10788,71268,27
+CTO-3082,"Nordeste Litoral (BA/PE)","FTTH XGS-PON","Fibra 1 Gbps + Wi-Fi 6",210,256,82.1,"Alta Densidade (>= 75%)",-21.34,"Nominal (>= -23.0 dBm)",1,12,3,8640,145.5,0.79,2897,11537,77
+CTO-3083,"Rio & Baixada (RJ)","FTTH GPON","Fibra 600 Mbps",79,256,30.8,"Ociosa (< 45%)",-22.52,"Nominal (>= -23.0 dBm)",0,6,2,5760,121.64,1.58,1822,7582,77
+CTO-3084,"Sul Integrado (PR/SC)","FTTH GPON","Fibra 300 Mbps",146,256,57.2,"Maturação (45% - 74.9%)",-30.03,"Crítico (< -27.0 dBm)",0,45,20,57600,99.51,5.09,8874,66474,29
+CTO-3085,"Grande São Paulo (SP)","FTTH GPON","Fibra 300 Mbps",122,192,63.8,"Maturação (45% - 74.9%)",-28.14,"Crítico (< -27.0 dBm)",0,43,19,54720,116.54,4.48,7644,62364,37
+CTO-3086,"Nordeste Litoral (BA/PE)","FTTH GPON","Fibra 1 Gbps + Wi-Fi 6",97,192,50.7,"Maturação (45% - 74.9%)",-29.2,"Crítico (< -27.0 dBm)",1,20,9,25920,139.46,3.27,5308,31228,35
+CTO-3087,"Nordeste Litoral (BA/PE)","FTTH GPON","Fibra 600 Mbps",129,192,67.4,"Maturação (45% - 74.9%)",-27.3,"Crítico (< -27.0 dBm)",0,37,16,46080,107.33,5.09,8457,54537,25
+CTO-3088,"Grande São Paulo (SP)","FTTH GPON","Fibra 600 Mbps",208,256,81.3,"Alta Densidade (>= 75%)",-28.71,"Crítico (< -27.0 dBm)",0,62,27,77760,136.4,5.29,18010,95770,28
+CTO-3089,"Rio & Baixada (RJ)","FTTH XGS-PON","Fibra 1 Gbps + Wi-Fi 6",174,256,67.8,"Maturação (45% - 74.9%)",-20.99,"Nominal (>= -23.0 dBm)",1,7,2,5760,150.09,1.09,3416,9176,80
+CTO-3090,"Grande São Paulo (SP)","FTTH GPON","Fibra 1 Gbps + Wi-Fi 6",143,256,55.9,"Maturação (45% - 74.9%)",-21.31,"Nominal (>= -23.0 dBm)",1,11,3,8640,163.87,0.87,2446,11086,86
+CTO-3091,"Minas Gerais (MG)","FTTH XGS-PON","Fibra 600 Mbps",101,192,52.7,"Maturação (45% - 74.9%)",-20.11,"Nominal (>= -23.0 dBm)",0,10,3,8640,123.61,1.08,1618,10258,85
+CTO-3092,"Grande São Paulo (SP)","FTTH GPON","Fibra 600 Mbps",63,256,24.6,"Ociosa (< 45%)",-26.46,"Degradado (-23.1 a -27.0 dBm)",0,16,4,11520,126.67,2.91,2787,14307,59
+CTO-3093,"Nordeste Litoral (BA/PE)","FTTH XGS-PON","Fibra 1 Gbps + Wi-Fi 6",61,192,31.9,"Ociosa (< 45%)",-18.91,"Nominal (>= -23.0 dBm)",1,7,2,5760,138.7,1.06,1076,6836,85
+CTO-3094,"Rio & Baixada (RJ)","FTTH GPON","Fibra 600 Mbps",134,256,52.3,"Maturação (45% - 74.9%)",-19.8,"Nominal (>= -23.0 dBm)",0,13,4,11520,121.36,1.33,2595,14115,84
+CTO-3095,"Rio & Baixada (RJ)","FTTH XGS-PON","Fibra 300 Mbps",92,192,47.7,"Maturação (45% - 74.9%)",-21.67,"Nominal (>= -23.0 dBm)",1,11,3,8640,109.42,0.95,1148,9788,86
+CTO-3096,"Sul Integrado (PR/SC)","FWA 5G","Fibra 300 Mbps",99,128,77.2,"Alta Densidade (>= 75%)",-20.76,"Nominal (>= -23.0 dBm)",0,13,4,11520,106.66,1.13,1432,12952,75
+CTO-3097,"Rio & Baixada (RJ)","FTTH GPON","Fibra 600 Mbps",160,192,83.1,"Alta Densidade (>= 75%)",-21.61,"Nominal (>= -23.0 dBm)",0,12,3,8640,126.4,1.37,3325,11965,83
+CTO-3098,"Nordeste Litoral (BA/PE)","FTTH GPON","Fibra 300 Mbps",96,192,50.2,"Maturação (45% - 74.9%)",-19.45,"Nominal (>= -23.0 dBm)",0,13,4,11520,82.19,1.47,1392,12912,72
+CTO-3099,"Rio & Baixada (RJ)","FWA 5G","Fibra 300 Mbps",42,128,32.6,"Ociosa (< 45%)",-25.01,"Degradado (-23.1 a -27.0 dBm)",0,15,4,11520,100.05,2.98,1503,13023,53
+CTO-3100,"Grande São Paulo (SP)","FTTH GPON","Fibra 300 Mbps",118,192,61.4,"Maturação (45% - 74.9%)",-20.16,"Nominal (>= -23.0 dBm)",0,14,4,11520,115.39,1.39,2271,13791,74
+CTO-3101,"Sul Integrado (PR/SC)","FTTH GPON","Fibra 1 Gbps + Wi-Fi 6",220,256,85.9,"Alta Densidade (>= 75%)",-22.12,"Nominal (>= -23.0 dBm)",1,9,3,8640,158.56,1.11,4646,13286,89
+CTO-3102,"Rio & Baixada (RJ)","FTTH GPON","Fibra 300 Mbps",122,256,47.7,"Maturação (45% - 74.9%)",-22.22,"Nominal (>= -23.0 dBm)",0,13,4,11520,104.9,1.26,1935,13455,78
+CTO-3103,"Grande São Paulo (SP)","FWA 5G","Fibra 600 Mbps",65,128,50.5,"Maturação (45% - 74.9%)",-28.27,"Crítico (< -27.0 dBm)",0,21,9,25920,130.11,4.98,5054,30974,32
+CTO-3104,"Minas Gerais (MG)","FTTH XGS-PON","Fibra 1 Gbps + Wi-Fi 6",162,256,63.3,"Maturação (45% - 74.9%)",-20.46,"Nominal (>= -23.0 dBm)",1,11,3,8640,148.3,1.07,3085,11725,86
+CTO-3105,"Sul Integrado (PR/SC)","FTTH GPON","Fibra 600 Mbps",188,256,73.4,"Maturação (45% - 74.9%)",-20.55,"Nominal (>= -23.0 dBm)",0,17,5,14400,123.54,1.28,3567,17967,83
+CTO-3106,"Grande São Paulo (SP)","FTTH GPON","Fibra 1 Gbps + Wi-Fi 6",171,192,89.1,"Alta Densidade (>= 75%)",-21.27,"Nominal (>= -23.0 dBm)",1,10,3,8640,167.26,0.88,3020,11660,81
+CTO-3107,"Nordeste Litoral (BA/PE)","FTTH XGS-PON","Fibra 300 Mbps",83,256,32.5,"Ociosa (< 45%)",-22.32,"Nominal (>= -23.0 dBm)",0,9,3,8640,87.77,1.31,1145,9785,74
+CTO-3108,"Nordeste Litoral (BA/PE)","FTTH GPON","Fibra 1 Gbps + Wi-Fi 6",216,256,84.2,"Alta Densidade (>= 75%)",-25.72,"Degradado (-23.1 a -27.0 dBm)",1,25,7,20160,145.8,1.83,6916,27076,63
+CTO-3109,"Grande São Paulo (SP)","FTTH GPON","Fibra 300 Mbps",172,192,89.8,"Alta Densidade (>= 75%)",-24.2,"Degradado (-23.1 a -27.0 dBm)",0,31,9,25920,109.83,2.65,6007,31927,49
+CTO-3110,"Sul Integrado (PR/SC)","FTTH XGS-PON","Fibra 1 Gbps + Wi-Fi 6",189,256,73.7,"Maturação (45% - 74.9%)",-19.66,"Nominal (>= -23.0 dBm)",1,11,3,8640,151.45,1.09,3744,12384,88
+CTO-3111,"Grande São Paulo (SP)","FTTH XGS-PON","Fibra 600 Mbps",185,256,72.1,"Maturação (45% - 74.9%)",-19.19,"Nominal (>= -23.0 dBm)",1,12,3,8640,129.32,1.18,3388,12028,88
+CTO-3112,"Rio & Baixada (RJ)","FTTH GPON","Fibra 300 Mbps",100,256,39.1,"Ociosa (< 45%)",-24.58,"Degradado (-23.1 a -27.0 dBm)",0,22,6,17280,102.33,3.26,4003,21283,59
+CTO-3113,"Sul Integrado (PR/SC)","FTTH XGS-PON","Fibra 1 Gbps + Wi-Fi 6",81,192,42.3,"Ociosa (< 45%)",-23.38,"Degradado (-23.1 a -27.0 dBm)",1,8,2,5760,153.56,2.34,3493,9253,63
+CTO-3114,"Rio & Baixada (RJ)","FTTH GPON","Fibra 300 Mbps",126,192,65.5,"Maturação (45% - 74.9%)",-28.89,"Crítico (< -27.0 dBm)",0,38,17,48960,96.25,4.58,6665,55625,27
+CTO-3115,"Nordeste Litoral (BA/PE)","FTTH GPON","Fibra 600 Mbps",87,256,33.9,"Ociosa (< 45%)",-19.6,"Nominal (>= -23.0 dBm)",0,12,3,8640,105.93,1.39,1537,10177,81
+CTO-3116,"Rio & Baixada (RJ)","FTTH GPON","Fibra 600 Mbps",119,192,61.8,"Maturação (45% - 74.9%)",-21.57,"Nominal (>= -23.0 dBm)",0,9,3,8640,123.37,1.54,2713,11353,79
+CTO-3117,"Rio & Baixada (RJ)","FTTH GPON","Fibra 300 Mbps",127,256,49.8,"Maturação (45% - 74.9%)",-22.02,"Nominal (>= -23.0 dBm)",0,11,3,8640,98.98,1.09,1644,10284,74
+CTO-3118,"Grande São Paulo (SP)","FWA 5G","Fibra 600 Mbps",30,128,23.2,"Ociosa (< 45%)",-22.72,"Nominal (>= -23.0 dBm)",0,7,2,5760,130.22,1.29,605,6365,82
+CTO-3119,"Sul Integrado (PR/SC)","FTTH GPON","Fibra 600 Mbps",125,256,48.7,"Maturação (45% - 74.9%)",-25.97,"Degradado (-23.1 a -27.0 dBm)",0,25,7,20160,118.24,3.04,5392,25552,60
+CTO-3120,"Minas Gerais (MG)","FTTH XGS-PON","Fibra 1 Gbps + Wi-Fi 6",81,256,31.7,"Ociosa (< 45%)",-23.4,"Degradado (-23.1 a -27.0 dBm)",1,14,4,11520,151.15,2.1,3085,14605,67
+CTO-3121,"Nordeste Litoral (BA/PE)","FTTH GPON","Fibra 600 Mbps",63,256,24.6,"Ociosa (< 45%)",-25.89,"Degradado (-23.1 a -27.0 dBm)",0,14,4,11520,110.87,3.35,2808,14328,49
+CTO-3122,"Grande São Paulo (SP)","FTTH GPON","Fibra 300 Mbps",155,256,60.7,"Maturação (45% - 74.9%)",-24.96,"Degradado (-23.1 a -27.0 dBm)",0,31,9,25920,104.87,2.6,5072,30992,47
+CTO-3123,"Minas Gerais (MG)","FTTH GPON","Fibra 300 Mbps",182,256,70.9,"Maturação (45% - 74.9%)",-19.79,"Nominal (>= -23.0 dBm)",0,13,4,11520,92.38,1.2,2421,13941,79
+CTO-3124,"Rio & Baixada (RJ)","FTTH XGS-PON","Fibra 300 Mbps",126,256,49.4,"Maturação (45% - 74.9%)",-21.57,"Nominal (>= -23.0 dBm)",0,13,4,11520,108.83,1.34,2205,13725,83
+CTO-3125,"Nordeste Litoral (BA/PE)","FTTH GPON","Fibra 600 Mbps",67,256,26,"Ociosa (< 45%)",-20.96,"Nominal (>= -23.0 dBm)",0,9,3,8640,108.65,1.47,1284,9924,74
+CTO-3126,"Grande São Paulo (SP)","FTTH XGS-PON","Fibra 600 Mbps",216,256,84.2,"Alta Densidade (>= 75%)",-19.24,"Nominal (>= -23.0 dBm)",1,9,3,8640,127.38,0.84,2773,11413,76
+CTO-3127,"Minas Gerais (MG)","FTTH GPON","Fibra 300 Mbps",49,192,25.5,"Ociosa (< 45%)",-25.88,"Degradado (-23.1 a -27.0 dBm)",0,10,3,8640,93.37,3.4,1867,10507,53
+CTO-3128,"Minas Gerais (MG)","FTTH GPON","Fibra 1 Gbps + Wi-Fi 6",129,256,50.3,"Maturação (45% - 74.9%)",-28.45,"Crítico (< -27.0 dBm)",1,19,8,23040,143.18,4.02,8910,31950,45
+CTO-3129,"Rio & Baixada (RJ)","FTTH XGS-PON","Fibra 300 Mbps",202,256,79.1,"Alta Densidade (>= 75%)",-22.76,"Nominal (>= -23.0 dBm)",1,15,4,11520,102.2,0.77,1908,13428,89
+CTO-3130,"Minas Gerais (MG)","FTTH XGS-PON","Fibra 300 Mbps",153,192,79.5,"Alta Densidade (>= 75%)",-20.61,"Nominal (>= -23.0 dBm)",0,16,4,11520,94.95,1.28,2231,13751,79
+CTO-3131,"Rio & Baixada (RJ)","FTTH XGS-PON","Fibra 600 Mbps",169,192,88.1,"Alta Densidade (>= 75%)",-20.74,"Nominal (>= -23.0 dBm)",0,14,4,11520,128.99,1.09,2851,14371,82
+CTO-3132,"Grande São Paulo (SP)","FTTH GPON","Fibra 300 Mbps",126,192,65.4,"Maturação (45% - 74.9%)",-20.92,"Nominal (>= -23.0 dBm)",0,15,4,11520,106.13,1.27,2038,13558,75
+CTO-3133,"Minas Gerais (MG)","FTTH GPON","Fibra 600 Mbps",151,256,59.1,"Maturação (45% - 74.9%)",-28.21,"Crítico (< -27.0 dBm)",0,46,20,57600,117.05,4.64,9841,67441,23
+CTO-3134,"Nordeste Litoral (BA/PE)","FTTH GPON","Fibra 300 Mbps",91,192,47.6,"Maturação (45% - 74.9%)",-20.9,"Nominal (>= -23.0 dBm)",0,10,3,8640,89.43,1.1,1074,9714,73
+CTO-3135,"Rio & Baixada (RJ)","FTTH GPON","Fibra 600 Mbps",227,256,88.8,"Alta Densidade (>= 75%)",-29.36,"Crítico (< -27.0 dBm)",0,67,29,83520,118.87,5.24,16967,100487,27
+CTO-3136,"Grande São Paulo (SP)","FTTH GPON","Fibra 1 Gbps + Wi-Fi 6",140,256,54.5,"Maturação (45% - 74.9%)",-21.35,"Nominal (>= -23.0 dBm)",1,12,3,8640,159.32,0.85,2275,10915,77
+CTO-3137,"Rio & Baixada (RJ)","FTTH XGS-PON","Fibra 1 Gbps + Wi-Fi 6",73,192,37.8,"Ociosa (< 45%)",-19.89,"Nominal (>= -23.0 dBm)",1,8,2,5760,154.72,1.22,1654,7414,84
+CTO-3138,"Nordeste Litoral (BA/PE)","FTTH XGS-PON","Fibra 1 Gbps + Wi-Fi 6",86,256,33.5,"Ociosa (< 45%)",-21.67,"Nominal (>= -23.0 dBm)",1,9,3,8640,143.58,1.07,1585,10225,77
+CTO-3139,"Nordeste Litoral (BA/PE)","FTTH GPON","Fibra 600 Mbps",164,192,85.3,"Alta Densidade (>= 75%)",-26.3,"Degradado (-23.1 a -27.0 dBm)",0,30,8,23040,104.34,3.03,6222,29262,54
+CTO-3140,"Rio & Baixada (RJ)","FWA 5G","Fibra 1 Gbps + Wi-Fi 6",76,128,59.1,"Maturação (45% - 74.9%)",-24.68,"Degradado (-23.1 a -27.0 dBm)",1,14,4,11520,151.22,2.17,2993,14513,64
+CTO-3141,"Minas Gerais (MG)","FTTH GPON","Fibra 600 Mbps",132,256,51.7,"Maturação (45% - 74.9%)",-25.11,"Degradado (-23.1 a -27.0 dBm)",0,24,7,20160,112.7,2.45,4374,24534,56
+CTO-3142,"Grande São Paulo (SP)","FTTH GPON","Fibra 300 Mbps",88,192,46,"Maturação (45% - 74.9%)",-25.45,"Degradado (-23.1 a -27.0 dBm)",0,16,4,11520,110.8,2.97,3475,14995,57
+CTO-3143,"Grande São Paulo (SP)","FTTH GPON","Fibra 300 Mbps",134,256,52.5,"Maturação (45% - 74.9%)",-20.35,"Nominal (>= -23.0 dBm)",1,10,3,8640,114.34,0.83,1526,10166,88
+CTO-3144,"Grande São Paulo (SP)","FTTH GPON","Fibra 300 Mbps",157,256,61.3,"Maturação (45% - 74.9%)",-25.95,"Degradado (-23.1 a -27.0 dBm)",0,32,9,25920,104.1,2.4,4707,30627,60
+CTO-3145,"Nordeste Litoral (BA/PE)","FTTH GPON","Fibra 300 Mbps",148,192,77.3,"Alta Densidade (>= 75%)",-25.69,"Degradado (-23.1 a -27.0 dBm)",0,25,7,20160,87.84,2.75,4290,24450,55
+CTO-3146,"Minas Gerais (MG)","FWA 5G","Fibra 600 Mbps",77,128,60,"Maturação (45% - 74.9%)",-19.36,"Nominal (>= -23.0 dBm)",0,6,2,5760,119.06,1.16,1276,7036,82
+CTO-3147,"Sul Integrado (PR/SC)","FTTH GPON","Fibra 300 Mbps",142,192,73.9,"Maturação (45% - 74.9%)",-21.82,"Nominal (>= -23.0 dBm)",0,12,3,8640,98.63,1.4,2353,10993,74
+CTO-3148,"Minas Gerais (MG)","FWA 5G","Fibra 300 Mbps",113,128,87.9,"Alta Densidade (>= 75%)",-25.85,"Degradado (-23.1 a -27.0 dBm)",0,24,7,20160,101.81,2.38,3286,23446,56
+CTO-3149,"Rio & Baixada (RJ)","FTTH GPON","Fibra 300 Mbps",181,256,70.8,"Maturação (45% - 74.9%)",-20.36,"Nominal (>= -23.0 dBm)",0,13,4,11520,109.06,1.53,3624,15144,72
+CTO-3150,"Grande São Paulo (SP)","FTTH GPON","Fibra 600 Mbps",204,256,79.7,"Alta Densidade (>= 75%)",-30.15,"Crítico (< -27.0 dBm)",0,64,28,80640,127.31,4.9,15271,95911,29
+CTO-3151,"Minas Gerais (MG)","FTTH GPON","Fibra 300 Mbps",218,256,85,"Alta Densidade (>= 75%)",-26.17,"Degradado (-23.1 a -27.0 dBm)",0,43,12,34560,99.44,2.57,6685,41245,47
+CTO-3152,"Grande São Paulo (SP)","FTTH GPON","Fibra 1 Gbps + Wi-Fi 6",136,192,70.8,"Maturação (45% - 74.9%)",-24.82,"Degradado (-23.1 a -27.0 dBm)",1,16,4,11520,162.29,2,5297,16817,59
+CTO-3153,"Sul Integrado (PR/SC)","FTTH GPON","Fibra 300 Mbps",133,192,69.2,"Maturação (45% - 74.9%)",-25.99,"Degradado (-23.1 a -27.0 dBm)",0,29,8,23040,96.87,2.73,4221,27261,52
+CTO-3154,"Grande São Paulo (SP)","FTTH GPON","Fibra 600 Mbps",60,256,23.3,"Ociosa (< 45%)",-26.31,"Degradado (-23.1 a -27.0 dBm)",0,13,4,11520,133.6,3.11,2992,14512,50
+CTO-3155,"Sul Integrado (PR/SC)","FTTH GPON","Fibra 1 Gbps + Wi-Fi 6",146,192,75.9,"Alta Densidade (>= 75%)",-19.58,"Nominal (>= -23.0 dBm)",1,13,4,11520,159.06,1.05,2926,14446,85
+CTO-3156,"Grande São Paulo (SP)","FTTH GPON","Fibra 300 Mbps",172,256,67.3,"Maturação (45% - 74.9%)",-27.86,"Crítico (< -27.0 dBm)",0,53,23,66240,112.98,4.9,11426,77666,27
+CTO-3157,"Grande São Paulo (SP)","FTTH XGS-PON","Fibra 300 Mbps",80,192,41.9,"Ociosa (< 45%)",-20,"Nominal (>= -23.0 dBm)",0,12,3,8640,109.01,1.45,1517,10157,69
+CTO-3158,"Nordeste Litoral (BA/PE)","FTTH GPON","Fibra 300 Mbps",160,256,62.5,"Maturação (45% - 74.9%)",-19.88,"Nominal (>= -23.0 dBm)",0,15,4,11520,80.11,1.12,1723,13243,77
+CTO-3159,"Rio & Baixada (RJ)","FTTH GPON","Fibra 600 Mbps",102,256,39.9,"Ociosa (< 45%)",-22.44,"Nominal (>= -23.0 dBm)",0,9,3,8640,124.07,1.62,2460,11100,80
+CTO-3160,"Minas Gerais (MG)","FTTH GPON","Fibra 300 Mbps",65,192,34,"Ociosa (< 45%)",-22.63,"Nominal (>= -23.0 dBm)",0,9,3,8640,96.22,1.69,1268,9908,74
+CTO-3161,"Grande São Paulo (SP)","FTTH GPON","Fibra 300 Mbps",141,256,55.2,"Maturação (45% - 74.9%)",-21.95,"Nominal (>= -23.0 dBm)",0,11,3,8640,104.73,1.24,2197,10837,84
+CTO-3162,"Sul Integrado (PR/SC)","FTTH GPON","Fibra 600 Mbps",156,256,61.1,"Maturação (45% - 74.9%)",-21.28,"Nominal (>= -23.0 dBm)",0,13,4,11520,123.73,1.28,2965,14485,85
+CTO-3163,"Sul Integrado (PR/SC)","FTTH GPON","Fibra 1 Gbps + Wi-Fi 6",101,192,52.7,"Maturação (45% - 74.9%)",-21.59,"Nominal (>= -23.0 dBm)",1,10,3,8640,147.5,0.96,1716,10356,92
+CTO-3164,"Rio & Baixada (RJ)","FTTH XGS-PON","Fibra 300 Mbps",135,256,52.6,"Maturação (45% - 74.9%)",-22.58,"Nominal (>= -23.0 dBm)",0,11,3,8640,109.42,1.31,2322,10962,77
+CTO-3165,"Grande São Paulo (SP)","FTTH GPON","Fibra 300 Mbps",130,192,67.9,"Maturação (45% - 74.9%)",-19.66,"Nominal (>= -23.0 dBm)",0,13,4,11520,112.02,1.37,2394,13914,82
+CTO-3166,"Rio & Baixada (RJ)","FTTH GPON","Fibra 300 Mbps",156,256,60.9,"Maturação (45% - 74.9%)",-19.82,"Nominal (>= -23.0 dBm)",0,13,4,11520,107.47,1.59,3199,14719,82
+CTO-3167,"Grande São Paulo (SP)","FTTH GPON","Fibra 600 Mbps",138,256,54,"Maturação (45% - 74.9%)",-23.31,"Degradado (-23.1 a -27.0 dBm)",0,28,8,23040,136.74,3.18,7201,30241,54
+CTO-3168,"Nordeste Litoral (BA/PE)","FTTH GPON","Fibra 600 Mbps",110,192,57.3,"Maturação (45% - 74.9%)",-29.81,"Crítico (< -27.0 dBm)",0,35,15,43200,112.34,5.58,8275,51475,34
+CTO-3169,"Rio & Baixada (RJ)","FTTH XGS-PON","Fibra 1 Gbps + Wi-Fi 6",162,192,84.2,"Alta Densidade (>= 75%)",-20.78,"Nominal (>= -23.0 dBm)",1,10,3,8640,154.94,0.94,2831,11471,83
+CTO-3170,"Grande São Paulo (SP)","FWA 5G","Fibra 600 Mbps",106,128,83.2,"Alta Densidade (>= 75%)",-25.15,"Degradado (-23.1 a -27.0 dBm)",0,22,6,17280,135.75,2.79,4818,22098,58
+CTO-3171,"Rio & Baixada (RJ)","FTTH XGS-PON","Fibra 1 Gbps + Wi-Fi 6",59,256,22.9,"Ociosa (< 45%)",-20.49,"Nominal (>= -23.0 dBm)",1,8,2,5760,151.8,1.16,1247,7007,79
+CTO-3172,"Sul Integrado (PR/SC)","FTTH XGS-PON","Fibra 1 Gbps + Wi-Fi 6",80,192,41.9,"Ociosa (< 45%)",-20.99,"Nominal (>= -23.0 dBm)",1,4,1,2880,154.15,1.29,1909,4789,86
+CTO-3173,"Minas Gerais (MG)","FWA 5G","Fibra 300 Mbps",30,128,23.6,"Ociosa (< 45%)",-24.08,"Degradado (-23.1 a -27.0 dBm)",0,12,3,8640,96.5,3.31,1150,9790,55
+CTO-3174,"Rio & Baixada (RJ)","FTTH XGS-PON","Fibra 300 Mbps",124,256,48.4,"Maturação (45% - 74.9%)",-22.54,"Nominal (>= -23.0 dBm)",0,11,3,8640,98.64,1.59,2334,10974,81
+CTO-3175,"Nordeste Litoral (BA/PE)","FTTH GPON","Fibra 600 Mbps",146,192,76.3,"Alta Densidade (>= 75%)",-20.44,"Nominal (>= -23.0 dBm)",0,18,5,14400,102.07,1.44,2575,16975,72
+CTO-3176,"Rio & Baixada (RJ)","FTTH GPON","Fibra 600 Mbps",155,256,60.4,"Maturação (45% - 74.9%)",-25.01,"Degradado (-23.1 a -27.0 dBm)",0,27,8,23040,118.9,2.4,5308,28348,48
+CTO-3177,"Sul Integrado (PR/SC)","FTTH XGS-PON","Fibra 600 Mbps",146,192,75.8,"Alta Densidade (>= 75%)",-21.85,"Nominal (>= -23.0 dBm)",0,17,5,14400,125.66,1.51,3324,17724,73
+CTO-3178,"Nordeste Litoral (BA/PE)","FTTH GPON","Fibra 1 Gbps + Wi-Fi 6",107,256,41.9,"Ociosa (< 45%)",-19.35,"Nominal (>= -23.0 dBm)",1,8,2,5760,134.09,1.17,2014,7774,84
+CTO-3179,"Grande São Paulo (SP)","FTTH GPON","Fibra 300 Mbps",222,256,86.9,"Alta Densidade (>= 75%)",-19.62,"Nominal (>= -23.0 dBm)",0,22,6,17280,107.63,1.55,4444,21724,81
+CTO-3180,"Nordeste Litoral (BA/PE)","FTTH XGS-PON","Fibra 1 Gbps + Wi-Fi 6",106,256,41.4,"Ociosa (< 45%)",-23,"Nominal (>= -23.0 dBm)",1,5,1,2880,142.25,1.02,1846,4726,85
+CTO-3181,"Sul Integrado (PR/SC)","FTTH GPON","Fibra 300 Mbps",107,192,55.7,"Maturação (45% - 74.9%)",-23.75,"Degradado (-23.1 a -27.0 dBm)",0,21,6,17280,106.03,2.37,3227,20507,56
+CTO-3182,"Grande São Paulo (SP)","FTTH GPON","Fibra 300 Mbps",178,256,69.6,"Maturação (45% - 74.9%)",-24.53,"Degradado (-23.1 a -27.0 dBm)",0,34,10,28800,114.17,2.64,6438,35238,58
+CTO-3183,"Nordeste Litoral (BA/PE)","FTTH GPON","Fibra 600 Mbps",91,256,35.5,"Ociosa (< 45%)",-22.39,"Nominal (>= -23.0 dBm)",0,14,4,11520,108.54,1.36,1612,13132,82
+CTO-3184,"Rio & Baixada (RJ)","FTTH GPON","Fibra 300 Mbps",89,192,46.2,"Maturação (45% - 74.9%)",-26.35,"Degradado (-23.1 a -27.0 dBm)",0,22,6,17280,106,2.76,3125,20405,47
+CTO-3185,"Sul Integrado (PR/SC)","FTTH GPON","Fibra 1 Gbps + Wi-Fi 6",88,256,34.2,"Ociosa (< 45%)",-20.6,"Nominal (>= -23.0 dBm)",1,9,3,8640,157.56,1.37,2279,10919,92
+CTO-3186,"Nordeste Litoral (BA/PE)","FTTH GPON","Fibra 1 Gbps + Wi-Fi 6",146,192,76.1,"Alta Densidade (>= 75%)",-21.43,"Nominal (>= -23.0 dBm)",1,9,3,8640,144.6,1.01,2559,11199,92
+CTO-3187,"Minas Gerais (MG)","FTTH GPON","Fibra 300 Mbps",219,256,85.5,"Alta Densidade (>= 75%)",-29.34,"Crítico (< -27.0 dBm)",0,68,30,86400,94.37,5.25,13020,99420,30
+CTO-3188,"Grande São Paulo (SP)","FWA 5G","Fibra 600 Mbps",42,128,33.1,"Ociosa (< 45%)",-25.37,"Degradado (-23.1 a -27.0 dBm)",0,10,3,8640,139.45,2.85,2003,10643,59
+CTO-3189,"Nordeste Litoral (BA/PE)","FTTH XGS-PON","Fibra 600 Mbps",61,256,23.8,"Ociosa (< 45%)",-20.57,"Nominal (>= -23.0 dBm)",0,10,3,8640,103.25,1.3,983,9623,75
+CTO-3190,"Rio & Baixada (RJ)","FTTH XGS-PON","Fibra 1 Gbps + Wi-Fi 6",193,256,75.2,"Alta Densidade (>= 75%)",-21.58,"Nominal (>= -23.0 dBm)",1,8,2,5760,151.87,1.14,4010,9770,92
+CTO-3191,"Sul Integrado (PR/SC)","FTTH GPON","Fibra 300 Mbps",140,192,73,"Maturação (45% - 74.9%)",-20.43,"Nominal (>= -23.0 dBm)",0,14,4,11520,99.56,1.58,2643,14163,75
+CTO-3192,"Nordeste Litoral (BA/PE)","FWA 5G","Fibra 600 Mbps",50,128,38.9,"Ociosa (< 45%)",-20.88,"Nominal (>= -23.0 dBm)",0,8,2,5760,113.8,1.7,1161,6921,69
+CTO-3193,"Rio & Baixada (RJ)","FTTH GPON","Fibra 300 Mbps",135,192,70.5,"Maturação (45% - 74.9%)",-21.06,"Nominal (>= -23.0 dBm)",1,7,2,5760,105.97,0.81,1391,7151,92
+CTO-3194,"Minas Gerais (MG)","FTTH GPON","Fibra 1 Gbps + Wi-Fi 6",59,192,30.9,"Ociosa (< 45%)",-20.37,"Nominal (>= -23.0 dBm)",1,6,2,5760,153.92,1.18,1286,7046,77
+CTO-3195,"Rio & Baixada (RJ)","FTTH GPON","Fibra 600 Mbps",54,192,28.2,"Ociosa (< 45%)",-29.86,"Crítico (< -27.0 dBm)",1,9,4,11520,123.88,4.3,3452,14972,35
+CTO-3196,"Rio & Baixada (RJ)","FTTH XGS-PON","Fibra 1 Gbps + Wi-Fi 6",144,256,56.3,"Maturação (45% - 74.9%)",-19.09,"Nominal (>= -23.0 dBm)",1,11,3,8640,155.58,1.16,3119,11759,83
+CTO-3197,"Grande São Paulo (SP)","FTTH GPON","Fibra 1 Gbps + Wi-Fi 6",141,192,73.4,"Maturação (45% - 74.9%)",-29.64,"Crítico (< -27.0 dBm)",1,21,9,25920,164.03,4.03,11185,37105,31
+CTO-3198,"Minas Gerais (MG)","FTTH GPON","Fibra 300 Mbps",106,256,41.5,"Ociosa (< 45%)",-21.3,"Nominal (>= -23.0 dBm)",0,12,3,8640,91.4,1.36,1581,10221,77
+CTO-3199,"Grande São Paulo (SP)","FTTH GPON","Fibra 1 Gbps + Wi-Fi 6",97,192,50.7,"Maturação (45% - 74.9%)",-19.59,"Nominal (>= -23.0 dBm)",1,6,2,5760,169.61,0.81,1599,7359,86
+CTO-3200,"Nordeste Litoral (BA/PE)","FTTH GPON","Fibra 1 Gbps + Wi-Fi 6",107,192,55.9,"Maturação (45% - 74.9%)",-24.96,"Degradado (-23.1 a -27.0 dBm)",1,14,4,11520,143.09,1.86,3417,14937,66
+CTO-3201,"Grande São Paulo (SP)","FTTH XGS-PON","Fibra 600 Mbps",208,256,81.3,"Alta Densidade (>= 75%)",-20.39,"Nominal (>= -23.0 dBm)",0,23,6,17280,131.59,1.08,3547,20827,74
+CTO-3202,"Rio & Baixada (RJ)","FTTH GPON","Fibra 600 Mbps",105,192,54.8,"Maturação (45% - 74.9%)",-20.24,"Nominal (>= -23.0 dBm)",0,10,3,8640,118.18,1.32,1966,10606,84
+CTO-3203,"Rio & Baixada (RJ)","FTTH GPON","Fibra 300 Mbps",90,256,35.3,"Ociosa (< 45%)",-29.82,"Crítico (< -27.0 dBm)",0,28,12,34560,105.95,4.5,5149,39709,36
+CTO-3204,"Grande São Paulo (SP)","FTTH XGS-PON","Fibra 600 Mbps",125,192,64.9,"Maturação (45% - 74.9%)",-19.43,"Nominal (>= -23.0 dBm)",0,16,4,11520,128.93,1.56,3017,14537,83
+CTO-3205,"Minas Gerais (MG)","FTTH GPON","Fibra 600 Mbps",131,256,51.1,"Maturação (45% - 74.9%)",-26.53,"Degradado (-23.1 a -27.0 dBm)",0,27,8,23040,112.76,2.37,4201,27241,57
+CTO-3206,"Nordeste Litoral (BA/PE)","FTTH GPON","Fibra 300 Mbps",170,256,66.4,"Maturação (45% - 74.9%)",-19.75,"Nominal (>= -23.0 dBm)",0,14,4,11520,92.5,1.53,2887,14407,79
+CTO-3207,"Rio & Baixada (RJ)","FWA 5G","Fibra 1 Gbps + Wi-Fi 6",63,128,49,"Maturação (45% - 74.9%)",-24.95,"Degradado (-23.1 a -27.0 dBm)",1,12,3,8640,151.12,2.04,2331,10971,54
+CTO-3208,"Sul Integrado (PR/SC)","FTTH GPON","Fibra 300 Mbps",207,256,81,"Alta Densidade (>= 75%)",-21.25,"Nominal (>= -23.0 dBm)",0,21,6,17280,107.87,1.09,2921,20201,82
+CTO-3209,"Rio & Baixada (RJ)","FTTH GPON","Fibra 300 Mbps",181,256,70.7,"Maturação (45% - 74.9%)",-26.37,"Degradado (-23.1 a -27.0 dBm)",1,18,5,14400,99.72,1.94,4202,18602,65
+CTO-3210,"Sul Integrado (PR/SC)","FTTH GPON","Fibra 1 Gbps + Wi-Fi 6",147,256,57.4,"Maturação (45% - 74.9%)",-23.73,"Degradado (-23.1 a -27.0 dBm)",1,20,6,17280,157.82,2.26,6292,23572,58
+CTO-3211,"Rio & Baixada (RJ)","FTTH XGS-PON","Fibra 300 Mbps",220,256,86,"Alta Densidade (>= 75%)",-21.92,"Nominal (>= -23.0 dBm)",0,19,5,14400,101.44,1.33,3562,17962,74
+CTO-3212,"Nordeste Litoral (BA/PE)","FTTH GPON","Fibra 600 Mbps",185,256,72.2,"Maturação (45% - 74.9%)",-20.18,"Nominal (>= -23.0 dBm)",0,18,5,14400,105.8,1.42,3335,17735,80
+CTO-3213,"Nordeste Litoral (BA/PE)","FTTH GPON","Fibra 1 Gbps + Wi-Fi 6",99,256,38.5,"Ociosa (< 45%)",-21.89,"Nominal (>= -23.0 dBm)",1,6,2,5760,142.45,1.12,1895,7655,77
+CTO-3214,"Grande São Paulo (SP)","FTTH GPON","Fibra 600 Mbps",123,256,47.9,"Maturação (45% - 74.9%)",-27.52,"Crítico (< -27.0 dBm)",0,36,16,46080,135.6,4.85,9707,55787,36
+CTO-3215,"Rio & Baixada (RJ)","FTTH GPON","Fibra 300 Mbps",176,256,68.8,"Maturação (45% - 74.9%)",-20.04,"Nominal (>= -23.0 dBm)",0,13,4,11520,100.64,1.52,3231,14751,79
+CTO-3216,"Rio & Baixada (RJ)","FTTH GPON","Fibra 1 Gbps + Wi-Fi 6",169,192,87.8,"Alta Densidade (>= 75%)",-24.76,"Degradado (-23.1 a -27.0 dBm)",1,20,6,17280,149.25,2.36,7143,24423,57
+CTO-3217,"Minas Gerais (MG)","FTTH GPON","Fibra 300 Mbps",120,256,46.9,"Maturação (45% - 74.9%)",-20.98,"Nominal (>= -23.0 dBm)",0,16,4,11520,92.94,1.27,1700,13220,76
+CTO-3218,"Sul Integrado (PR/SC)","FTTH GPON","Fibra 300 Mbps",91,256,35.5,"Ociosa (< 45%)",-24.3,"Degradado (-23.1 a -27.0 dBm)",0,17,5,14400,107.63,3.14,3691,18091,49
+CTO-3219,"Rio & Baixada (RJ)","FTTH XGS-PON","Fibra 600 Mbps",175,256,68.5,"Maturação (45% - 74.9%)",-19.25,"Nominal (>= -23.0 dBm)",1,14,4,11520,125.73,1.04,2746,14266,76
+CTO-3220,"Grande São Paulo (SP)","FTTH XGS-PON","Fibra 1 Gbps + Wi-Fi 6",124,192,64.8,"Maturação (45% - 74.9%)",-21.33,"Nominal (>= -23.0 dBm)",1,11,3,8640,156.43,1.1,2560,11200,87
+CTO-3221,"Minas Gerais (MG)","FTTH GPON","Fibra 300 Mbps",116,192,60.3,"Maturação (45% - 74.9%)",-29.19,"Crítico (< -27.0 dBm)",0,33,15,43200,93.83,5.03,6570,49770,30
+CTO-3222,"Minas Gerais (MG)","FTTH GPON","Fibra 600 Mbps",167,192,86.9,"Alta Densidade (>= 75%)",-28.07,"Crítico (< -27.0 dBm)",0,53,23,66240,122.8,5.47,13461,79701,30
+CTO-3223,"Rio & Baixada (RJ)","FTTH GPON","Fibra 300 Mbps",148,256,57.7,"Maturação (45% - 74.9%)",-22.33,"Nominal (>= -23.0 dBm)",0,12,3,8640,103.94,1.42,2621,11261,80
+CTO-3224,"Rio & Baixada (RJ)","FTTH GPON","Fibra 300 Mbps",166,256,64.7,"Maturação (45% - 74.9%)",-20.8,"Nominal (>= -23.0 dBm)",0,17,5,14400,98.21,1.18,2308,16708,77
+CTO-3225,"Nordeste Litoral (BA/PE)","FTTH XGS-PON","Fibra 1 Gbps + Wi-Fi 6",58,192,30,"Ociosa (< 45%)",-22.97,"Nominal (>= -23.0 dBm)",1,8,2,5760,141.35,1.29,1269,7029,85
+CTO-3226,"Grande São Paulo (SP)","FTTH GPON","Fibra 300 Mbps",175,256,68.4,"Maturação (45% - 74.9%)",-24.74,"Degradado (-23.1 a -27.0 dBm)",1,17,5,14400,111.98,2.14,5032,19432,57
+CTO-3227,"Nordeste Litoral (BA/PE)","FTTH GPON","Fibra 600 Mbps",73,192,38,"Ociosa (< 45%)",-30,"Crítico (< -27.0 dBm)",0,26,11,31680,103.35,5.56,5034,36714,25
+CTO-3228,"Nordeste Litoral (BA/PE)","FTTH GPON","Fibra 600 Mbps",106,256,41.6,"Ociosa (< 45%)",-21.91,"Nominal (>= -23.0 dBm)",0,14,4,11520,110.71,1.35,1901,13421,73
+CTO-3229,"Rio & Baixada (RJ)","FWA 5G","Fibra 300 Mbps",49,128,38.4,"Ociosa (< 45%)",-21.62,"Nominal (>= -23.0 dBm)",1,8,2,5760,101.41,1.28,763,6523,78
+CTO-3230,"Minas Gerais (MG)","FTTH XGS-PON","Fibra 600 Mbps",85,256,33.1,"Ociosa (< 45%)",-21.83,"Nominal (>= -23.0 dBm)",0,7,2,5760,123.92,1.54,1947,7707,71
+CTO-3231,"Rio & Baixada (RJ)","FTTH GPON","Fibra 1 Gbps + Wi-Fi 6",227,256,88.6,"Alta Densidade (>= 75%)",-22.52,"Nominal (>= -23.0 dBm)",1,10,3,8640,156.11,0.81,3444,12084,92
+CTO-3232,"Sul Integrado (PR/SC)","FTTH GPON","Fibra 300 Mbps",173,192,89.9,"Alta Densidade (>= 75%)",-19.83,"Nominal (>= -23.0 dBm)",0,16,4,11520,102.34,1.23,2613,14133,73
+CTO-3233,"Grande São Paulo (SP)","FTTH XGS-PON","Fibra 1 Gbps + Wi-Fi 6",172,256,67.1,"Maturação (45% - 74.9%)",-23.28,"Degradado (-23.1 a -27.0 dBm)",1,18,5,14400,156.02,2.35,7568,21968,62
+CTO-3234,"Minas Gerais (MG)","FTTH GPON","Fibra 1 Gbps + Wi-Fi 6",180,256,70.5,"Maturação (45% - 74.9%)",-25.19,"Degradado (-23.1 a -27.0 dBm)",1,23,6,17280,141.9,1.83,5609,22889,54
+CTO-3235,"Minas Gerais (MG)","FTTH GPON","Fibra 1 Gbps + Wi-Fi 6",212,256,83,"Alta Densidade (>= 75%)",-26.61,"Degradado (-23.1 a -27.0 dBm)",1,19,5,14400,147.74,2.13,8006,22406,62
+CTO-3236,"Rio & Baixada (RJ)","FWA 5G","Fibra 300 Mbps",43,128,33.5,"Ociosa (< 45%)",-20.26,"Nominal (>= -23.0 dBm)",0,9,3,8640,105.55,1.32,719,9359,84
+CTO-3237,"Grande São Paulo (SP)","FTTH XGS-PON","Fibra 1 Gbps + Wi-Fi 6",120,192,62.4,"Maturação (45% - 74.9%)",-19.38,"Nominal (>= -23.0 dBm)",1,12,3,8640,163.16,1.08,2537,11177,85
+CTO-3238,"Minas Gerais (MG)","FTTH XGS-PON","Fibra 1 Gbps + Wi-Fi 6",224,256,87.4,"Alta Densidade (>= 75%)",-20.74,"Nominal (>= -23.0 dBm)",1,15,4,11520,146.88,0.88,3474,14994,91
+CTO-3239,"Rio & Baixada (RJ)","FTTH GPON","Fibra 600 Mbps",140,256,54.7,"Maturação (45% - 74.9%)",-28.39,"Crítico (< -27.0 dBm)",1,24,11,31680,126.63,3.19,6786,38466,39
+CTO-3240,"Sul Integrado (PR/SC)","FWA 5G","Fibra 300 Mbps",93,128,72.7,"Maturação (45% - 74.9%)",-21.96,"Nominal (>= -23.0 dBm)",0,11,3,8640,106.39,1.33,1579,10219,71
+CTO-3241,"Minas Gerais (MG)","FTTH GPON","Fibra 300 Mbps",185,256,72.3,"Maturação (45% - 74.9%)",-21.83,"Nominal (>= -23.0 dBm)",1,11,3,8640,93.78,1.08,2248,10888,92
+CTO-3242,"Grande São Paulo (SP)","FTTH GPON","Fibra 600 Mbps",160,256,62.5,"Maturação (45% - 74.9%)",-20.8,"Nominal (>= -23.0 dBm)",0,15,4,11520,126.67,1.27,3089,14609,74
+CTO-3243,"Grande São Paulo (SP)","FTTH XGS-PON","Fibra 1 Gbps + Wi-Fi 6",113,192,59,"Maturação (45% - 74.9%)",-20.35,"Nominal (>= -23.0 dBm)",1,9,3,8640,158.01,0.98,2100,10740,83
+CTO-3244,"Nordeste Litoral (BA/PE)","FWA 5G","Fibra 300 Mbps",54,128,42,"Ociosa (< 45%)",-24.55,"Degradado (-23.1 a -27.0 dBm)",0,12,3,8640,93.59,3.35,2032,10672,49
+CTO-3245,"Grande São Paulo (SP)","FTTH GPON","Fibra 1 Gbps + Wi-Fi 6",120,192,62.6,"Maturação (45% - 74.9%)",-20.09,"Nominal (>= -23.0 dBm)",1,10,3,8640,159.66,0.81,1862,10502,84
+CTO-3246,"Sul Integrado (PR/SC)","FTTH GPON","Fibra 300 Mbps",172,192,89.4,"Alta Densidade (>= 75%)",-24.17,"Degradado (-23.1 a -27.0 dBm)",0,34,10,28800,94.36,3.14,6115,34915,47
+CTO-3247,"Grande São Paulo (SP)","FTTH GPON","Fibra 600 Mbps",124,192,64.8,"Maturação (45% - 74.9%)",-27.95,"Crítico (< -27.0 dBm)",1,19,8,23040,139.89,3.88,8076,31116,35
+CTO-3248,"Sul Integrado (PR/SC)","FTTH GPON","Fibra 300 Mbps",119,192,61.9,"Maturação (45% - 74.9%)",-29.1,"Crítico (< -27.0 dBm)",0,36,16,46080,101.18,4.64,6704,52784,26
+CTO-3249,"Minas Gerais (MG)","FTTH GPON","Fibra 600 Mbps",183,256,71.6,"Maturação (45% - 74.9%)",-25.88,"Degradado (-23.1 a -27.0 dBm)",0,32,9,25920,124.54,2.8,7658,33578,50
+CTO-3250,"Sul Integrado (PR/SC)","FTTH XGS-PON","Fibra 1 Gbps + Wi-Fi 6",124,192,64.8,"Maturação (45% - 74.9%)",-22.83,"Nominal (>= -23.0 dBm)",1,6,2,5760,146.5,0.95,2071,7831,76
+CTO-3251,"Grande São Paulo (SP)","FTTH GPON","Fibra 600 Mbps",121,192,63.1,"Maturação (45% - 74.9%)",-21.81,"Nominal (>= -23.0 dBm)",0,12,3,8640,127.75,1.53,2838,11478,68
+CTO-3252,"Minas Gerais (MG)","FTTH GPON","Fibra 600 Mbps",148,192,77,"Alta Densidade (>= 75%)",-25.21,"Degradado (-23.1 a -27.0 dBm)",0,26,7,20160,125.32,2.8,6232,26392,52
+CTO-3253,"Nordeste Litoral (BA/PE)","FTTH GPON","Fibra 300 Mbps",75,192,39,"Ociosa (< 45%)",-29.82,"Crítico (< -27.0 dBm)",0,22,10,28800,81.03,4.45,3245,32045,28
+CTO-3254,"Sul Integrado (PR/SC)","FTTH XGS-PON","Fibra 300 Mbps",79,256,31,"Ociosa (< 45%)",-23.34,"Degradado (-23.1 a -27.0 dBm)",0,18,5,14400,94.08,2.8,2497,16897,46
+CTO-3255,"Grande São Paulo (SP)","FTTH GPON","Fibra 600 Mbps",94,192,49.1,"Maturação (45% - 74.9%)",-25.64,"Degradado (-23.1 a -27.0 dBm)",0,18,5,14400,136.46,2.47,3802,18202,52
+CTO-3256,"Grande São Paulo (SP)","FTTH XGS-PON","Fibra 300 Mbps",99,192,51.8,"Maturação (45% - 74.9%)",-20.41,"Nominal (>= -23.0 dBm)",1,9,3,8640,114.36,0.84,1141,9781,81
+CTO-3257,"Nordeste Litoral (BA/PE)","FTTH XGS-PON","Fibra 600 Mbps",139,192,72.3,"Maturação (45% - 74.9%)",-20.7,"Nominal (>= -23.0 dBm)",0,16,4,11520,112.98,1.55,2921,14441,83
+CTO-3258,"Nordeste Litoral (BA/PE)","FTTH GPON","Fibra 1 Gbps + Wi-Fi 6",79,192,41.1,"Ociosa (< 45%)",-19.52,"Nominal (>= -23.0 dBm)",1,6,2,5760,136.54,1.39,1799,7559,88
+CTO-3259,"Minas Gerais (MG)","FTTH GPON","Fibra 300 Mbps",226,256,88.4,"Alta Densidade (>= 75%)",-29.59,"Crítico (< -27.0 dBm)",0,71,31,89280,92.21,4.57,11428,100708,26
+CTO-3260,"Rio & Baixada (RJ)","FTTH XGS-PON","Fibra 1 Gbps + Wi-Fi 6",225,256,87.7,"Alta Densidade (>= 75%)",-23.1,"Degradado (-23.1 a -27.0 dBm)",1,24,7,20160,156.85,2.11,8936,29096,56
+CTO-3261,"Sul Integrado (PR/SC)","FWA 5G","Fibra 1 Gbps + Wi-Fi 6",93,128,73,"Maturação (45% - 74.9%)",-21.18,"Nominal (>= -23.0 dBm)",1,4,1,2880,148.64,0.87,1443,4323,84
+CTO-3262,"Rio & Baixada (RJ)","FTTH GPON","Fibra 600 Mbps",118,256,46.1,"Maturação (45% - 74.9%)",-21.85,"Nominal (>= -23.0 dBm)",0,16,4,11520,127.61,1.29,2331,13851,69
+CTO-3263,"Sul Integrado (PR/SC)","FTTH GPON","Fibra 300 Mbps",137,256,53.6,"Maturação (45% - 74.9%)",-21.99,"Nominal (>= -23.0 dBm)",0,17,5,14400,101.25,1.14,1898,16298,84
+CTO-3264,"Grande São Paulo (SP)","FTTH GPON","Fibra 1 Gbps + Wi-Fi 6",146,256,57.1,"Maturação (45% - 74.9%)",-27.9,"Crítico (< -27.0 dBm)",1,23,10,28800,169.39,3.83,11366,40166,40
+CTO-3265,"Sul Integrado (PR/SC)","FTTH GPON","Fibra 600 Mbps",104,192,54,"Maturação (45% - 74.9%)",-22.19,"Nominal (>= -23.0 dBm)",0,10,3,8640,128.14,1.38,2207,10847,84
+CTO-3266,"Grande São Paulo (SP)","FTTH XGS-PON","Fibra 1 Gbps + Wi-Fi 6",210,256,82.1,"Alta Densidade (>= 75%)",-23.51,"Degradado (-23.1 a -27.0 dBm)",1,26,7,20160,157.79,1.99,7913,28073,54
+CTO-3267,"Sul Integrado (PR/SC)","FTTH XGS-PON","Fibra 300 Mbps",137,192,71.1,"Maturação (45% - 74.9%)",-18.66,"Nominal (>= -23.0 dBm)",0,16,4,11520,95.41,1.06,1663,13183,82
+CTO-3268,"Rio & Baixada (RJ)","FWA 5G","Fibra 600 Mbps",92,128,71.9,"Maturação (45% - 74.9%)",-26.73,"Degradado (-23.1 a -27.0 dBm)",0,19,5,14400,121.11,2.55,3409,17809,51
+CTO-3269,"Rio & Baixada (RJ)","FTTH XGS-PON","Fibra 1 Gbps + Wi-Fi 6",114,192,59.2,"Maturação (45% - 74.9%)",-22.16,"Nominal (>= -23.0 dBm)",1,10,3,8640,158.81,0.79,1716,10356,83
+CTO-3270,"Grande São Paulo (SP)","FTTH GPON","Fibra 600 Mbps",214,256,83.5,"Alta Densidade (>= 75%)",-27.78,"Crítico (< -27.0 dBm)",0,65,29,83520,131.58,4.97,16794,100314,31
+CTO-3271,"Grande São Paulo (SP)","FTTH XGS-PON","Fibra 1 Gbps + Wi-Fi 6",111,192,57.9,"Maturação (45% - 74.9%)",-18.69,"Nominal (>= -23.0 dBm)",1,11,3,8640,160.24,0.86,1836,10476,79
+CTO-3272,"Nordeste Litoral (BA/PE)","FTTH GPON","Fibra 600 Mbps",50,192,25.8,"Ociosa (< 45%)",-26.35,"Degradado (-23.1 a -27.0 dBm)",0,10,3,8640,104.27,3.39,2121,10761,50
+CTO-3273,"Rio & Baixada (RJ)","FTTH GPON","Fibra 600 Mbps",187,256,73,"Maturação (45% - 74.9%)",-20.33,"Nominal (>= -23.0 dBm)",0,19,5,14400,129.88,1.56,4547,18947,82
+CTO-3274,"Grande São Paulo (SP)","FTTH GPON","Fibra 1 Gbps + Wi-Fi 6",196,256,76.4,"Alta Densidade (>= 75%)",-27.22,"Crítico (< -27.0 dBm)",1,31,14,40320,167.19,3.98,15651,55971,31
+CTO-3275,"Sul Integrado (PR/SC)","FTTH GPON","Fibra 600 Mbps",169,256,66.2,"Maturação (45% - 74.9%)",-27.35,"Crítico (< -27.0 dBm)",0,55,24,69120,119.6,5.53,13413,82533,31
+CTO-3276,"Grande São Paulo (SP)","FTTH GPON","Fibra 600 Mbps",57,192,29.8,"Ociosa (< 45%)",-19.6,"Nominal (>= -23.0 dBm)",0,9,3,8640,135.58,1.8,1669,10309,81
+CTO-3277,"Minas Gerais (MG)","FTTH GPON","Fibra 1 Gbps + Wi-Fi 6",70,256,27.2,"Ociosa (< 45%)",-25.03,"Degradado (-23.1 a -27.0 dBm)",1,13,4,11520,149.82,2.31,2907,14427,55
+CTO-3278,"Minas Gerais (MG)","FWA 5G","Fibra 600 Mbps",103,128,80.4,"Alta Densidade (>= 75%)",-29.97,"Crítico (< -27.0 dBm)",0,34,15,43200,113.45,5.21,7306,50506,25
+CTO-3279,"Sul Integrado (PR/SC)","FTTH XGS-PON","Fibra 600 Mbps",143,192,74.6,"Maturação (45% - 74.9%)",-21.07,"Nominal (>= -23.0 dBm)",1,11,3,8640,119.49,1.04,2132,10772,91
+CTO-3280,"Minas Gerais (MG)","FTTH GPON","Fibra 600 Mbps",122,192,63.4,"Maturação (45% - 74.9%)",-22.05,"Nominal (>= -23.0 dBm)",0,17,5,14400,117.13,1.17,2006,16406,76
+CTO-3281,"Grande São Paulo (SP)","FTTH XGS-PON","Fibra 1 Gbps + Wi-Fi 6",151,256,58.8,"Maturação (45% - 74.9%)",-20.98,"Nominal (>= -23.0 dBm)",1,7,2,5760,161.82,0.89,2610,8370,92
+CTO-3282,"Grande São Paulo (SP)","FTTH XGS-PON","Fibra 300 Mbps",156,256,61.1,"Maturação (45% - 74.9%)",-22.05,"Nominal (>= -23.0 dBm)",0,12,3,8640,112.54,1.16,2444,11084,85
+CTO-3283,"Sul Integrado (PR/SC)","FWA 5G","Fibra 1 Gbps + Wi-Fi 6",114,128,88.9,"Alta Densidade (>= 75%)",-25.16,"Degradado (-23.1 a -27.0 dBm)",1,11,3,8640,146.43,2.26,4527,13167,60
+CTO-3284,"Rio & Baixada (RJ)","FTTH GPON","Fibra 600 Mbps",147,192,76.7,"Alta Densidade (>= 75%)",-26.5,"Degradado (-23.1 a -27.0 dBm)",0,30,8,23040,124.93,2.8,6171,29211,50
+CTO-3285,"Grande São Paulo (SP)","FTTH GPON","Fibra 300 Mbps",175,256,68.4,"Maturação (45% - 74.9%)",-29.43,"Crítico (< -27.0 dBm)",0,57,25,72000,117.1,4.87,11976,83976,22
+CTO-3286,"Grande São Paulo (SP)","FTTH XGS-PON","Fibra 1 Gbps + Wi-Fi 6",147,192,76.4,"Alta Densidade (>= 75%)",-21.11,"Nominal (>= -23.0 dBm)",1,9,3,8640,164.68,0.79,2295,10935,82
+CTO-3287,"Grande São Paulo (SP)","FTTH GPON","Fibra 300 Mbps",158,256,61.8,"Maturação (45% - 74.9%)",-26.04,"Degradado (-23.1 a -27.0 dBm)",0,26,7,20160,114.96,2.75,5994,26154,47
+CTO-3288,"Sul Integrado (PR/SC)","FTTH GPON","Fibra 600 Mbps",140,192,72.9,"Maturação (45% - 74.9%)",-21.73,"Nominal (>= -23.0 dBm)",1,10,3,8640,116.31,0.91,1778,10418,88
+CTO-3289,"Sul Integrado (PR/SC)","FTTH GPON","Fibra 600 Mbps",121,192,62.8,"Maturação (45% - 74.9%)",-20.48,"Nominal (>= -23.0 dBm)",0,13,4,11520,123.24,1.28,2290,13810,80
+CTO-3290,"Grande São Paulo (SP)","FTTH XGS-PON","Fibra 1 Gbps + Wi-Fi 6",162,192,84.4,"Alta Densidade (>= 75%)",-19.38,"Nominal (>= -23.0 dBm)",1,8,2,5760,166.11,0.8,2583,8343,80
+CTO-3291,"Nordeste Litoral (BA/PE)","FTTH GPON","Fibra 600 Mbps",113,192,58.7,"Maturação (45% - 74.9%)",-20.25,"Nominal (>= -23.0 dBm)",0,13,4,11520,111.47,1.07,1617,13137,75
+CTO-3292,"Minas Gerais (MG)","FTTH XGS-PON","Fibra 600 Mbps",63,192,32.9,"Ociosa (< 45%)",-23.45,"Degradado (-23.1 a -27.0 dBm)",1,10,3,8640,120.47,2.12,1931,10571,54
+CTO-3293,"Grande São Paulo (SP)","FTTH XGS-PON","Fibra 600 Mbps",155,256,60.6,"Maturação (45% - 74.9%)",-23.61,"Degradado (-23.1 a -27.0 dBm)",0,29,8,23040,128.61,2.77,6626,29666,57
+CTO-3294,"Nordeste Litoral (BA/PE)","FTTH GPON","Fibra 300 Mbps",79,192,41.3,"Ociosa (< 45%)",-20.8,"Nominal (>= -23.0 dBm)",0,7,2,5760,81.42,1.39,1073,6833,83
+CTO-3295,"Minas Gerais (MG)","FTTH XGS-PON","Fibra 300 Mbps",170,256,66.3,"Maturação (45% - 74.9%)",-23.45,"Degradado (-23.1 a -27.0 dBm)",0,33,9,25920,92.94,2.67,5062,30982,47
+CTO-3296,"Rio & Baixada (RJ)","FTTH GPON","Fibra 600 Mbps",142,192,73.8,"Maturação (45% - 74.9%)",-22.23,"Nominal (>= -23.0 dBm)",0,12,3,8640,126.08,1.46,3137,11777,78
+CTO-3297,"Nordeste Litoral (BA/PE)","FTTH GPON","Fibra 1 Gbps + Wi-Fi 6",59,192,30.7,"Ociosa (< 45%)",-28.5,"Crítico (< -27.0 dBm)",1,10,4,11520,137.44,3.65,3552,15072,39
+CTO-3298,"Nordeste Litoral (BA/PE)","FTTH GPON","Fibra 600 Mbps",109,256,42.6,"Ociosa (< 45%)",-24.13,"Degradado (-23.1 a -27.0 dBm)",0,19,5,14400,115.7,2.79,4222,18622,47
+CTO-3299,"Grande São Paulo (SP)","FTTH GPON","Fibra 600 Mbps",138,192,71.8,"Maturação (45% - 74.9%)",-27.44,"Crítico (< -27.0 dBm)",0,41,18,51840,134.29,5.18,11520,63360,27
+CTO-3300,"Nordeste Litoral (BA/PE)","FTTH GPON","Fibra 600 Mbps",106,192,55.4,"Maturação (45% - 74.9%)",-21.73,"Nominal (>= -23.0 dBm)",0,13,4,11520,115.84,1.29,1901,13421,68
+CTO-3301,"Rio & Baixada (RJ)","FTTH GPON","Fibra 600 Mbps",131,256,51.3,"Maturação (45% - 74.9%)",-27.23,"Crítico (< -27.0 dBm)",0,44,19,54720,127.37,5.13,10272,64992,26
+CTO-3302,"Grande São Paulo (SP)","FTTH GPON","Fibra 600 Mbps",109,192,56.8,"Maturação (45% - 74.9%)",-20.03,"Nominal (>= -23.0 dBm)",0,14,4,11520,126.19,1.11,1832,13352,75
+CTO-3303,"Nordeste Litoral (BA/PE)","FWA 5G","Fibra 1 Gbps + Wi-Fi 6",96,128,75.1,"Alta Densidade (>= 75%)",-23.56,"Degradado (-23.1 a -27.0 dBm)",1,13,4,11520,143.72,1.83,3030,14550,59
+CTO-3304,"Sul Integrado (PR/SC)","FTTH XGS-PON","Fibra 1 Gbps + Wi-Fi 6",185,256,72.4,"Maturação (45% - 74.9%)",-21.27,"Nominal (>= -23.0 dBm)",1,11,3,8640,157.4,0.9,3145,11785,92
+CTO-3305,"Minas Gerais (MG)","FTTH XGS-PON","Fibra 1 Gbps + Wi-Fi 6",91,256,35.7,"Ociosa (< 45%)",-18.79,"Nominal (>= -23.0 dBm)",1,4,1,2880,145.61,1.34,2131,5011,88
+CTO-3306,"Minas Gerais (MG)","FTTH GPON","Fibra 600 Mbps",130,192,67.5,"Maturação (45% - 74.9%)",-26.5,"Degradado (-23.1 a -27.0 dBm)",0,29,8,23040,113.01,2.9,5113,28153,55
+CTO-3307,"Grande São Paulo (SP)","FTTH XGS-PON","Fibra 600 Mbps",190,256,74.3,"Maturação (45% - 74.9%)",-19.21,"Nominal (>= -23.0 dBm)",1,11,3,8640,134.52,1.14,3496,12136,75
+CTO-3308,"Nordeste Litoral (BA/PE)","FTTH GPON","Fibra 300 Mbps",67,192,34.7,"Ociosa (< 45%)",-20.68,"Nominal (>= -23.0 dBm)",0,9,3,8640,83.8,1.66,1118,9758,82
+CTO-3309,"Nordeste Litoral (BA/PE)","FWA 5G","Fibra 600 Mbps",98,128,76.7,"Alta Densidade (>= 75%)",-21.81,"Nominal (>= -23.0 dBm)",0,12,3,8640,103.9,1.03,1259,9899,85
+CTO-3310,"Nordeste Litoral (BA/PE)","FTTH GPON","Fibra 1 Gbps + Wi-Fi 6",80,256,31.1,"Ociosa (< 45%)",-29.07,"Crítico (< -27.0 dBm)",1,14,6,17280,136.55,3.42,4483,21763,41
+CTO-3311,"Rio & Baixada (RJ)","FTTH GPON","Fibra 600 Mbps",225,256,88,"Alta Densidade (>= 75%)",-22.57,"Nominal (>= -23.0 dBm)",0,22,6,17280,120.97,1.25,4083,21363,75
+CTO-3312,"Rio & Baixada (RJ)","FTTH XGS-PON","Fibra 1 Gbps + Wi-Fi 6",94,192,49.2,"Maturação (45% - 74.9%)",-23.24,"Degradado (-23.1 a -27.0 dBm)",1,13,4,11520,149.83,1.75,2958,14478,65
+CTO-3313,"Rio & Baixada (RJ)","FTTH GPON","Fibra 600 Mbps",161,192,83.6,"Alta Densidade (>= 75%)",-24.02,"Degradado (-23.1 a -27.0 dBm)",0,28,8,23040,125.69,3.17,7698,30738,55
+CTO-3314,"Minas Gerais (MG)","FTTH GPON","Fibra 1 Gbps + Wi-Fi 6",77,192,40,"Ociosa (< 45%)",-23.38,"Degradado (-23.1 a -27.0 dBm)",1,8,2,5760,152.94,2.17,3067,8827,58
+CTO-3315,"Grande São Paulo (SP)","FTTH GPON","Fibra 300 Mbps",89,256,34.8,"Ociosa (< 45%)",-24.12,"Degradado (-23.1 a -27.0 dBm)",0,22,6,17280,108.61,3.03,3515,20795,57
+CTO-3316,"Sul Integrado (PR/SC)","FTTH GPON","Fibra 1 Gbps + Wi-Fi 6",56,192,29.3,"Ociosa (< 45%)",-27.63,"Crítico (< -27.0 dBm)",1,11,5,14400,154.14,3.32,3439,17839,41
+CTO-3317,"Nordeste Litoral (BA/PE)","FTTH GPON","Fibra 1 Gbps + Wi-Fi 6",147,192,76.4,"Alta Densidade (>= 75%)",-30.18,"Crítico (< -27.0 dBm)",1,26,11,31680,132,3.93,9151,40831,31
+CTO-3318,"Grande São Paulo (SP)","FTTH GPON","Fibra 600 Mbps",114,192,59.3,"Maturação (45% - 74.9%)",-19.83,"Nominal (>= -23.0 dBm)",0,10,3,8640,131.38,1.59,2858,11498,79
+CTO-3319,"Sul Integrado (PR/SC)","FTTH GPON","Fibra 600 Mbps",140,192,72.9,"Maturação (45% - 74.9%)",-24.01,"Degradado (-23.1 a -27.0 dBm)",0,24,7,20160,123.9,2.45,5100,25260,57
+CTO-3320,"Grande São Paulo (SP)","FTTH GPON","Fibra 300 Mbps",161,256,62.7,"Maturação (45% - 74.9%)",-21.99,"Nominal (>= -23.0 dBm)",0,14,4,11520,104.4,1.07,2158,13678,79
+CTO-3321,"Nordeste Litoral (BA/PE)","FTTH GPON","Fibra 300 Mbps",75,256,29.2,"Ociosa (< 45%)",-26.61,"Degradado (-23.1 a -27.0 dBm)",0,13,4,11520,85.15,3.26,2498,14018,50
+CTO-3322,"Minas Gerais (MG)","FTTH XGS-PON","Fibra 1 Gbps + Wi-Fi 6",129,192,67.4,"Maturação (45% - 74.9%)",-19.28,"Nominal (>= -23.0 dBm)",1,7,2,5760,151.28,1.08,2529,8289,76
+CTO-3323,"Grande São Paulo (SP)","FTTH GPON","Fibra 600 Mbps",137,192,71.3,"Maturação (45% - 74.9%)",-23.57,"Degradado (-23.1 a -27.0 dBm)",1,18,5,14400,127.94,2.34,4922,19322,63
+CTO-3324,"Nordeste Litoral (BA/PE)","FTTH XGS-PON","Fibra 1 Gbps + Wi-Fi 6",65,192,33.9,"Ociosa (< 45%)",-18.76,"Nominal (>= -23.0 dBm)",1,4,1,2880,143.09,1.05,1172,4052,92
+CTO-3325,"Grande São Paulo (SP)","FTTH GPON","Fibra 300 Mbps",180,256,70.2,"Maturação (45% - 74.9%)",-19.65,"Nominal (>= -23.0 dBm)",0,16,4,11520,104.53,1.43,3229,14749,76
+CTO-3326,"Rio & Baixada (RJ)","FTTH GPON","Fibra 600 Mbps",102,256,39.9,"Ociosa (< 45%)",-22.55,"Nominal (>= -23.0 dBm)",0,13,4,11520,121.51,1.66,2469,13989,83
+CTO-3327,"Grande São Paulo (SP)","FWA 5G","Fibra 600 Mbps",68,128,53.1,"Maturação (45% - 74.9%)",-21.44,"Nominal (>= -23.0 dBm)",0,11,3,8640,126.83,1.57,1625,10265,74
+CTO-3328,"Minas Gerais (MG)","FTTH GPON","Fibra 600 Mbps",169,256,65.9,"Maturação (45% - 74.9%)",-21.57,"Nominal (>= -23.0 dBm)",0,13,4,11520,123.26,1.21,3025,14545,77
+CTO-3329,"Nordeste Litoral (BA/PE)","FWA 5G","Fibra 600 Mbps",92,128,71.8,"Maturação (45% - 74.9%)",-22.77,"Nominal (>= -23.0 dBm)",0,10,3,8640,103.67,1.18,1351,9991,82
+CTO-3330,"Sul Integrado (PR/SC)","FTTH GPON","Fibra 1 Gbps + Wi-Fi 6",170,192,88.6,"Alta Densidade (>= 75%)",-22.47,"Nominal (>= -23.0 dBm)",1,11,3,8640,159.81,0.99,3228,11868,84
+CTO-3331,"Nordeste Litoral (BA/PE)","FTTH GPON","Fibra 600 Mbps",107,192,55.5,"Maturação (45% - 74.9%)",-19.25,"Nominal (>= -23.0 dBm)",0,10,3,8640,106.15,1.31,1785,10425,79
+CTO-3332,"Minas Gerais (MG)","FWA 5G","Fibra 600 Mbps",78,128,61.2,"Maturação (45% - 74.9%)",-20.45,"Nominal (>= -23.0 dBm)",0,7,2,5760,112.05,1.12,1175,6935,79
+CTO-3333,"Grande São Paulo (SP)","FTTH GPON","Fibra 300 Mbps",74,192,38.6,"Ociosa (< 45%)",-22,"Nominal (>= -23.0 dBm)",0,13,4,11520,106.65,1.35,1279,12799,78
+CTO-3334,"Minas Gerais (MG)","FTTH GPON","Fibra 300 Mbps",61,256,24,"Ociosa (< 45%)",-20.27,"Nominal (>= -23.0 dBm)",0,7,2,5760,97.33,1.67,1190,6950,74
+CTO-3335,"Grande São Paulo (SP)","FTTH GPON","Fibra 600 Mbps",217,256,84.9,"Alta Densidade (>= 75%)",-26.45,"Degradado (-23.1 a -27.0 dBm)",0,37,10,28800,130.14,2.8,9489,38289,60
+CTO-3336,"Grande São Paulo (SP)","FTTH GPON","Fibra 600 Mbps",163,256,63.6,"Maturação (45% - 74.9%)",-22.05,"Nominal (>= -23.0 dBm)",0,12,3,8640,126.93,1.52,3774,12414,68
+CTO-3337,"Rio & Baixada (RJ)","FTTH GPON","Fibra 600 Mbps",92,192,47.8,"Maturação (45% - 74.9%)",-21.61,"Nominal (>= -23.0 dBm)",0,14,4,11520,118.22,1.06,1383,12903,76
+CTO-3338,"Grande São Paulo (SP)","FTTH GPON","Fibra 600 Mbps",191,256,74.6,"Maturação (45% - 74.9%)",-27.83,"Crítico (< -27.0 dBm)",0,58,26,74880,133.9,4.99,15314,90194,27
+CTO-3339,"Sul Integrado (PR/SC)","FTTH GPON","Fibra 300 Mbps",145,192,75.7,"Alta Densidade (>= 75%)",-25.91,"Degradado (-23.1 a -27.0 dBm)",0,28,8,23040,107.1,2.48,4622,27662,56
+CTO-3340,"Rio & Baixada (RJ)","FTTH GPON","Fibra 300 Mbps",126,192,65.5,"Maturação (45% - 74.9%)",-21.61,"Nominal (>= -23.0 dBm)",0,10,3,8640,108.54,1.16,1904,10544,68
+CTO-3341,"Minas Gerais (MG)","FTTH GPON","Fibra 300 Mbps",138,256,53.9,"Maturação (45% - 74.9%)",-28.43,"Crítico (< -27.0 dBm)",0,43,19,54720,92.39,5.33,8155,62875,23
+CTO-3342,"Rio & Baixada (RJ)","FTTH XGS-PON","Fibra 600 Mbps",194,256,75.6,"Alta Densidade (>= 75%)",-21.1,"Nominal (>= -23.0 dBm)",1,12,3,8640,126.34,0.95,2794,11434,77
+CTO-3343,"Grande São Paulo (SP)","FTTH GPON","Fibra 1 Gbps + Wi-Fi 6",125,192,65.2,"Maturação (45% - 74.9%)",-26.89,"Degradado (-23.1 a -27.0 dBm)",1,16,4,11520,162.82,1.88,4592,16112,64
+CTO-3344,"Minas Gerais (MG)","FTTH GPON","Fibra 1 Gbps + Wi-Fi 6",80,256,31.3,"Ociosa (< 45%)",-27.65,"Crítico (< -27.0 dBm)",1,18,8,23040,152.44,3.32,4859,27899,35
+CTO-3345,"Grande São Paulo (SP)","FTTH GPON","Fibra 300 Mbps",225,256,88,"Alta Densidade (>= 75%)",-20.89,"Nominal (>= -23.0 dBm)",0,22,6,17280,111.37,1.58,4751,22031,80
+CTO-3346,"Nordeste Litoral (BA/PE)","FTTH XGS-PON","Fibra 300 Mbps",169,256,65.9,"Maturação (45% - 74.9%)",-19.57,"Nominal (>= -23.0 dBm)",1,10,3,8640,84.03,0.99,1687,10327,79
+CTO-3347,"Nordeste Litoral (BA/PE)","FTTH XGS-PON","Fibra 1 Gbps + Wi-Fi 6",169,256,66,"Maturação (45% - 74.9%)",-22.93,"Nominal (>= -23.0 dBm)",1,7,2,5760,141.06,1.13,3233,8993,80
+CTO-3348,"Rio & Baixada (RJ)","FTTH GPON","Fibra 300 Mbps",162,192,84.4,"Alta Densidade (>= 75%)",-21.21,"Nominal (>= -23.0 dBm)",0,17,5,14400,106.96,1.44,2994,17394,86
+CTO-3349,"Minas Gerais (MG)","FTTH GPON","Fibra 600 Mbps",93,192,48.4,"Maturação (45% - 74.9%)",-20.49,"Nominal (>= -23.0 dBm)",0,14,4,11520,125.15,1.33,1858,13378,74
+CTO-3350,"Minas Gerais (MG)","FWA 5G","Fibra 300 Mbps",102,128,79.4,"Alta Densidade (>= 75%)",-20.57,"Nominal (>= -23.0 dBm)",0,15,4,11520,95.52,1.48,1730,13250,70
+CTO-3351,"Sul Integrado (PR/SC)","FTTH GPON","Fibra 600 Mbps",220,256,86,"Alta Densidade (>= 75%)",-25.48,"Degradado (-23.1 a -27.0 dBm)",0,44,12,34560,117.53,2.99,9277,43837,56
+CTO-3352,"Sul Integrado (PR/SC)","FTTH GPON","Fibra 1 Gbps + Wi-Fi 6",195,256,76,"Alta Densidade (>= 75%)",-23.69,"Degradado (-23.1 a -27.0 dBm)",1,21,6,17280,155.27,1.83,6649,23929,63
+CTO-3353,"Grande São Paulo (SP)","FTTH GPON","Fibra 300 Mbps",130,192,67.6,"Maturação (45% - 74.9%)",-21.48,"Nominal (>= -23.0 dBm)",0,13,4,11520,117.21,1.32,2414,13934,78
+CTO-3354,"Rio & Baixada (RJ)","FTTH GPON","Fibra 300 Mbps",128,256,50.1,"Maturação (45% - 74.9%)",-22.76,"Nominal (>= -23.0 dBm)",0,17,5,14400,108.86,1.34,2241,16641,76
+CTO-3355,"Grande São Paulo (SP)","FTTH GPON","Fibra 600 Mbps",74,192,38.3,"Ociosa (< 45%)",-21.91,"Nominal (>= -23.0 dBm)",0,11,3,8640,131.04,1.41,1641,10281,82
+CTO-3356,"Grande São Paulo (SP)","FTTH GPON","Fibra 300 Mbps",178,256,69.5,"Maturação (45% - 74.9%)",-22.23,"Nominal (>= -23.0 dBm)",0,13,4,11520,107.04,1.32,3018,14538,69
+CTO-3357,"Minas Gerais (MG)","FTTH XGS-PON","Fibra 1 Gbps + Wi-Fi 6",118,192,61.2,"Maturação (45% - 74.9%)",-21.71,"Nominal (>= -23.0 dBm)",1,12,3,8640,142.08,0.83,1670,10310,84
+CTO-3358,"Sul Integrado (PR/SC)","FWA 5G","Fibra 600 Mbps",106,128,82.6,"Alta Densidade (>= 75%)",-28.38,"Crítico (< -27.0 dBm)",1,23,10,28800,124.23,4.14,6542,35342,32
+CTO-3359,"Sul Integrado (PR/SC)","FTTH XGS-PON","Fibra 1 Gbps + Wi-Fi 6",218,256,85.2,"Alta Densidade (>= 75%)",-23.17,"Degradado (-23.1 a -27.0 dBm)",1,20,6,17280,155.3,1.99,8085,25365,67
+CTO-3360,"Rio & Baixada (RJ)","FTTH GPON","Fibra 300 Mbps",61,256,23.9,"Ociosa (< 45%)",-20.75,"Nominal (>= -23.0 dBm)",0,9,3,8640,106.2,1.56,1213,9853,83
+CTO-3361,"Rio & Baixada (RJ)","FTTH XGS-PON","Fibra 1 Gbps + Wi-Fi 6",121,192,63,"Maturação (45% - 74.9%)",-22.67,"Nominal (>= -23.0 dBm)",1,11,3,8640,149.65,0.86,1869,10509,87
+CTO-3362,"Nordeste Litoral (BA/PE)","FTTH GPON","Fibra 300 Mbps",67,192,35,"Ociosa (< 45%)",-22.35,"Nominal (>= -23.0 dBm)",0,7,2,5760,87.83,1.74,1229,6989,83
+CTO-3363,"Minas Gerais (MG)","FTTH XGS-PON","Fibra 1 Gbps + Wi-Fi 6",98,192,51.1,"Maturação (45% - 74.9%)",-21.38,"Nominal (>= -23.0 dBm)",1,7,2,5760,143.37,0.98,1652,7412,78
+CTO-3364,"Grande São Paulo (SP)","FTTH XGS-PON","Fibra 1 Gbps + Wi-Fi 6",177,256,69.1,"Maturação (45% - 74.9%)",-19.37,"Nominal (>= -23.0 dBm)",1,12,3,8640,164.05,0.84,2927,11567,78
+CTO-3365,"Grande São Paulo (SP)","FTTH GPON","Fibra 300 Mbps",160,192,83.5,"Alta Densidade (>= 75%)",-23.6,"Degradado (-23.1 a -27.0 dBm)",0,30,8,23040,112.02,2.6,5592,28632,52
+CTO-3366,"Rio & Baixada (RJ)","FWA 5G","Fibra 300 Mbps",108,128,84.3,"Alta Densidade (>= 75%)",-25.46,"Degradado (-23.1 a -27.0 dBm)",0,25,7,20160,105.95,2.92,4009,24169,58
+CTO-3367,"Nordeste Litoral (BA/PE)","FTTH GPON","Fibra 1 Gbps + Wi-Fi 6",85,256,33.2,"Ociosa (< 45%)",-20.83,"Nominal (>= -23.0 dBm)",1,10,3,8640,138.25,1.37,1932,10572,87
+CTO-3368,"Grande São Paulo (SP)","FTTH GPON","Fibra 300 Mbps",82,256,32,"Ociosa (< 45%)",-27.92,"Crítico (< -27.0 dBm)",0,26,11,31680,113.9,5.01,5615,37295,38
+CTO-3369,"Minas Gerais (MG)","FTTH GPON","Fibra 300 Mbps",142,192,73.8,"Maturação (45% - 74.9%)",-22.49,"Nominal (>= -23.0 dBm)",0,17,5,14400,91.95,1.56,2444,16844,75
+CTO-3370,"Grande São Paulo (SP)","FTTH XGS-PON","Fibra 300 Mbps",229,256,89.5,"Alta Densidade (>= 75%)",-20.84,"Nominal (>= -23.0 dBm)",0,19,5,14400,105.37,1.54,4459,18859,81
+CTO-3371,"Grande São Paulo (SP)","FTTH GPON","Fibra 600 Mbps",103,192,53.5,"Maturação (45% - 74.9%)",-22.61,"Nominal (>= -23.0 dBm)",0,8,2,5760,133.1,1.41,2320,8080,74
+CTO-3372,"Rio & Baixada (RJ)","FWA 5G","Fibra 600 Mbps",49,128,38.5,"Ociosa (< 45%)",-20.56,"Nominal (>= -23.0 dBm)",0,4,1,2880,122.91,1.56,1127,4007,80
+CTO-3373,"Sul Integrado (PR/SC)","FWA 5G","Fibra 600 Mbps",40,128,31.2,"Ociosa (< 45%)",-22.24,"Nominal (>= -23.0 dBm)",0,7,2,5760,126.13,1.42,860,6620,69
+CTO-3374,"Grande São Paulo (SP)","FTTH GPON","Fibra 1 Gbps + Wi-Fi 6",226,256,88.4,"Alta Densidade (>= 75%)",-27.51,"Crítico (< -27.0 dBm)",1,38,17,48960,164.48,3.2,14274,63234,38
+CTO-3375,"Nordeste Litoral (BA/PE)","FTTH GPON","Fibra 300 Mbps",76,192,39.6,"Ociosa (< 45%)",-24.54,"Degradado (-23.1 a -27.0 dBm)",0,14,4,11520,90.03,2.71,2225,13745,52
+CTO-3376,"Sul Integrado (PR/SC)","FTTH GPON","Fibra 300 Mbps",63,192,32.8,"Ociosa (< 45%)",-19.73,"Nominal (>= -23.0 dBm)",1,5,1,2880,100.54,1.32,1003,3883,88
+CTO-3377,"Nordeste Litoral (BA/PE)","FTTH GPON","Fibra 300 Mbps",91,256,35.4,"Ociosa (< 45%)",-24.27,"Degradado (-23.1 a -27.0 dBm)",0,23,6,17280,82.18,3.35,3006,20286,52
+CTO-3378,"Rio & Baixada (RJ)","FTTH XGS-PON","Fibra 1 Gbps + Wi-Fi 6",102,192,52.9,"Maturação (45% - 74.9%)",-20.98,"Nominal (>= -23.0 dBm)",1,11,3,8640,151.15,0.82,1517,10157,90
+CTO-3379,"Grande São Paulo (SP)","FTTH GPON","Fibra 1 Gbps + Wi-Fi 6",188,256,73.5,"Maturação (45% - 74.9%)",-29.18,"Crítico (< -27.0 dBm)",1,34,15,43200,164.89,3.89,14470,57670,30
+CTO-3380,"Sul Integrado (PR/SC)","FTTH GPON","Fibra 600 Mbps",100,192,52.3,"Maturação (45% - 74.9%)",-27.43,"Crítico (< -27.0 dBm)",0,35,15,43200,119.37,4.63,6632,49832,22
+CTO-3381,"Minas Gerais (MG)","FTTH GPON","Fibra 600 Mbps",156,192,81,"Alta Densidade (>= 75%)",-22.53,"Nominal (>= -23.0 dBm)",0,19,5,14400,120.39,1.04,2344,16744,84
+CTO-3382,"Grande São Paulo (SP)","FTTH GPON","Fibra 300 Mbps",124,256,48.6,"Maturação (45% - 74.9%)",-26.43,"Degradado (-23.1 a -27.0 dBm)",0,24,7,20160,113.76,2.97,5027,25187,48
+CTO-3383,"Minas Gerais (MG)","FTTH XGS-PON","Fibra 300 Mbps",168,192,87.5,"Alta Densidade (>= 75%)",-21.28,"Nominal (>= -23.0 dBm)",1,14,4,11520,94.69,0.77,1470,12990,92
+CTO-3384,"Grande São Paulo (SP)","FTTH XGS-PON","Fibra 300 Mbps",166,192,86.7,"Alta Densidade (>= 75%)",-20.39,"Nominal (>= -23.0 dBm)",1,13,4,11520,109.56,1,2182,13702,89
+CTO-3385,"Rio & Baixada (RJ)","FTTH GPON","Fibra 300 Mbps",101,192,52.5,"Maturação (45% - 74.9%)",-24.33,"Degradado (-23.1 a -27.0 dBm)",0,22,6,17280,96.1,3.19,3715,20995,52
+CTO-3386,"Grande São Paulo (SP)","FWA 5G","Fibra 600 Mbps",35,128,27.3,"Ociosa (< 45%)",-25.67,"Degradado (-23.1 a -27.0 dBm)",0,13,4,11520,130.3,2.69,1472,12992,48
+CTO-3387,"Grande São Paulo (SP)","FTTH XGS-PON","Fibra 1 Gbps + Wi-Fi 6",119,256,46.3,"Maturação (45% - 74.9%)",-21.62,"Nominal (>= -23.0 dBm)",1,10,3,8640,160.23,0.97,2219,10859,86
+CTO-3388,"Grande São Paulo (SP)","FTTH GPON","Fibra 600 Mbps",103,192,53.4,"Maturação (45% - 74.9%)",-28.99,"Crítico (< -27.0 dBm)",0,31,14,40320,131.75,4.85,7898,48218,36
+CTO-3389,"Sul Integrado (PR/SC)","FTTH XGS-PON","Fibra 600 Mbps",160,192,83.5,"Alta Densidade (>= 75%)",-21.54,"Nominal (>= -23.0 dBm)",1,8,2,5760,125.75,1.08,2608,8368,92
+CTO-3390,"Minas Gerais (MG)","FWA 5G","Fibra 300 Mbps",93,128,72.3,"Maturação (45% - 74.9%)",-22.36,"Nominal (>= -23.0 dBm)",0,12,3,8640,90.62,1.31,1325,9965,84
+CTO-3391,"Nordeste Litoral (BA/PE)","FTTH GPON","Fibra 300 Mbps",61,192,31.9,"Ociosa (< 45%)",-30.08,"Crítico (< -27.0 dBm)",0,25,11,31680,82.28,5.6,3373,35053,36
+CTO-3392,"Rio & Baixada (RJ)","FTTH XGS-PON","Fibra 300 Mbps",164,192,85.5,"Alta Densidade (>= 75%)",-19.12,"Nominal (>= -23.0 dBm)",0,20,6,17280,106.15,1.11,2319,19599,69
+CTO-3393,"Rio & Baixada (RJ)","FTTH XGS-PON","Fibra 1 Gbps + Wi-Fi 6",135,192,70.5,"Maturação (45% - 74.9%)",-21.24,"Nominal (>= -23.0 dBm)",1,8,2,5760,156.39,0.9,2280,8040,76
+CTO-3394,"Grande São Paulo (SP)","FTTH XGS-PON","Fibra 600 Mbps",118,192,61.4,"Maturação (45% - 74.9%)",-19.11,"Nominal (>= -23.0 dBm)",1,12,3,8640,130.19,1.04,1917,10557,80
+CTO-3395,"Sul Integrado (PR/SC)","FTTH GPON","Fibra 600 Mbps",137,192,71.3,"Maturação (45% - 74.9%)",-20.97,"Nominal (>= -23.0 dBm)",0,12,3,8640,127.26,1.37,2866,11506,81
+CTO-3396,"Rio & Baixada (RJ)","FTTH GPON","Fibra 1 Gbps + Wi-Fi 6",129,192,67.4,"Maturação (45% - 74.9%)",-20.85,"Nominal (>= -23.0 dBm)",1,12,3,8640,147.95,0.86,1970,10610,85
+CTO-3397,"Grande São Paulo (SP)","FWA 5G","Fibra 600 Mbps",59,128,46,"Maturação (45% - 74.9%)",-24.43,"Degradado (-23.1 a -27.0 dBm)",0,16,4,11520,133.93,2.67,2532,14052,47
+CTO-3398,"Minas Gerais (MG)","FTTH GPON","Fibra 300 Mbps",193,256,75.3,"Alta Densidade (>= 75%)",-19.4,"Nominal (>= -23.0 dBm)",0,15,4,11520,90.73,1.06,2227,13747,71
+CTO-3399,"Nordeste Litoral (BA/PE)","FTTH GPON","Fibra 600 Mbps",146,192,75.8,"Alta Densidade (>= 75%)",-19.5,"Nominal (>= -23.0 dBm)",0,17,5,14400,105.47,1.16,2143,16543,78
+CTO-3400,"Minas Gerais (MG)","FTTH GPON","Fibra 300 Mbps",61,256,24,"Ociosa (< 45%)",-22.76,"Nominal (>= -23.0 dBm)",0,12,3,8640,90.72,1.74,1155,9795,80
+CTO-3401,"Nordeste Litoral (BA/PE)","FTTH XGS-PON","Fibra 600 Mbps",154,192,80.2,"Alta Densidade (>= 75%)",-19.47,"Nominal (>= -23.0 dBm)",1,7,2,5760,109.33,1.13,2283,8043,82
+CTO-3402,"Grande São Paulo (SP)","FTTH XGS-PON","Fibra 1 Gbps + Wi-Fi 6",194,256,75.9,"Alta Densidade (>= 75%)",-22.68,"Nominal (>= -23.0 dBm)",1,14,4,11520,158.09,0.87,3202,14722,83
+CTO-3403,"Nordeste Litoral (BA/PE)","FTTH XGS-PON","Fibra 1 Gbps + Wi-Fi 6",214,256,83.7,"Alta Densidade (>= 75%)",-22.9,"Nominal (>= -23.0 dBm)",1,10,3,8640,133.26,0.82,2806,11446,78
+CTO-3404,"Sul Integrado (PR/SC)","FTTH XGS-PON","Fibra 1 Gbps + Wi-Fi 6",161,192,83.9,"Alta Densidade (>= 75%)",-19,"Nominal (>= -23.0 dBm)",1,11,3,8640,156.34,0.89,2688,11328,82
+CTO-3405,"Minas Gerais (MG)","FTTH GPON","Fibra 600 Mbps",80,256,31.1,"Ociosa (< 45%)",-21.98,"Nominal (>= -23.0 dBm)",0,13,4,11520,117.16,1.32,1485,13005,70
+CTO-3406,"Grande São Paulo (SP)","FTTH GPON","Fibra 600 Mbps",146,256,57,"Maturação (45% - 74.9%)",-28.83,"Crítico (< -27.0 dBm)",0,46,20,57600,133.64,4.93,11543,69143,28
+CTO-3407,"Sul Integrado (PR/SC)","FTTH GPON","Fibra 600 Mbps",167,256,65.2,"Maturação (45% - 74.9%)",-28.82,"Crítico (< -27.0 dBm)",0,55,24,69120,118.53,5.59,13278,82398,37
+CTO-3408,"Nordeste Litoral (BA/PE)","FTTH GPON","Fibra 300 Mbps",94,192,48.7,"Maturação (45% - 74.9%)",-21.75,"Nominal (>= -23.0 dBm)",0,8,2,5760,86,1.45,1407,7167,84
+CTO-3409,"Minas Gerais (MG)","FTTH GPON","Fibra 300 Mbps",190,256,74.2,"Maturação (45% - 74.9%)",-20.93,"Nominal (>= -23.0 dBm)",0,18,5,14400,90.23,1.36,2798,17198,69
+CTO-3410,"Sul Integrado (PR/SC)","FTTH XGS-PON","Fibra 1 Gbps + Wi-Fi 6",147,256,57.3,"Maturação (45% - 74.9%)",-20.41,"Nominal (>= -23.0 dBm)",1,13,4,11520,154.77,0.92,2512,14032,86
+CTO-3411,"Minas Gerais (MG)","FTTH XGS-PON","Fibra 1 Gbps + Wi-Fi 6",223,256,87.3,"Alta Densidade (>= 75%)",-20.2,"Nominal (>= -23.0 dBm)",1,10,3,8640,146.48,1.13,4429,13069,83
+CTO-3412,"Sul Integrado (PR/SC)","FTTH XGS-PON","Fibra 1 Gbps + Wi-Fi 6",151,256,59,"Maturação (45% - 74.9%)",-21.85,"Nominal (>= -23.0 dBm)",1,12,3,8640,152.83,0.98,2714,11354,79
+CTO-3413,"Grande São Paulo (SP)","FTTH GPON","Fibra 1 Gbps + Wi-Fi 6",155,192,80.5,"Alta Densidade (>= 75%)",-21.66,"Nominal (>= -23.0 dBm)",1,9,3,8640,163.44,1,3040,11680,76
+CTO-3414,"Minas Gerais (MG)","FTTH GPON","Fibra 300 Mbps",125,256,49,"Maturação (45% - 74.9%)",-28.96,"Crítico (< -27.0 dBm)",0,38,17,48960,98.91,4.95,7344,56304,31
+CTO-3415,"Minas Gerais (MG)","FTTH XGS-PON","Fibra 600 Mbps",97,192,50.5,"Maturação (45% - 74.9%)",-22.29,"Nominal (>= -23.0 dBm)",1,9,3,8640,117.09,0.82,1118,9758,76
+CTO-3416,"Grande São Paulo (SP)","FWA 5G","Fibra 600 Mbps",70,128,54.7,"Maturação (45% - 74.9%)",-23.83,"Degradado (-23.1 a -27.0 dBm)",0,17,5,14400,135.77,2.36,2692,17092,53
+CTO-3417,"Sul Integrado (PR/SC)","FTTH GPON","Fibra 600 Mbps",99,192,51.8,"Maturação (45% - 74.9%)",-21.22,"Nominal (>= -23.0 dBm)",1,4,1,2880,116.88,0.95,1319,4199,90
+CTO-3418,"Minas Gerais (MG)","FTTH GPON","Fibra 600 Mbps",58,192,30,"Ociosa (< 45%)",-22.68,"Nominal (>= -23.0 dBm)",0,8,2,5760,122.99,1.28,1096,6856,69
+CTO-3419,"Grande São Paulo (SP)","FTTH GPON","Fibra 600 Mbps",147,256,57.4,"Maturação (45% - 74.9%)",-25.42,"Degradado (-23.1 a -27.0 dBm)",0,29,8,23040,128.35,2.79,6317,29357,55
+CTO-3420,"Rio & Baixada (RJ)","FTTH GPON","Fibra 600 Mbps",59,256,23.1,"Ociosa (< 45%)",-29.25,"Crítico (< -27.0 dBm)",0,18,8,23040,119.2,5.46,4608,27648,25
+CTO-3421,"Nordeste Litoral (BA/PE)","FTTH GPON","Fibra 600 Mbps",70,256,27.3,"Ociosa (< 45%)",-30.21,"Crítico (< -27.0 dBm)",0,26,11,31680,112.32,4.69,4425,36105,38
+CTO-3422,"Grande São Paulo (SP)","FTTH GPON","Fibra 300 Mbps",191,256,74.6,"Maturação (45% - 74.9%)",-27.75,"Crítico (< -27.0 dBm)",0,56,25,72000,111.08,4.97,12653,84653,31
+CTO-3423,"Grande São Paulo (SP)","FTTH GPON","Fibra 600 Mbps",65,256,25.3,"Ociosa (< 45%)",-21.95,"Nominal (>= -23.0 dBm)",0,6,2,5760,139.43,1.54,1675,7435,85
+CTO-3424,"Rio & Baixada (RJ)","FTTH XGS-PON","Fibra 300 Mbps",108,192,56.2,"Maturação (45% - 74.9%)",-20.23,"Nominal (>= -23.0 dBm)",0,11,3,8640,99.95,1.34,1736,10376,78
+CTO-3425,"Minas Gerais (MG)","FTTH GPON","Fibra 600 Mbps",198,256,77.5,"Alta Densidade (>= 75%)",-28.92,"Crítico (< -27.0 dBm)",0,60,26,74880,113.77,4.68,12651,87531,35
+CTO-3426,"Minas Gerais (MG)","FTTH GPON","Fibra 600 Mbps",124,256,48.5,"Maturação (45% - 74.9%)",-28.19,"Crítico (< -27.0 dBm)",1,20,9,25920,125.81,3.91,7320,33240,38
+CTO-3427,"Nordeste Litoral (BA/PE)","FTTH GPON","Fibra 600 Mbps",195,256,76.3,"Alta Densidade (>= 75%)",-26.54,"Degradado (-23.1 a -27.0 dBm)",0,33,9,25920,111.83,2.6,6804,32724,51
+CTO-3428,"Grande São Paulo (SP)","FTTH XGS-PON","Fibra 300 Mbps",167,192,87,"Alta Densidade (>= 75%)",-21.88,"Nominal (>= -23.0 dBm)",0,18,5,14400,115.1,1.4,3229,17629,77
+CTO-3429,"Rio & Baixada (RJ)","FTTH GPON","Fibra 600 Mbps",192,256,75,"Alta Densidade (>= 75%)",-26.85,"Degradado (-23.1 a -27.0 dBm)",0,32,9,25920,121.69,3.1,8692,34612,57
+CTO-3430,"Minas Gerais (MG)","FTTH GPON","Fibra 600 Mbps",105,192,54.7,"Maturação (45% - 74.9%)",-21.96,"Nominal (>= -23.0 dBm)",0,14,4,11520,125.88,1.17,1856,13376,76
+CTO-3431,"Minas Gerais (MG)","FTTH GPON","Fibra 600 Mbps",220,256,85.9,"Alta Densidade (>= 75%)",-23.77,"Degradado (-23.1 a -27.0 dBm)",0,39,11,31680,112.35,3.1,9195,40875,56
+CTO-3432,"Grande São Paulo (SP)","FTTH GPON","Fibra 600 Mbps",133,256,52,"Maturação (45% - 74.9%)",-28.58,"Crítico (< -27.0 dBm)",0,42,18,51840,127.58,4.86,9896,61736,32
+CTO-3433,"Grande São Paulo (SP)","FTTH GPON","Fibra 300 Mbps",66,256,25.9,"Ociosa (< 45%)",-20.91,"Nominal (>= -23.0 dBm)",0,5,1,2880,111.34,1.6,1411,4291,85
+CTO-3434,"Grande São Paulo (SP)","FTTH XGS-PON","Fibra 1 Gbps + Wi-Fi 6",67,256,26.1,"Ociosa (< 45%)",-21.7,"Nominal (>= -23.0 dBm)",1,5,1,2880,160.22,1.22,1572,4452,90
+CTO-3435,"Rio & Baixada (RJ)","FTTH GPON","Fibra 600 Mbps",175,256,68.4,"Maturação (45% - 74.9%)",-22.06,"Nominal (>= -23.0 dBm)",0,14,4,11520,125.95,1.34,3544,15064,78
+CTO-3436,"Rio & Baixada (RJ)","FTTH GPON","Fibra 1 Gbps + Wi-Fi 6",59,256,22.9,"Ociosa (< 45%)",-20.25,"Nominal (>= -23.0 dBm)",1,8,2,5760,159.58,1.31,1480,7240,78
+CTO-3437,"Sul Integrado (PR/SC)","FWA 5G","Fibra 600 Mbps",63,128,48.9,"Maturação (45% - 74.9%)",-27.86,"Crítico (< -27.0 dBm)",0,19,8,23040,129.62,5.16,5056,28096,32
+CTO-3438,"Rio & Baixada (RJ)","FTTH GPON","Fibra 600 Mbps",166,256,64.8,"Maturação (45% - 74.9%)",-23.88,"Degradado (-23.1 a -27.0 dBm)",0,31,9,25920,122.1,2.58,6275,32195,52
+CTO-3439,"Sul Integrado (PR/SC)","FTTH GPON","Fibra 300 Mbps",198,256,77.2,"Alta Densidade (>= 75%)",-21.35,"Nominal (>= -23.0 dBm)",0,18,5,14400,96.11,1.41,3220,17620,73
+CTO-3440,"Minas Gerais (MG)","FTTH GPON","Fibra 600 Mbps",225,256,87.9,"Alta Densidade (>= 75%)",-21.73,"Nominal (>= -23.0 dBm)",0,23,6,17280,125.26,1.07,3619,20899,83
+CTO-3441,"Nordeste Litoral (BA/PE)","FTTH GPON","Fibra 300 Mbps",104,192,54.3,"Maturação (45% - 74.9%)",-23.85,"Degradado (-23.1 a -27.0 dBm)",0,21,6,17280,90.22,2.95,3322,20602,46
+CTO-3442,"Rio & Baixada (RJ)","FTTH GPON","Fibra 300 Mbps",145,192,75.4,"Alta Densidade (>= 75%)",-19.97,"Nominal (>= -23.0 dBm)",0,12,3,8640,106.57,1.5,2781,11421,79
+CTO-3443,"Nordeste Litoral (BA/PE)","FTTH XGS-PON","Fibra 300 Mbps",74,192,38.8,"Ociosa (< 45%)",-21.88,"Nominal (>= -23.0 dBm)",1,8,2,5760,91.96,1.35,1102,6862,88
+CTO-3444,"Rio & Baixada (RJ)","FTTH GPON","Fibra 300 Mbps",129,192,67.1,"Maturação (45% - 74.9%)",-25.46,"Degradado (-23.1 a -27.0 dBm)",0,24,7,20160,104.02,2.68,4315,24475,55
+CTO-3445,"Grande São Paulo (SP)","FTTH GPON","Fibra 600 Mbps",93,192,48.2,"Maturação (45% - 74.9%)",-28.43,"Crítico (< -27.0 dBm)",1,19,8,23040,127.06,3.95,5601,28641,29
+CTO-3446,"Sul Integrado (PR/SC)","FTTH XGS-PON","Fibra 1 Gbps + Wi-Fi 6",73,192,38.1,"Ociosa (< 45%)",-22.15,"Nominal (>= -23.0 dBm)",1,8,2,5760,150.75,1.05,1387,7147,84
+CTO-3447,"Rio & Baixada (RJ)","FTTH GPON","Fibra 600 Mbps",127,192,65.9,"Maturação (45% - 74.9%)",-20.17,"Nominal (>= -23.0 dBm)",0,12,3,8640,131.5,1.14,2285,10925,85
+CTO-3448,"Minas Gerais (MG)","FTTH GPON","Fibra 300 Mbps",230,256,90,"Alta Densidade (>= 75%)",-21.41,"Nominal (>= -23.0 dBm)",0,20,6,17280,91.28,1.24,3124,20404,85
+CTO-3449,"Rio & Baixada (RJ)","FTTH XGS-PON","Fibra 1 Gbps + Wi-Fi 6",167,192,86.9,"Alta Densidade (>= 75%)",-21.92,"Nominal (>= -23.0 dBm)",1,11,3,8640,157.89,0.88,2784,11424,80
+CTO-3450,"Rio & Baixada (RJ)","FTTH XGS-PON","Fibra 300 Mbps",58,256,22.8,"Ociosa (< 45%)",-21.71,"Nominal (>= -23.0 dBm)",1,5,1,2880,104.58,1.04,757,3637,88
+CTO-3451,"Rio & Baixada (RJ)","FTTH GPON","Fibra 600 Mbps",169,192,88,"Alta Densidade (>= 75%)",-27.8,"Crítico (< -27.0 dBm)",0,56,25,72000,128.47,5.25,13678,85678,30
+CTO-3452,"Rio & Baixada (RJ)","FWA 5G","Fibra 600 Mbps",91,128,70.9,"Maturação (45% - 74.9%)",-29.31,"Crítico (< -27.0 dBm)",0,26,11,31680,128.48,4.98,6987,38667,36
+CTO-3453,"Grande São Paulo (SP)","FTTH GPON","Fibra 300 Mbps",227,256,88.6,"Alta Densidade (>= 75%)",-22.5,"Nominal (>= -23.0 dBm)",0,23,6,17280,110.77,1.58,4767,22047,78
+CTO-3454,"Sul Integrado (PR/SC)","FTTH GPON","Fibra 1 Gbps + Wi-Fi 6",71,192,37.1,"Ociosa (< 45%)",-29.98,"Crítico (< -27.0 dBm)",1,12,5,14400,158.26,4.01,5407,19807,33
+CTO-3455,"Minas Gerais (MG)","FTTH GPON","Fibra 600 Mbps",104,256,40.6,"Ociosa (< 45%)",-29.71,"Crítico (< -27.0 dBm)",0,34,15,43200,113.11,4.45,6282,49482,35
+CTO-3456,"Nordeste Litoral (BA/PE)","FTTH GPON","Fibra 1 Gbps + Wi-Fi 6",228,256,89.2,"Alta Densidade (>= 75%)",-25.01,"Degradado (-23.1 a -27.0 dBm)",1,20,6,17280,139.95,2.06,7888,25168,57
+CTO-3457,"Grande São Paulo (SP)","FTTH XGS-PON","Fibra 1 Gbps + Wi-Fi 6",78,192,40.7,"Ociosa (< 45%)",-19.01,"Nominal (>= -23.0 dBm)",1,4,1,2880,167.64,1.4,2197,5077,76
+CTO-3458,"Nordeste Litoral (BA/PE)","FTTH GPON","Fibra 600 Mbps",101,256,39.3,"Ociosa (< 45%)",-21.36,"Nominal (>= -23.0 dBm)",0,10,3,8640,109.32,1.55,2054,10694,76
+CTO-3459,"Minas Gerais (MG)","FTTH XGS-PON","Fibra 600 Mbps",168,192,87.7,"Alta Densidade (>= 75%)",-18.69,"Nominal (>= -23.0 dBm)",0,19,5,14400,122.4,1.28,3159,17559,71
+CTO-3460,"Minas Gerais (MG)","FTTH GPON","Fibra 1 Gbps + Wi-Fi 6",131,192,68.3,"Maturação (45% - 74.9%)",-21.02,"Nominal (>= -23.0 dBm)",1,12,3,8640,152.08,0.91,2176,10816,86
+CTO-3461,"Sul Integrado (PR/SC)","FTTH XGS-PON","Fibra 300 Mbps",168,256,65.8,"Maturação (45% - 74.9%)",-18.94,"Nominal (>= -23.0 dBm)",1,9,3,8640,102.03,1.05,2160,10800,80
+CTO-3462,"Sul Integrado (PR/SC)","FTTH GPON","Fibra 600 Mbps",198,256,77.3,"Alta Densidade (>= 75%)",-24.42,"Degradado (-23.1 a -27.0 dBm)",0,36,10,28800,126.87,2.98,8983,37783,57
+CTO-3463,"Rio & Baixada (RJ)","FTTH XGS-PON","Fibra 300 Mbps",214,256,83.4,"Alta Densidade (>= 75%)",-23.62,"Degradado (-23.1 a -27.0 dBm)",0,42,12,34560,101.4,2.5,6510,41070,51
+CTO-3464,"Grande São Paulo (SP)","FTTH XGS-PON","Fibra 300 Mbps",219,256,85.5,"Alta Densidade (>= 75%)",-23.04,"Degradado (-23.1 a -27.0 dBm)",0,40,11,31680,115.35,2.71,8215,39895,51
+CTO-3465,"Sul Integrado (PR/SC)","FTTH GPON","Fibra 600 Mbps",123,192,64.1,"Maturação (45% - 74.9%)",-24.35,"Degradado (-23.1 a -27.0 dBm)",0,27,8,23040,127.35,2.94,5526,28566,57
+CTO-3466,"Grande São Paulo (SP)","FTTH XGS-PON","Fibra 300 Mbps",176,256,68.7,"Maturação (45% - 74.9%)",-19.25,"Nominal (>= -23.0 dBm)",0,19,5,14400,112.94,1.42,3387,17787,69
+CTO-3467,"Sul Integrado (PR/SC)","FTTH GPON","Fibra 1 Gbps + Wi-Fi 6",65,256,25.5,"Ociosa (< 45%)",-22.71,"Nominal (>= -23.0 dBm)",1,5,1,2880,152.49,1.29,1534,4414,92
+CTO-3468,"Nordeste Litoral (BA/PE)","FWA 5G","Fibra 300 Mbps",90,128,70.2,"Maturação (45% - 74.9%)",-24.58,"Degradado (-23.1 a -27.0 dBm)",0,18,5,14400,93.2,2.93,2949,17349,52
+CTO-3469,"Grande São Paulo (SP)","FTTH GPON","Fibra 1 Gbps + Wi-Fi 6",178,256,69.7,"Maturação (45% - 74.9%)",-21.36,"Nominal (>= -23.0 dBm)",1,12,3,8640,162.42,1.13,3920,12560,78
+CTO-3470,"Grande São Paulo (SP)","FTTH GPON","Fibra 1 Gbps + Wi-Fi 6",185,256,72.1,"Maturação (45% - 74.9%)",-23.52,"Degradado (-23.1 a -27.0 dBm)",1,18,5,14400,167.15,1.75,6494,20894,58
+CTO-3471,"Sul Integrado (PR/SC)","FTTH GPON","Fibra 300 Mbps",145,192,75.6,"Alta Densidade (>= 75%)",-21.47,"Nominal (>= -23.0 dBm)",0,13,4,11520,97.08,1.08,1824,13344,78
+CTO-3472,"Sul Integrado (PR/SC)","FTTH GPON","Fibra 300 Mbps",134,192,70,"Maturação (45% - 74.9%)",-23.99,"Degradado (-23.1 a -27.0 dBm)",0,25,7,20160,95.6,3.11,4781,24941,49
+CTO-3473,"Rio & Baixada (RJ)","FTTH XGS-PON","Fibra 600 Mbps",159,192,82.7,"Alta Densidade (>= 75%)",-18.63,"Nominal (>= -23.0 dBm)",0,12,3,8640,121.64,1.24,2878,11518,71
+CTO-3474,"Grande São Paulo (SP)","FTTH GPON","Fibra 1 Gbps + Wi-Fi 6",114,192,59.4,"Maturação (45% - 74.9%)",-26.07,"Degradado (-23.1 a -27.0 dBm)",1,16,4,11520,157.63,1.8,3881,15401,61
+CTO-3475,"Nordeste Litoral (BA/PE)","FTTH GPON","Fibra 1 Gbps + Wi-Fi 6",82,256,31.9,"Ociosa (< 45%)",-24.01,"Degradado (-23.1 a -27.0 dBm)",1,7,2,5760,133.12,2.57,3366,9126,54
+CTO-3476,"Nordeste Litoral (BA/PE)","FTTH GPON","Fibra 300 Mbps",76,256,29.6,"Ociosa (< 45%)",-20.82,"Nominal (>= -23.0 dBm)",0,9,3,8640,81.27,1.67,1238,9878,70
+CTO-3477,"Nordeste Litoral (BA/PE)","FTTH GPON","Fibra 300 Mbps",162,256,63.2,"Maturação (45% - 74.9%)",-24.25,"Degradado (-23.1 a -27.0 dBm)",0,33,9,25920,88.37,3,5154,31074,56
+CTO-3478,"Grande São Paulo (SP)","FWA 5G","Fibra 600 Mbps",70,128,54.9,"Maturação (45% - 74.9%)",-21.87,"Nominal (>= -23.0 dBm)",0,9,3,8640,131.16,1.31,1443,10083,83
+CTO-3479,"Grande São Paulo (SP)","FTTH GPON","Fibra 600 Mbps",198,256,77.4,"Alta Densidade (>= 75%)",-20.48,"Nominal (>= -23.0 dBm)",0,17,5,14400,130.62,1.23,3817,18217,78
+CTO-3480,"Nordeste Litoral (BA/PE)","FTTH GPON","Fibra 600 Mbps",111,256,43.4,"Ociosa (< 45%)",-23.78,"Degradado (-23.1 a -27.0 dBm)",0,21,6,17280,107.58,3.4,4872,22152,48
+CTO-3481,"Nordeste Litoral (BA/PE)","FWA 5G","Fibra 1 Gbps + Wi-Fi 6",105,128,81.7,"Alta Densidade (>= 75%)",-20.47,"Nominal (>= -23.0 dBm)",1,8,2,5760,144.63,1.09,1986,7746,77
+CTO-3482,"Grande São Paulo (SP)","FTTH GPON","Fibra 600 Mbps",121,192,63.2,"Maturação (45% - 74.9%)",-22.04,"Nominal (>= -23.0 dBm)",0,11,3,8640,127.29,1.45,2680,11320,78
+CTO-3483,"Grande São Paulo (SP)","FTTH GPON","Fibra 300 Mbps",206,256,80.5,"Alta Densidade (>= 75%)",-25.02,"Degradado (-23.1 a -27.0 dBm)",0,39,11,31680,106.29,2.61,6858,38538,53
+CTO-3484,"Rio & Baixada (RJ)","FTTH XGS-PON","Fibra 300 Mbps",101,192,52.6,"Maturação (45% - 74.9%)",-18.97,"Nominal (>= -23.0 dBm)",0,13,4,11520,98.49,1.26,1504,13024,77
+CTO-3485,"Rio & Baixada (RJ)","FTTH GPON","Fibra 1 Gbps + Wi-Fi 6",160,256,62.4,"Maturação (45% - 74.9%)",-22.78,"Nominal (>= -23.0 dBm)",1,11,3,8640,158.33,0.79,2402,11042,81
+CTO-3486,"Minas Gerais (MG)","FTTH XGS-PON","Fibra 1 Gbps + Wi-Fi 6",188,256,73.3,"Maturação (45% - 74.9%)",-20.87,"Nominal (>= -23.0 dBm)",1,12,3,8640,143.74,1.09,3535,12175,90
+CTO-3487,"Minas Gerais (MG)","FTTH GPON","Fibra 600 Mbps",145,256,56.8,"Maturação (45% - 74.9%)",-19.5,"Nominal (>= -23.0 dBm)",0,15,4,11520,124.38,1.4,3030,14550,72
+CTO-3488,"Rio & Baixada (RJ)","FTTH GPON","Fibra 600 Mbps",72,192,37.4,"Ociosa (< 45%)",-20.24,"Nominal (>= -23.0 dBm)",0,10,3,8640,121.43,1.71,1794,10434,86
+CTO-3489,"Grande São Paulo (SP)","FTTH GPON","Fibra 1 Gbps + Wi-Fi 6",99,256,38.6,"Ociosa (< 45%)",-29.54,"Crítico (< -27.0 dBm)",1,22,10,28800,167.16,4.21,8360,37160,41
+CTO-3490,"Nordeste Litoral (BA/PE)","FTTH GPON","Fibra 300 Mbps",211,256,82.4,"Alta Densidade (>= 75%)",-26.34,"Degradado (-23.1 a -27.0 dBm)",0,37,10,28800,84.59,2.73,5847,34647,58
+CTO-3491,"Minas Gerais (MG)","FTTH GPON","Fibra 600 Mbps",139,256,54.4,"Maturação (45% - 74.9%)",-29.29,"Crítico (< -27.0 dBm)",0,47,21,60480,121.06,4.35,8784,69264,23
+CTO-3492,"Grande São Paulo (SP)","FTTH GPON","Fibra 600 Mbps",145,256,56.5,"Maturação (45% - 74.9%)",-22.65,"Nominal (>= -23.0 dBm)",0,15,4,11520,130.01,1.52,3439,14959,77
+CTO-3493,"Nordeste Litoral (BA/PE)","FTTH XGS-PON","Fibra 1 Gbps + Wi-Fi 6",152,192,79.3,"Alta Densidade (>= 75%)",-20.42,"Nominal (>= -23.0 dBm)",1,8,2,5760,136.56,1.01,2516,8276,80
+CTO-3494,"Grande São Paulo (SP)","FTTH GPON","Fibra 600 Mbps",202,256,79.1,"Alta Densidade (>= 75%)",-24.52,"Degradado (-23.1 a -27.0 dBm)",0,35,10,28800,137.67,2.9,9678,38478,47
+CTO-3495,"Grande São Paulo (SP)","FTTH GPON","Fibra 1 Gbps + Wi-Fi 6",54,192,28.1,"Ociosa (< 45%)",-21.34,"Nominal (>= -23.0 dBm)",1,4,1,2880,165.83,1.37,1472,4352,77
+CTO-3496,"Nordeste Litoral (BA/PE)","FTTH GPON","Fibra 600 Mbps",169,256,66.1,"Maturação (45% - 74.9%)",-29.49,"Crítico (< -27.0 dBm)",0,51,22,63360,114.23,4.99,11560,74920,23
+CTO-3497,"Grande São Paulo (SP)","FTTH XGS-PON","Fibra 1 Gbps + Wi-Fi 6",136,192,70.9,"Maturação (45% - 74.9%)",-19.01,"Nominal (>= -23.0 dBm)",1,6,2,5760,168.8,1.09,3003,8763,89
+CTO-3498,"Minas Gerais (MG)","FWA 5G","Fibra 1 Gbps + Wi-Fi 6",37,128,28.7,"Ociosa (< 45%)",-24.3,"Degradado (-23.1 a -27.0 dBm)",1,5,1,2880,153.61,2.51,1712,4592,60
+CTO-3499,"Grande São Paulo (SP)","FTTH GPON","Fibra 600 Mbps",194,256,75.6,"Alta Densidade (>= 75%)",-20.93,"Nominal (>= -23.0 dBm)",0,19,5,14400,130.78,1.53,4658,19058,76
+CTO-3500,"Grande São Paulo (SP)","FTTH GPON","Fibra 600 Mbps",177,256,69.1,"Maturação (45% - 74.9%)",-29.78,"Crítico (< -27.0 dBm)",1,27,12,34560,126.06,3.97,10630,45190,34

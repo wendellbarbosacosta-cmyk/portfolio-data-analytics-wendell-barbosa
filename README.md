@@ -1,4 +1,4 @@
-# 🚀 Portfólio Executivo de Data Analytics & Inteligência de Negócio (7 Verticais de Mercado)
+# 🚀 Portfólio Executivo de Data Analytics & Inteligência de Negócio (8 Verticais de Mercado)
 
 [![Python](https://img.shields.io/badge/Python-3.11+-3776AB?style=for-the-badge&logo=python&logoColor=white)](https://python.org)
 [![Pandas](https://img.shields.io/badge/Pandas-2.1+-150458?style=for-the-badge&logo=pandas&logoColor=white)](https://pandas.pydata.org)
@@ -15,16 +15,16 @@
 
 ## 📌 Visão Geral do Portfólio
 
-Este repositório consolida 7 projetos analíticos corporativos *end-to-end* em setores estratégicos da economia: **Fintech & Bancos Digitais**, **Varejo Omnichannel & Supply Chain**, **SaaS B2B & Assinaturas**, **HealthTech & Saúde Suplementar**, **AgTech & Agronegócio de Precisão**, **EnergyTech & Geração Renovável (ONS/CCEE)** e **IndustryTech & Manufatura Inteligente (Indústria 4.0 / ISO 10816-3)**.
+Este repositório consolida 8 projetos analíticos corporativos *end-to-end* em setores estratégicos da economia: **Fintech & Bancos Digitais**, **Varejo Omnichannel & Supply Chain**, **SaaS B2B & Assinaturas**, **HealthTech & Saúde Suplementar**, **AgTech & Agronegócio de Precisão**, **EnergyTech & Geração Renovável (ONS/CCEE)**, **IndustryTech & Manufatura Inteligente (Indústria 4.0 / ISO 10816-3)** e **Telecomunicações & Redes de Fibra Óptica FTTH (Anatel)**.
 
 Cada vertical foi desenhada com:
-* **Arcabouço Regulatório e Operacional Real:** Resoluções BACEN CMN nº 2.682 para provisão PCLD, metas contratuais de SLA/OTIF logístico, métricas SaaS B2B (NRR e Onboarding Cliff), diretrizes ANS de sinistralidade (MLR)/LACE Index hospitalar, manejo de fertilidade de solo (Embrapa), regras de *curtailment* ONS/CCEE e padrões mecânicos ISO 10816-3.
+* **Arcabouço Regulatório e Operacional Real:** Resoluções BACEN CMN nº 2.682 para provisão PCLD, metas contratuais de SLA/OTIF logístico, métricas SaaS B2B (NRR e Onboarding Cliff), diretrizes ANS de sinistralidade (MLR)/LACE Index hospitalar, manejo de fertilidade de solo (Embrapa), regras de *curtailment* ONS/CCEE, padrões mecânicos ISO 10816-3 e parâmetros de atenuação óptica Anatel.
 * **Storytelling Executivo & C-Level:** Resposta analítica quantitativa a 3 perguntas críticas de negócio por projeto com modelagem de retorno de investimento (ROI & Payback simples).
-* **Engenharia de Software e Performance:** Código 100% vetorizado em Pandas/NumPy (eliminando `.apply()` lentos por `np.select`), tipagem estrita com `@dataclass` e `typing`, tratamento de encoding UTF-8 multiplataforma e suite com **34 testes automatizados com `pytest` (100% aprovados)**.
+* **Engenharia de Software e Performance:** Código 100% vetorizado em Pandas/NumPy (eliminando `.apply()` lentos por `np.select`), tipagem estrita com `@dataclass` e `typing`, tratamento de encoding UTF-8 multiplataforma e suite com **44 testes automatizados com `pytest` (100% aprovados)**.
 
 ---
 
-## 📊 Matriz Executiva dos 7 Projetos
+## 📊 Matriz Executiva dos 8 Projetos
 
 | Projeto | Setor de Mercado | Desafio de Negócio | Arcabouço Metodológico | KPI Crítico | Impacto Financeiro / ROI | Repositório Dedicado |
 | :--- | :--- | :--- | :--- | :---: | :---: | :---: |
@@ -35,6 +35,7 @@ Cada vertical foi desenhada com:
 | **[05. AgroPrecision](./05_agroprecision_agtech_analytics/)** | AgTech & Precisão | Acidez de solo (V% < 50%), quebra de safra e sobreaplicação NPK | Manejo em Taxa Variável (VRT), Saturação V% e NDVI | Soja: **+5,4 sc/ha** \| NPK: **-R\$ 730/ha** | **R\$ 48,2M** em benefício anual total (ROI **10,2x**) | [Repo AgroPrecision](https://github.com/wendellbarbosacosta-cmyk/agroprecision-agtech-analytics) |
 | **[06. VoltGrid](./06_voltgrid_energytech_analytics/)** | EnergyTech & Utilities | Curtailment ONS no Nordeste, perdas por sujidade e PLD spot | Balanço de Energia (MWh), Robótica Solar e BESS | Curtailment: **4,05%** \| Margem EBITDA: **91,8%** | **R\$ 214,1M** em soiling (Payback **1,8m**) + BESS **R\$ 446M/a** | [Repo VoltGrid](https://github.com/wendellbarbosacosta-cmyk/voltgrid-energytech-analytics-projeto) |
 | **[07. ForgeIQ](./07_forgeiq_industrytech_oee/)** | IndustryTech & Manufatura | Paradas não planejadas Run-to-Failure, refugo e OEE deprimido | OEE (Disp × Perf × Qual), ISO 10816-3 e IoT CBM | OEE: **74,1%** \| Parada: **R\$ 3,26B** \| Scrap: **R\$ 2,06B** | **R\$ 2,54B/ano** recuperados via IoT (Payback **1 dia** / ROI **378x**) | [Repo ForgeIQ](https://github.com/wendellbarbosacosta-cmyk/forgeiq-industrytech-oee-projeto) |
+| **[08. OptiFiber](./08_optifiber_telecom_ftth/)** | Telecom & Conectividade | Degradação óptica RX (dBm), visitas técnicas e portas ociosas | Telemetria OLT/ONT, Ocupação CTO e Wi-Fi 6 Mesh | Churn Óptico: **4,64% ➔ 1,23%** \| Ocupação: **59,3%** | **R\$ 7,98M/ano** em economia e receita (Payback **5,8m** / ROI **2,1x**) | [Repo OptiFiber](https://github.com/wendellbarbosacosta-cmyk/optifiber-telecom-ftth-projeto) |
 
 ---
 
@@ -85,7 +86,13 @@ portfolio-data-analytics-wendell-barbosa/
 │   ├── requirements.txt                        # Dependências específicas do módulo
 │   └── README.md                               # Documentação executiva completa
 │
-├── tests/                                      # Suite Completa de Testes Automatizados (34 Testes)
+├── 08_optifiber_telecom_ftth/                  # Módulo 8: Telecomunicações & Redes Ópticas FTTH
+│   ├── dataset_telecom_ftth_clusters.csv       # Base com 500 clusters de fibra óptica (CTOs)
+│   ├── pipeline_telecom_ftth_analytics.py      # Pipeline de atenuação RX, truck rolls e Wi-Fi 6
+│   ├── requirements.txt                        # Dependências específicas do módulo
+│   └── README.md                               # Documentação executiva completa
+│
+├── tests/                                      # Suite Completa de Testes Automatizados (44 Testes)
 │   ├── __init__.py
 │   ├── test_credit_risk.py                     # Validação de regras BACEN, ratings e PCLD
 │   ├── test_ecommerce_logistics.py             # Validação de OTIF, subsídios e fretes
@@ -93,7 +100,8 @@ portfolio-data-analytics-wendell-barbosa/
 │   ├── test_healthcare_analytics.py            # Validação de LACE Index, MLR e glosas
 │   ├── test_agrotech_analytics.py              # Validação de manejo VRT, fertilidade e margens
 │   ├── test_energytech_analytics.py            # Validação de balanço energético, curtailment e BESS
-│   └── test_industry_oee_analytics.py          # Validação de OEE, ISO 10816 e ROI de IoT Preditiva
+│   ├── test_industry_oee_analytics.py          # Validação de OEE, ISO 10816 e ROI de IoT Preditiva
+│   └── test_telecom_ftth_analytics.py          # Validação de atenuação RX, portas CTO e ROI Telecom
 │
 ├── .gitignore                                  # Governança de arquivos, dados e caches
 ├── LICENSE                                     # Licença MIT Permissiva
@@ -108,7 +116,7 @@ portfolio-data-analytics-wendell-barbosa/
 * **Vetorização de Alta Performance:** Substituição de loops e `.apply(..., axis=1)` por operações matriciais em NumPy (`np.select`, `np.where`), permitindo processamento em milissegundos.
 * **Governança e Reprodutibilidade:** Seeds fixados (`random_seed=42`) para garantir rastreabilidade completa e auditabilidade estatística.
 * **Tipagem Estrita e Clean Code:** Classes de configuração com `@dataclass(frozen=True)`, tipagem estrita com `typing` e padrões PEP 8.
-* **Confiabilidade com Pytest:** **34 testes automatizados** cobrindo integridade de schema, conformidade matemática e cálculos financeiros de ROI com 100% de taxa de aprovação.
+* **Confiabilidade com Pytest:** **44 testes automatizados** cobrindo integridade de schema, conformidade matemática e cálculos financeiros de ROI com 100% de taxa de aprovação.
 
 ---
 
@@ -139,7 +147,7 @@ source .venv/bin/activate
 pip install -r requirements.txt
 ```
 
-### 4. Executar os Testes Automatizados (34 Testes)
+### 4. Executar os Testes Automatizados (44 Testes)
 
 ```bash
 pytest tests/ -v
@@ -155,6 +163,7 @@ python 04_carepulse_healthtech_analytics/pipeline_healthcare_analytics.py
 python 05_agroprecision_agtech_analytics/pipeline_agrotech_analytics.py
 python 06_voltgrid_energytech_analytics/pipeline_energytech_analytics.py
 python 07_forgeiq_industrytech_oee/pipeline_industry_oee_analytics.py
+python 08_optifiber_telecom_ftth/pipeline_telecom_ftth_analytics.py
 ```
 
 ---
