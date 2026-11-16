@@ -1,9 +1,9 @@
-# 🚀 Portfólio Executivo de Data Analytics & Inteligência de Negócio (8 Verticais de Mercado)
+# 🚀 Portfólio Executivo de Data Analytics & Inteligência de Negócio (9 Verticais de Mercado)
 
 [![Python](https://img.shields.io/badge/Python-3.11+-3776AB?style=for-the-badge&logo=python&logoColor=white)](https://python.org)
 [![Pandas](https://img.shields.io/badge/Pandas-2.1+-150458?style=for-the-badge&logo=pandas&logoColor=white)](https://pandas.pydata.org)
 [![NumPy](https://img.shields.io/badge/NumPy-1.26+-013243?style=for-the-badge&logo=numpy&logoColor=white)](https://numpy.org)
-[![Pytest](https://img.shields.io/badge/Pytest-8.0+-0A9EDC?style=for-the-badge&logo=pytest&logoColor=white)](https://pytest.org)
+[![Pytest](https://img.shields.io/badge/Pytest-54%2F54%20Passed%20(100%25)-brightgreen?style=for-the-badge&logo=pytest&logoColor=white)](https://pytest.org)
 [![Code Style: PEP 8](https://img.shields.io/badge/Code%20Style-PEP%208-blueviolet?style=for-the-badge)](https://pep8.org)
 [![License: MIT](https://img.shields.io/badge/License-MIT-green?style=for-the-badge)](https://opensource.org/licenses/MIT)
 
@@ -15,16 +15,16 @@
 
 ## 📌 Visão Geral do Portfólio
 
-Este repositório consolida 8 projetos analíticos corporativos *end-to-end* em setores estratégicos da economia: **Fintech & Bancos Digitais**, **Varejo Omnichannel & Supply Chain**, **SaaS B2B & Assinaturas**, **HealthTech & Saúde Suplementar**, **AgTech & Agronegócio de Precisão**, **EnergyTech & Geração Renovável (ONS/CCEE)**, **IndustryTech & Manufatura Inteligente (Indústria 4.0 / ISO 10816-3)** e **Telecomunicações & Redes de Fibra Óptica FTTH (Anatel)**.
+Este repositório consolida 9 projetos analíticos corporativos *end-to-end* em setores estratégicos da economia: **Fintech & Bancos Digitais**, **Varejo Omnichannel & Supply Chain**, **SaaS B2B & Assinaturas**, **HealthTech & Saúde Suplementar**, **AgTech & Agronegócio de Precisão**, **EnergyTech & Geração Renovável (ONS/CCEE)**, **IndustryTech & Manufatura Inteligente (Indústria 4.0 / ISO 10816-3)**, **Telecomunicações & Redes FTTH (Anatel)** e **Varejo Físico & Omnichannel (ShelfSense OSA & GMROI)**.
 
 Cada vertical foi desenhada com:
-* **Arcabouço Regulatório e Operacional Real:** Resoluções BACEN CMN nº 2.682 para provisão PCLD, metas contratuais de SLA/OTIF logístico, métricas SaaS B2B (NRR e Onboarding Cliff), diretrizes ANS de sinistralidade (MLR)/LACE Index hospitalar, manejo de fertilidade de solo (Embrapa), regras de *curtailment* ONS/CCEE, padrões mecânicos ISO 10816-3 e parâmetros de atenuação óptica Anatel.
+* **Arcabouço Regulatório e Operacional Real:** Resoluções BACEN CMN nº 2.682 para provisão PCLD, metas contratuais de SLA/OTIF logístico, métricas SaaS B2B (NRR e Onboarding Cliff), diretrizes ANS de sinistralidade (MLR)/LACE Index hospitalar, manejo de fertilidade de solo (Embrapa), regras de *curtailment* ONS/CCEE, padrões mecânicos ISO 10816-3, parâmetros ópticos Anatel e benchmarks de disponibilidade em gôndola (OSA >= 96%) e giro de capital (GMROI).
 * **Storytelling Executivo & C-Level:** Resposta analítica quantitativa a 3 perguntas críticas de negócio por projeto com modelagem de retorno de investimento (ROI & Payback simples).
-* **Engenharia de Software e Performance:** Código 100% vetorizado em Pandas/NumPy (eliminando `.apply()` lentos por `np.select`), tipagem estrita com `@dataclass` e `typing`, tratamento de encoding UTF-8 multiplataforma e suite com **44 testes automatizados com `pytest` (100% aprovados)**.
+* **Engenharia de Software e Performance:** Código 100% vetorizado em Pandas/NumPy (eliminando `.apply()` lentos por `np.select`), tipagem estrita com `@dataclass` e `typing`, tratamento de encoding UTF-8 multiplataforma e suite com **54 testes automatizados com `pytest` (100% aprovados)**.
 
 ---
 
-## 📊 Matriz Executiva dos 8 Projetos
+## 📊 Matriz Executiva dos 9 Projetos
 
 | Projeto | Setor de Mercado | Desafio de Negócio | Arcabouço Metodológico | KPI Crítico | Impacto Financeiro / ROI | Repositório Dedicado |
 | :--- | :--- | :--- | :--- | :---: | :---: | :---: |
@@ -36,6 +36,7 @@ Cada vertical foi desenhada com:
 | **[06. VoltGrid](./06_voltgrid_energytech_analytics/)** | EnergyTech & Utilities | Curtailment ONS no Nordeste, perdas por sujidade e PLD spot | Balanço de Energia (MWh), Robótica Solar e BESS | Curtailment: **4,05%** \| Margem EBITDA: **91,8%** | **R\$ 214,1M** em soiling (Payback **1,8m**) + BESS **R\$ 446M/a** | [Repo VoltGrid](https://github.com/wendellbarbosacosta-cmyk/voltgrid-energytech-analytics-projeto) |
 | **[07. ForgeIQ](./07_forgeiq_industrytech_oee/)** | IndustryTech & Manufatura | Paradas não planejadas Run-to-Failure, refugo e OEE deprimido | OEE (Disp × Perf × Qual), ISO 10816-3 e IoT CBM | OEE: **74,1%** \| Parada: **R\$ 3,26B** \| Scrap: **R\$ 2,06B** | **R\$ 2,54B/ano** recuperados via IoT (Payback **1 dia** / ROI **378x**) | [Repo ForgeIQ](https://github.com/wendellbarbosacosta-cmyk/forgeiq-industrytech-oee-projeto) |
 | **[08. OptiFiber](./08_optifiber_telecom_ftth/)** | Telecom & Conectividade | Degradação óptica RX (dBm), visitas técnicas e portas ociosas | Telemetria OLT/ONT, Ocupação CTO e Wi-Fi 6 Mesh | Churn Óptico: **4,64% ➔ 1,23%** \| Ocupação: **59,3%** | **R\$ 7,98M/ano** em economia e receita (Payback **5,8m** / ROI **2,1x**) | [Repo OptiFiber](https://github.com/wendellbarbosacosta-cmyk/optifiber-telecom-ftth-projeto) |
+| **[09. ShelfSense](./09_shelfsense_retail_omnichannel/)** | Varejo Omnichannel & Supermercados | Ruptura de gôndola (OSA), estoque envenenado e quebra em perecíveis | DIO (Cobertura), GMROI, DRP Preditivo e Portais RFID | OSA: **94,9%** \| GMROI: **2,61x** \| Quebra: **2,34%** | **R\$ 21,83M/ano** em valor gerado (Payback **2,5m** / ROI **4,85x**) | [Repo ShelfSense](https://github.com/wendellbarbosacosta-cmyk/shelfsense-retail-omnichannel-projeto) |
 
 ---
 
@@ -92,7 +93,13 @@ portfolio-data-analytics-wendell-barbosa/
 │   ├── requirements.txt                        # Dependências específicas do módulo
 │   └── README.md                               # Documentação executiva completa
 │
-├── tests/                                      # Suite Completa de Testes Automatizados (44 Testes)
+├── 09_shelfsense_retail_omnichannel/           # Módulo 9: Varejo Omnichannel, Ruptura OSA & GMROI
+│   ├── dataset_retail_omnichannel_skus.csv     # Base com 500 clusters de SKUs e 21 variáveis
+│   ├── pipeline_retail_omnichannel_analytics.py# Pipeline de OSA, GMROI, DRP e Markdown Dinâmico
+│   ├── requirements.txt                        # Dependências específicas do módulo
+│   └── README.md                               # Documentação executiva completa
+│
+├── tests/                                      # Suite Completa de Testes Automatizados (54 Testes)
 │   ├── __init__.py
 │   ├── test_credit_risk.py                     # Validação de regras BACEN, ratings e PCLD
 │   ├── test_ecommerce_logistics.py             # Validação de OTIF, subsídios e fretes
@@ -101,7 +108,8 @@ portfolio-data-analytics-wendell-barbosa/
 │   ├── test_agrotech_analytics.py              # Validação de manejo VRT, fertilidade e margens
 │   ├── test_energytech_analytics.py            # Validação de balanço energético, curtailment e BESS
 │   ├── test_industry_oee_analytics.py          # Validação de OEE, ISO 10816 e ROI de IoT Preditiva
-│   └── test_telecom_ftth_analytics.py          # Validação de atenuação RX, portas CTO e ROI Telecom
+│   ├── test_telecom_ftth_analytics.py          # Validação de atenuação RX, portas CTO e ROI Telecom
+│   └── test_retail_omnichannel_analytics.py    # Validação de ruptura OSA, GMROI e ROI Varejo
 │
 ├── .gitignore                                  # Governança de arquivos, dados e caches
 ├── LICENSE                                     # Licença MIT Permissiva
@@ -116,7 +124,7 @@ portfolio-data-analytics-wendell-barbosa/
 * **Vetorização de Alta Performance:** Substituição de loops e `.apply(..., axis=1)` por operações matriciais em NumPy (`np.select`, `np.where`), permitindo processamento em milissegundos.
 * **Governança e Reprodutibilidade:** Seeds fixados (`random_seed=42`) para garantir rastreabilidade completa e auditabilidade estatística.
 * **Tipagem Estrita e Clean Code:** Classes de configuração com `@dataclass(frozen=True)`, tipagem estrita com `typing` e padrões PEP 8.
-* **Confiabilidade com Pytest:** **44 testes automatizados** cobrindo integridade de schema, conformidade matemática e cálculos financeiros de ROI com 100% de taxa de aprovação.
+* **Confiabilidade com Pytest:** **54 testes automatizados** cobrindo integridade de schema, conformidade matemática e cálculos financeiros de ROI com 100% de taxa de aprovação.
 
 ---
 
@@ -147,7 +155,7 @@ source .venv/bin/activate
 pip install -r requirements.txt
 ```
 
-### 4. Executar os Testes Automatizados (44 Testes)
+### 4. Executar os Testes Automatizados (54 Testes)
 
 ```bash
 pytest tests/ -v
@@ -164,6 +172,7 @@ python 05_agroprecision_agtech_analytics/pipeline_agrotech_analytics.py
 python 06_voltgrid_energytech_analytics/pipeline_energytech_analytics.py
 python 07_forgeiq_industrytech_oee/pipeline_industry_oee_analytics.py
 python 08_optifiber_telecom_ftth/pipeline_telecom_ftth_analytics.py
+python 09_shelfsense_retail_omnichannel/pipeline_retail_omnichannel_analytics.py
 ```
 
 ---

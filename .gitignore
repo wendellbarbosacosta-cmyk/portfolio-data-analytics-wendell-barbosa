@@ -65,4 +65,6 @@ relatorios_industrytech/*.png
 relatorios_industrytech/*.html
 relatorios_telecom_ftth/*.png
 relatorios_telecom_ftth/*.html
+relatorios_varejo_omnichannel/*.png
+relatorios_varejo_omnichannel/*.html
 *.log
