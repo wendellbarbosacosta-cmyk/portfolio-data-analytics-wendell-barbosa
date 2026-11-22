@@ -1,9 +1,9 @@
-# 🚀 Portfólio Executivo de Data Analytics & Inteligência de Negócio (9 Verticais de Mercado)
+# 🚀 Portfólio Executivo de Data Analytics & Inteligência de Negócio (10 Verticais de Mercado)
 
 [![Python](https://img.shields.io/badge/Python-3.11+-3776AB?style=for-the-badge&logo=python&logoColor=white)](https://python.org)
 [![Pandas](https://img.shields.io/badge/Pandas-2.1+-150458?style=for-the-badge&logo=pandas&logoColor=white)](https://pandas.pydata.org)
 [![NumPy](https://img.shields.io/badge/NumPy-1.26+-013243?style=for-the-badge&logo=numpy&logoColor=white)](https://numpy.org)
-[![Pytest](https://img.shields.io/badge/Pytest-54%2F54%20Passed%20(100%25)-brightgreen?style=for-the-badge&logo=pytest&logoColor=white)](https://pytest.org)
+[![Pytest](https://img.shields.io/badge/Pytest-64%2F64%20Passed%20(100%25)-brightgreen?style=for-the-badge&logo=pytest&logoColor=white)](https://pytest.org)
 [![Code Style: PEP 8](https://img.shields.io/badge/Code%20Style-PEP%208-blueviolet?style=for-the-badge)](https://pep8.org)
 [![License: MIT](https://img.shields.io/badge/License-MIT-green?style=for-the-badge)](https://opensource.org/licenses/MIT)
 
@@ -15,16 +15,16 @@
 
 ## 📌 Visão Geral do Portfólio
 
-Este repositório consolida 9 projetos analíticos corporativos *end-to-end* em setores estratégicos da economia: **Fintech & Bancos Digitais**, **Varejo Omnichannel & Supply Chain**, **SaaS B2B & Assinaturas**, **HealthTech & Saúde Suplementar**, **AgTech & Agronegócio de Precisão**, **EnergyTech & Geração Renovável (ONS/CCEE)**, **IndustryTech & Manufatura Inteligente (Indústria 4.0 / ISO 10816-3)**, **Telecomunicações & Redes FTTH (Anatel)** e **Varejo Físico & Omnichannel (ShelfSense OSA & GMROI)**.
+Este repositório consolida 10 projetos analíticos corporativos *end-to-end* em setores estratégicos da economia: **Fintech & Bancos Digitais**, **Varejo Omnichannel & Supply Chain**, **SaaS B2B & Assinaturas**, **HealthTech & Saúde Suplementar**, **AgTech & Agronegócio de Precisão**, **EnergyTech & Geração Renovável (ONS/CCEE)**, **IndustryTech & Manufatura Inteligente (Indústria 4.0 / ISO 10816-3)**, **Telecomunicações & Redes FTTH (Anatel)**, **Varejo Supermercadista & Ruptura OSA (ShelfSense)** e **Aviação Comercial & Yield RASK/CASK (AeroYield / ANAC / IATA)**.
 
 Cada vertical foi desenhada com:
-* **Arcabouço Regulatório e Operacional Real:** Resoluções BACEN CMN nº 2.682 para provisão PCLD, metas contratuais de SLA/OTIF logístico, métricas SaaS B2B (NRR e Onboarding Cliff), diretrizes ANS de sinistralidade (MLR)/LACE Index hospitalar, manejo de fertilidade de solo (Embrapa), regras de *curtailment* ONS/CCEE, padrões mecânicos ISO 10816-3, parâmetros ópticos Anatel e benchmarks de disponibilidade em gôndola (OSA >= 96%) e giro de capital (GMROI).
+* **Arcabouço Regulatório e Operacional Real:** Resoluções BACEN CMN nº 2.682 para provisão PCLD, metas contratuais de SLA/OTIF logístico, métricas SaaS B2B (NRR e Onboarding Cliff), diretrizes ANS de sinistralidade (MLR)/LACE Index hospitalar, manejo de fertilidade de solo (Embrapa), regras de *curtailment* ONS/CCEE, padrões mecânicos ISO 10816-3, parâmetros ópticos Anatel, benchmarks de disponibilidade em gôndola (OSA >= 96%) e regulação de pontualidade e assistência ao passageiro (ANAC 400 / IATA D-15).
 * **Storytelling Executivo & C-Level:** Resposta analítica quantitativa a 3 perguntas críticas de negócio por projeto com modelagem de retorno de investimento (ROI & Payback simples).
-* **Engenharia de Software e Performance:** Código 100% vetorizado em Pandas/NumPy (eliminando `.apply()` lentos por `np.select`), tipagem estrita com `@dataclass` e `typing`, tratamento de encoding UTF-8 multiplataforma e suite com **54 testes automatizados com `pytest` (100% aprovados)**.
+* **Engenharia de Software e Performance:** Código 100% vetorizado em Pandas/NumPy (eliminando `.apply()` lentos por `np.select`), tipagem estrita com `@dataclass` e `typing`, tratamento de encoding UTF-8 multiplataforma e suite com **64 testes automatizados com `pytest` (100% aprovados)**.
 
 ---
 
-## 📊 Matriz Executiva dos 9 Projetos
+## 📊 Matriz Executiva dos 10 Projetos
 
 | Projeto | Setor de Mercado | Desafio de Negócio | Arcabouço Metodológico | KPI Crítico | Impacto Financeiro / ROI | Repositório Dedicado |
 | :--- | :--- | :--- | :--- | :---: | :---: | :---: |
@@ -37,6 +37,7 @@ Cada vertical foi desenhada com:
 | **[07. ForgeIQ](./07_forgeiq_industrytech_oee/)** | IndustryTech & Manufatura | Paradas não planejadas Run-to-Failure, refugo e OEE deprimido | OEE (Disp × Perf × Qual), ISO 10816-3 e IoT CBM | OEE: **74,1%** \| Parada: **R\$ 3,26B** \| Scrap: **R\$ 2,06B** | **R\$ 2,54B/ano** recuperados via IoT (Payback **1 dia** / ROI **378x**) | [Repo ForgeIQ](https://github.com/wendellbarbosacosta-cmyk/forgeiq-industrytech-oee-projeto) |
 | **[08. OptiFiber](./08_optifiber_telecom_ftth/)** | Telecom & Conectividade | Degradação óptica RX (dBm), visitas técnicas e portas ociosas | Telemetria OLT/ONT, Ocupação CTO e Wi-Fi 6 Mesh | Churn Óptico: **4,64% ➔ 1,23%** \| Ocupação: **59,3%** | **R\$ 7,98M/ano** em economia e receita (Payback **5,8m** / ROI **2,1x**) | [Repo OptiFiber](https://github.com/wendellbarbosacosta-cmyk/optifiber-telecom-ftth-projeto) |
 | **[09. ShelfSense](./09_shelfsense_retail_omnichannel/)** | Varejo Omnichannel & Supermercados | Ruptura de gôndola (OSA), estoque envenenado e quebra em perecíveis | DIO (Cobertura), GMROI, DRP Preditivo e Portais RFID | OSA: **94,9%** \| GMROI: **2,61x** \| Quebra: **2,34%** | **R\$ 21,83M/ano** em valor gerado (Payback **2,5m** / ROI **4,85x**) | [Repo ShelfSense](https://github.com/wendellbarbosacosta-cmyk/shelfsense-retail-omnichannel-projeto) |
+| **[10. AeroYield](./10_aeroyield_aviation_analytics/)** | Aviação Comercial & Linhas Aéreas | Spread unitário comprimido por frotas legadas, atrasos e ANAC 400 | RASK, CASK, OTP D-15, Turnaround Digital e QAV | Spread: **+4,57c/ASK** \| OTP: **84,4%** \| Load Factor: **80,4%** | **R\$ 130,4M/ano** em valor gerado (Payback **1,2m** / ROI **10,4x**) | [Repo AeroYield](https://github.com/wendellbarbosacosta-cmyk/aeroyield-aviation-analytics-projeto) |
 
 ---
 
@@ -46,60 +47,21 @@ Cada vertical foi desenhada com:
 portfolio-data-analytics-wendell-barbosa/
 │
 ├── 01_nexusrisk_fintech_credit/                # Módulo 1: Risco de Crédito & Compliance Bancário
-│   ├── dataset_carteira_credito_analisada.csv  # Base analisada e classificada (BACEN 2.682)
-│   ├── pipeline_credit_risk.py                 # Pipeline de feature engineering & ratings
-│   ├── requirements.txt                        # Dependências específicas do módulo
-│   └── README.md                               # Documentação executiva completa
-│
 ├── 02_omnilog_ecommerce_logistics/             # Módulo 2: Logística Omnichannel & Gestão de SLA
-│   ├── dataset_logistica_ecommerce.csv         # Base de despachos, transportadoras e OTIF
-│   ├── pipeline_ecommerce_logistics.py         # Pipeline de lead time, fretes e churn
-│   ├── requirements.txt                        # Dependências específicas do módulo
-│   └── README.md                               # Documentação executiva completa
-│
 ├── 03_pulsesaas_b2b_subscriptions/             # Módulo 3: Métricas SaaS B2B, NRR & Health Score
-│   ├── dataset_saas_metrics_analisado.csv      # Base de contas, MRR, telemetria de produto
-│   ├── pipeline_saas_metrics.py                # Pipeline de NRR, churn e dimensionamento CS
-│   ├── requirements.txt                        # Dependências específicas do módulo
-│   └── README.md                               # Documentação executiva completa
-│
 ├── 04_carepulse_healthtech_analytics/          # Módulo 4: Sinistralidade Hospitalar & HealthTech
-│   ├── dataset_healthcare_sinistralidade.csv   # Base de internações, LACE Index e glosas
-│   ├── pipeline_healthcare_analytics.py        # Pipeline de MLR, readmissão e ROI em Saúde
-│   ├── requirements.txt                        # Dependências específicas do módulo
-│   └── README.md                               # Documentação executiva completa
-│
 ├── 05_agroprecision_agtech_analytics/          # Módulo 5: Agricultura de Precisão & AgTech
-│   ├── dataset_agrotech_talhoes.csv            # Base de talhões, fertilidade, V% e NDVI
-│   ├── pipeline_agrotech_analytics.py          # Pipeline de produtividade, manejo VRT e ROI
-│   ├── requirements.txt                        # Dependências específicas do módulo
-│   └── README.md                               # Documentação executiva completa
-│
 ├── 06_voltgrid_energytech_analytics/           # Módulo 6: Geração Renovável & EnergyTech (ONS/CCEE)
-│   ├── dataset_energytech_usinas.csv           # Base com 480 usinas geradoras (Solar & Eólica)
-│   ├── pipeline_energytech_analytics.py        # Pipeline de curtailment, robótica e baterias BESS
-│   ├── requirements.txt                        # Dependências específicas do módulo
-│   └── README.md                               # Documentação executiva completa
-│
 ├── 07_forgeiq_industrytech_oee/                # Módulo 7: Manufatura Inteligente & OEE (Indústria 4.0)
-│   ├── dataset_industrytech_oee.csv            # Base com 500 máquinas industriais críticas
-│   ├── pipeline_industry_oee_analytics.py      # Pipeline de OEE, vibração ISO 10816 e IoT CBM
-│   ├── requirements.txt                        # Dependências específicas do módulo
-│   └── README.md                               # Documentação executiva completa
-│
 ├── 08_optifiber_telecom_ftth/                  # Módulo 8: Telecomunicações & Redes Ópticas FTTH
-│   ├── dataset_telecom_ftth_clusters.csv       # Base com 500 clusters de fibra óptica (CTOs)
-│   ├── pipeline_telecom_ftth_analytics.py      # Pipeline de atenuação RX, truck rolls e Wi-Fi 6
-│   ├── requirements.txt                        # Dependências específicas do módulo
-│   └── README.md                               # Documentação executiva completa
-│
 ├── 09_shelfsense_retail_omnichannel/           # Módulo 9: Varejo Omnichannel, Ruptura OSA & GMROI
-│   ├── dataset_retail_omnichannel_skus.csv     # Base com 500 clusters de SKUs e 21 variáveis
-│   ├── pipeline_retail_omnichannel_analytics.py# Pipeline de OSA, GMROI, DRP e Markdown Dinâmico
+├── 10_aeroyield_aviation_analytics/            # Módulo 10: Aviação Comercial, Yield RASK/CASK & OTP D-15
+│   ├── dataset_aviacao_yield_rotas.csv         # Base com 500 rotas comerciais brasileiras
+│   ├── pipeline_aviation_yield_analytics.py    # Pipeline analítico de yield, turnaround e ANAC 400
 │   ├── requirements.txt                        # Dependências específicas do módulo
 │   └── README.md                               # Documentação executiva completa
 │
-├── tests/                                      # Suite Completa de Testes Automatizados (54 Testes)
+├── tests/                                      # Suite Completa de Testes Automatizados (64 Testes)
 │   ├── __init__.py
 │   ├── test_credit_risk.py                     # Validação de regras BACEN, ratings e PCLD
 │   ├── test_ecommerce_logistics.py             # Validação de OTIF, subsídios e fretes
@@ -109,10 +71,12 @@ portfolio-data-analytics-wendell-barbosa/
 │   ├── test_energytech_analytics.py            # Validação de balanço energético, curtailment e BESS
 │   ├── test_industry_oee_analytics.py          # Validação de OEE, ISO 10816 e ROI de IoT Preditiva
 │   ├── test_telecom_ftth_analytics.py          # Validação de atenuação RX, portas CTO e ROI Telecom
-│   └── test_retail_omnichannel_analytics.py    # Validação de ruptura OSA, GMROI e ROI Varejo
+│   ├── test_retail_omnichannel_analytics.py    # Validação de ruptura OSA, GMROI e ROI Varejo
+│   └── test_aviation_yield_analytics.py        # Validação de RASK/CASK, turnaround e ROI Aviação
 │
 ├── .gitignore                                  # Governança de arquivos, dados e caches
 ├── LICENSE                                     # Licença MIT Permissiva
+├── pytest.ini                                  # Configuração padronizada do runner de testes
 ├── README.md                                   # Documentação central do portfólio
 └── requirements.txt                            # Stack consolidada de dependências
 ```
@@ -124,7 +88,7 @@ portfolio-data-analytics-wendell-barbosa/
 * **Vetorização de Alta Performance:** Substituição de loops e `.apply(..., axis=1)` por operações matriciais em NumPy (`np.select`, `np.where`), permitindo processamento em milissegundos.
 * **Governança e Reprodutibilidade:** Seeds fixados (`random_seed=42`) para garantir rastreabilidade completa e auditabilidade estatística.
 * **Tipagem Estrita e Clean Code:** Classes de configuração com `@dataclass(frozen=True)`, tipagem estrita com `typing` e padrões PEP 8.
-* **Confiabilidade com Pytest:** **54 testes automatizados** cobrindo integridade de schema, conformidade matemática e cálculos financeiros de ROI com 100% de taxa de aprovação.
+* **Confiabilidade com Pytest:** **64 testes automatizados** cobrindo integridade de schema, conformidade matemática e cálculos financeiros de ROI com 100% de taxa de aprovação.
 
 ---
 
@@ -155,7 +119,7 @@ source .venv/bin/activate
 pip install -r requirements.txt
 ```
 
-### 4. Executar os Testes Automatizados (54 Testes)
+### 4. Executar os Testes Automatizados (64 Testes)
 
 ```bash
 pytest tests/ -v
@@ -173,6 +137,7 @@ python 06_voltgrid_energytech_analytics/pipeline_energytech_analytics.py
 python 07_forgeiq_industrytech_oee/pipeline_industry_oee_analytics.py
 python 08_optifiber_telecom_ftth/pipeline_telecom_ftth_analytics.py
 python 09_shelfsense_retail_omnichannel/pipeline_retail_omnichannel_analytics.py
+python 10_aeroyield_aviation_analytics/pipeline_aviation_yield_analytics.py
 ```
 
 ---
