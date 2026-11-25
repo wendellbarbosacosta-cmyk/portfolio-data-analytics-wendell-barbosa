@@ -4,6 +4,7 @@
 [![Pandas](https://img.shields.io/badge/Pandas-2.1+-150458?style=for-the-badge&logo=pandas&logoColor=white)](https://pandas.pydata.org)
 [![NumPy](https://img.shields.io/badge/NumPy-1.26+-013243?style=for-the-badge&logo=numpy&logoColor=white)](https://numpy.org)
 [![Pytest](https://img.shields.io/badge/Pytest-64%2F64%20Passed%20(100%25)-brightgreen?style=for-the-badge&logo=pytest&logoColor=white)](https://pytest.org)
+[![CI Pipeline](https://github.com/wendellbarbosacosta-cmyk/portfolio-data-analytics-wendell-barbosa/actions/workflows/ci.yml/badge.svg)](https://github.com/wendellbarbosacosta-cmyk/portfolio-data-analytics-wendell-barbosa/actions)
 [![Code Style: PEP 8](https://img.shields.io/badge/Code%20Style-PEP%208-blueviolet?style=for-the-badge)](https://pep8.org)
 [![License: MIT](https://img.shields.io/badge/License-MIT-green?style=for-the-badge)](https://opensource.org/licenses/MIT)
 
@@ -148,3 +149,9 @@ python 10_aeroyield_aviation_analytics/pipeline_aviation_yield_analytics.py
 *Tech Lead & Especialista em Análise de Dados, Engenharia de Analytics & Modelagem de Negócios*  
 * **GitHub:** [@wendellbarbosacosta-cmyk](https://github.com/wendellbarbosacosta-cmyk)  
 * **Repositório:** [portfolio-data-analytics-wendell-barbosa](https://github.com/wendellbarbosacosta-cmyk/portfolio-data-analytics-wendell-barbosa)
+
+---
+
+## 📅 Auditoria e Certificação Técnica
+- **Data da Auditoria e Validação:** 25/11/2026
+- **Status da Validação:** 64/64 testes automatizados aprovados (100%), 10 verticais de mercado com código vetorizado e pipeline CI/CD ativo via GitHub Actions.
